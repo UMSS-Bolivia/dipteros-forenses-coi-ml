@@ -1,6 +1,7 @@
 __pycache__/
-*.zip
-.env
-*.fna
-*.fasta
 .venv/
+.env
+*.zip
+genomas/
+*_genome.fasta
+*_genomic.fna
