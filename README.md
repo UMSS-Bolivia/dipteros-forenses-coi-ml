@@ -6,5 +6,5 @@ Autora: Sandy Valeria Gonzales Vargas
 - `codigo/`: scripts de Python (Anexo 2).
 
 Consultas a GenBank y BOLD: 14 de octubre de 2026.
-No se incluyen los genomas completos (3,7 GB): accesiones y MD5 en `procedencia_genomas.csv` y `md5_*.txt`.
+No se incluyen los genomas completos (3,9 GB): accesiones y MD5 en `procedencia_genomas.csv` y `md5_*.txt`.
 Los datos provienen de NCBI, GigaDB, Ensembl y BOLD; cada uno debe citarse a su fuente original.
