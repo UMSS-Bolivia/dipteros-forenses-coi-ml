@@ -8,11 +8,7 @@ TIPOS = [("_genome.fasta", "Genoma (FASTA)", "secuencias"), ("_annotation.gff", 
 FUENTE = {"Aldrichina_grahami": "GigaDB", "Sarcophaga_peregrina": "NCBI", "Calliphora_vomitoria": "NCBI y Ensembl",
           "Musca_domestica": "NCBI", "Lucilia_cuprina": "NCBI"}
 
-def contar(ruta, unidad):
-    if unidad == "genes":
-        cmd = "awk -F'\\t' '$3==\"gene\"' '%s' | wc -l" % ruta
-    else:
-        cmd = "grep -c '^>' '%s'" % ruta
+def sh(cmd):
     return int(subprocess.run(cmd, shell=True, capture_output=True, text=True).stdout.strip() or 0)
 
 filas, total_mb = [], 0.0
@@ -23,18 +19,25 @@ for ruta in sorted(glob.glob(os.path.join(CARPETA, "*"))):
             esp = base[: -len(sufijo)]
             mb = os.path.getsize(ruta) / 1e6
             total_mb += mb
+            if unidad == "genes":
+                n = sh("awk -F'\\t' '$3==\"gene\"' '%s' | wc -l" % ruta)
+                cod = n if esp == "Aldrichina_grahami" else sh("awk -F'\\t' '$3==\"gene\"' '%s' | grep -c 'biotype=protein_coding'" % ruta)
+            else:
+                n = sh("grep -c '^>' '%s'" % ruta)
+                cod = ""
             if esp == "Aldrichina_grahami":
                 md5 = "OK (100673.md5 de GigaDB)"
             elif esp == "Calliphora_vomitoria" and sufijo != "_genome.fasta":
                 md5 = "no verificado (descarga directa de Ensembl)"
             else:
-                md5 = "OK (md5sum.txt de NCBI, archivo original)"
-            n = contar(ruta, unidad)
-            filas.append([esp.replace("_", " "), FUENTE[esp], tipo, base, round(mb, 1), n, unidad, md5])
-            print(esp, tipo, round(mb, 1), "MB", n, unidad)
+                md5 = "OK (md5sum.txt de NCBI)"
+            filas.append([esp.replace("_", " "), FUENTE[esp], tipo, base, round(mb, 1), n, unidad, cod, md5])
+            print(esp, tipo, round(mb, 1), "MB", n, unidad, cod)
 
+os.makedirs(os.path.dirname(SALIDA), exist_ok=True)
 with open(SALIDA, "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f)
-    w.writerow(["Especie", "Repositorio", "Tipo de archivo", "Archivo", "Tamaño (MB)", "Registros", "Unidad", "Verificación MD5"])
+    w.writerow(["Especie", "Repositorio", "Tipo de archivo", "Archivo", "Tamaño (MB)", "Registros", "Unidad", "Genes codificantes", "Verificación MD5"])
     w.writerows(filas)
 print("Archivos:", len(filas), "| tamaño total: %.2f GB" % (total_mb / 1000))
+print("Escrito en:", os.path.abspath(SALIDA))

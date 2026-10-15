@@ -1,18 +1,18 @@
-Especie,Repositorio,Tipo de archivo,Archivo,Tamaño (MB),Registros,Unidad,Verificación MD5
-Aldrichina grahami,GigaDB,Anotación (GFF),Aldrichina_grahami_annotation.gff,10.6,12823,genes,OK (100673.md5 de GigaDB)
-Aldrichina grahami,GigaDB,CDS (FASTA),Aldrichina_grahami_cds.fasta,22.1,12823,secuencias,OK (100673.md5 de GigaDB)
-Aldrichina grahami,GigaDB,Genoma (FASTA),Aldrichina_grahami_genome.fasta,600.1,1604,secuencias,OK (100673.md5 de GigaDB)
-Aldrichina grahami,GigaDB,Proteínas (FASTA),Aldrichina_grahami_protein.fasta,7.9,12823,secuencias,OK (100673.md5 de GigaDB)
-Calliphora vomitoria,NCBI y Ensembl,Anotación (GFF),Calliphora_vomitoria_annotation.gff,51.5,14665,genes,no verificado (descarga directa de Ensembl)
-Calliphora vomitoria,NCBI y Ensembl,Transcritos cDNA (FASTA),Calliphora_vomitoria_cdna.fasta,65.4,34974,secuencias,no verificado (descarga directa de Ensembl)
-Calliphora vomitoria,NCBI y Ensembl,Genoma (FASTA),Calliphora_vomitoria_genome.fasta,716.5,137,secuencias,"OK (md5sum.txt de NCBI, archivo original)"
-Calliphora vomitoria,NCBI y Ensembl,Proteínas (FASTA),Calliphora_vomitoria_protein.fasta,19.6,24706,secuencias,no verificado (descarga directa de Ensembl)
-Lucilia cuprina,NCBI,Anotación (GFF),Lucilia_cuprina_annotation.gff,96.4,15712,genes,"OK (md5sum.txt de NCBI, archivo original)"
-Lucilia cuprina,NCBI,CDS (FASTA),Lucilia_cuprina_cds.fasta,54.8,22082,secuencias,"OK (md5sum.txt de NCBI, archivo original)"
-Lucilia cuprina,NCBI,Genoma (FASTA),Lucilia_cuprina_genome.fasta,415.4,8457,secuencias,"OK (md5sum.txt de NCBI, archivo original)"
-Lucilia cuprina,NCBI,Proteínas (FASTA),Lucilia_cuprina_protein.fasta,17.6,22082,secuencias,"OK (md5sum.txt de NCBI, archivo original)"
-Musca domestica,NCBI,Anotación (GFF),Musca_domestica_annotation.gff,117.2,20732,genes,"OK (md5sum.txt de NCBI, archivo original)"
-Musca domestica,NCBI,CDS (FASTA),Musca_domestica_cds.fasta,68.2,28177,secuencias,"OK (md5sum.txt de NCBI, archivo original)"
-Musca domestica,NCBI,Genoma (FASTA),Musca_domestica_genome.fasta,1045.6,340,secuencias,"OK (md5sum.txt de NCBI, archivo original)"
-Musca domestica,NCBI,Proteínas (FASTA),Musca_domestica_protein.fasta,22.0,28176,secuencias,"OK (md5sum.txt de NCBI, archivo original)"
-Sarcophaga peregrina,NCBI,Genoma (FASTA),Sarcophaga_peregrina_genome.fasta,567.9,1118,secuencias,"OK (md5sum.txt de NCBI, archivo original)"
+Especie,Repositorio,Tipo de archivo,Archivo,Tamaño (MB),Registros,Unidad,Genes codificantes,Verificación MD5
+Aldrichina grahami,GigaDB,Anotación (GFF),Aldrichina_grahami_annotation.gff,10.6,12823,genes,12823,OK (100673.md5 de GigaDB)
+Aldrichina grahami,GigaDB,CDS (FASTA),Aldrichina_grahami_cds.fasta,22.1,12823,secuencias,,OK (100673.md5 de GigaDB)
+Aldrichina grahami,GigaDB,Genoma (FASTA),Aldrichina_grahami_genome.fasta,600.1,1604,secuencias,,OK (100673.md5 de GigaDB)
+Aldrichina grahami,GigaDB,Proteínas (FASTA),Aldrichina_grahami_protein.fasta,7.9,12823,secuencias,,OK (100673.md5 de GigaDB)
+Calliphora vomitoria,NCBI y Ensembl,Anotación (GFF),Calliphora_vomitoria_annotation.gff,51.5,14665,genes,14665,no verificado (descarga directa de Ensembl)
+Calliphora vomitoria,NCBI y Ensembl,Transcritos cDNA (FASTA),Calliphora_vomitoria_cdna.fasta,65.4,34974,secuencias,,no verificado (descarga directa de Ensembl)
+Calliphora vomitoria,NCBI y Ensembl,Genoma (FASTA),Calliphora_vomitoria_genome.fasta,716.5,137,secuencias,,OK (md5sum.txt de NCBI)
+Calliphora vomitoria,NCBI y Ensembl,Proteínas (FASTA),Calliphora_vomitoria_protein.fasta,19.6,24706,secuencias,,no verificado (descarga directa de Ensembl)
+Lucilia cuprina,NCBI,Anotación (GFF),Lucilia_cuprina_annotation.gff,96.4,15712,genes,13927,OK (md5sum.txt de NCBI)
+Lucilia cuprina,NCBI,CDS (FASTA),Lucilia_cuprina_cds.fasta,54.8,22082,secuencias,,OK (md5sum.txt de NCBI)
+Lucilia cuprina,NCBI,Genoma (FASTA),Lucilia_cuprina_genome.fasta,415.4,8457,secuencias,,OK (md5sum.txt de NCBI)
+Lucilia cuprina,NCBI,Proteínas (FASTA),Lucilia_cuprina_protein.fasta,17.6,22082,secuencias,,OK (md5sum.txt de NCBI)
+Musca domestica,NCBI,Anotación (GFF),Musca_domestica_annotation.gff,117.2,20732,genes,17481,OK (md5sum.txt de NCBI)
+Musca domestica,NCBI,CDS (FASTA),Musca_domestica_cds.fasta,68.2,28177,secuencias,,OK (md5sum.txt de NCBI)
+Musca domestica,NCBI,Genoma (FASTA),Musca_domestica_genome.fasta,1045.6,340,secuencias,,OK (md5sum.txt de NCBI)
+Musca domestica,NCBI,Proteínas (FASTA),Musca_domestica_protein.fasta,22.0,28176,secuencias,,OK (md5sum.txt de NCBI)
+Sarcophaga peregrina,NCBI,Genoma (FASTA),Sarcophaga_peregrina_genome.fasta,567.9,1118,secuencias,,OK (md5sum.txt de NCBI)
