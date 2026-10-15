@@ -1,0 +1,6 @@
+especie,repositorio,accesion,nombre_ensamblaje,depositante,bioproject,fecha,referencia
+Aldrichina grahami,GigaDB,10.5524/100673,assembly.fasta (contigs),no consta en el readme,PRJNA513084,2019-12-09,Meng et al. 2019; Meng et al. 2020
+Sarcophaga peregrina,NCBI GenBank,GCA_014635995.1,ASM1463599v1,Central South University,PRJNA509973,2020-09-21,Ren et al. 2021
+Calliphora vomitoria,NCBI GenBank y Ensembl 2024_05,GCA_942486065.2,idCalVomi1.2,Wellcome Sanger Institute,PRJEB52695,2022-10-08,Sivell et al. 2023
+Musca domestica,NCBI RefSeq,GCF_030504385.1,Musca_domestica.polishedcontigs.V.1.1,Corteva Agriscience,PRJNA681893,2023-07-18,Meisel et al. 2023
+Lucilia cuprina,NCBI RefSeq,GCF_022045245.1,ASM2204524v1,North Carolina State University,PRJNA787202,2022-02-08,Kapoor et al. 2025

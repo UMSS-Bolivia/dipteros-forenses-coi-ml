@@ -1,0 +1,6 @@
+e4aefa4da523c582d2df7455278ef1c2  ncbi_dataset/data/assembly_data_report.jsonl
+55372c728e44b7573e87b15173fda366  ncbi_dataset/data/GCF_030504385.1/cds_from_genomic.fna
+2f5fe0d193e8aa57d31abc7f80d08142  ncbi_dataset/data/GCF_030504385.1/GCF_030504385.1_Musca_domestica.polishedcontigs.V.1.1_genomic.fna
+02c017be2be1c7920762b3f7d024b383  ncbi_dataset/data/GCF_030504385.1/genomic.gff
+4d41b2c24a0cf9bf9cf1b88076f7a21c  ncbi_dataset/data/GCF_030504385.1/protein.faa
+ebbfd15d0fa0a70de6444e55ab5f3901  ncbi_dataset/data/dataset_catalog.json

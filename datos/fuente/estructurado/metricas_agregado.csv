@@ -1,0 +1,6 @@
+especie,num_secuencias_nucleares,longitud_total_nuclear,n50,l50,gc_pct,gaps_pct,secuencias_ge_1kb,longitud_organelos
+Aldrichina grahami,1604,600090062,1925180,79,30.57,0.0,1604,0
+Calliphora vomitoria,136,707626003,130622763,3,30.75,0.0046,136,16152
+Lucilia cuprina,8457,409159265,71024062,3,29.3,0.4852,8452,0
+Musca domestica,339,1032604506,12461067,23,35.04,12.13,339,16108
+Sarcophaga peregrina,1118,560735179,105450863,3,33.23,0.082,1118,0

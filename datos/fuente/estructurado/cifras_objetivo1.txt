@@ -1,0 +1,41 @@
+=== 1. Géneros de la lista maestra ===
+géneros distintos: 24
+sin genoma en NCBI (14): Boettcheria, Compsomyiops, Euryomma, Hemilucilia, Microcerella, Morellia, Neomuscina, Sarcofahrtiopsis, Sarconesia, Sarconesiopsis, Synthesiomyia, Tetramerinx, Titanogrypa, Tricharaea
+con genoma de otra especie del género (10): Calliphora, Chrysomya, Cochliomyia, Fannia, Hydrotaea, Musca, Muscina, Phaonia, Sarcophaga, Stomoxys
+géneros de La Paz: 8 | sin genoma: 4 (Compsomyiops, Microcerella, Sarconesia, Sarconesiopsis)
+géneros con COI boliviano en BOLD: Chrysomya, Phaonia, Titanogrypa
+especies de la lista: 8 | con genoma propio: Musca domestica
+filas con BOLD sin respuesta: 0
+
+=== 2. COI de Bolivia en BOLD (cuatro familias) ===
+bolivia_Fanniidae.tsv -> 0 registros
+registros: 58
+province/state
+La Paz        29
+Beni          15
+Cochabamba    10
+sin dato       3
+Santa Cruz     1
+instituciones: {'Coleccion Boliviana de Fauna': np.int64(53), 'Washington State University': np.int64(3), 'Smithsonian Institution, National Museum of Natural History': np.int64(2)}
+años de colecta: [1980, 2003]
+con acceso INSDC (también en GenBank): 5 de 58
+
+=== 3. Fannia en BOLD ===
+registros: 13533 | con país: 13421 | países: 53
+Canadá + Reino Unido: 9782 (72.3% del total; 72.9% de los que tienen país)
+Sudamérica: 531 (3.9% del total)
+
+=== 4. Taxones con pocos registros (descarga directa de BOLD) ===
+Calliphora_nigribasis | registros: 69 | COI-5P: 62 | países: {'Peru': np.int64(46), 'Ecuador': np.int64(11), 'sin dato': np.int64(5), 'Colombia': np.int64(3), 'Unrecoverable': np.int64(3), 'Argentina': np.int64(1)}
+Compsomyiops | registros: 31 | COI-5P: 25 | países: {'Ecuador': np.int64(10), 'United States': np.int64(7), 'Costa Rica': np.int64(4), 'sin dato': np.int64(4), 'Argentina': np.int64(3), 'Colombia': np.int64(2), 'Chile': np.int64(1)}
+Microcerella | registros: 27 | COI-5P: 27 | países: {'Argentina': np.int64(18), 'Costa Rica': np.int64(6), 'Ecuador': np.int64(1), 'sin dato': np.int64(1), 'Peru': np.int64(1)}
+Sarconesia | registros: 21 | COI-5P: 15 | países: {'Brazil': np.int64(6), 'Argentina': np.int64(5), 'Ecuador': np.int64(4), 'sin dato': np.int64(4), 'Colombia': np.int64(2)}
+Sarconesiopsis | registros: 35 | COI-5P: 31 | países: {'Ecuador': np.int64(20), 'Colombia': np.int64(8), 'Argentina': np.int64(4), 'Uganda': np.int64(1), 'Chile': np.int64(1), 'China': np.int64(1)}
+
+=== 5. Calidad de los genomas ===
+             especie  num_secuencias_nucleares  longitud_total_nuclear       n50  l50  gc_pct  gaps_pct  secuencias_ge_1kb  longitud_organelos
+  Aldrichina grahami                      1604               600090062   1925180   79   30.57    0.0000               1604                   0
+Calliphora vomitoria                       136               707626003 130622763    3   30.75    0.0046                136               16152
+     Lucilia cuprina                      8457               409159265  71024062    3   29.30    0.4852               8452                   0
+     Musca domestica                       339              1032604506  12461067   23   35.04   12.1300                339               16108
+Sarcophaga peregrina                      1118               560735179 105450863    3   33.23    0.0820               1118                   0

@@ -1,0 +1,104 @@
+Consulta NCBI Datasets - 2026-10-14
+=== Sarconesia ===
+Ensamblajes: 0
+
+=== Fannia ===
+Ensamblajes: 3
+Organism Name	Assembly Accession	Assembly Refseq Category	Assembly Level	Assembly Stats Contig N50	Assembly Stats Total Sequence Length	Assembly Release Date
+Fannia canicularis	GCA_977012895.1	reference genome	Chromosome	13138360	1876390951	2025-11-08
+Fannia canicularis	GCA_052857235.1		Chromosome	1481465	1937507744	2025-09-26
+Fannia canicularis	GCA_977012655.1		Scaffold	2562431	2116639932	2025-11-08
+
+=== Chlorobrachycoma ===
+Ensamblajes: 0
+
+=== Compsomyiops ===
+Ensamblajes: 0
+
+=== Chrysomya ===
+Ensamblajes: 8
+Organism Name	Assembly Accession	Assembly Refseq Category	Assembly Level	Assembly Stats Contig N50	Assembly Stats Total Sequence Length	Assembly Release Date
+Chrysomya bezziana	GCA_048593825.1	reference genome	Scaffold	1554728	472044831	2025-03-17
+Chrysomya megacephala	GCA_051942615.1	reference genome	Chromosome	1602234	816961675	2025-08-12
+Chrysomya megacephala	GCA_049350715.1		Chromosome	1677386	629437761	2025-04-08
+Chrysomya megacephala	GCA_988143525.1		Scaffold	321499	556579889	2026-09-09
+Chrysomya megacephala	GCA_988143665.1		Contig	47696	526874257	2026-09-09
+Chrysomya rufifacies	GCA_014858695.1	reference genome	Scaffold	3172	288472566	2020-10-07
+Chrysomya rufifacies	GCA_014858655.1		Scaffold	3060	279228591	2020-10-07
+Chrysomya rufifacies	GCA_014858665.1		Scaffold	3240	295134161	2020-10-07
+
+=== Cochliomyia ===
+Ensamblajes: 5
+Organism Name	Assembly Accession	Assembly Refseq Category	Assembly Level	Assembly Stats Contig N50	Assembly Stats Total Sequence Length	Assembly Release Date
+Cochliomyia hominivorax	GCA_051144965.1	reference genome	Chromosome	17497352	455542081	2025-06-30
+Cochliomyia hominivorax	GCA_004302925.2		Scaffold	418925	534384686	2022-11-18
+Cochliomyia hominivorax	GCA_051144935.1		Chromosome	18032291	464948378	2025-06-30
+Cochliomyia macellaria	GCA_052576185.1	reference genome	Chromosome	29419172	554627798	2025-09-12
+Cochliomyia macellaria	GCA_052576165.1		Chromosome	26040377	494887609	2025-09-12
+
+=== Lucilia ===
+Ensamblajes: 11
+Organism Name	Assembly Accession	Assembly Refseq Category	Assembly Level	Assembly Stats Contig N50	Assembly Stats Total Sequence Length	Assembly Release Date
+Lucilia caesar	GCA_965655125.1	reference genome	Chromosome	628909	615545306	2025-08-04
+Lucilia caesar	GCA_965655155.1		Scaffold	104756	819892028	2025-08-04
+Lucilia cuprina	GCF_022045245.1	reference genome	Chromosome	65274	409159265	2022-02-08
+Lucilia cuprina	GCF_000699065.1		Scaffold	94823	378274262	2017-12-15
+Lucilia cuprina	GCA_000699065.2		Scaffold	94823	378274262	2017-12-15
+Lucilia cuprina	GCA_001187945.1		Scaffold	10570	434128924	2015-07-28
+Lucilia cuprina	GCA_022045245.1	reference genome	Chromosome	65274	409159265	2022-02-08
+Lucilia cuprina	GCA_025217265.1		Scaffold	33778	464749019	2022-09-15
+Lucilia sericata	GCF_015586225.1	reference genome	Contig	296078	565289533	2020-11-18
+Lucilia sericata	GCA_001014835.1		Scaffold	1613	319935455	2015-05-28
+Lucilia sericata	GCA_015586225.1	reference genome	Contig	296078	565289533	2020-11-22
+
+=== Calliphora ===
+Ensamblajes: 8
+Organism Name	Assembly Accession	Assembly Refseq Category	Assembly Level	Assembly Stats Contig N50	Assembly Stats Total Sequence Length	Assembly Release Date
+Calliphora loewi	GCA_982340765.1	reference genome	Chromosome	4147598	712888802	2026-03-23
+Calliphora loewi	GCA_982340845.1		Scaffold	1765173	730797065	2026-03-23
+Calliphora vicina	GCF_958450345.1	reference genome	Chromosome	35250151	706524439	2023-07-18
+Calliphora vicina	GCA_001017275.1		Scaffold	1086	459231066	2015-06-01
+Calliphora vicina	GCA_958301635.1		Contig	1957653	726509171	2023-07-09
+Calliphora vicina	GCA_958450345.1	reference genome	Chromosome	35250151	706524439	2023-07-18
+Calliphora vomitoria	GCA_942486065.2	reference genome	Chromosome	14560000	707626003	2022-10-08
+Calliphora vomitoria	GCA_942486075.2		Contig	1424129	707949400	2022-10-08
+
+=== 7384 ===
+Ensamblajes: 18
+Organism Name	Assembly Accession	Assembly Refseq Category	Assembly Level	Assembly Stats Contig N50	Assembly Stats Total Sequence Length	Assembly Release Date
+Sarcophaga bullata	GCA_005959815.1	reference genome	Scaffold	19090	476287247	2019-06-04
+Sarcophaga bullata	GCA_001017455.1		Scaffold	1894	396224597	2015-06-01
+Sarcophaga caerulescens	GCA_927399465.1	reference genome	Chromosome	3015626	597302449	2022-02-03
+Sarcophaga caerulescens	GCA_927399425.1		Scaffold	669526	586036124	2022-01-21
+Sarcophaga carnaria	GCA_958299815.1	reference genome	Chromosome	11846842	744122384	2023-07-07
+Sarcophaga carnaria	GCA_958299775.1		Scaffold	3354926	696843438	2023-07-07
+Sarcophaga peregrina	GCA_014635995.1	reference genome	Chromosome	3839545	560735179	2020-09-21
+Sarcophaga princeps	GCA_049996135.1	reference genome	Chromosome	3638469	628555410	2025-04-29
+Sarcophaga rosellei	GCA_930367235.1	reference genome	Chromosome	44792449	541374458	2022-02-13
+Sarcophaga rosellei	GCA_930367195.1		Scaffold	5483563	525810356	2022-02-13
+Sarcophaga subulata	GCA_982319395.1	reference genome	Chromosome	15471593	550332876	2026-03-22
+Sarcophaga subulata	GCA_982319435.1		Scaffold	1785464	513263916	2026-03-22
+Sarcophaga subvicina	GCA_936449025.2	reference genome	Chromosome	10290937	714197594	2022-10-08
+Sarcophaga subvicina	GCA_936440885.2		Contig	1891271	666664662	2022-10-08
+Sarcophaga vagans	GCA_982191715.1	reference genome	Chromosome	2888996	701716677	2026-03-08
+Sarcophaga vagans	GCA_982191785.1		Scaffold	3440000	618559670	2026-03-08
+Sarcophaga variegata	GCA_932273835.1	reference genome	Chromosome	7365154	718455953	2022-03-10
+Sarcophaga variegata	GCA_932276125.1		Contig	2208341	653036606	2022-03-29
+
+=== 7369 ===
+Ensamblajes: 13
+Organism Name	Assembly Accession	Assembly Refseq Category	Assembly Level	Assembly Stats Contig N50	Assembly Stats Total Sequence Length	Assembly Release Date
+Musca autumnalis	GCF_047663935.1	reference genome	Scaffold	2762174	1446201459	2025-02-11
+Musca autumnalis	GCA_047663935.1	reference genome	Scaffold	2762174	1446201459	2025-02-11
+Musca domestica	GCF_030504385.1	reference genome	Scaffold	1984640	1032604506	2023-07-18
+Musca domestica	GCF_000371365.1		Scaffold	11807	750403944	2013-04-22
+Musca domestica	GCA_000371365.1		Scaffold	11807	750403944	2013-04-22
+Musca domestica	GCA_002191195.1		Scaffold	1288	522254980	2017-06-12
+Musca domestica	GCA_014843735.1		Contig	71431	427466556	2020-10-05
+Musca domestica	GCA_030504385.2	reference genome	Scaffold	1984640	1032604506	2023-07-18
+Musca domestica	GCA_032878625.1		Contig	7800370	1333296826	2023-10-20
+Musca domestica	GCA_036324565.1		Contig	619521	1302410829	2024-02-01
+Musca domestica	GCA_037953575.1		Contig	63778	893692507	2024-04-03
+Musca vetustissima	GCF_032173495.1	reference genome	Contig	99337	850573461	2023-09-28
+Musca vetustissima	GCA_032173495.1	reference genome	Contig	99337	850573461	2023-09-28
+

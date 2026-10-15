@@ -1,0 +1,30 @@
+archivo,campo,descripcion
+tabla_brecha_v2.csv,taxon_fuente,Nombre del taxon como aparece en el estudio boliviano
+tabla_brecha_v2.csv,nombre_ncbi,Nombre usado para consultar NCBI y BOLD (sinonimia resuelta)
+tabla_brecha_v2.csv,rango,Rango del taxon (especie o genero)
+tabla_brecha_v2.csv,familia,Familia taxonomica
+tabla_brecha_v2.csv,departamentos,Departamento(s) de Bolivia donde se reporto
+tabla_brecha_v2.csv,fuentes,Estudio(s) boliviano(s) que lo reportan
+tabla_brecha_v2.csv,genomas_ncbi_genero,Numero de ensamblajes en NCBI Datasets para el genero
+tabla_brecha_v2.csv,genomas_ncbi_especie,Numero de ensamblajes en NCBI Datasets para la especie
+tabla_brecha_v2.csv,genbank_coi_genero,Registros COI en GenBank para el genero (minimo; filtro por nombre del gen)
+tabla_brecha_v2.csv,genbank_coi_especie,Registros COI en GenBank para la especie (minimo)
+tabla_brecha_v2.csv,bold_total_genero,Registros de BOLD para el genero (todos los marcadores)
+tabla_brecha_v2.csv,bold_coi5p_genero,Registros COI-5P de BOLD para el genero
+tabla_brecha_v2.csv,bold_paises_genero,Paises con registros en BOLD para el genero (sin contar sin dato)
+tabla_brecha_v2.csv,bold_bolivia_genero,Registros de BOLD del genero con pais Bolivia
+tabla_brecha_v2.csv,bold_total_especie,Registros de BOLD para la especie
+tabla_brecha_v2.csv,bold_coi5p_especie,Registros COI-5P de BOLD para la especie
+tabla_brecha_v2.csv,bold_bolivia_especie,Registros de BOLD de la especie con pais Bolivia
+tabla_brecha_v2.csv,situacion_genomica,Genoma de la especie; genoma de otra especie del genero; o sin genoma en el genero
+tabla_brecha_v2.csv,coi_boliviano_bold,Si existe COI con pais Bolivia en BOLD (y cuantos)
+metricas_agregado.csv,especie,Especie del ensamblaje
+metricas_agregado.csv,num_secuencias_nucleares,Contigs o scaffolds nucleares (sin organelos)
+metricas_agregado.csv,longitud_total_nuclear,Longitud total nuclear en pb
+metricas_agregado.csv,n50,N50 de las secuencias del archivo en pb
+metricas_agregado.csv,l50,Numero de secuencias que alcanzan el N50
+metricas_agregado.csv,gc_pct,Contenido de GC (porcentaje sobre A C G T)
+metricas_agregado.csv,gaps_pct,Bases ambiguas N (porcentaje de la longitud total)
+metricas_agregado.csv,secuencias_ge_1kb,Secuencias de 1000 pb o mas
+metricas_agregado.csv,longitud_organelos,Longitud del genoma mitocondrial separado en pb
+lista_maestra_taxones.csv,identificacion,Metodo de identificacion en la fuente (morfologica o molecular)

@@ -1,0 +1,32 @@
+taxon_fuente,nombre_ncbi,rango,familia,departamentos,fuentes,genomas_ncbi_genero,genomas_ncbi_especie,genbank_coi_genero,genbank_coi_especie,bold_total_genero,bold_coi5p_genero,bold_paises_genero,bold_bolivia_genero,bold_total_especie,bold_coi5p_especie,bold_bolivia_especie,situacion_genomica,coi_boliviano_bold
+Sarconesia chlorogaster,Sarconesia chlorogaster,especie,Calliphoridae,La Paz,Castillo 2017; Torres Tola 2020,0,0.0,20,13.0,21,15,4,0,13.0,13.0,0.0,sin genoma en el género,ninguno
+Sarconesia versicolor,Sarconesia versicolor,especie,Calliphoridae,La Paz,Castillo 2017; Torres Tola 2020,0,0.0,20,1.0,21,15,4,0,2.0,2.0,0.0,sin genoma en el género,ninguno
+Chlorobrachycoma splendida,Sarconesia splendida,especie,Calliphoridae,La Paz,Castillo 2017,0,0.0,20,4.0,21,15,4,0,4.0,0.0,0.0,sin genoma en el género,ninguno
+Compsomyiops fulvicrura,Compsomyiops fulvicrura,especie,Calliphoridae,La Paz,Castillo 2017,0,0.0,17,2.0,31,25,6,0,2.0,2.0,0.0,sin genoma en el género,ninguno
+Calliphora nigribasis,Calliphora nigribasis,especie,Calliphoridae,La Paz,Castillo 2017,8,0.0,2140,19.0,4124,3992,51,0,69.0,62.0,0.0,genoma de otra especie del género,ninguno
+Sarconesiopsis magellanica,Sarconesiopsis magellanica,especie,Calliphoridae,La Paz,Castillo 2017,0,0.0,26,26.0,35,31,6,0,31.0,27.0,0.0,sin genoma en el género,ninguno
+Fannia sp.,Fannia,genero,Fanniidae,Chuquisaca; La Paz,Machicado-Ocampo 2025 (verificar con el PDF); Torres Tola 2020; Castillo 2017 (Fanniidae sp1),3,,3973,,13533,13513,51,0,,,,genoma de otra especie del género,ninguno
+Microcerella sp.,Microcerella,genero,Sarcophagidae,Chuquisaca; La Paz,Castillo 2017; Machicado-Ocampo 2025 (verificar con el PDF),0,,1,,27,27,4,0,,,,sin genoma en el género,ninguno
+Sarcophaga haemorrhoidales,Sarcophaga haemorrhoidalis,especie,Sarcophagidae,La Paz,Castillo 2017 (escrito asi en la fuente),18,0.0,4126,13.0,9911,9442,69,0,13.0,13.0,0.0,genoma de otra especie del género,ninguno
+Musca domestica,Musca domestica,especie,Muscidae,La Paz,Castillo 2017,13,9.0,1005,561.0,10494,10405,67,0,751.0,679.0,0.0,genoma de la especie,ninguno
+Chrysomya,Chrysomya,genero,Calliphoridae,Chuquisaca,Machicado-Ocampo 2025 (verificar con el PDF),8,,2643,,2883,2493,61,2,,,,genoma de otra especie del género,sí (2)
+Hemilucilia,Hemilucilia,genero,Calliphoridae,Chuquisaca,Machicado-Ocampo 2025 (verificar con el PDF),0,,108,,138,125,8,0,,,,sin genoma en el género,ninguno
+Sarconesia,Sarconesia,genero,Calliphoridae,Chuquisaca,Machicado-Ocampo 2025 (verificar con el PDF),0,,20,,21,15,4,0,,,,sin genoma en el género,ninguno
+Cochliomyia,Cochliomyia,genero,Calliphoridae,Chuquisaca,Machicado-Ocampo 2025 (verificar con el PDF),5,,480,,476,413,17,0,,,,genoma de otra especie del género,ninguno
+Calliphora,Calliphora,genero,Calliphoridae,Chuquisaca,Machicado-Ocampo 2025 (verificar con el PDF),8,,2140,,4124,3992,51,0,,,,genoma de otra especie del género,ninguno
+Compsomyiops,Compsomyiops,genero,Calliphoridae,Chuquisaca,Machicado-Ocampo 2025 (verificar con el PDF),0,,17,,31,25,6,0,,,,sin genoma en el género,ninguno
+Tricharaea,Tricharaea,genero,Sarcophagidae,Chuquisaca,Machicado-Ocampo 2025 (verificar con el PDF),0,,21,,144,143,10,0,,,,sin genoma en el género,ninguno
+Sarcofahrtiopsis,Sarcofahrtiopsis,genero,Sarcophagidae,Chuquisaca,Machicado-Ocampo 2025 (verificar con el PDF),0,,13,,58,58,4,0,,,,sin genoma en el género,ninguno
+Titanogrypa,Titanogrypa,genero,Sarcophagidae,Chuquisaca,Machicado-Ocampo 2025 (verificar con el PDF),0,,12,,22,22,6,1,,,,sin genoma en el género,sí (1)
+Boettcheria,Boettcheria,genero,Sarcophagidae,Chuquisaca,Machicado-Ocampo 2025 (verificar con el PDF),0,,713,,900,898,2,0,,,,sin genoma en el género,ninguno
+Sarcophaga,Sarcophaga,genero,Sarcophagidae,Chuquisaca,Machicado-Ocampo 2025 (verificar con el PDF),18,,4126,,9911,9442,69,0,,,,genoma de otra especie del género,ninguno
+Euryomma,Euryomma,genero,Fanniidae,Chuquisaca,Machicado-Ocampo 2025 (verificar con el PDF),0,,3,,259,259,8,0,,,,sin genoma en el género,ninguno
+Musca,Musca,genero,Muscidae,Chuquisaca,Machicado-Ocampo 2025 (verificar con el PDF),13,,1005,,10494,10405,67,0,,,,genoma de otra especie del género,ninguno
+Muscina,Muscina,genero,Muscidae,Chuquisaca,Machicado-Ocampo 2025 (verificar con el PDF),3,,1115,,1713,1701,36,0,,,,genoma de otra especie del género,ninguno
+Morellia,Morellia,genero,Muscidae,Chuquisaca,Machicado-Ocampo 2025 (verificar con el PDF),0,,150,,878,876,36,0,,,,sin genoma en el género,ninguno
+Hydrotaea,Hydrotaea,genero,Muscidae,Chuquisaca,Machicado-Ocampo 2025 (verificar con el PDF),9,,2006,,5835,5797,44,0,,,,genoma de otra especie del género,ninguno
+Tetramerinx,Tetramerinx,genero,Muscidae,Chuquisaca,Machicado-Ocampo 2025 (verificar con el PDF),0,,28,,75,75,2,0,,,,sin genoma en el género,ninguno
+Neomuscina,Neomuscina,genero,Muscidae,Chuquisaca,Machicado-Ocampo 2025 (verificar con el PDF),0,,23,,121,120,8,0,,,,sin genoma en el género,ninguno
+Synthesiomyia,Synthesiomyia,genero,Muscidae,Chuquisaca,Machicado-Ocampo 2025 (verificar con el PDF),0,,72,,135,127,16,0,,,,sin genoma en el género,ninguno
+Phaonia,Phaonia,genero,Muscidae,Chuquisaca,Machicado-Ocampo 2025 (verificar con el PDF),12,,3789,,12299,12296,36,2,,,,genoma de otra especie del género,sí (2)
+Stomoxys,Stomoxys,genero,Muscidae,Chuquisaca,Machicado-Ocampo 2025 (verificar con el PDF),5,,1435,,7151,6742,61,0,,,,genoma de otra especie del género,ninguno
