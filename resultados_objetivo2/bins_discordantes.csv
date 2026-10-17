@@ -1,1 +1,97 @@
-bin_uri,genus,registros,es_mayoritario
+bin_uri,genero,especies,n_especies,registros
+BOLD:AAA3181,Stomoxys,Stomoxys calcitrans; Stomoxys indicus,2,4428
+BOLD:AAX2545,Hydrotaea,Hydrotaea borussica; Hydrotaea irritans; Hydrotaea meridionalis; Hydrotaea pandellei; Hydrotaea pellucens,5,1855
+BOLD:AAG1768,Hydrotaea,Hydrotaea scambus; Hydrotaea velutina,2,1363
+BOLD:AAA5667,Chrysomya,Chrysomya albiceps; Chrysomya bezziana; Chrysomya cabrerai; Chrysomya defixa; Chrysomya greenbergi; Chrysomya megacephala; Chrysomya pacifica; Chrysomya putoria; Chrysomya rufifacies; Chrysomya saffranea,10,968
+BOLD:AAG6743,Sarcophaga,Sarcophaga adriatica; Sarcophaga baranoffi; Sarcophaga melanura; Sarcophaga subvicina,4,756
+BOLD:AAH7137,Calliphora,Calliphora dispar; Calliphora minor,2,746
+BOLD:AAF6699,Phaonia,Phaonia consobrina; Phaonia protuberans,2,674
+BOLD:ADO0717,Stomoxys,Stomoxys calcitrans; Stomoxys niger; Stomoxys sitiens,3,642
+BOLD:AAB6579,Calliphora,Calliphora alaskensis; Calliphora croceipalpis; Calliphora loewi; Calliphora pattoni; Calliphora rohdendorfi; Calliphora sinensis; Calliphora stylifera; Calliphora subalpina; Calliphora vicina; Calliphora vicinia; Calliphora vomitoria,11,585
+BOLD:AAZ0264,Sarcophaga,Sarcophaga carnaria; Sarcophaga croatica; Sarcophaga lasiostyla; Sarcophaga lehmanni; Sarcophaga matilei; Sarcophaga variegata,6,470
+BOLD:AAE6221,Phaonia,Phaonia aberrans; Phaonia errans,2,399
+BOLD:AAB3064,Chrysomya,Chrysomya albiceps; Chrysomya rufifacies,2,341
+BOLD:ADK0952,Sarcophaga,Sarcophaga depressifrons; Sarcophaga lederbergi,2,281
+BOLD:ADS4080,Stomoxys,Stomoxys calcitrans; Stomoxys sitiens,2,234
+BOLD:AAE6220,Phaonia,Phaonia aberrans; Phaonia luteva,2,230
+BOLD:AAC1710,Sarcophaga,Sarcophaga africa; Sarcophaga burungae; Sarcophaga cruentata; Sarcophaga haemorrhoidalis,4,174
+BOLD:AAX9423,Sarcophaga,Sarcophaga carnaria; Sarcophaga jeanleclercqi; Sarcophaga pyrenaica; Sarcophaga variegata,4,172
+BOLD:AAX3121,Musca,Musca asiatica; Musca conducens,2,162
+BOLD:AAC4540,Sarcophaga,Sarcophaga aegyptica; Sarcophaga dux; Sarcophaga harpax,3,150
+BOLD:AAD7771,Cochliomyia,Cochliomyia aldrichi; Cochliomyia macellaria,2,137
+BOLD:ACF0516,Chrysomya,Chrysomya megacephala; Chrysomya phaonis; Chrysomya pinguis,3,129
+BOLD:AAE9461,Sarcophaga,Sarcophaga albiceps; Sarcophaga crassipalpis; Sarcophaga misera; Sarcophaga unguitigris,4,122
+BOLD:ACP9934,Phaonia,Phaonia tuguriorum; Phaonia valida,2,117
+BOLD:ABZ4059,Calliphora,Calliphora aldrichia; Calliphora latifrons; Calliphora montana,3,116
+BOLD:AAC7840,Morellia,Morellia hortorum; Morellia podagrica,2,116
+BOLD:AAG1772,Phaonia,Phaonia apicata; Phaonia bysia,2,108
+BOLD:ACB4675,Sarcophaga,Sarcophaga incisilobata; Sarcophaga kentejana,2,102
+BOLD:AAA6022,Sarcophaga,Sarcophaga formosensis; Sarcophaga javanica; Sarcophaga krathonmai; Sarcophaga nathani; Sarcophaga peregrina,5,99
+BOLD:AAB4497,Sarcophaga,Sarcophaga albiceps; Sarcophaga sericea; Sarcophaga taenionota,3,97
+BOLD:AAA6021,Musca,Musca domestica; Musca larvipara; Musca sorbens,3,93
+BOLD:ACD1595,Phaonia,Phaonia consobrina; Phaonia subfuscinervis,2,80
+BOLD:AAC7580,Sarcophaga,Sarcophaga misera; Sarcophaga ruficornis,2,76
+BOLD:AAC4539,Sarcophaga,Sarcophaga brevicornis; Sarcophaga dux,2,75
+BOLD:AAB4496,Sarcophaga,Sarcophaga albiceps; Sarcophaga misera,2,74
+BOLD:AAE4436,Sarcophaga,Sarcophaga bidentata; Sarcophaga praedatrix,2,73
+BOLD:ACB4532,Sarcophaga,Sarcophaga aratrix; Sarcophaga crassipalpis; Sarcophaga kanoi; Sarcophaga similis; Sarcophaga tsushimae,5,72
+BOLD:ACB4483,Sarcophaga,Sarcophaga filia; Sarcophaga minima,2,72
+BOLD:AAF7101,Fannia,Fannia canicularis; Fannia hirundinis; Fannia subpubescens,3,70
+BOLD:AAC1709,Sarcophaga,Sarcophaga bullata; Sarcophaga crassipalpis,2,69
+BOLD:AGO4847,Calliphora,Calliphora irazuana; Calliphora terraenovae,2,61
+BOLD:AAC0888,Phaonia,Phaonia savonoskii; Phaonia serva,2,60
+BOLD:ADS7567,Sarcophaga,Sarcophaga uncicurva; Sarcophaga villeneuveana,2,59
+BOLD:AAX2553,Hydrotaea,Hydrotaea cyrtoneurina; Hydrotaea dentipes,2,57
+BOLD:ACD6255,Chrysomya,Chrysomya latifrons; Chrysomya marginalis,2,51
+BOLD:ABW3765,Hydrotaea,Hydrotaea chalcogaster; Hydrotaea ignava; Hydrotaea leucostoma,3,50
+BOLD:ACH5421,Sarcophaga,Sarcophaga karnyi; Sarcophaga peregrina,2,44
+BOLD:ADV7405,Sarcophaga,Sarcophaga bulgarica; Sarcophaga haemorrhoides,2,44
+BOLD:AAI4570,Phaonia,Phaonia atrocyanea; Phaonia grandaeva,2,43
+BOLD:AAG1761,Hydrotaea,Hydrotaea unispinosa; Hydrotaea velutina,2,42
+BOLD:AAH7171,Sarcophaga,Sarcophaga incisilobata; Sarcophaga kentejana,2,40
+BOLD:ACB5109,Sarcophaga,Sarcophaga africa; Sarcophaga crassipalpis; Sarcophaga melanura,3,39
+BOLD:AAE1809,Calliphora,Calliphora chinghaiensis; Calliphora grahami,2,39
+BOLD:ACC4847,Phaonia,Phaonia hybrida; Phaonia incana,2,38
+BOLD:ACE6851,Phaonia,Phaonia apicalis; Phaonia errans,2,37
+BOLD:AAW9285,Hydrotaea,Hydrotaea hennigi; Hydrotaea spinigera,2,34
+BOLD:AAE0683,Calliphora,Calliphora lata; Calliphora nigribarbis,2,32
+BOLD:AAX9405,Sarcophaga,Sarcophaga jaroschevskyi; Sarcophaga portschinskyi,2,32
+BOLD:ABV4597,Sarcophaga,Sarcophaga bulgarica; Sarcophaga depressifrons; Sarcophaga haemorrhoa,3,31
+BOLD:ACB4317,Sarcophaga,Sarcophaga emdeni; Sarcophaga teretirostris,2,29
+BOLD:AAI0952,Sarcophaga,Sarcophaga phoenicopterus; Sarcophaga princeps,2,29
+BOLD:AAG1760,Hydrotaea,Hydrotaea floccosa; Hydrotaea pilitibia,2,29
+BOLD:AAE9465,Sarcophaga,Sarcophaga aurifrons; Sarcophaga sigma,2,28
+BOLD:ABU8931,Phaonia,Phaonia alpicola; Phaonia meigeni,2,28
+BOLD:AAG4630,Fannia,Fannia immaculata; Fannia serena,2,22
+BOLD:AAD9983,Fannia,Fannia bifimbriata; Fannia monilis,2,21
+BOLD:AAF7100,Fannia,Fannia falcata; Fannia hinei; Fannia tuberculata,3,20
+BOLD:AAE0718,Calliphora,Calliphora augur; Calliphora dubia,2,18
+BOLD:ACH7953,Sarcophaga,Sarcophaga amicoides; Sarcophaga gravelyi,2,16
+BOLD:AAI0953,Sarcophaga,Sarcophaga aureolata; Sarcophaga pattoni,2,12
+BOLD:ADB5620,Sarcophaga,Sarcophaga keziviana; Sarcophaga socrus,2,11
+BOLD:AAP1131,Fannia,Fannia colazorrensis; Fannia dodgei,2,10
+BOLD:ACW2759,Sarcophaga,Sarcophaga hainanensis; Sarcophaga hervebazini; Sarcophaga minor,3,10
+BOLD:AAX9378,Sarcophaga,Sarcophaga beta; Sarcophaga zeta,2,9
+BOLD:AGY1643,Sarcophaga,Sarcophaga magensi; Sarcophaga shirakii,2,9
+BOLD:ACB6711,Phaonia,Phaonia mystica; Phaonia villana,2,9
+BOLD:AGO4846,Calliphora,Calliphora uralensis; Calliphora zaidamensis,2,9
+BOLD:AAZ9882,Hydrotaea,Hydrotaea dentipes; Hydrotaea kashmirana; Hydrotaea similis,3,9
+BOLD:ADP5984,Phaonia,Phaonia jaroschewskii; Phaonia siebecki,2,8
+BOLD:ACK9772,Fannia,Fannia hirticeps; Fannia lasiops,2,8
+BOLD:ABY5605,Sarcophaga,Sarcophaga albiceps; Sarcophaga hirtipes,2,6
+BOLD:ACB4825,Sarcophaga,Sarcophaga penicillata; Sarcophaga uncicurva; Sarcophaga villeneuveana,3,6
+BOLD:AAH7149,Sarcophaga,Sarcophaga bullata; Sarcophaga crassipalpis,2,6
+BOLD:ABW5579,Fannia,Fannia prisca; Fannia spinosa,2,6
+BOLD:AAE9466,Sarcophaga,Sarcophaga aurifrons; Sarcophaga martellata,2,5
+BOLD:ACD3050,Fannia,Fannia fuscula; Fannia presignis,2,5
+BOLD:AAI0963,Sarcophaga,Sarcophaga coei; Sarcophaga javana,2,5
+BOLD:ACX4742,Fannia,Fannia isa; Fannia pseudoconstricta,2,5
+BOLD:AAG6901,Fannia,Fannia serena; Fannia subsimilis,2,4
+BOLD:ACR2560,Sarcophaga,Sarcophaga depressifrons; Sarcophaga dissimilis; Sarcophaga nigricaudata,3,4
+BOLD:ACD1654,Phaonia,Phaonia aeneiventris; Phaonia vivida,2,4
+BOLD:ACO9321,Sarcophaga,Sarcophaga kawayuensis; Sarcophaga pingi,2,4
+BOLD:ACM2858,Sarcophaga,Sarcophaga villeneuveana; Sarcophaga villeneuvei,2,3
+BOLD:ACQ9917,Fannia,Fannia atripes; Fannia scalaris,2,2
+BOLD:ADI0580,Calliphora,Calliphora livida; Calliphora terraenovae,2,2
+BOLD:ADU1977,Sarcophaga,Sarcophaga antilope; Sarcophaga inextricata,2,2
+BOLD:AHR6537,Chrysomya,Chrysomya phaonis; Chrysomya pinguis,2,2
