@@ -1,0 +1,18 @@
+control,valor
+registros evaluados,66782.0
+record_id: valores repetidos,0.0
+processid: valores repetidos,0.0
+insdc_acs: valores repetidos,0.0
+insdc_acs: registros sin accesion,44649.0
+secuencias distintas,28913.0
+registros redundantes (copias exactas),37869.0
+porcentaje redundante,56.7
+secuencias que aparecen una sola vez,22724.0
+secuencias repetidas (2 o mas registros),6189.0
+registros en secuencias repetidas,44058.0
+tamano del grupo mas grande,1046.0
+mediana del tamano de grupo (repetidas),3.0
+secuencias identicas en 2+ especies formales,58.0
+registros con esas secuencias,1030.0
+secuencias identicas en 2+ generos,0.0
+secuencias identicas en 2+ BIN,0.0
