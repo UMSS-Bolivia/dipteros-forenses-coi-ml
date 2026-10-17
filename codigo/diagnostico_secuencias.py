@@ -1,0 +1,15 @@
+import pandas as pd
+df = pd.read_csv("datos/intermedio/bold_registros_crudos.csv", low_memory=False)
+c = df[(df["marker_code"] == "COI-5P") & df["nuc"].notna()].copy()
+c["largo"] = c["nuc"].str.len()
+c["n_N"] = c["nuc"].str.count("N")
+c["n_guion"] = c["nuc"].str.count("-")
+c["n_otros"] = c["nuc"].str.count("[^ACGTN-]")
+print("Registros COI-5P con secuencia:", len(c))
+print(c["largo"].describe(percentiles=[.01, .05, .25, .5, .75, .95]).round(1))
+for u in [300, 400, 500, 600, 650]:
+    print("largo >=", u, ":", int((c["largo"] >= u).sum()))
+print("con guiones:", int((c["n_guion"] > 0).sum()))
+print("con N:", int((c["n_N"] > 0).sum()), "| con >1% N:", int((c["n_N"] / c["largo"] > 0.01).sum()))
+print("con otros (IUPAC):", int((c["n_otros"] > 0).sum()))
+print("largo vs nuc_basecount distintos:", int((c["largo"] != c["nuc_basecount"]).sum()))

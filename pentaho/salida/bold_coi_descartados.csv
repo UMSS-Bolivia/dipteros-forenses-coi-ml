@@ -1,0 +1,2069 @@
+record_id,processid,genus,species,largo,prop_no_acgt,resultado_calidad
+GBDP9250-10.COI-5P,GBDP9250-10,Boettcheria,Boettcheria cimbicis,904,0.0995575221,no_ACGT>1%
+GBDP9252-10.COI-5P,GBDP9252-10,Boettcheria,Boettcheria latisterna,979,0.0255362615,no_ACGT>1%
+GBDP9256-10.COI-5P,GBDP9256-10,Boettcheria,Boettcheria bisetosa,964,0.02593361,no_ACGT>1%
+GHMTA581-18.COI-5P,GHMTA581-18,Boettcheria,Boettcheria cimbicis,418,0.0,largo<500
+GMODL045-15.COI-5P,GMODL045-15,Boettcheria,Boettcheria latisterna,639,0.0234741784,no_ACGT>1%
+MPGI2013-19.COI-5P,MPGI2013-19,Boettcheria,Boettcheria litorosa,338,0.0,largo<500
+ONTA021-23.COI-5P,ONTA021-23,Boettcheria,Boettcheria cimbicis,658,0.0121580547,no_ACGT>1%
+SMTPI3334-14.COI-5P,SMTPI3334-14,Boettcheria,Boettcheria cimbicis,360,0.0,largo<500
+SSKJB2671-14.COI-5P,SSKJB2671-14,Boettcheria,Boettcheria bisetosa,432,0.0,largo<500
+ASIND3334-12.COI-5P,ASIND3334-12,Calliphora,Calliphora triseta,307,0.0,largo<500
+ATISA6419-16.COI-5P,ATISA6419-16,Calliphora,,220,0.0045454545,largo<500
+ATISA8586-16.COI-5P,ATISA8586-16,Calliphora,,220,0.0,largo<500
+BCFOR1088-16.COI-5P,BCFOR1088-16,Calliphora,Calliphora vicina,485,0.0,largo<500
+BCFOR1125-16.COI-5P,BCFOR1125-16,Calliphora,Calliphora vicina,490,0.0,largo<500
+BCFOR1132-16.COI-5P,BCFOR1132-16,Calliphora,Calliphora vicina,490,0.0,largo<500
+BCFOR1160-16.COI-5P,BCFOR1160-16,Calliphora,Calliphora vicina,425,0.0305882353,largo<500
+BCFOR1161-16.COI-5P,BCFOR1161-16,Calliphora,Calliphora vicina,471,0.0148619958,largo<500
+BCFOR1162-16.COI-5P,BCFOR1162-16,Calliphora,Calliphora vicina,471,0.0212314225,largo<500
+BCFOR1164-16.COI-5P,BCFOR1164-16,Calliphora,Calliphora vicina,344,0.0087209302,largo<500
+BCFOR1167-16.COI-5P,BCFOR1167-16,Calliphora,Calliphora vicina,386,0.0103626943,largo<500
+BCFOR1176-16.COI-5P,BCFOR1176-16,Calliphora,Calliphora vomitoria,436,0.0091743119,largo<500
+BCFOR1177-16.COI-5P,BCFOR1177-16,Calliphora,Calliphora vomitoria,423,0.0,largo<500
+BCFOR1216-16.COI-5P,BCFOR1216-16,Calliphora,Calliphora vicina,446,0.0067264574,largo<500
+BCFOR1217-16.COI-5P,BCFOR1217-16,Calliphora,Calliphora vicina,371,0.0269541779,largo<500
+BCFOR1218-16.COI-5P,BCFOR1218-16,Calliphora,Calliphora vicina,471,0.016985138,largo<500
+BCFOR1228-16.COI-5P,BCFOR1228-16,Calliphora,Calliphora vicina,377,0.023872679,largo<500
+BCFOR1230-16.COI-5P,BCFOR1230-16,Calliphora,Calliphora vicina,471,0.008492569,largo<500
+BCFOR1233-16.COI-5P,BCFOR1233-16,Calliphora,Calliphora vicina,471,0.0021231423,largo<500
+BCFOR1238-16.COI-5P,BCFOR1238-16,Calliphora,Calliphora vicina,471,0.0106157113,largo<500
+BCFOR1239-16.COI-5P,BCFOR1239-16,Calliphora,Calliphora vicina,425,0.0188235294,largo<500
+BCFOR1322-16.COI-5P,BCFOR1322-16,Calliphora,Calliphora vomitoria,412,0.0242718447,largo<500
+BCFOR1534-17.COI-5P,BCFOR1534-17,Calliphora,Calliphora vomitoria,459,0.0065359477,largo<500
+BCFOR1608-17.COI-5P,BCFOR1608-17,Calliphora,Calliphora vicina,503,0.0318091451,no_ACGT>1%
+BCFOR1632-17.COI-5P,BCFOR1632-17,Calliphora,Calliphora vicina,514,0.0252918288,no_ACGT>1%
+BCFOR531-15.COI-5P,BCFOR531-15,Calliphora,Calliphora sp.,455,0.0197802198,largo<500
+BCFOR570-15.COI-5P,BCFOR570-15,Calliphora,Calliphora vicina,427,0.0,largo<500
+BCFOR574-15.COI-5P,BCFOR574-15,Calliphora,Calliphora vicina,438,0.0068493151,largo<500
+BCFOR585-15.COI-5P,BCFOR585-15,Calliphora,Calliphora vomitoria,423,0.0141843972,largo<500
+BCFOR902-16.COI-5P,BCFOR902-16,Calliphora,Calliphora vicina,478,0.0,largo<500
+BCFOR904-16.COI-5P,BCFOR904-16,Calliphora,Calliphora vicina,478,0.0020920502,largo<500
+BCFOR927-16.COI-5P,BCFOR927-16,Calliphora,Calliphora vicina,485,0.0020618557,largo<500
+BNNR009-11.COI-5P,BNNR009-11,Calliphora,Calliphora alaskensis,462,0.0,largo<500
+BNNR203-15.COI-5P,BNNR203-15,Calliphora,Calliphora montana,195,0.0,largo<500
+BNNR209-15.COI-5P,BNNR209-15,Calliphora,Calliphora montana,449,0.0,largo<500
+BNNR220-15.COI-5P,BNNR220-15,Calliphora,Calliphora genarum,407,0.0,largo<500
+CASBI19207-26.COI-5P,CASBI19207-26,Calliphora,,316,0.0,largo<500
+CASBI19214-26.COI-5P,CASBI19214-26,Calliphora,,316,0.0,largo<500
+CASBI4385-26.COI-5P,CASBI4385-26,Calliphora,Calliphora latifrons,181,0.0,largo<500
+CASBI4386-26.COI-5P,CASBI4386-26,Calliphora,Calliphora latifrons,181,0.0,largo<500
+CASBI4394-26.COI-5P,CASBI4394-26,Calliphora,,181,0.0,largo<500
+CASBI4395-26.COI-5P,CASBI4395-26,Calliphora,Calliphora vicina,211,0.0,largo<500
+CASBI4396-26.COI-5P,CASBI4396-26,Calliphora,Calliphora livida,181,0.0,largo<500
+CASBI4397-26.COI-5P,CASBI4397-26,Calliphora,Calliphora terranovae,181,0.0,largo<500
+CASBI4398-26.COI-5P,CASBI4398-26,Calliphora,Calliphora livida,181,0.0,largo<500
+CASBI4399-26.COI-5P,CASBI4399-26,Calliphora,Calliphora livida,181,0.0,largo<500
+CMBF094-26.COI-5P,CMBF094-26,Calliphora,Calliphora croceipalpis,392,0.0025510204,largo<500
+CMBF113-26.COI-5P,CMBF113-26,Calliphora,Calliphora croceipalpis,398,0.0,largo<500
+DIQT396-09.COI-5P,DIQT396-09,Calliphora,Calliphora dispar,382,0.0,largo<500
+GBAAH9400-25.COI-5P,GBAAH9400-25,Calliphora,Calliphora vomitoria,454,0.0,largo<500
+GBAAH9409-25.COI-5P,GBAAH9409-25,Calliphora,Calliphora vomitoria,454,0.0,largo<500
+GBAAH9583-25.COI-5P,GBAAH9583-25,Calliphora,Calliphora vomitoria,454,0.0,largo<500
+GBAAQ7212-25.COI-5P,GBAAQ7212-25,Calliphora,Calliphora vomitoria,461,0.0,largo<500
+GBAAQ7238-25.COI-5P,GBAAQ7238-25,Calliphora,Calliphora vomitoria,461,0.0,largo<500
+GBAAQ7267-25.COI-5P,GBAAQ7267-25,Calliphora,Calliphora vicina,463,0.0,largo<500
+GBAAQ7305-25.COI-5P,GBAAQ7305-25,Calliphora,Calliphora vicina,459,0.0,largo<500
+GBAAQ7309-25.COI-5P,GBAAQ7309-25,Calliphora,Calliphora vicina,456,0.0,largo<500
+GBAAQ7317-25.COI-5P,GBAAQ7317-25,Calliphora,Calliphora vicina,460,0.0,largo<500
+GBAAQ7333-25.COI-5P,GBAAQ7333-25,Calliphora,Calliphora vicina,463,0.0,largo<500
+GBAAQ7436-25.COI-5P,GBAAQ7436-25,Calliphora,Calliphora vomitoria,461,0.0,largo<500
+GBAAQ7484-25.COI-5P,GBAAQ7484-25,Calliphora,Calliphora vicina,463,0.0,largo<500
+GBAAW20454-24.COI-5P,GBAAW20454-24,Calliphora,Calliphora vicina,457,0.0437636761,largo<500
+GBAAW20456-24.COI-5P,GBAAW20456-24,Calliphora,Calliphora vicina,390,0.0,largo<500
+GBAAW20457-24.COI-5P,GBAAW20457-24,Calliphora,Calliphora vicina,390,0.0,largo<500
+GBAAW20458-24.COI-5P,GBAAW20458-24,Calliphora,Calliphora vicina,514,0.0175097276,no_ACGT>1%
+GBAAW20460-24.COI-5P,GBAAW20460-24,Calliphora,Calliphora vicina,514,0.0233463035,no_ACGT>1%
+GBAAW20462-24.COI-5P,GBAAW20462-24,Calliphora,Calliphora vicina,514,0.0175097276,no_ACGT>1%
+GBAAW20463-24.COI-5P,GBAAW20463-24,Calliphora,Calliphora vicina,475,0.0,largo<500
+GBAAW20471-24.COI-5P,GBAAW20471-24,Calliphora,Calliphora vicina,514,0.013618677,no_ACGT>1%
+GBAAW20478-24.COI-5P,GBAAW20478-24,Calliphora,Calliphora vicina,425,0.0,largo<500
+GBAAW20490-24.COI-5P,GBAAW20490-24,Calliphora,Calliphora vicina,390,0.0,largo<500
+GBAAW35909-24.COI-5P,GBAAW35909-24,Calliphora,Calliphora croceipalpis,390,0.0,largo<500
+GBAAW35910-24.COI-5P,GBAAW35910-24,Calliphora,Calliphora croceipalpis,390,0.0,largo<500
+GBAAW35911-24.COI-5P,GBAAW35911-24,Calliphora,Calliphora croceipalpis,390,0.0,largo<500
+GBAAW45588-24.COI-5P,GBAAW45588-24,Calliphora,Calliphora coloradensis,514,0.0272373541,no_ACGT>1%
+GBAAX52393-24.COI-5P,GBAAX52393-24,Calliphora,Calliphora coloradensis,474,0.0,largo<500
+GBAAX53466-24.COI-5P,GBAAX53466-24,Calliphora,Calliphora vicina,472,0.0105932203,largo<500
+GBAAX53467-24.COI-5P,GBAAX53467-24,Calliphora,Calliphora vicina,480,0.0,largo<500
+GBAAX53468-24.COI-5P,GBAAX53468-24,Calliphora,Calliphora vicina,483,0.0269151139,largo<500
+GBAAX53469-24.COI-5P,GBAAX53469-24,Calliphora,Calliphora vicina,416,0.0216346154,largo<500
+GBAAX59846-24.COI-5P,GBAAX59846-24,Calliphora,Calliphora vomitoria,469,0.0,largo<500
+GBAAX66168-24.COI-5P,GBAAX66168-24,Calliphora,Calliphora livida,468,0.0,largo<500
+GBABA10579-26.COI-5P,GBABA10579-26,Calliphora,,418,0.0,largo<500
+GBABA10584-26.COI-5P,GBABA10584-26,Calliphora,,418,0.0,largo<500
+GBABA11324-26.COI-5P,GBABA11324-26,Calliphora,,418,0.0,largo<500
+GBABA11566-26.COI-5P,GBABA11566-26,Calliphora,,418,0.0,largo<500
+GBABA11756-26.COI-5P,GBABA11756-26,Calliphora,,418,0.0,largo<500
+GBABA12286-26.COI-5P,GBABA12286-26,Calliphora,,418,0.0,largo<500
+GBABA12366-26.COI-5P,GBABA12366-26,Calliphora,,418,0.0,largo<500
+GBABA12503-26.COI-5P,GBABA12503-26,Calliphora,,418,0.0,largo<500
+GBABA12843-26.COI-5P,GBABA12843-26,Calliphora,,418,0.0,largo<500
+GBABA13335-26.COI-5P,GBABA13335-26,Calliphora,,418,0.0,largo<500
+GBABA13503-26.COI-5P,GBABA13503-26,Calliphora,,418,0.0,largo<500
+GBABA13955-26.COI-5P,GBABA13955-26,Calliphora,,418,0.0,largo<500
+GBABA14454-26.COI-5P,GBABA14454-26,Calliphora,,418,0.0,largo<500
+GBABA14909-26.COI-5P,GBABA14909-26,Calliphora,,418,0.0,largo<500
+GBABA15010-26.COI-5P,GBABA15010-26,Calliphora,,418,0.0,largo<500
+GBABA7810-26.COI-5P,GBABA7810-26,Calliphora,,418,0.0,largo<500
+GBABA8215-26.COI-5P,GBABA8215-26,Calliphora,,418,0.0,largo<500
+GBABA9615-26.COI-5P,GBABA9615-26,Calliphora,,418,0.0,largo<500
+GBABA9646-26.COI-5P,GBABA9646-26,Calliphora,,418,0.0,largo<500
+GBCAB28076-24.COI-5P,GBCAB28076-24,Calliphora,Calliphora vicina,496,0.0,largo<500
+GBCAB28077-24.COI-5P,GBCAB28077-24,Calliphora,Calliphora vicina,223,0.0044843049,largo<500
+GBCAB28078-24.COI-5P,GBCAB28078-24,Calliphora,Calliphora vicina,495,0.0,largo<500
+GBCAB28079-24.COI-5P,GBCAB28079-24,Calliphora,Calliphora vicina,474,0.0147679325,largo<500
+GBCAB28081-24.COI-5P,GBCAB28081-24,Calliphora,Calliphora vicina,498,0.0,largo<500
+GBCAB28083-24.COI-5P,GBCAB28083-24,Calliphora,Calliphora vicina,632,0.0189873418,no_ACGT>1%
+GBCAB30155-24.COI-5P,GBCAB30155-24,Calliphora,Calliphora vomitoria,495,0.0,largo<500
+GBCAB30156-24.COI-5P,GBCAB30156-24,Calliphora,Calliphora vomitoria,496,0.0,largo<500
+GBCAB30158-24.COI-5P,GBCAB30158-24,Calliphora,Calliphora vomitoria,495,0.0,largo<500
+GBCAB30160-24.COI-5P,GBCAB30160-24,Calliphora,Calliphora vomitoria,432,0.0115740741,largo<500
+GBDP13895-13.COI-5P,GBDP13895-13,Calliphora,Calliphora vomitoria,1000,0.038,no_ACGT>1%
+GBDP13904-13.COI-5P,GBDP13904-13,Calliphora,Calliphora vicina,1000,0.022,no_ACGT>1%
+GBDP13910-13.COI-5P,GBDP13910-13,Calliphora,Calliphora vicina,1000,0.014,no_ACGT>1%
+GBDP2284-06.COI-5P,GBDP2284-06,Calliphora,Calliphora vicina,465,0.0,largo<500
+GBDP2285-06.COI-5P,GBDP2285-06,Calliphora,Calliphora vicina,465,0.0,largo<500
+GBDP2375-06.COI-5P,GBDP2375-06,Calliphora,Calliphora sp. AJ-2005,481,0.0,largo<500
+GBDP30762-19.COI-5P,GBDP30762-19,Calliphora,Calliphora latifrons,223,0.0,largo<500
+GBDP4144-07.COI-5P,GBDP4144-07,Calliphora,Calliphora vomitoria,411,0.0,largo<500
+GBDP4145-07.COI-5P,GBDP4145-07,Calliphora,Calliphora vicina,411,0.0,largo<500
+GBDP4924-08.COI-5P,GBDP4924-08,Calliphora,Calliphora grahami,495,0.0,largo<500
+GBMNA30438-19.COI-5P,GBMNA30438-19,Calliphora,Calliphora vicina,551,0.0163339383,no_ACGT>1%
+GBMNB15548-20.COI-5P,GBMNB15548-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15549-20.COI-5P,GBMNB15549-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15550-20.COI-5P,GBMNB15550-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15551-20.COI-5P,GBMNB15551-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15552-20.COI-5P,GBMNB15552-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15553-20.COI-5P,GBMNB15553-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15554-20.COI-5P,GBMNB15554-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15555-20.COI-5P,GBMNB15555-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15556-20.COI-5P,GBMNB15556-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15557-20.COI-5P,GBMNB15557-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15558-20.COI-5P,GBMNB15558-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15559-20.COI-5P,GBMNB15559-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15560-20.COI-5P,GBMNB15560-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15561-20.COI-5P,GBMNB15561-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15562-20.COI-5P,GBMNB15562-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15563-20.COI-5P,GBMNB15563-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15564-20.COI-5P,GBMNB15564-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15565-20.COI-5P,GBMNB15565-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15566-20.COI-5P,GBMNB15566-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15567-20.COI-5P,GBMNB15567-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15568-20.COI-5P,GBMNB15568-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15569-20.COI-5P,GBMNB15569-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15570-20.COI-5P,GBMNB15570-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15571-20.COI-5P,GBMNB15571-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15572-20.COI-5P,GBMNB15572-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15573-20.COI-5P,GBMNB15573-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15574-20.COI-5P,GBMNB15574-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15575-20.COI-5P,GBMNB15575-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15576-20.COI-5P,GBMNB15576-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15577-20.COI-5P,GBMNB15577-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15578-20.COI-5P,GBMNB15578-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15579-20.COI-5P,GBMNB15579-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15580-20.COI-5P,GBMNB15580-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15581-20.COI-5P,GBMNB15581-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15582-20.COI-5P,GBMNB15582-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15583-20.COI-5P,GBMNB15583-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15584-20.COI-5P,GBMNB15584-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15585-20.COI-5P,GBMNB15585-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15586-20.COI-5P,GBMNB15586-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15587-20.COI-5P,GBMNB15587-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15588-20.COI-5P,GBMNB15588-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15589-20.COI-5P,GBMNB15589-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15590-20.COI-5P,GBMNB15590-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15591-20.COI-5P,GBMNB15591-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15592-20.COI-5P,GBMNB15592-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15593-20.COI-5P,GBMNB15593-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15594-20.COI-5P,GBMNB15594-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15595-20.COI-5P,GBMNB15595-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15596-20.COI-5P,GBMNB15596-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15597-20.COI-5P,GBMNB15597-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15598-20.COI-5P,GBMNB15598-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15599-20.COI-5P,GBMNB15599-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15600-20.COI-5P,GBMNB15600-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15601-20.COI-5P,GBMNB15601-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15602-20.COI-5P,GBMNB15602-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15603-20.COI-5P,GBMNB15603-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15604-20.COI-5P,GBMNB15604-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15605-20.COI-5P,GBMNB15605-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15606-20.COI-5P,GBMNB15606-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15607-20.COI-5P,GBMNB15607-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15608-20.COI-5P,GBMNB15608-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15609-20.COI-5P,GBMNB15609-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15610-20.COI-5P,GBMNB15610-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15611-20.COI-5P,GBMNB15611-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15612-20.COI-5P,GBMNB15612-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15613-20.COI-5P,GBMNB15613-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15614-20.COI-5P,GBMNB15614-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15615-20.COI-5P,GBMNB15615-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15616-20.COI-5P,GBMNB15616-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15617-20.COI-5P,GBMNB15617-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15618-20.COI-5P,GBMNB15618-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15619-20.COI-5P,GBMNB15619-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15620-20.COI-5P,GBMNB15620-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15621-20.COI-5P,GBMNB15621-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15622-20.COI-5P,GBMNB15622-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15623-20.COI-5P,GBMNB15623-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15624-20.COI-5P,GBMNB15624-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15625-20.COI-5P,GBMNB15625-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15626-20.COI-5P,GBMNB15626-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15627-20.COI-5P,GBMNB15627-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15628-20.COI-5P,GBMNB15628-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15629-20.COI-5P,GBMNB15629-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15630-20.COI-5P,GBMNB15630-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15631-20.COI-5P,GBMNB15631-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15632-20.COI-5P,GBMNB15632-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15633-20.COI-5P,GBMNB15633-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15634-20.COI-5P,GBMNB15634-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15635-20.COI-5P,GBMNB15635-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15636-20.COI-5P,GBMNB15636-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15637-20.COI-5P,GBMNB15637-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15638-20.COI-5P,GBMNB15638-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15639-20.COI-5P,GBMNB15639-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15640-20.COI-5P,GBMNB15640-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15641-20.COI-5P,GBMNB15641-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15642-20.COI-5P,GBMNB15642-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15643-20.COI-5P,GBMNB15643-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15644-20.COI-5P,GBMNB15644-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15645-20.COI-5P,GBMNB15645-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15646-20.COI-5P,GBMNB15646-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15647-20.COI-5P,GBMNB15647-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15648-20.COI-5P,GBMNB15648-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15649-20.COI-5P,GBMNB15649-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15650-20.COI-5P,GBMNB15650-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15651-20.COI-5P,GBMNB15651-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15652-20.COI-5P,GBMNB15652-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15653-20.COI-5P,GBMNB15653-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15654-20.COI-5P,GBMNB15654-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15655-20.COI-5P,GBMNB15655-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15656-20.COI-5P,GBMNB15656-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15657-20.COI-5P,GBMNB15657-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15658-20.COI-5P,GBMNB15658-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15659-20.COI-5P,GBMNB15659-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15660-20.COI-5P,GBMNB15660-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15661-20.COI-5P,GBMNB15661-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15662-20.COI-5P,GBMNB15662-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15663-20.COI-5P,GBMNB15663-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15664-20.COI-5P,GBMNB15664-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15665-20.COI-5P,GBMNB15665-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15666-20.COI-5P,GBMNB15666-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15667-20.COI-5P,GBMNB15667-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15668-20.COI-5P,GBMNB15668-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15669-20.COI-5P,GBMNB15669-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15670-20.COI-5P,GBMNB15670-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15671-20.COI-5P,GBMNB15671-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15672-20.COI-5P,GBMNB15672-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15673-20.COI-5P,GBMNB15673-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15674-20.COI-5P,GBMNB15674-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15675-20.COI-5P,GBMNB15675-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15676-20.COI-5P,GBMNB15676-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15677-20.COI-5P,GBMNB15677-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15678-20.COI-5P,GBMNB15678-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15679-20.COI-5P,GBMNB15679-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15680-20.COI-5P,GBMNB15680-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15681-20.COI-5P,GBMNB15681-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15682-20.COI-5P,GBMNB15682-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15683-20.COI-5P,GBMNB15683-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15684-20.COI-5P,GBMNB15684-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15685-20.COI-5P,GBMNB15685-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15686-20.COI-5P,GBMNB15686-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15687-20.COI-5P,GBMNB15687-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15688-20.COI-5P,GBMNB15688-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15689-20.COI-5P,GBMNB15689-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15690-20.COI-5P,GBMNB15690-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15691-20.COI-5P,GBMNB15691-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15692-20.COI-5P,GBMNB15692-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15693-20.COI-5P,GBMNB15693-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15694-20.COI-5P,GBMNB15694-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15695-20.COI-5P,GBMNB15695-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15696-20.COI-5P,GBMNB15696-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15697-20.COI-5P,GBMNB15697-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15698-20.COI-5P,GBMNB15698-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15699-20.COI-5P,GBMNB15699-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15700-20.COI-5P,GBMNB15700-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15701-20.COI-5P,GBMNB15701-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15702-20.COI-5P,GBMNB15702-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15703-20.COI-5P,GBMNB15703-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15704-20.COI-5P,GBMNB15704-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15705-20.COI-5P,GBMNB15705-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15706-20.COI-5P,GBMNB15706-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15707-20.COI-5P,GBMNB15707-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15708-20.COI-5P,GBMNB15708-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15709-20.COI-5P,GBMNB15709-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15710-20.COI-5P,GBMNB15710-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15711-20.COI-5P,GBMNB15711-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15712-20.COI-5P,GBMNB15712-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15713-20.COI-5P,GBMNB15713-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15714-20.COI-5P,GBMNB15714-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15715-20.COI-5P,GBMNB15715-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15716-20.COI-5P,GBMNB15716-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15717-20.COI-5P,GBMNB15717-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15718-20.COI-5P,GBMNB15718-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15719-20.COI-5P,GBMNB15719-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15720-20.COI-5P,GBMNB15720-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15721-20.COI-5P,GBMNB15721-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15722-20.COI-5P,GBMNB15722-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15723-20.COI-5P,GBMNB15723-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15724-20.COI-5P,GBMNB15724-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15725-20.COI-5P,GBMNB15725-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15726-20.COI-5P,GBMNB15726-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15727-20.COI-5P,GBMNB15727-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15728-20.COI-5P,GBMNB15728-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15729-20.COI-5P,GBMNB15729-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15730-20.COI-5P,GBMNB15730-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15731-20.COI-5P,GBMNB15731-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15732-20.COI-5P,GBMNB15732-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15733-20.COI-5P,GBMNB15733-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB15734-20.COI-5P,GBMNB15734-20,Calliphora,Calliphora vicina,408,0.0,largo<500
+GBMNB24902-20.COI-5P,GBMNB24902-20,Calliphora,Calliphora vicina,270,0.0,largo<500
+GBMNC7989-20.COI-5P,GBMNC7989-20,Calliphora,Calliphora vicina,463,0.0,largo<500
+GBMNE26666-21.COI-5P,GBMNE26666-21,Calliphora,Calliphora vicina,473,0.0,largo<500
+GBMNE26667-21.COI-5P,GBMNE26667-21,Calliphora,Calliphora vicina,473,0.0,largo<500
+GBMNE26668-21.COI-5P,GBMNE26668-21,Calliphora,Calliphora vicina,473,0.0,largo<500
+GBMNE26669-21.COI-5P,GBMNE26669-21,Calliphora,Calliphora vomitoria,473,0.0,largo<500
+GBMNE26670-21.COI-5P,GBMNE26670-21,Calliphora,Calliphora vomitoria,473,0.0,largo<500
+GBMNE26671-21.COI-5P,GBMNE26671-21,Calliphora,Calliphora vomitoria,473,0.0,largo<500
+GBMNE57051-22.COI-5P,GBMNE57051-22,Calliphora,Calliphora vicina,472,0.0,largo<500
+GBMNE57052-22.COI-5P,GBMNE57052-22,Calliphora,Calliphora vicina,473,0.0,largo<500
+GBMNE57053-22.COI-5P,GBMNE57053-22,Calliphora,Calliphora vicina,487,0.0,largo<500
+GBMNE57054-22.COI-5P,GBMNE57054-22,Calliphora,Calliphora vicina,484,0.0,largo<500
+GBMNE57055-22.COI-5P,GBMNE57055-22,Calliphora,Calliphora vicina,486,0.0,largo<500
+GBMNE57056-22.COI-5P,GBMNE57056-22,Calliphora,Calliphora vicina,494,0.0,largo<500
+GBMNE57060-22.COI-5P,GBMNE57060-22,Calliphora,Calliphora vomitoria,408,0.0,largo<500
+GBMNE57061-22.COI-5P,GBMNE57061-22,Calliphora,Calliphora vomitoria,451,0.0,largo<500
+GBMNE57062-22.COI-5P,GBMNE57062-22,Calliphora,Calliphora vomitoria,446,0.0,largo<500
+GBMNE57063-22.COI-5P,GBMNE57063-22,Calliphora,Calliphora vomitoria,471,0.0,largo<500
+GBMNE57064-22.COI-5P,GBMNE57064-22,Calliphora,Calliphora vomitoria,467,0.0,largo<500
+GBMNE57065-22.COI-5P,GBMNE57065-22,Calliphora,Calliphora vomitoria,481,0.0,largo<500
+HELAA8147-20.COI-5P,HELAA8147-20,Calliphora,,444,0.0,largo<500
+MGPU070-19.COI-5P,MGPU070-19,Calliphora,Calliphora latifrons,483,0.0,largo<500
+MOBIL9832-19.COI-5P,MOBIL9832-19,Calliphora,Calliphora vomitoria,352,0.0,largo<500
+MOBIL9834-19.COI-5P,MOBIL9834-19,Calliphora,Calliphora vomitoria,352,0.0,largo<500
+PLUVS015-24.COI-5P,PLUVS015-24,Calliphora,Calliphora vomitoria,312,0.0,largo<500
+SSWLA1777-13.COI-5P,SSWLA1777-13,Calliphora,Calliphora latifrons,486,0.0,largo<500
+ASILO552-17.COI-5P,ASILO552-17,Chrysomya,Chrysomya inclinata,407,0.0,largo<500
+ASIND3384-12.COI-5P,ASIND3384-12,Chrysomya,Chrysomya rufifacies,307,0.0,largo<500
+BCFOR1569-17.COI-5P,BCFOR1569-17,Chrysomya,Chrysomya albiceps,476,0.0042016807,largo<500
+BCFOR491-15.COI-5P,BCFOR491-15,Chrysomya,Chrysomya albiceps,385,0.0103896104,largo<500
+BCFOR509-15.COI-5P,BCFOR509-15,Chrysomya,Chrysomya albiceps,425,0.0188235294,largo<500
+BDNGS022-16.COI-5P,BDNGS022-16,Chrysomya,,205,0.0,largo<500
+BDNGS023-16.COI-5P,BDNGS023-16,Chrysomya,,205,0.0,largo<500
+BDNGS024-16.COI-5P,BDNGS024-16,Chrysomya,,205,0.0,largo<500
+BDNGS025-16.COI-5P,BDNGS025-16,Chrysomya,,205,0.0390243902,largo<500
+BDNGS026-16.COI-5P,BDNGS026-16,Chrysomya,,205,0.0,largo<500
+CMBF029-26.COI-5P,CMBF029-26,Chrysomya,Chrysomya marginalis,431,0.0,largo<500
+DSD009-24.COI-5P,DSD009-24,Chrysomya,Chrysomya megacephala,493,0.0,largo<500
+GBAAD2987-25.COI-5P,GBAAD2987-25,Chrysomya,Chrysomya megacephala,324,0.0,largo<500
+GBAAK1126-25.COI-5P,GBAAK1126-25,Chrysomya,Chrysomya megacephala,493,0.0,largo<500
+GBAAQ7231-25.COI-5P,GBAAQ7231-25,Chrysomya,Chrysomya albiceps,462,0.0,largo<500
+GBAAQ7235-25.COI-5P,GBAAQ7235-25,Chrysomya,Chrysomya megacephala,431,0.0,largo<500
+GBAAQ7248-25.COI-5P,GBAAQ7248-25,Chrysomya,Chrysomya albiceps,463,0.0,largo<500
+GBAAQ7262-25.COI-5P,GBAAQ7262-25,Chrysomya,Chrysomya albiceps,463,0.0,largo<500
+GBAAQ7287-25.COI-5P,GBAAQ7287-25,Chrysomya,Chrysomya albiceps,432,0.0,largo<500
+GBAAQ7300-25.COI-5P,GBAAQ7300-25,Chrysomya,Chrysomya albiceps,434,0.0,largo<500
+GBAAQ7348-25.COI-5P,GBAAQ7348-25,Chrysomya,Chrysomya albiceps,464,0.0,largo<500
+GBAAQ7409-25.COI-5P,GBAAQ7409-25,Chrysomya,Chrysomya albiceps,465,0.0,largo<500
+GBAAQ7495-25.COI-5P,GBAAQ7495-25,Chrysomya,Chrysomya megacephala,475,0.0,largo<500
+GBAAQ7512-25.COI-5P,GBAAQ7512-25,Chrysomya,Chrysomya albiceps,463,0.0,largo<500
+GBAAX36290-24.COI-5P,GBAAX36290-24,Chrysomya,Chrysomya megacephala,441,0.0,largo<500
+GBAAX36293-24.COI-5P,GBAAX36293-24,Chrysomya,Chrysomya megacephala,469,0.0149253731,largo<500
+GBAAX36296-24.COI-5P,GBAAX36296-24,Chrysomya,Chrysomya megacephala,477,0.0020964361,largo<500
+GBAAX49348-24.COI-5P,GBAAX49348-24,Chrysomya,Chrysomya rufifacies,468,0.0,largo<500
+GBABA10103-26.COI-5P,GBABA10103-26,Chrysomya,,418,0.0,largo<500
+GBDP15518-14.COI-5P,GBDP15518-14,Chrysomya,Chrysomya nigripes,1170,0.0145299145,no_ACGT>1%
+GBDP15519-14.COI-5P,GBDP15519-14,Chrysomya,Chrysomya nigripes,1170,0.0145299145,no_ACGT>1%
+GBDP2046-06.COI-5P,GBDP2046-06,Chrysomya,Chrysomya rufifacies,465,0.0,largo<500
+GBDP2047-06.COI-5P,GBDP2047-06,Chrysomya,Chrysomya rufifacies,465,0.0150537634,largo<500
+GBDP2048-06.COI-5P,GBDP2048-06,Chrysomya,Chrysomya rufifacies,465,0.0301075269,largo<500
+GBDP2049-06.COI-5P,GBDP2049-06,Chrysomya,Chrysomya rufifacies,465,0.0387096774,largo<500
+GBDP2240-06.COI-5P,GBDP2240-06,Chrysomya,Chrysomya megacephala,465,0.0,largo<500
+GBDP2241-06.COI-5P,GBDP2241-06,Chrysomya,Chrysomya megacephala,465,0.0365591398,largo<500
+GBDP29202-19.COI-5P,GBDP29202-19,Chrysomya,Chrysomya megacephala,493,0.0,largo<500
+GBDP29203-19.COI-5P,GBDP29203-19,Chrysomya,Chrysomya megacephala,497,0.0,largo<500
+GBDP29235-19.COI-5P,GBDP29235-19,Chrysomya,Chrysomya pinguis,495,0.0,largo<500
+GBDP30656-19.COI-5P,GBDP30656-19,Chrysomya,Chrysomya albiceps,313,0.0,largo<500
+GBDP30745-19.COI-5P,GBDP30745-19,Chrysomya,Chrysomya megacephala,206,0.0,largo<500
+GBDP30757-19.COI-5P,GBDP30757-19,Chrysomya,Chrysomya rufifacies,223,0.0,largo<500
+GBDP4584-08.COI-5P,GBDP4584-08,Chrysomya,Chrysomya megacephala,456,0.0,largo<500
+GBDP6431-09.COI-5P,GBDP6431-09,Chrysomya,Chrysomya nigripes,276,0.0,largo<500
+GBMIN26458-13.COI-5P,GBMIN26458-13,Chrysomya,Chrysomya putoria,303,0.0,largo<500
+GBMIN34246-13.COI-5P,GBMIN34246-13,Chrysomya,Chrysomya yayukae,1536,0.0319010417,no_ACGT>1%
+GBMNC2638-20.COI-5P,GBMNC2638-20,Chrysomya,Chrysomya megacephala,466,0.0,largo<500
+GBMNC2639-20.COI-5P,GBMNC2639-20,Chrysomya,Chrysomya megacephala,425,0.0,largo<500
+GBMNC2640-20.COI-5P,GBMNC2640-20,Chrysomya,Chrysomya megacephala,379,0.0,largo<500
+GBMNC2653-20.COI-5P,GBMNC2653-20,Chrysomya,Chrysomya rufifacies,491,0.0,largo<500
+GBMNE26672-21.COI-5P,GBMNE26672-21,Chrysomya,Chrysomya albiceps,473,0.0,largo<500
+GBMNE26673-21.COI-5P,GBMNE26673-21,Chrysomya,Chrysomya albiceps,473,0.0,largo<500
+GBMNE26674-21.COI-5P,GBMNE26674-21,Chrysomya,Chrysomya albiceps,473,0.0,largo<500
+GBMNE26675-21.COI-5P,GBMNE26675-21,Chrysomya,Chrysomya albiceps,420,0.0,largo<500
+GBMNE26676-21.COI-5P,GBMNE26676-21,Chrysomya,Chrysomya chloropyga,420,0.0,largo<500
+GBMNE26677-21.COI-5P,GBMNE26677-21,Chrysomya,Chrysomya marginalis,420,0.0,largo<500
+GBMNE26678-21.COI-5P,GBMNE26678-21,Chrysomya,Chrysomya marginalis,420,0.0,largo<500
+GBMNE26679-21.COI-5P,GBMNE26679-21,Chrysomya,Chrysomya marginalis,420,0.0,largo<500
+GBMNE26680-21.COI-5P,GBMNE26680-21,Chrysomya,Chrysomya marginalis,420,0.0,largo<500
+GBMNE26685-21.COI-5P,GBMNE26685-21,Chrysomya,Chrysomya putoria,420,0.0,largo<500
+GBMNE26686-21.COI-5P,GBMNE26686-21,Chrysomya,Chrysomya putoria,420,0.0,largo<500
+GBMNE26687-21.COI-5P,GBMNE26687-21,Chrysomya,Chrysomya putoria,420,0.0,largo<500
+GBMNE57066-22.COI-5P,GBMNE57066-22,Chrysomya,Chrysomya albiceps,465,0.0,largo<500
+GBMNE57067-22.COI-5P,GBMNE57067-22,Chrysomya,Chrysomya albiceps,458,0.0,largo<500
+GBMNE57068-22.COI-5P,GBMNE57068-22,Chrysomya,Chrysomya albiceps,468,0.0,largo<500
+GBMNE57069-22.COI-5P,GBMNE57069-22,Chrysomya,Chrysomya albiceps,474,0.0,largo<500
+GBMNE57070-22.COI-5P,GBMNE57070-22,Chrysomya,Chrysomya albiceps,474,0.0,largo<500
+GBMNE57071-22.COI-5P,GBMNE57071-22,Chrysomya,Chrysomya albiceps,473,0.0,largo<500
+GMEGJ040-14.COI-5P,GMEGJ040-14,Chrysomya,Chrysomya albiceps,416,0.0024038462,largo<500
+HSJLF022-22.COI-5P,HSJLF022-22,Chrysomya,Chrysomya rufifacies,202,0.0,largo<500
+HSJLF023-22.COI-5P,HSJLF023-22,Chrysomya,Chrysomya megacephala,204,0.0,largo<500
+IBS085-24.COI-5P,IBS085-24,Chrysomya,Chrysomya rufifacies,178,0.0224719101,largo<500
+MADIP506-12.COI-5P,MADIP506-12,Chrysomya,Chrysomya megacephala,492,0.0,largo<500
+MADIP511-12.COI-5P,MADIP511-12,Chrysomya,Chrysomya megacephala,493,0.0,largo<500
+MADIP513-12.COI-5P,MADIP513-12,Chrysomya,Chrysomya megacephala,493,0.0020283976,largo<500
+MADIP524-12.COI-5P,MADIP524-12,Chrysomya,Chrysomya megacephala,492,0.0,largo<500
+MADIP549-12.COI-5P,MADIP549-12,Chrysomya,Chrysomya megacephala,493,0.0020283976,largo<500
+MADIP559-12.COI-5P,MADIP559-12,Chrysomya,Chrysomya rufifacies,493,0.0,largo<500
+MADIP564-12.COI-5P,MADIP564-12,Chrysomya,Chrysomya megacephala,493,0.0020283976,largo<500
+MADIP571-12.COI-5P,MADIP571-12,Chrysomya,Chrysomya megacephala,466,0.0,largo<500
+MADIP574-12.COI-5P,MADIP574-12,Chrysomya,Chrysomya megacephala,381,0.0,largo<500
+MADIP582-12.COI-5P,MADIP582-12,Chrysomya,Chrysomya megacephala,495,0.0,largo<500
+SYC7409-14.COI-5P,SYC7409-14,Chrysomya,Chrysomya megacephala,496,0.002016129,largo<500
+UKMBB044-13.COI-5P,UKMBB044-13,Chrysomya,,621,0.0305958132,no_ACGT>1%
+ZOOZS039-23.COI-5P,ZOOZS039-23,Chrysomya,,205,0.0,largo<500
+ZOOZS040-23.COI-5P,ZOOZS040-23,Chrysomya,,205,0.0,largo<500
+ZOOZS041-23.COI-5P,ZOOZS041-23,Chrysomya,,205,0.0,largo<500
+ASILO493-17.COI-5P,ASILO493-17,Cochliomyia,,658,0.2112462006,no_ACGT>1%
+ASILO550-17.COI-5P,ASILO550-17,Cochliomyia,Cochliomyia aldrichi,658,0.1458966565,no_ACGT>1%
+ASIND3354-12.COI-5P,ASIND3354-12,Cochliomyia,Cochliomyia macellaria,307,0.0,largo<500
+ASIND3355-12.COI-5P,ASIND3355-12,Cochliomyia,Cochliomyia macellaria,307,0.0,largo<500
+GBAAX60400-24.COI-5P,GBAAX60400-24,Cochliomyia,Cochliomyia macellaria,494,0.0,largo<500
+GBAAX60403-24.COI-5P,GBAAX60403-24,Cochliomyia,Cochliomyia macellaria,494,0.0,largo<500
+GBAAX64485-24.COI-5P,GBAAX64485-24,Cochliomyia,Cochliomyia hominivorax,494,0.0,largo<500
+OUDP028-09.COI-5P,OUDP028-09,Cochliomyia,Cochliomyia macellaria,426,0.0,largo<500
+OUDP029-09.COI-5P,OUDP029-09,Cochliomyia,Cochliomyia macellaria,456,0.0021929825,largo<500
+OUDP034-09.COI-5P,OUDP034-09,Cochliomyia,,498,0.0,largo<500
+OUDP156-09.COI-5P,OUDP156-09,Cochliomyia,,316,0.0,largo<500
+CASBI4379-26.COI-5P,CASBI4379-26,Compsomyiops,Compsomyiops callipes,181,0.0,largo<500
+AGAKH638-17.COI-5P,AGAKH638-17,Fannia,Fannia armata,469,0.0,largo<500
+AGAKL808-17.COI-5P,AGAKL808-17,Fannia,Fannia armata,429,0.006993007,largo<500
+AMCAU233-21.COI-5P,AMCAU233-21,Fannia,,405,0.0,largo<500
+AMTPF2397-16.COI-5P,AMTPF2397-16,Fannia,Fannia ornata,480,0.0,largo<500
+AMTPF2467-16.COI-5P,AMTPF2467-16,Fannia,Fannia sociella,486,0.0,largo<500
+BBDCN798-10.COI-5P,BBDCN798-10,Fannia,Fannia rondanii,407,0.0,largo<500
+BCFOR018-15.COI-5P,BCFOR018-15,Fannia,Fannia sp.,367,0.0408719346,largo<500
+BCFOR096-15.COI-5P,BCFOR096-15,Fannia,Fannia nigra,350,0.0,largo<500
+BCFOR101-15.COI-5P,BCFOR101-15,Fannia,Fannia nigra,475,0.0,largo<500
+BCFOR136-15.COI-5P,BCFOR136-15,Fannia,Fannia nigra,481,0.0020790021,largo<500
+BCFOR1444-17.COI-5P,BCFOR1444-17,Fannia,Fannia monilis,280,0.1,largo<500
+BCFOR145-15.COI-5P,BCFOR145-15,Fannia,Fannia nigra,497,0.0,largo<500
+BCFOR146-15.COI-5P,BCFOR146-15,Fannia,Fannia nigra,440,0.0,largo<500
+BCFOR1524-17.COI-5P,BCFOR1524-17,Fannia,Fannia coracina,497,0.0020120724,largo<500
+BCFOR173-15.COI-5P,BCFOR173-15,Fannia,Fannia nigra,480,0.0,largo<500
+BCFOR174-15.COI-5P,BCFOR174-15,Fannia,Fannia nigra,474,0.0,largo<500
+BCFOR176-15.COI-5P,BCFOR176-15,Fannia,Fannia manicata,461,0.0,largo<500
+BCFOR177-15.COI-5P,BCFOR177-15,Fannia,Fannia nigra,326,0.0,largo<500
+BCFOR180-15.COI-5P,BCFOR180-15,Fannia,Fannia nigra,349,0.0028653295,largo<500
+BCFOR190-15.COI-5P,BCFOR190-15,Fannia,Fannia sp.,422,0.0023696682,largo<500
+BCFOR193-15.COI-5P,BCFOR193-15,Fannia,Fannia sp.,366,0.0054644809,largo<500
+BCFOR194-15.COI-5P,BCFOR194-15,Fannia,Fannia sp.,375,0.0,largo<500
+BCFOR195-15.COI-5P,BCFOR195-15,Fannia,Fannia sp.,354,0.011299435,largo<500
+BCFOR197-15.COI-5P,BCFOR197-15,Fannia,Fannia sp.,360,0.0,largo<500
+BCFOR198-15.COI-5P,BCFOR198-15,Fannia,Fannia nigra,345,0.0,largo<500
+BCFOR201-15.COI-5P,BCFOR201-15,Fannia,Fannia nigra,366,0.0,largo<500
+BCFOR249-15.COI-5P,BCFOR249-15,Fannia,Fannia sp.,448,0.0111607143,largo<500
+BCFOR281-15.COI-5P,BCFOR281-15,Fannia,Fannia sp.,472,0.0021186441,largo<500
+BCFOR282-15.COI-5P,BCFOR282-15,Fannia,Fannia sp.,380,0.0052631579,largo<500
+BCFOR285-15.COI-5P,BCFOR285-15,Fannia,Fannia nigra,486,0.0061728395,largo<500
+BCFOR382-15.COI-5P,BCFOR382-15,Fannia,Fannia aequilineata,371,0.0053908356,largo<500
+BCFOR390-15.COI-5P,BCFOR390-15,Fannia,Fannia sp.,367,0.0408719346,largo<500
+BCFOR406-15.COI-5P,BCFOR406-15,Fannia,Fannia sp.,536,0.0429104478,no_ACGT>1%
+BCFOR495-15.COI-5P,BCFOR495-15,Fannia,,421,0.0,largo<500
+BCFOR530-15.COI-5P,BCFOR530-15,Fannia,Fannia canicularis,482,0.0020746888,largo<500
+BCFOR562-15.COI-5P,BCFOR562-15,Fannia,Fannia armata,577,0.0103986135,no_ACGT>1%
+BUICD1258-17.COI-5P,BUICD1258-17,Fannia,,431,0.0,largo<500
+CASBI7075-26.COI-5P,CASBI7075-26,Fannia,Fannia conspicua,316,0.0,largo<500
+CASBI8038-26.COI-5P,CASBI8038-26,Fannia,Fannia canicularis,181,0.0,largo<500
+CASBI8039-26.COI-5P,CASBI8039-26,Fannia,Fannia sp.,314,0.0,largo<500
+CFBI155-23.COI-5P,CFBI155-23,Fannia,Fannia dorsomaculata,316,0.0,largo<500
+CFBI156-23.COI-5P,CFBI156-23,Fannia,Fannia colazorrensis,316,0.0,largo<500
+CFBI158-23.COI-5P,CFBI158-23,Fannia,Fannia spinosa,316,0.0,largo<500
+CFBI159-23.COI-5P,CFBI159-23,Fannia,Fannia spinosa,316,0.0,largo<500
+CFBI161-23.COI-5P,CFBI161-23,Fannia,Fannia dodgei,316,0.0,largo<500
+CFBI162-23.COI-5P,CFBI162-23,Fannia,Fannia colazorrensis,316,0.0,largo<500
+CFBI165-23.COI-5P,CFBI165-23,Fannia,Fannia dorsomaculata,316,0.0,largo<500
+CFBI168-23.COI-5P,CFBI168-23,Fannia,Fannia aburrae,316,0.0,largo<500
+CFBI169-23.COI-5P,CFBI169-23,Fannia,Fannia colazorrensis,316,0.0,largo<500
+CFBI170-23.COI-5P,CFBI170-23,Fannia,Fannia aburrae,316,0.0,largo<500
+CFBI171-23.COI-5P,CFBI171-23,Fannia,Fannia aburrae,316,0.0,largo<500
+CFBI172-23.COI-5P,CFBI172-23,Fannia,Fannia aburrae,316,0.0,largo<500
+CFBI173-23.COI-5P,CFBI173-23,Fannia,Fannia lamosca,316,0.0,largo<500
+CFBI174-23.COI-5P,CFBI174-23,Fannia,Fannia lamosca,316,0.0,largo<500
+CFBI176-23.COI-5P,CFBI176-23,Fannia,Fannia lamosca,316,0.0,largo<500
+CFBI177-23.COI-5P,CFBI177-23,Fannia,Fannia lamosca,316,0.0,largo<500
+CFBI178-23.COI-5P,CFBI178-23,Fannia,Fannia lamosca,316,0.0,largo<500
+CFBI179-23.COI-5P,CFBI179-23,Fannia,Fannia colazorrensis,316,0.0,largo<500
+CFBI183-23.COI-5P,CFBI183-23,Fannia,Fannia dorsomaculata,316,0.0,largo<500
+CFBI187-23.COI-5P,CFBI187-23,Fannia,Fannia colazorrensis,316,0.0,largo<500
+CFBI189-23.COI-5P,CFBI189-23,Fannia,Fannia spinosa,316,0.0,largo<500
+CFBI190-23.COI-5P,CFBI190-23,Fannia,Fannia pusio,316,0.0,largo<500
+CFBI191-23.COI-5P,CFBI191-23,Fannia,Fannia pusio,316,0.0,largo<500
+CFBI194-23.COI-5P,CFBI194-23,Fannia,Fannia dorsomaculata,316,0.0,largo<500
+CFBI198-23.COI-5P,CFBI198-23,Fannia,Fannia isa,316,0.0,largo<500
+CFBI199-23.COI-5P,CFBI199-23,Fannia,Fannia isa,318,0.0,largo<500
+CFBI200-23.COI-5P,CFBI200-23,Fannia,Fannia laclara,316,0.0,largo<500
+CFBI201-23.COI-5P,CFBI201-23,Fannia,Fannia laclara,316,0.0,largo<500
+CFBI202-23.COI-5P,CFBI202-23,Fannia,Fannia laclara,316,0.0,largo<500
+CFBI203-23.COI-5P,CFBI203-23,Fannia,Fannia colazorrensis,316,0.0,largo<500
+CFBI205-23.COI-5P,CFBI205-23,Fannia,Fannia colazorrensis,316,0.0,largo<500
+CFBI207-23.COI-5P,CFBI207-23,Fannia,Fannia colazorrensis,316,0.0,largo<500
+CNJAD2467-12.COI-5P,CNJAD2467-12,Fannia,Fannia metallipennis,381,0.0052493438,largo<500
+CNKLF2635-15.COI-5P,CNKLF2635-15,Fannia,Fannia metallipennis,453,0.0088300221,largo<500
+CNKTD791-15.COI-5P,CNKTD791-15,Fannia,Fannia metallipennis,457,0.0043763676,largo<500
+CNPAC013-13.COI-5P,CNPAC013-13,Fannia,,450,0.0022222222,largo<500
+CNPAC035-13.COI-5P,CNPAC035-13,Fannia,Fannia metallipennis,597,0.013400335,no_ACGT>1%
+CNPAC601-13.COI-5P,CNPAC601-13,Fannia,Fannia metallipennis,456,0.0021929825,largo<500
+CNVUA108-14.COI-5P,CNVUA108-14,Fannia,Fannia rondanii,432,0.0,largo<500
+CNWBG1740-13.COI-5P,CNWBG1740-13,Fannia,Fannia metallipennis,454,0.0022026432,largo<500
+DIQTB284-11.COI-5P,DIQTB284-11,Fannia,Fannia pusio,407,0.0,largo<500
+DRYAS7495-15.COI-5P,DRYAS7495-15,Fannia,,459,0.0,largo<500
+FBDIU381-14.COI-5P,FBDIU381-14,Fannia,Fannia polychaeta,495,0.0,largo<500
+FBDIU394-14.COI-5P,FBDIU394-14,Fannia,Fannia sociella,480,0.0,largo<500
+FBDIU397-14.COI-5P,FBDIU397-14,Fannia,Fannia lustrator,459,0.0,largo<500
+FBDIU461-14.COI-5P,FBDIU461-14,Fannia,Fannia aff. subsimilis,597,0.013400335,no_ACGT>1%
+FBSYR1713-13.COI-5P,FBSYR1713-13,Fannia,Fannia pallitibia,417,0.0,largo<500
+FIDIP1806-12.COI-5P,FIDIP1806-12,Fannia,Fannia armata,448,0.0,largo<500
+FIDIP4131-14.COI-5P,FIDIP4131-14,Fannia,Fannia serena,244,0.0040983607,largo<500
+GBAAD1799-25.COI-5P,GBAAD1799-25,Fannia,Fannia femoralis,316,0.0,largo<500
+GBAAD1878-25.COI-5P,GBAAD1878-25,Fannia,Fannia canicularis,316,0.0,largo<500
+GBAAK10058-25.COI-5P,GBAAK10058-25,Fannia,,313,0.0,largo<500
+GBAAK9029-25.COI-5P,GBAAK9029-25,Fannia,Fannia minutipalpis,313,0.0,largo<500
+GBAAK9057-25.COI-5P,GBAAK9057-25,Fannia,,313,0.0,largo<500
+GBAAK9120-25.COI-5P,GBAAK9120-25,Fannia,,313,0.0,largo<500
+GBAAK9189-25.COI-5P,GBAAK9189-25,Fannia,Fannia polychaeta,313,0.0,largo<500
+GBAAK9285-25.COI-5P,GBAAK9285-25,Fannia,,313,0.0,largo<500
+GBAAK9494-25.COI-5P,GBAAK9494-25,Fannia,Fannia sociella,313,0.0,largo<500
+GBAAK9622-25.COI-5P,GBAAK9622-25,Fannia,Fannia pallitibia,313,0.0,largo<500
+GBAAK9643-25.COI-5P,GBAAK9643-25,Fannia,Fannia spathiophora,313,0.0,largo<500
+GBAAK9731-25.COI-5P,GBAAK9731-25,Fannia,,313,0.0,largo<500
+GBAAK9758-25.COI-5P,GBAAK9758-25,Fannia,,313,0.0,largo<500
+GBAAK9760-25.COI-5P,GBAAK9760-25,Fannia,Fannia rondanii,312,0.0,largo<500
+GBABA19976-26.COI-5P,GBABA19976-26,Fannia,,418,0.0,largo<500
+GBABA21145-26.COI-5P,GBABA21145-26,Fannia,Fannia armata,418,0.0,largo<500
+GBABA21788-26.COI-5P,GBABA21788-26,Fannia,Fannia armata,418,0.0,largo<500
+GBABA7724-26.COI-5P,GBABA7724-26,Fannia,,418,0.0,largo<500
+GBABA8137-26.COI-5P,GBABA8137-26,Fannia,,418,0.0,largo<500
+GBABA9512-26.COI-5P,GBABA9512-26,Fannia,,418,0.0,largo<500
+GBDP15576-14.COI-5P,GBDP15576-14,Fannia,Fannia canicularis,1170,0.0196581197,no_ACGT>1%
+GBDP25632-19.COI-5P,GBDP25632-19,Fannia,Fannia carvalhoi,369,0.0189701897,largo<500
+GBDP2934-07.COI-5P,GBDP2934-07,Fannia,Fannia canicularis,825,0.0266666667,no_ACGT>1%
+GBDP4137-07.COI-5P,GBDP4137-07,Fannia,Fannia canicularis,669,0.0119581465,no_ACGT>1%
+GBDP4316-07.COI-5P,GBDP4316-07,Fannia,Fannia armata,348,0.0,largo<500
+GBMIN58893-17.COI-5P,GBMIN58893-17,Fannia,Fannia umbrosa,645,0.0108527132,no_ACGT>1%
+GBMNC7489-20.COI-5P,GBMNC7489-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7490-20.COI-5P,GBMNC7490-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7491-20.COI-5P,GBMNC7491-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7492-20.COI-5P,GBMNC7492-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7493-20.COI-5P,GBMNC7493-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7494-20.COI-5P,GBMNC7494-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7495-20.COI-5P,GBMNC7495-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7496-20.COI-5P,GBMNC7496-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7497-20.COI-5P,GBMNC7497-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7498-20.COI-5P,GBMNC7498-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7499-20.COI-5P,GBMNC7499-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7500-20.COI-5P,GBMNC7500-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7501-20.COI-5P,GBMNC7501-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7502-20.COI-5P,GBMNC7502-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7503-20.COI-5P,GBMNC7503-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7504-20.COI-5P,GBMNC7504-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7505-20.COI-5P,GBMNC7505-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7506-20.COI-5P,GBMNC7506-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7507-20.COI-5P,GBMNC7507-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7508-20.COI-5P,GBMNC7508-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7509-20.COI-5P,GBMNC7509-20,Fannia,Fannia pusio,240,0.0041666667,largo<500
+GBMNC7510-20.COI-5P,GBMNC7510-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7511-20.COI-5P,GBMNC7511-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7512-20.COI-5P,GBMNC7512-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7513-20.COI-5P,GBMNC7513-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7514-20.COI-5P,GBMNC7514-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7515-20.COI-5P,GBMNC7515-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7516-20.COI-5P,GBMNC7516-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7517-20.COI-5P,GBMNC7517-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7518-20.COI-5P,GBMNC7518-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7519-20.COI-5P,GBMNC7519-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7520-20.COI-5P,GBMNC7520-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7521-20.COI-5P,GBMNC7521-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7522-20.COI-5P,GBMNC7522-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7523-20.COI-5P,GBMNC7523-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7524-20.COI-5P,GBMNC7524-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7525-20.COI-5P,GBMNC7525-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7526-20.COI-5P,GBMNC7526-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7527-20.COI-5P,GBMNC7527-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7528-20.COI-5P,GBMNC7528-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7529-20.COI-5P,GBMNC7529-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7530-20.COI-5P,GBMNC7530-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7531-20.COI-5P,GBMNC7531-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7532-20.COI-5P,GBMNC7532-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7533-20.COI-5P,GBMNC7533-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7534-20.COI-5P,GBMNC7534-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7535-20.COI-5P,GBMNC7535-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7536-20.COI-5P,GBMNC7536-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7537-20.COI-5P,GBMNC7537-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7538-20.COI-5P,GBMNC7538-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7539-20.COI-5P,GBMNC7539-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7540-20.COI-5P,GBMNC7540-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7541-20.COI-5P,GBMNC7541-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7542-20.COI-5P,GBMNC7542-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7543-20.COI-5P,GBMNC7543-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7544-20.COI-5P,GBMNC7544-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7545-20.COI-5P,GBMNC7545-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7546-20.COI-5P,GBMNC7546-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7547-20.COI-5P,GBMNC7547-20,Fannia,Fannia pusio,240,0.0041666667,largo<500
+GBMNC7548-20.COI-5P,GBMNC7548-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7549-20.COI-5P,GBMNC7549-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7550-20.COI-5P,GBMNC7550-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7551-20.COI-5P,GBMNC7551-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7552-20.COI-5P,GBMNC7552-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7553-20.COI-5P,GBMNC7553-20,Fannia,Fannia pusio,240,0.0,largo<500
+GBMNC7554-20.COI-5P,GBMNC7554-20,Fannia,Fannia canicularis,240,0.0,largo<500
+GBMNC7555-20.COI-5P,GBMNC7555-20,Fannia,Fannia canicularis,240,0.0,largo<500
+GBMNC7556-20.COI-5P,GBMNC7556-20,Fannia,Fannia canicularis,240,0.0,largo<500
+GBMNC7557-20.COI-5P,GBMNC7557-20,Fannia,Fannia canicularis,240,0.0,largo<500
+GBMNC7558-20.COI-5P,GBMNC7558-20,Fannia,Fannia canicularis,240,0.0,largo<500
+GBMNC7561-20.COI-5P,GBMNC7561-20,Fannia,Fannia lepida,240,0.0,largo<500
+GBMNC7562-20.COI-5P,GBMNC7562-20,Fannia,Fannia lepida,240,0.0,largo<500
+GBMNC7563-20.COI-5P,GBMNC7563-20,Fannia,Fannia monilis,240,0.0,largo<500
+GBMNC7564-20.COI-5P,GBMNC7564-20,Fannia,Fannia leucosticta,240,0.0,largo<500
+GBMNC7565-20.COI-5P,GBMNC7565-20,Fannia,Fannia leucosticta,240,0.0,largo<500
+GBMNC7566-20.COI-5P,GBMNC7566-20,Fannia,Fannia leucosticta,240,0.0,largo<500
+GBMNC7567-20.COI-5P,GBMNC7567-20,Fannia,Fannia leucosticta,240,0.0,largo<500
+GBMNC7568-20.COI-5P,GBMNC7568-20,Fannia,Fannia aequilineata,240,0.0,largo<500
+GBMNC7569-20.COI-5P,GBMNC7569-20,Fannia,Fannia aequilineata,240,0.0,largo<500
+GBMND93107-21.COI-5P,GBMND93107-21,Fannia,Fannia pallitibia,311,0.0,largo<500
+GMOAU1038-21.COI-5P,GMOAU1038-21,Fannia,Fannia spathiophora,473,0.0,largo<500
+GMOQF522-15.COI-5P,GMOQF522-15,Fannia,Fannia metallipennis,444,0.0067567568,largo<500
+GMOVE529-15.COI-5P,GMOVE529-15,Fannia,Fannia metallipennis,498,0.0020080321,largo<500
+GMOVE539-15.COI-5P,GMOVE539-15,Fannia,Fannia metallipennis,474,0.0,largo<500
+LYMAB1628-15.COI-5P,LYMAB1628-15,Fannia,Fannia atra,410,0.0,largo<500
+LYMAB1643-15.COI-5P,LYMAB1643-15,Fannia,Fannia neopolychaeta,305,0.006557377,largo<500
+LYMAB1646-15.COI-5P,LYMAB1646-15,Fannia,Fannia neopolychaeta,223,0.0134529148,largo<500
+LYMAD381-19.COI-5P,LYMAD381-19,Fannia,,471,0.0,largo<500
+MBUIN397-12.COI-5P,MBUIN397-12,Fannia,,418,0.0,largo<500
+MFAI167-11.COI-5P,MFAI167-11,Fannia,Fannia metallipennis,407,0.0,largo<500
+MFAI242-11.COI-5P,MFAI242-11,Fannia,Fannia metallipennis,407,0.0,largo<500
+MFAI263-11.COI-5P,MFAI263-11,Fannia,Fannia coracina,407,0.0,largo<500
+MFAI268-11.COI-5P,MFAI268-11,Fannia,Fannia rondanii,407,0.0,largo<500
+MFDC301-09.COI-5P,MFDC301-09,Fannia,Fannia falcata,453,0.0088300221,largo<500
+MFDC303-09.COI-5P,MFDC303-09,Fannia,Fannia aethiops,407,0.0,largo<500
+MFDC312-09.COI-5P,MFDC312-09,Fannia,Fannia scyphocerca,407,0.0,largo<500
+MFDC313-09.COI-5P,MFDC313-09,Fannia,Fannia scyphocerca,282,0.0,largo<500
+MFDC321-09.COI-5P,MFDC321-09,Fannia,Fannia corvina,279,0.0,largo<500
+MFDC649-09.COI-5P,MFDC649-09,Fannia,Fannia metallipennis,407,0.0,largo<500
+MFDC651-09.COI-5P,MFDC651-09,Fannia,Fannia metallipennis,407,0.0,largo<500
+MFDC657-09.COI-5P,MFDC657-09,Fannia,,292,0.0,largo<500
+MFDC660-09.COI-5P,MFDC660-09,Fannia,,286,0.0,largo<500
+NIDD1506-24.COI-5P,NIDD1506-24,Fannia,,472,0.0,largo<500
+NPBGL1443-15.COI-5P,NPBGL1443-15,Fannia,,488,0.0,largo<500
+NPBGL1444-15.COI-5P,NPBGL1444-15,Fannia,,462,0.0021645022,largo<500
+NPBGL1506-15.COI-5P,NPBGL1506-15,Fannia,,465,0.0,largo<500
+NPBGL1602-15.COI-5P,NPBGL1602-15,Fannia,,489,0.0,largo<500
+NPBGL1606-15.COI-5P,NPBGL1606-15,Fannia,,454,0.0044052863,largo<500
+NPBGL1607-15.COI-5P,NPBGL1607-15,Fannia,,474,0.0,largo<500
+PERAK45369-25.COI-5P,PERAK45369-25,Fannia,,658,0.0258358663,no_ACGT>1%
+PLPOL720-23.COI-5P,PLPOL720-23,Fannia,Fannia similis,265,0.0037735849,largo<500
+PLUVS113-24.COI-5P,PLUVS113-24,Fannia,Fannia polychaeta,312,0.0,largo<500
+PLUVS134-24.COI-5P,PLUVS134-24,Fannia,Fannia manicata,312,0.0,largo<500
+PLUVS188-24.COI-5P,PLUVS188-24,Fannia,Fannia difficilis,312,0.0,largo<500
+PLUVS286-24.COI-5P,PLUVS286-24,Fannia,Fannia canicularis,312,0.0,largo<500
+SMPAN970-21.COI-5P,SMPAN970-21,Fannia,Fannia subpellucens,474,0.0,largo<500
+SSBRB2822-14.COI-5P,SSBRB2822-14,Fannia,,484,0.0061983471,largo<500
+SSBRB4950-14.COI-5P,SSBRB4950-14,Fannia,Fannia spathiophora,498,0.0040160643,largo<500
+SSEIA1403-13.COI-5P,SSEIA1403-13,Fannia,,309,0.0,largo<500
+SSEIA1463-13.COI-5P,SSEIA1463-13,Fannia,Fannia spathiophora,438,0.002283105,largo<500
+SSEIA4211-13.COI-5P,SSEIA4211-13,Fannia,Fannia spathiophora,471,0.0021231423,largo<500
+SSEIA553-13.COI-5P,SSEIA553-13,Fannia,Fannia spathiophora,447,0.0022371365,largo<500
+SSEIA6385-13.COI-5P,SSEIA6385-13,Fannia,Fannia spathiophora,447,0.0,largo<500
+SSEIA6418-13.COI-5P,SSEIA6418-13,Fannia,Fannia spathiophora,327,0.0,largo<500
+SSEIA6447-13.COI-5P,SSEIA6447-13,Fannia,,420,0.0,largo<500
+SSEIA6491-13.COI-5P,SSEIA6491-13,Fannia,Fannia spathiophora,414,0.0,largo<500
+SSEIA6492-13.COI-5P,SSEIA6492-13,Fannia,,324,0.0,largo<500
+SSEIA6541-13.COI-5P,SSEIA6541-13,Fannia,Fannia spathiophora,492,0.0020325203,largo<500
+SSEIA6551-13.COI-5P,SSEIA6551-13,Fannia,Fannia spathiophora,369,0.0,largo<500
+SSEIA6741-13.COI-5P,SSEIA6741-13,Fannia,,412,0.0,largo<500
+SSEIA7182-13.COI-5P,SSEIA7182-13,Fannia,Fannia brooksi,495,0.002020202,largo<500
+SSEIA7218-13.COI-5P,SSEIA7218-13,Fannia,Fannia spathiophora,543,0.014732965,no_ACGT>1%
+SSEIA7250-13.COI-5P,SSEIA7250-13,Fannia,Fannia spathiophora,549,0.0163934426,no_ACGT>1%
+SSEIC5562-13.COI-5P,SSEIC5562-13,Fannia,Fannia spathiophora,507,0.0138067061,no_ACGT>1%
+SSGBB1104-14.COI-5P,SSGBB1104-14,Fannia,Fannia rondanii,466,0.0064377682,largo<500
+SSGIB547-15.COI-5P,SSGIB547-15,Fannia,,450,0.0022222222,largo<500
+SSGLC022-15.COI-5P,SSGLC022-15,Fannia,Fannia metallipennis,480,0.0020833333,largo<500
+SSGLC1682-15.COI-5P,SSGLC1682-15,Fannia,Fannia brooksi,462,0.0,largo<500
+SSJAF2848-13.COI-5P,SSJAF2848-13,Fannia,Fannia sociella,363,0.0027548209,largo<500
+SSKUA10340-15.COI-5P,SSKUA10340-15,Fannia,Fannia metallipennis,468,0.0021367521,largo<500
+SSKUA6103-15.COI-5P,SSKUA6103-15,Fannia,Fannia metallipennis,468,0.0021367521,largo<500
+SSKUA7118-15.COI-5P,SSKUA7118-15,Fannia,Fannia rondanii,486,0.0,largo<500
+SSKUD808-15.COI-5P,SSKUD808-15,Fannia,Fannia metallipennis,375,0.008,largo<500
+SSPAC1177-13.COI-5P,SSPAC1177-13,Fannia,Fannia spathiophora,488,0.0655737705,largo<500
+SSPAC1404-13.COI-5P,SSPAC1404-13,Fannia,Fannia spathiophora,607,0.0115321252,no_ACGT>1%
+SSPAC1479-13.COI-5P,SSPAC1479-13,Fannia,Fannia spathiophora,634,0.0126182965,no_ACGT>1%
+SSPAC3899-13.COI-5P,SSPAC3899-13,Fannia,Fannia spathiophora,509,0.0137524558,no_ACGT>1%
+SSPAC441-13.COI-5P,SSPAC441-13,Fannia,Fannia spathiophora,629,0.012718601,no_ACGT>1%
+SSPAC448-13.COI-5P,SSPAC448-13,Fannia,Fannia spathiophora,633,0.0110584518,no_ACGT>1%
+SWLT316-25.COI-5P,SWLT316-25,Fannia,,449,0.0,largo<500
+THAK1433-19.COI-5P,THAK1433-19,Fannia,Fannia ochrogaster,376,0.0,largo<500
+ASILO554-17.COI-5P,ASILO554-17,Hemilucilia,Hemilucilia semidiaphana,307,0.006514658,largo<500
+ASIND3337-12.COI-5P,ASIND3337-12,Hemilucilia,Hemilucilia segmentaria,407,0.0,largo<500
+ASIND3341-12.COI-5P,ASIND3341-12,Hemilucilia,Hemilucilia segmentaria,307,0.0,largo<500
+ASIND3349-12.COI-5P,ASIND3349-12,Hemilucilia,Hemilucilia benoisti,307,0.0,largo<500
+ASIND3351-12.COI-5P,ASIND3351-12,Hemilucilia,Hemilucilia benoisti,307,0.0,largo<500
+FFECU417-18.COI-5P,FFECU417-18,Hemilucilia,,363,0.0027548209,largo<500
+AGAKN146-17.COI-5P,AGAKN146-17,Hydrotaea,Hydrotaea floccosa,479,0.0,largo<500
+BCFOR004-15.COI-5P,BCFOR004-15,Hydrotaea,Hydrotaea ignava,345,0.0376811594,largo<500
+BCFOR1169-16.COI-5P,BCFOR1169-16,Hydrotaea,Hydrotaea ignava,471,0.0,largo<500
+BCFOR141-15.COI-5P,BCFOR141-15,Hydrotaea,Hydrotaea ignava,475,0.0,largo<500
+BCFOR149-15.COI-5P,BCFOR149-15,Hydrotaea,Hydrotaea dentipes,365,0.0109589041,largo<500
+BCFOR1504-17.COI-5P,BCFOR1504-17,Hydrotaea,Hydrotaea ignava,547,0.0475319927,no_ACGT>1%
+BCFOR1517-17.COI-5P,BCFOR1517-17,Hydrotaea,Hydrotaea dentipes,530,0.0320754717,no_ACGT>1%
+BCFOR153-15.COI-5P,BCFOR153-15,Hydrotaea,Hydrotaea dentipes,478,0.0,largo<500
+BCFOR1539-17.COI-5P,BCFOR1539-17,Hydrotaea,Hydrotaea ignava,495,0.0,largo<500
+BCFOR1568-17.COI-5P,BCFOR1568-17,Hydrotaea,Hydrotaea ignava,560,0.0232142857,no_ACGT>1%
+BCFOR1610-17.COI-5P,BCFOR1610-17,Hydrotaea,,445,0.006741573,largo<500
+BCFOR391-15.COI-5P,BCFOR391-15,Hydrotaea,Hydrotaea ignava,394,0.0152284264,largo<500
+BCFOR493-15.COI-5P,BCFOR493-15,Hydrotaea,Hydrotaea dentipes,393,0.0076335878,largo<500
+BCFOR494-15.COI-5P,BCFOR494-15,Hydrotaea,Hydrotaea aenescens,492,0.0020325203,largo<500
+BCFOR515-15.COI-5P,BCFOR515-15,Hydrotaea,Hydrotaea ignava,451,0.0022172949,largo<500
+BCFOR539-15.COI-5P,BCFOR539-15,Hydrotaea,Hydrotaea ignava,437,0.0160183066,largo<500
+BCFOR540-15.COI-5P,BCFOR540-15,Hydrotaea,Hydrotaea dentipes,482,0.0,largo<500
+BTISA1726-16.COI-5P,BTISA1726-16,Hydrotaea,,220,0.0045454545,largo<500
+BUICD717-15.COI-5P,BUICD717-15,Hydrotaea,Hydrotaea meteorica,312,0.0,largo<500
+BUICD761-15.COI-5P,BUICD761-15,Hydrotaea,Hydrotaea diabolus,473,0.0021141649,largo<500
+CASBI8042-26.COI-5P,CASBI8042-26,Hydrotaea,Hydrotaea leucostoma,316,0.0,largo<500
+CNFNS023-14.COI-5P,CNFNS023-14,Hydrotaea,Hydrotaea ponti,348,0.0028735632,largo<500
+CNPAD1331-13.COI-5P,CNPAD1331-13,Hydrotaea,Hydrotaea scambus,420,0.0,largo<500
+CNPAD1333-13.COI-5P,CNPAD1333-13,Hydrotaea,Hydrotaea scambus,408,0.0,largo<500
+CNPAD1334-13.COI-5P,CNPAD1334-13,Hydrotaea,Hydrotaea militaris,366,0.0,largo<500
+CNPAD1370-13.COI-5P,CNPAD1370-13,Hydrotaea,Hydrotaea scambus,387,0.0,largo<500
+CNPAD1384-13.COI-5P,CNPAD1384-13,Hydrotaea,Hydrotaea scambus,498,0.0040160643,largo<500
+COLHH1696-18.COI-5P,COLHH1696-18,Hydrotaea,Hydrotaea dentipes,405,0.0,largo<500
+GBABA10242-26.COI-5P,GBABA10242-26,Hydrotaea,,418,0.0,largo<500
+GBDP13121-13.COI-5P,GBDP13121-13,Hydrotaea,Hydrotaea chalcogaster,480,0.0,largo<500
+GBDP28012-19.COI-5P,GBDP28012-19,Hydrotaea,Hydrotaea chalcogaster,473,0.0,largo<500
+GBDP9369-11.COI-5P,GBDP9369-11,Hydrotaea,Hydrotaea ignava,339,0.0029498525,largo<500
+GBMNC7559-20.COI-5P,GBMNC7559-20,Hydrotaea,Hydrotaea floccosa,240,0.0,largo<500
+GBMNC7560-20.COI-5P,GBMNC7560-20,Hydrotaea,Hydrotaea floccosa,240,0.0,largo<500
+GBMND54517-21.COI-5P,GBMND54517-21,Hydrotaea,,350,0.0,largo<500
+GMOAQ357-21.COI-5P,GMOAQ357-21,Hydrotaea,Hydrotaea scambus,390,0.0,largo<500
+PLUVS328-24.COI-5P,PLUVS328-24,Hydrotaea,,312,0.0,largo<500
+RAIM903-23.COI-5P,RAIM903-23,Hydrotaea,,473,0.0,largo<500
+SSPAB114-13.COI-5P,SSPAB114-13,Hydrotaea,Hydrotaea scambus,495,0.002020202,largo<500
+SSPAB9708-13.COI-5P,SSPAB9708-13,Hydrotaea,Hydrotaea spinifemorata,495,0.0,largo<500
+SSPAC3102-13.COI-5P,SSPAC3102-13,Hydrotaea,Hydrotaea scambus,383,0.0026109661,largo<500
+TSZJK713-15.COI-5P,TSZJK713-15,Hydrotaea,Hydrotaea pandellei,376,0.0,largo<500
+ZMUCG129-12.COI-5P,ZMUCG129-12,Hydrotaea,Hydrotaea anxia,269,0.0037174721,largo<500
+ZMUCG131-12.COI-5P,ZMUCG131-12,Hydrotaea,Hydrotaea anxia,269,0.0,largo<500
+GBDP21742-19.COI-5P,GBDP21742-19,Microcerella,Microcerella adelphe,1172,0.25,no_ACGT>1%
+AMTPF1479-16.COI-5P,AMTPF1479-16,Morellia,,498,0.0,largo<500
+BBYBM2551-20.COI-5P,BBYBM2551-20,Morellia,Morellia podagrica,487,0.0,largo<500
+BTISA2512-16.COI-5P,BTISA2512-16,Morellia,,220,0.0,largo<500
+GMBCA5188-15.COI-5P,GMBCA5188-15,Morellia,,366,0.0,largo<500
+THAMA9685-22.COI-5P,THAMA9685-22,Morellia,,449,0.0,largo<500
+AFTAC160-20.COI-5P,AFTAC160-20,Musca,,487,0.0,largo<500
+BCFOR1054-16.COI-5P,BCFOR1054-16,Musca,,480,0.0020833333,largo<500
+CASBI18554-26.COI-5P,CASBI18554-26,Musca,Musca domestica,316,0.0,largo<500
+CASBI18774-26.COI-5P,CASBI18774-26,Musca,Musca domestica,316,0.0,largo<500
+CASBI18775-26.COI-5P,CASBI18775-26,Musca,Musca domestica,316,0.0,largo<500
+CASBI18776-26.COI-5P,CASBI18776-26,Musca,Musca autumnalis,316,0.0,largo<500
+CASBI18777-26.COI-5P,CASBI18777-26,Musca,Musca autumnalis,316,0.0,largo<500
+CASBI18778-26.COI-5P,CASBI18778-26,Musca,Musca autumnalis,316,0.0,largo<500
+CASBI18780-26.COI-5P,CASBI18780-26,Musca,Musca autumnalis,316,0.0,largo<500
+CASBI188-25.COI-5P,CASBI188-25,Musca,Musca autumnalis,181,0.0,largo<500
+CASBI189-25.COI-5P,CASBI189-25,Musca,Musca autumnalis,181,0.0,largo<500
+DPAZ125-09.COI-5P,DPAZ125-09,Musca,Musca domestica,348,0.0,largo<500
+FFECU332-16.COI-5P,FFECU332-16,Musca,Musca domestica,275,0.0,largo<500
+GBAAD2632-25.COI-5P,GBAAD2632-25,Musca,Musca autumnalis,476,0.0,largo<500
+GBAAX46590-24.COI-5P,GBAAX46590-24,Musca,Musca domestica,272,0.0,largo<500
+GBABA11136-26.COI-5P,GBABA11136-26,Musca,,418,0.0,largo<500
+GBABA7191-26.COI-5P,GBABA7191-26,Musca,,418,0.0,largo<500
+GBABA7865-26.COI-5P,GBABA7865-26,Musca,,418,0.0,largo<500
+GBABA8648-26.COI-5P,GBABA8648-26,Musca,,418,0.0,largo<500
+GBABA8847-26.COI-5P,GBABA8847-26,Musca,,418,0.0,largo<500
+GBABA9253-26.COI-5P,GBABA9253-26,Musca,,418,0.0,largo<500
+GBABA9474-26.COI-5P,GBABA9474-26,Musca,,418,0.0,largo<500
+GBABA9538-26.COI-5P,GBABA9538-26,Musca,,418,0.0,largo<500
+GBABA9630-26.COI-5P,GBABA9630-26,Musca,,418,0.0,largo<500
+GBCAB31205-24.COI-5P,GBCAB31205-24,Musca,Musca domestica,401,0.0074812968,largo<500
+GBCAB33225-24.COI-5P,GBCAB33225-24,Musca,Musca domestica,598,0.0117056856,no_ACGT>1%
+GBCAB33229-24.COI-5P,GBCAB33229-24,Musca,Musca domestica,201,0.0,largo<500
+GBCAB33230-24.COI-5P,GBCAB33230-24,Musca,Musca domestica,384,0.0052083333,largo<500
+GBDP13125-13.COI-5P,GBDP13125-13,Musca,Musca domestica,486,0.0,largo<500
+GBDP1487-06.COI-5P,GBDP1487-06,Musca,Musca autumnalis,510,0.0117647059,no_ACGT>1%
+GBDP1490-06.COI-5P,GBDP1490-06,Musca,Musca autumnalis,489,0.0102249489,largo<500
+GBDP15669-14.COI-5P,GBDP15669-14,Musca,Musca domestica,1170,0.0213675214,no_ACGT>1%
+GBDP20965-19.COI-5P,GBDP20965-19,Musca,Musca domestica,462,0.0,largo<500
+GBDP28328-19.COI-5P,GBDP28328-19,Musca,Musca convexifrons,460,0.0,largo<500
+GBDP28329-19.COI-5P,GBDP28329-19,Musca,Musca convexifrons,463,0.0,largo<500
+GBDP28343-19.COI-5P,GBDP28343-19,Musca,Musca domestica,471,0.0,largo<500
+GBDP28354-19.COI-5P,GBDP28354-19,Musca,Musca sp. O56,400,0.0,largo<500
+GBDP28355-19.COI-5P,GBDP28355-19,Musca,Musca ventrosa,479,0.0,largo<500
+GBDP28357-19.COI-5P,GBDP28357-19,Musca,Musca vitripennis,464,0.0,largo<500
+GBDP4212-07.COI-5P,GBDP4212-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4213-07.COI-5P,GBDP4213-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4214-07.COI-5P,GBDP4214-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4215-07.COI-5P,GBDP4215-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4216-07.COI-5P,GBDP4216-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4217-07.COI-5P,GBDP4217-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4218-07.COI-5P,GBDP4218-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4219-07.COI-5P,GBDP4219-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4220-07.COI-5P,GBDP4220-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4221-07.COI-5P,GBDP4221-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4222-07.COI-5P,GBDP4222-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4223-07.COI-5P,GBDP4223-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4224-07.COI-5P,GBDP4224-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4225-07.COI-5P,GBDP4225-07,Musca,Musca domestica,345,0.0028985507,largo<500
+GBDP4230-07.COI-5P,GBDP4230-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4231-07.COI-5P,GBDP4231-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4232-07.COI-5P,GBDP4232-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4233-07.COI-5P,GBDP4233-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4234-07.COI-5P,GBDP4234-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4235-07.COI-5P,GBDP4235-07,Musca,Musca domestica,342,0.0,largo<500
+GBDP4236-07.COI-5P,GBDP4236-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4237-07.COI-5P,GBDP4237-07,Musca,Musca domestica,345,0.0028985507,largo<500
+GBDP4238-07.COI-5P,GBDP4238-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4239-07.COI-5P,GBDP4239-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4240-07.COI-5P,GBDP4240-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4241-07.COI-5P,GBDP4241-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4242-07.COI-5P,GBDP4242-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4243-07.COI-5P,GBDP4243-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4248-07.COI-5P,GBDP4248-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4249-07.COI-5P,GBDP4249-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4250-07.COI-5P,GBDP4250-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4251-07.COI-5P,GBDP4251-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4252-07.COI-5P,GBDP4252-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4253-07.COI-5P,GBDP4253-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4254-07.COI-5P,GBDP4254-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4255-07.COI-5P,GBDP4255-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4256-07.COI-5P,GBDP4256-07,Musca,Musca domestica,345,0.0028985507,largo<500
+GBDP4257-07.COI-5P,GBDP4257-07,Musca,Musca domestica,321,0.0436137072,largo<500
+GBDP4258-07.COI-5P,GBDP4258-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4259-07.COI-5P,GBDP4259-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4260-07.COI-5P,GBDP4260-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4261-07.COI-5P,GBDP4261-07,Musca,Musca domestica,345,0.0,largo<500
+GBDP4317-07.COI-5P,GBDP4317-07,Musca,Musca domestica,348,0.0,largo<500
+GBDP6728-09.COI-5P,GBDP6728-09,Musca,Musca domestica,345,0.0,largo<500
+GBDP6729-09.COI-5P,GBDP6729-09,Musca,Musca domestica,345,0.0028985507,largo<500
+GBDP6730-09.COI-5P,GBDP6730-09,Musca,Musca domestica,345,0.0,largo<500
+GBDP6731-09.COI-5P,GBDP6731-09,Musca,Musca domestica,345,0.0,largo<500
+GBDP6732-09.COI-5P,GBDP6732-09,Musca,Musca domestica,345,0.0,largo<500
+GBDP6733-09.COI-5P,GBDP6733-09,Musca,Musca domestica,345,0.0,largo<500
+GBDP6734-09.COI-5P,GBDP6734-09,Musca,Musca domestica,345,0.0,largo<500
+GBDP6735-09.COI-5P,GBDP6735-09,Musca,Musca domestica,345,0.0,largo<500
+GBDP6736-09.COI-5P,GBDP6736-09,Musca,Musca domestica,345,0.0,largo<500
+GBDP6737-09.COI-5P,GBDP6737-09,Musca,Musca domestica,345,0.0,largo<500
+GBMNE29846-21.COI-5P,GBMNE29846-21,Musca,Musca domestica,420,0.0,largo<500
+GBMNE58932-22.COI-5P,GBMNE58932-22,Musca,Musca sorbens,352,0.0,largo<500
+GBMNF28327-22.COI-5P,GBMNF28327-22,Musca,Musca domestica,658,0.0106382979,no_ACGT>1%
+GMBCA5132-15.COI-5P,GMBCA5132-15,Musca,Musca crassirostris,474,0.0021097046,largo<500
+GMBCA5184-15.COI-5P,GMBCA5184-15,Musca,Musca crassirostris,459,0.0,largo<500
+GMBCA5238-15.COI-5P,GMBCA5238-15,Musca,Musca crassirostris,447,0.0,largo<500
+GMBCA5248-15.COI-5P,GMBCA5248-15,Musca,Musca crassirostris,453,0.0,largo<500
+GMBCA5276-15.COI-5P,GMBCA5276-15,Musca,Musca crassirostris,480,0.0,largo<500
+GMBCA5290-15.COI-5P,GMBCA5290-15,Musca,Musca crassirostris,453,0.0,largo<500
+GMBCA5298-15.COI-5P,GMBCA5298-15,Musca,Musca crassirostris,453,0.0,largo<500
+GMBCB1743-15.COI-5P,GMBCB1743-15,Musca,Musca crassirostris,453,0.0,largo<500
+GMBCB1745-15.COI-5P,GMBCB1745-15,Musca,Musca crassirostris,468,0.0,largo<500
+GMBCB1815-15.COI-5P,GMBCB1815-15,Musca,Musca crassirostris,459,0.0,largo<500
+GMBCB1827-15.COI-5P,GMBCB1827-15,Musca,Musca crassirostris,453,0.0,largo<500
+GMBCB2554-15.COI-5P,GMBCB2554-15,Musca,Musca crassirostris,450,0.0,largo<500
+GMBCB2802-15.COI-5P,GMBCB2802-15,Musca,Musca crassirostris,459,0.0,largo<500
+GMBCB2826-15.COI-5P,GMBCB2826-15,Musca,Musca crassirostris,453,0.0,largo<500
+GMBCB2828-15.COI-5P,GMBCB2828-15,Musca,Musca crassirostris,495,0.0,largo<500
+GMBCB2837-15.COI-5P,GMBCB2837-15,Musca,Musca crassirostris,453,0.0,largo<500
+GMBCB2842-15.COI-5P,GMBCB2842-15,Musca,Musca crassirostris,459,0.0,largo<500
+GMBCC1955-15.COI-5P,GMBCC1955-15,Musca,Musca crassirostris,453,0.0,largo<500
+GMBCE004-15.COI-5P,GMBCE004-15,Musca,Musca crassirostris,426,0.0023474178,largo<500
+GMBCE2717-15.COI-5P,GMBCE2717-15,Musca,Musca crassirostris,486,0.0,largo<500
+GMBCE2793-15.COI-5P,GMBCE2793-15,Musca,Musca formosana,390,0.0051282051,largo<500
+GMBCE3044-15.COI-5P,GMBCE3044-15,Musca,Musca crassirostris,486,0.0,largo<500
+GMBCE812-15.COI-5P,GMBCE812-15,Musca,Musca crassirostris,447,0.0089485459,largo<500
+GMBCF2153-15.COI-5P,GMBCF2153-15,Musca,Musca crassirostris,465,0.0,largo<500
+GMBCN855-15.COI-5P,GMBCN855-15,Musca,Musca formosana,366,0.0,largo<500
+GMBCN933-15.COI-5P,GMBCN933-15,Musca,Musca crassirostris,459,0.0021786492,largo<500
+GMBKK1158-21.COI-5P,GMBKK1158-21,Musca,Musca crassirostris,493,0.0,largo<500
+GMBKK7915-21.COI-5P,GMBKK7915-21,Musca,Musca crassirostris,457,0.0,largo<500
+GMEGM010-14.COI-5P,GMEGM010-14,Musca,Musca domestica,188,0.0053191489,largo<500
+GMIAD145-17.COI-5P,GMIAD145-17,Musca,Musca convexifrons,477,0.0020964361,largo<500
+GMMVA12691-21.COI-5P,GMMVA12691-21,Musca,Musca crassirostris,478,0.0,largo<500
+GMPPO2164-21.COI-5P,GMPPO2164-21,Musca,Musca crassirostris,465,0.0,largo<500
+GMPZI837-22.COI-5P,GMPZI837-22,Musca,,471,0.0,largo<500
+GMSAF131-13.COI-5P,GMSAF131-13,Musca,Musca confiscata,389,0.0,largo<500
+GNKAA15884-25.COI-5P,GNKAA15884-25,Musca,,658,0.0167173252,no_ACGT>1%
+IBS088-24.COI-5P,IBS088-24,Musca,Musca vetustissima,180,0.0055555556,largo<500
+MAMTQ165-14.COI-5P,MAMTQ165-14,Musca,,467,0.0,largo<500
+SYC1979-14.COI-5P,SYC1979-14,Musca,Musca domestica,427,0.0140515222,largo<500
+TSMTA12109-22.COI-5P,TSMTA12109-22,Musca,Musca confiscata,482,0.0,largo<500
+TSMTA1425-22.COI-5P,TSMTA1425-22,Musca,,479,0.0,largo<500
+TSZJK715-15.COI-5P,TSZJK715-15,Musca,,370,0.0,largo<500
+TSZJK716-15.COI-5P,TSZJK716-15,Musca,,407,0.0,largo<500
+AMTPF1328-16.COI-5P,AMTPF1328-16,Muscina,Muscina levida,408,0.0,largo<500
+BBDCN1003-12.COI-5P,BBDCN1003-12,Muscina,Muscina levida,439,0.0,largo<500
+BCFOR558-15.COI-5P,BCFOR558-15,Muscina,Muscina prolapsa,424,0.0117924528,largo<500
+BCFOR559-15.COI-5P,BCFOR559-15,Muscina,Muscina prolapsa,490,0.0020408163,largo<500
+BUICD1987-20.COI-5P,BUICD1987-20,Muscina,Muscina stabulans,410,0.0024390244,largo<500
+BUICD453-15.COI-5P,BUICD453-15,Muscina,Muscina levida,441,0.0068027211,largo<500
+CASBI23775-26.COI-5P,CASBI23775-26,Muscina,Muscina stabulans,316,0.0,largo<500
+CNBPL322-13.COI-5P,CNBPL322-13,Muscina,Muscina levida,485,0.0,largo<500
+CNFNB133-14.COI-5P,CNFNB133-14,Muscina,Muscina flukei,438,0.0,largo<500
+CNIVA056-14.COI-5P,CNIVA056-14,Muscina,Muscina levida,407,0.0,largo<500
+CNIVA057-14.COI-5P,CNIVA057-14,Muscina,Muscina levida,407,0.0,largo<500
+CNKLF255-15.COI-5P,CNKLF255-15,Muscina,Muscina levida,407,0.0,largo<500
+CNNHE1404-14.COI-5P,CNNHE1404-14,Muscina,,480,0.0083333333,largo<500
+CNRMG086-12.COI-5P,CNRMG086-12,Muscina,,487,0.0,largo<500
+CNRMG113-12.COI-5P,CNRMG113-12,Muscina,,484,0.0,largo<500
+CNRMH093-12.COI-5P,CNRMH093-12,Muscina,,453,0.0,largo<500
+CNWAA724-14.COI-5P,CNWAA724-14,Muscina,,407,0.0,largo<500
+CNWAB1299-14.COI-5P,CNWAB1299-14,Muscina,,407,0.0,largo<500
+CNWAH6342-15.COI-5P,CNWAH6342-15,Muscina,,407,0.0,largo<500
+DPAZ097-09.COI-5P,DPAZ097-09,Muscina,Muscina levida,407,0.0,largo<500
+DPAZ098-09.COI-5P,DPAZ098-09,Muscina,Muscina levida,407,0.0,largo<500
+DPAZ099-09.COI-5P,DPAZ099-09,Muscina,Muscina levida,407,0.0,largo<500
+DPAZ101-09.COI-5P,DPAZ101-09,Muscina,Muscina levida,407,0.0,largo<500
+FIDIP441-11.COI-5P,FIDIP441-11,Muscina,Muscina stabulans,407,0.0,largo<500
+GBABA10931-26.COI-5P,GBABA10931-26,Muscina,,418,0.0,largo<500
+GBABA7651-26.COI-5P,GBABA7651-26,Muscina,,418,0.0,largo<500
+GBDP6417-09.COI-5P,GBDP6417-09,Muscina,Muscina stabulans,1284,0.0179127726,no_ACGT>1%
+GBMNE58439-22.COI-5P,GBMNE58439-22,Muscina,Muscina levida,504,0.0119047619,no_ACGT>1%
+GMBMH303-17.COI-5P,GMBMH303-17,Muscina,Muscina stabulans,363,0.0,largo<500
+GMBUD176-14.COI-5P,GMBUD176-14,Muscina,Muscina levida,423,0.0023640662,largo<500
+GMFAF449-15.COI-5P,GMFAF449-15,Muscina,Muscina levida,468,0.0,largo<500
+GMFAF472-15.COI-5P,GMFAF472-15,Muscina,Muscina levida,435,0.0,largo<500
+GMFAF478-15.COI-5P,GMFAF478-15,Muscina,Muscina levida,435,0.0,largo<500
+GMFAF483-15.COI-5P,GMFAF483-15,Muscina,Muscina levida,468,0.0,largo<500
+GMFAG645-15.COI-5P,GMFAG645-15,Muscina,Muscina levida,426,0.0,largo<500
+MFDC631-09.COI-5P,MFDC631-09,Muscina,Muscina levida,407,0.0,largo<500
+MFDC634-09.COI-5P,MFDC634-09,Muscina,Muscina levida,407,0.0,largo<500
+NICC046-13.COI-5P,NICC046-13,Muscina,Muscina levida,1534,0.0534550196,no_ACGT>1%
+PLUVS130-24.COI-5P,PLUVS130-24,Muscina,Muscina levida,312,0.0,largo<500
+SMTPO10226-15.COI-5P,SMTPO10226-15,Muscina,Muscina pascuorum,480,0.0,largo<500
+SMTPO10291-15.COI-5P,SMTPO10291-15,Muscina,Muscina pascuorum,474,0.0021097046,largo<500
+SMTPP337-15.COI-5P,SMTPP337-15,Muscina,Muscina pascuorum,480,0.0,largo<500
+USDIP1001-09.COI-5P,USDIP1001-09,Muscina,Muscina levida,407,0.0,largo<500
+BFIB070-12.COI-5P,BFIB070-12,Neomuscina,Neomuscina inflexa,489,0.0061349693,largo<500
+GMAGA195-15.COI-5P,GMAGA195-15,Neomuscina,,423,0.0094562648,largo<500
+MBUIN225-12.COI-5P,MBUIN225-12,Neomuscina,,407,0.0,largo<500
+PHICO061-19.COI-5P,PHICO061-19,Neomuscina,Neomuscina sp. 1,388,0.0051546392,largo<500
+AMTPF1099-16.COI-5P,AMTPF1099-16,Phaonia,Phaonia valida,483,0.0062111801,largo<500
+AMTPF1505-16.COI-5P,AMTPF1505-16,Phaonia,,495,0.004040404,largo<500
+BBDCQ897-10.COI-5P,BBDCQ897-10,Phaonia,,477,0.0,largo<500
+BBDEE785-10.COI-5P,BBDEE785-10,Phaonia,,307,0.0,largo<500
+BROSI024-21.COI-5P,BROSI024-21,Phaonia,,465,0.0,largo<500
+BROSI122-21.COI-5P,BROSI122-21,Phaonia,,467,0.0,largo<500
+CASBI4400-26.COI-5P,CASBI4400-26,Phaonia,Phaonia quieta,181,0.0,largo<500
+CASBI4401-26.COI-5P,CASBI4401-26,Phaonia,Phaonia pallidosa,316,0.0,largo<500
+CASBI4402-26.COI-5P,CASBI4402-26,Phaonia,Phaonia rugia,181,0.0,largo<500
+CASBI4403-26.COI-5P,CASBI4403-26,Phaonia,Phaonia quieta,181,0.0,largo<500
+CASBI4404-26.COI-5P,CASBI4404-26,Phaonia,Phaonia nigrcauda,316,0.0,largo<500
+CNEIC260-12.COI-5P,CNEIC260-12,Phaonia,,484,0.0061983471,largo<500
+CNGMC2414-14.COI-5P,CNGMC2414-14,Phaonia,,588,0.0102040816,no_ACGT>1%
+CNKLB3292-14.COI-5P,CNKLB3292-14,Phaonia,Phaonia inenarrabilis,364,0.0,largo<500
+CNKLB3346-14.COI-5P,CNKLB3346-14,Phaonia,Phaonia inenarrabilis,484,0.0,largo<500
+CNKLB3363-14.COI-5P,CNKLB3363-14,Phaonia,Phaonia inenarrabilis,450,0.0022222222,largo<500
+CNKLB3371-14.COI-5P,CNKLB3371-14,Phaonia,Phaonia inenarrabilis,372,0.0,largo<500
+CNKLB460-14.COI-5P,CNKLB460-14,Phaonia,Phaonia inenarrabilis,480,0.0,largo<500
+CNKLB484-14.COI-5P,CNKLB484-14,Phaonia,Phaonia consobrina,477,0.0,largo<500
+CNKLC060-14.COI-5P,CNKLC060-14,Phaonia,,436,0.004587156,largo<500
+CNKTD025-15.COI-5P,CNKTD025-15,Phaonia,,381,0.0052493438,largo<500
+CNLMH546-14.COI-5P,CNLMH546-14,Phaonia,Phaonia aberrans,461,0.0130151844,largo<500
+CNRMC1429-12.COI-5P,CNRMC1429-12,Phaonia,,469,0.0,largo<500
+CNYOA081-15.COI-5P,CNYOA081-15,Phaonia,Phaonia subfuscinervis,474,0.0021097046,largo<500
+CNYOB885-15.COI-5P,CNYOB885-15,Phaonia,Phaonia subfuscinervis,477,0.0,largo<500
+DRYAS10817-15.COI-5P,DRYAS10817-15,Phaonia,,468,0.014957265,largo<500
+DRYAS11270-15.COI-5P,DRYAS11270-15,Phaonia,Phaonia hybrida,468,0.0,largo<500
+DRYAS13644-15.COI-5P,DRYAS13644-15,Phaonia,Phaonia alpicola,450,0.0044444444,largo<500
+DRYAS15481-15.COI-5P,DRYAS15481-15,Phaonia,Phaonia monticola,486,0.0041152263,largo<500
+DRYAS19206-15.COI-5P,DRYAS19206-15,Phaonia,Phaonia alpicola,498,0.0020080321,largo<500
+DRYAS19374-15.COI-5P,DRYAS19374-15,Phaonia,Phaonia consobrina,510,0.0117647059,no_ACGT>1%
+DRYAS7224-15.COI-5P,DRYAS7224-15,Phaonia,Phaonia bidentata,471,0.0042462845,largo<500
+DRYAS9363-15.COI-5P,DRYAS9363-15,Phaonia,Phaonia bidentata,273,0.0036630037,largo<500
+DRYAS9460-15.COI-5P,DRYAS9460-15,Phaonia,Phaonia alpicola,459,0.0021786492,largo<500
+DRYS539-17.COI-5P,DRYS539-17,Phaonia,Phaonia meigeni,561,0.0124777184,no_ACGT>1%
+FLYBO388-11.COI-5P,FLYBO388-11,Phaonia,,407,0.0,largo<500
+GBAAK8801-25.COI-5P,GBAAK8801-25,Phaonia,,313,0.0,largo<500
+GBAAK8803-25.COI-5P,GBAAK8803-25,Phaonia,,313,0.0,largo<500
+GBAAK8977-25.COI-5P,GBAAK8977-25,Phaonia,,313,0.0,largo<500
+GBAAK9096-25.COI-5P,GBAAK9096-25,Phaonia,,313,0.0,largo<500
+GBAAK9116-25.COI-5P,GBAAK9116-25,Phaonia,,313,0.0,largo<500
+GBAAK9129-25.COI-5P,GBAAK9129-25,Phaonia,,313,0.0,largo<500
+GBAAK9159-25.COI-5P,GBAAK9159-25,Phaonia,,313,0.0,largo<500
+GBAAK9295-25.COI-5P,GBAAK9295-25,Phaonia,,313,0.0,largo<500
+GBAAK9321-25.COI-5P,GBAAK9321-25,Phaonia,,313,0.0,largo<500
+GBABA10397-26.COI-5P,GBABA10397-26,Phaonia,,418,0.0,largo<500
+GBABA10616-26.COI-5P,GBABA10616-26,Phaonia,,418,0.0,largo<500
+GBABA10685-26.COI-5P,GBABA10685-26,Phaonia,,418,0.004784689,largo<500
+GBABA11037-26.COI-5P,GBABA11037-26,Phaonia,,418,0.0,largo<500
+GBABA13428-26.COI-5P,GBABA13428-26,Phaonia,,418,0.0,largo<500
+GBABA14129-26.COI-5P,GBABA14129-26,Phaonia,,418,0.0,largo<500
+GBABA20425-26.COI-5P,GBABA20425-26,Phaonia,,418,0.0,largo<500
+GBABA7412-26.COI-5P,GBABA7412-26,Phaonia,,418,0.0,largo<500
+GBABA7650-26.COI-5P,GBABA7650-26,Phaonia,,418,0.0,largo<500
+GBABA7746-26.COI-5P,GBABA7746-26,Phaonia,,418,0.0,largo<500
+GBABA8097-26.COI-5P,GBABA8097-26,Phaonia,,418,0.0,largo<500
+GBABA8140-26.COI-5P,GBABA8140-26,Phaonia,,418,0.0,largo<500
+GBABA8352-26.COI-5P,GBABA8352-26,Phaonia,,418,0.0,largo<500
+GBABA8480-26.COI-5P,GBABA8480-26,Phaonia,,418,0.0,largo<500
+GBABA8582-26.COI-5P,GBABA8582-26,Phaonia,,418,0.0,largo<500
+GBABA9028-26.COI-5P,GBABA9028-26,Phaonia,,418,0.0,largo<500
+GBCAB19953-24.COI-5P,GBCAB19953-24,Phaonia,,421,0.0,largo<500
+GMFIC357-12.COI-5P,GMFIC357-12,Phaonia,Phaonia falleni,492,0.0,largo<500
+GMFID655-12.COI-5P,GMFID655-12,Phaonia,,658,0.0167173252,no_ACGT>1%
+GMFID659-12.COI-5P,GMFID659-12,Phaonia,Phaonia hybrida,658,0.0136778116,no_ACGT>1%
+GMNWJ3525-14.COI-5P,GMNWJ3525-14,Phaonia,Phaonia errans,603,0.0132669983,no_ACGT>1%
+GMNWK4253-14.COI-5P,GMNWK4253-14,Phaonia,Phaonia errans,603,0.0132669983,no_ACGT>1%
+GMNWL3189-14.COI-5P,GMNWL3189-14,Phaonia,Phaonia errans,366,0.0027322404,largo<500
+GMOCL109-15.COI-5P,GMOCL109-15,Phaonia,,423,0.0,largo<500
+GMPTA12874-23.COI-5P,GMPTA12874-23,Phaonia,Phaonia fuscata,450,0.0022222222,largo<500
+GMSCF1254-20.COI-5P,GMSCF1254-20,Phaonia,Phaonia californiensis,375,0.0,largo<500
+GMSCF1262-20.COI-5P,GMSCF1262-20,Phaonia,Phaonia californiensis,455,0.0,largo<500
+GMSCG040-20.COI-5P,GMSCG040-20,Phaonia,Phaonia californiensis,468,0.0,largo<500
+GMTRL9215-24.COI-5P,GMTRL9215-24,Phaonia,Phaonia luteva,658,0.0151975684,no_ACGT>1%
+HELAA18863-20.COI-5P,HELAA18863-20,Phaonia,Phaonia errans,469,0.0,largo<500
+LPUAG1152-21.COI-5P,LPUAG1152-21,Phaonia,Phaonia angelicae,498,0.0,largo<500
+MFAI070-11.COI-5P,MFAI070-11,Phaonia,Phaonia errans,307,0.0,largo<500
+MFAI124-11.COI-5P,MFAI124-11,Phaonia,Phaonia errans,307,0.0,largo<500
+MFDC352-09.COI-5P,MFDC352-09,Phaonia,Phaonia luteva,280,0.0,largo<500
+MFDC363-09.COI-5P,MFDC363-09,Phaonia,Phaonia errans,290,0.0,largo<500
+NGAAE228-14.COI-5P,NGAAE228-14,Phaonia,Phaonia apicalis,438,0.0091324201,largo<500
+PLUVS017-24.COI-5P,PLUVS017-24,Phaonia,Phaonia pallida,312,0.0,largo<500
+PLUVS184-24.COI-5P,PLUVS184-24,Phaonia,Phaonia errans,312,0.0,largo<500
+PLUVS189-24.COI-5P,PLUVS189-24,Phaonia,Phaonia valida,312,0.0,largo<500
+POBGC1665-15.COI-5P,POBGC1665-15,Phaonia,,441,0.0045351474,largo<500
+RSFI033-25.COI-5P,RSFI033-25,Phaonia,Phaonia rufiventris,285,0.0,largo<500
+SMTPP1002-15.COI-5P,SMTPP1002-15,Phaonia,,396,0.0050505051,largo<500
+SSBAA5201-12.COI-5P,SSBAA5201-12,Phaonia,Phaonia consobrina,384,0.0026041667,largo<500
+SSBAD289-12.COI-5P,SSBAD289-12,Phaonia,Phaonia consobrina,486,0.0,largo<500
+SSBAD2949-12.COI-5P,SSBAD2949-12,Phaonia,,471,0.0,largo<500
+SSBAD3675-12.COI-5P,SSBAD3675-12,Phaonia,Phaonia consobrina,456,0.0,largo<500
+SSEIC7186-13.COI-5P,SSEIC7186-13,Phaonia,,432,0.0046296296,largo<500
+SSJAA1110-13.COI-5P,SSJAA1110-13,Phaonia,Phaonia subfuscinervis,387,0.0025839793,largo<500
+SSJAA804-13.COI-5P,SSJAA804-13,Phaonia,Phaonia subfuscinervis,468,0.0064102564,largo<500
+SSJAD3962-13.COI-5P,SSJAD3962-13,Phaonia,,481,0.0,largo<500
+SSJAD3985-13.COI-5P,SSJAD3985-13,Phaonia,Phaonia consobrina,437,0.0,largo<500
+SSKUD600-15.COI-5P,SSKUD600-15,Phaonia,Phaonia errans,462,0.0,largo<500
+SSPAA2890-13.COI-5P,SSPAA2890-13,Phaonia,,393,0.0076335878,largo<500
+SSPAB294-13.COI-5P,SSPAB294-13,Phaonia,,479,0.0,largo<500
+SSWLA1743-13.COI-5P,SSWLA1743-13,Phaonia,,392,0.0,largo<500
+SSWLA1770-13.COI-5P,SSWLA1770-13,Phaonia,,432,0.0023148148,largo<500
+YDBB4763-21.COI-5P,YDBB4763-21,Phaonia,,446,0.0,largo<500
+FFECU570-18.COI-5P,FFECU570-18,Sarcofahrtiopsis,Sarcofahrtiopsis ADN4176,412,0.0,largo<500
+AMTPF3871-16.COI-5P,AMTPF3871-16,Sarcophaga,,435,0.0,largo<500
+AMTPF3964-16.COI-5P,AMTPF3964-16,Sarcophaga,,354,0.0028248588,largo<500
+ATISA4296-16.COI-5P,ATISA4296-16,Sarcophaga,,220,0.0090909091,largo<500
+ATISA5648-16.COI-5P,ATISA5648-16,Sarcophaga,,313,0.0,largo<500
+ATISA8066-16.COI-5P,ATISA8066-16,Sarcophaga,,313,0.0031948882,largo<500
+ATISA8246-16.COI-5P,ATISA8246-16,Sarcophaga,,313,0.0159744409,largo<500
+AUSFF415-11.COI-5P,AUSFF415-11,Sarcophaga,Sarcophaga omikron,473,0.0063424947,largo<500
+BCFOR1155-16.COI-5P,BCFOR1155-16,Sarcophaga,Sarcophaga argyrostoma,491,0.0,largo<500
+BCFOR1282-16.COI-5P,BCFOR1282-16,Sarcophaga,Sarcophaga argyrostoma,471,0.008492569,largo<500
+BCFOR1283-16.COI-5P,BCFOR1283-16,Sarcophaga,Sarcophaga argyrostoma,485,0.0164948454,largo<500
+BCFOR490-15.COI-5P,BCFOR490-15,Sarcophaga,Sarcophaga albiceps,385,0.0441558442,largo<500
+BCFOR538-15.COI-5P,BCFOR538-15,Sarcophaga,Sarcophaga albiceps,385,0.0285714286,largo<500
+BTISA5194-16.COI-5P,BTISA5194-16,Sarcophaga,,220,0.0,largo<500
+CNRMF3657-12.COI-5P,CNRMF3657-12,Sarcophaga,Sarcophaga aldrichi,320,0.003125,largo<500
+CNROL062-13.COI-5P,CNROL062-13,Sarcophaga,,479,0.0020876827,largo<500
+CTISA4381-16.COI-5P,CTISA4381-16,Sarcophaga,,313,0.0031948882,largo<500
+CTISA5692-16.COI-5P,CTISA5692-16,Sarcophaga,,223,0.0,largo<500
+GBAAK8928-25.COI-5P,GBAAK8928-25,Sarcophaga,,313,0.0,largo<500
+GBAAK9459-25.COI-5P,GBAAK9459-25,Sarcophaga,,313,0.0,largo<500
+GBAAK9595-25.COI-5P,GBAAK9595-25,Sarcophaga,,313,0.0,largo<500
+GBAAW77587-24.COI-5P,GBAAW77587-24,Sarcophaga,Sarcophaga pattoni,469,0.0,largo<500
+GBAAX69457-26.COI-5P,GBAAX69457-26,Sarcophaga,Sarcophaga misera,488,0.0,largo<500
+GBAAX70606-26.COI-5P,GBAAX70606-26,Sarcophaga,Sarcophaga martellata,451,0.0,largo<500
+GBAAX71238-26.COI-5P,GBAAX71238-26,Sarcophaga,Sarcophaga dux,491,0.0,largo<500
+GBAAX8838-24.COI-5P,GBAAX8838-24,Sarcophaga,Sarcophaga africa,473,0.0,largo<500
+GBAAX8938-24.COI-5P,GBAAX8938-24,Sarcophaga,Sarcophaga alba,491,0.0,largo<500
+GBAAY49205-24.COI-5P,GBAAY49205-24,Sarcophaga,Sarcophaga dux,499,0.0,largo<500
+GBAAY49206-24.COI-5P,GBAAY49206-24,Sarcophaga,Sarcophaga dux,499,0.0,largo<500
+GBAAY64681-24.COI-5P,GBAAY64681-24,Sarcophaga,Sarcophaga africa,473,0.0,largo<500
+GBAAY64682-24.COI-5P,GBAAY64682-24,Sarcophaga,Sarcophaga africa,473,0.0,largo<500
+GBAAY88068-24.COI-5P,GBAAY88068-24,Sarcophaga,Sarcophaga kempi,407,0.0,largo<500
+GBAAY88069-24.COI-5P,GBAAY88069-24,Sarcophaga,Sarcophaga kempi,402,0.0,largo<500
+GBAAZ13552-24.COI-5P,GBAAZ13552-24,Sarcophaga,Sarcophaga ruficornis,499,0.0,largo<500
+GBAAZ13553-24.COI-5P,GBAAZ13553-24,Sarcophaga,Sarcophaga ruficornis,493,0.0,largo<500
+GBAAZ15560-24.COI-5P,GBAAZ15560-24,Sarcophaga,Sarcophaga peregrina,483,0.0,largo<500
+GBAAZ15563-24.COI-5P,GBAAZ15563-24,Sarcophaga,Sarcophaga peregrina,499,0.0,largo<500
+GBAAZ18093-24.COI-5P,GBAAZ18093-24,Sarcophaga,Sarcophaga calicifera,402,0.0,largo<500
+GBAAZ18094-24.COI-5P,GBAAZ18094-24,Sarcophaga,Sarcophaga calicifera,414,0.0,largo<500
+GBAAZ5725-24.COI-5P,GBAAZ5725-24,Sarcophaga,Sarcophaga pandellei,473,0.0,largo<500
+GBAAZ5726-24.COI-5P,GBAAZ5726-24,Sarcophaga,Sarcophaga pandellei,473,0.0,largo<500
+GBAAZ5727-24.COI-5P,GBAAZ5727-24,Sarcophaga,Sarcophaga pandellei,473,0.0,largo<500
+GBABA10017-26.COI-5P,GBABA10017-26,Sarcophaga,,418,0.0,largo<500
+GBABA10018-26.COI-5P,GBABA10018-26,Sarcophaga,,418,0.0,largo<500
+GBABA10041-26.COI-5P,GBABA10041-26,Sarcophaga,,418,0.0,largo<500
+GBABA10048-26.COI-5P,GBABA10048-26,Sarcophaga,,418,0.0,largo<500
+GBABA10054-26.COI-5P,GBABA10054-26,Sarcophaga,,418,0.0,largo<500
+GBABA10070-26.COI-5P,GBABA10070-26,Sarcophaga,,418,0.0,largo<500
+GBABA10074-26.COI-5P,GBABA10074-26,Sarcophaga,,418,0.0,largo<500
+GBABA10075-26.COI-5P,GBABA10075-26,Sarcophaga,,418,0.0,largo<500
+GBABA10081-26.COI-5P,GBABA10081-26,Sarcophaga,,418,0.0,largo<500
+GBABA10083-26.COI-5P,GBABA10083-26,Sarcophaga,,418,0.0,largo<500
+GBABA10084-26.COI-5P,GBABA10084-26,Sarcophaga,,418,0.0,largo<500
+GBABA10094-26.COI-5P,GBABA10094-26,Sarcophaga,,418,0.0,largo<500
+GBABA10106-26.COI-5P,GBABA10106-26,Sarcophaga,,418,0.0,largo<500
+GBABA10107-26.COI-5P,GBABA10107-26,Sarcophaga,,418,0.0,largo<500
+GBABA10112-26.COI-5P,GBABA10112-26,Sarcophaga,,418,0.0,largo<500
+GBABA10117-26.COI-5P,GBABA10117-26,Sarcophaga,,418,0.0,largo<500
+GBABA10140-26.COI-5P,GBABA10140-26,Sarcophaga,,418,0.0,largo<500
+GBABA10142-26.COI-5P,GBABA10142-26,Sarcophaga,,418,0.0,largo<500
+GBABA10144-26.COI-5P,GBABA10144-26,Sarcophaga,,418,0.0,largo<500
+GBABA10153-26.COI-5P,GBABA10153-26,Sarcophaga,,418,0.0,largo<500
+GBABA10171-26.COI-5P,GBABA10171-26,Sarcophaga,,418,0.0,largo<500
+GBABA10177-26.COI-5P,GBABA10177-26,Sarcophaga,,418,0.0,largo<500
+GBABA10188-26.COI-5P,GBABA10188-26,Sarcophaga,,418,0.0,largo<500
+GBABA10195-26.COI-5P,GBABA10195-26,Sarcophaga,,418,0.0,largo<500
+GBABA10199-26.COI-5P,GBABA10199-26,Sarcophaga,,418,0.0,largo<500
+GBABA10209-26.COI-5P,GBABA10209-26,Sarcophaga,,418,0.0,largo<500
+GBABA10214-26.COI-5P,GBABA10214-26,Sarcophaga,,418,0.0,largo<500
+GBABA10224-26.COI-5P,GBABA10224-26,Sarcophaga,,418,0.0,largo<500
+GBABA10229-26.COI-5P,GBABA10229-26,Sarcophaga,,418,0.0,largo<500
+GBABA10231-26.COI-5P,GBABA10231-26,Sarcophaga,,418,0.0,largo<500
+GBABA10240-26.COI-5P,GBABA10240-26,Sarcophaga,,418,0.0,largo<500
+GBABA10244-26.COI-5P,GBABA10244-26,Sarcophaga,,418,0.0,largo<500
+GBABA10252-26.COI-5P,GBABA10252-26,Sarcophaga,,418,0.0,largo<500
+GBABA10253-26.COI-5P,GBABA10253-26,Sarcophaga,,418,0.0,largo<500
+GBABA10258-26.COI-5P,GBABA10258-26,Sarcophaga,,418,0.0,largo<500
+GBABA10278-26.COI-5P,GBABA10278-26,Sarcophaga,,418,0.0,largo<500
+GBABA10281-26.COI-5P,GBABA10281-26,Sarcophaga,,418,0.0,largo<500
+GBABA10288-26.COI-5P,GBABA10288-26,Sarcophaga,,418,0.0,largo<500
+GBABA10292-26.COI-5P,GBABA10292-26,Sarcophaga,,418,0.0,largo<500
+GBABA10303-26.COI-5P,GBABA10303-26,Sarcophaga,,418,0.0,largo<500
+GBABA10308-26.COI-5P,GBABA10308-26,Sarcophaga,,418,0.0,largo<500
+GBABA10320-26.COI-5P,GBABA10320-26,Sarcophaga,,418,0.0,largo<500
+GBABA10324-26.COI-5P,GBABA10324-26,Sarcophaga,,418,0.0,largo<500
+GBABA10326-26.COI-5P,GBABA10326-26,Sarcophaga,,418,0.0,largo<500
+GBABA10333-26.COI-5P,GBABA10333-26,Sarcophaga,,418,0.0,largo<500
+GBABA10346-26.COI-5P,GBABA10346-26,Sarcophaga,,418,0.0,largo<500
+GBABA10357-26.COI-5P,GBABA10357-26,Sarcophaga,,418,0.0,largo<500
+GBABA10364-26.COI-5P,GBABA10364-26,Sarcophaga,,418,0.0,largo<500
+GBABA10368-26.COI-5P,GBABA10368-26,Sarcophaga,,418,0.0,largo<500
+GBABA10369-26.COI-5P,GBABA10369-26,Sarcophaga,,418,0.0,largo<500
+GBABA10374-26.COI-5P,GBABA10374-26,Sarcophaga,,418,0.0,largo<500
+GBABA10386-26.COI-5P,GBABA10386-26,Sarcophaga,,418,0.0,largo<500
+GBABA10396-26.COI-5P,GBABA10396-26,Sarcophaga,,418,0.0,largo<500
+GBABA10402-26.COI-5P,GBABA10402-26,Sarcophaga,,418,0.0,largo<500
+GBABA10425-26.COI-5P,GBABA10425-26,Sarcophaga,,418,0.0,largo<500
+GBABA10426-26.COI-5P,GBABA10426-26,Sarcophaga,,418,0.0,largo<500
+GBABA10429-26.COI-5P,GBABA10429-26,Sarcophaga,,418,0.0,largo<500
+GBABA10432-26.COI-5P,GBABA10432-26,Sarcophaga,,418,0.0,largo<500
+GBABA10445-26.COI-5P,GBABA10445-26,Sarcophaga,,418,0.0,largo<500
+GBABA10457-26.COI-5P,GBABA10457-26,Sarcophaga,,418,0.0,largo<500
+GBABA10473-26.COI-5P,GBABA10473-26,Sarcophaga,,418,0.0,largo<500
+GBABA10479-26.COI-5P,GBABA10479-26,Sarcophaga,,418,0.0,largo<500
+GBABA10482-26.COI-5P,GBABA10482-26,Sarcophaga,,418,0.0,largo<500
+GBABA10484-26.COI-5P,GBABA10484-26,Sarcophaga,,418,0.0,largo<500
+GBABA10493-26.COI-5P,GBABA10493-26,Sarcophaga,,418,0.0,largo<500
+GBABA10506-26.COI-5P,GBABA10506-26,Sarcophaga,,418,0.0,largo<500
+GBABA10519-26.COI-5P,GBABA10519-26,Sarcophaga,,418,0.0,largo<500
+GBABA10521-26.COI-5P,GBABA10521-26,Sarcophaga,,418,0.0,largo<500
+GBABA10530-26.COI-5P,GBABA10530-26,Sarcophaga,,418,0.0,largo<500
+GBABA10532-26.COI-5P,GBABA10532-26,Sarcophaga,,418,0.0,largo<500
+GBABA10533-26.COI-5P,GBABA10533-26,Sarcophaga,,418,0.0,largo<500
+GBABA10559-26.COI-5P,GBABA10559-26,Sarcophaga,,418,0.0,largo<500
+GBABA10562-26.COI-5P,GBABA10562-26,Sarcophaga,,418,0.0,largo<500
+GBABA10583-26.COI-5P,GBABA10583-26,Sarcophaga,,418,0.0,largo<500
+GBABA10588-26.COI-5P,GBABA10588-26,Sarcophaga,,418,0.0,largo<500
+GBABA10591-26.COI-5P,GBABA10591-26,Sarcophaga,,418,0.0,largo<500
+GBABA10592-26.COI-5P,GBABA10592-26,Sarcophaga,,418,0.0,largo<500
+GBABA10601-26.COI-5P,GBABA10601-26,Sarcophaga,,418,0.0,largo<500
+GBABA10609-26.COI-5P,GBABA10609-26,Sarcophaga,,418,0.0,largo<500
+GBABA10611-26.COI-5P,GBABA10611-26,Sarcophaga,,418,0.0,largo<500
+GBABA10620-26.COI-5P,GBABA10620-26,Sarcophaga,,418,0.0,largo<500
+GBABA10621-26.COI-5P,GBABA10621-26,Sarcophaga,,418,0.0,largo<500
+GBABA10633-26.COI-5P,GBABA10633-26,Sarcophaga,,418,0.0,largo<500
+GBABA10635-26.COI-5P,GBABA10635-26,Sarcophaga,,418,0.0,largo<500
+GBABA10648-26.COI-5P,GBABA10648-26,Sarcophaga,,418,0.0,largo<500
+GBABA10652-26.COI-5P,GBABA10652-26,Sarcophaga,,418,0.0,largo<500
+GBABA10653-26.COI-5P,GBABA10653-26,Sarcophaga,,418,0.0,largo<500
+GBABA10657-26.COI-5P,GBABA10657-26,Sarcophaga,,418,0.0,largo<500
+GBABA10659-26.COI-5P,GBABA10659-26,Sarcophaga,,418,0.0,largo<500
+GBABA10671-26.COI-5P,GBABA10671-26,Sarcophaga,,418,0.0,largo<500
+GBABA10679-26.COI-5P,GBABA10679-26,Sarcophaga,,418,0.0,largo<500
+GBABA10683-26.COI-5P,GBABA10683-26,Sarcophaga,,418,0.0,largo<500
+GBABA10690-26.COI-5P,GBABA10690-26,Sarcophaga,,418,0.0,largo<500
+GBABA10701-26.COI-5P,GBABA10701-26,Sarcophaga,,418,0.0,largo<500
+GBABA10724-26.COI-5P,GBABA10724-26,Sarcophaga,,418,0.0,largo<500
+GBABA10750-26.COI-5P,GBABA10750-26,Sarcophaga,,418,0.0,largo<500
+GBABA10753-26.COI-5P,GBABA10753-26,Sarcophaga,,418,0.0,largo<500
+GBABA10760-26.COI-5P,GBABA10760-26,Sarcophaga,,418,0.0,largo<500
+GBABA10768-26.COI-5P,GBABA10768-26,Sarcophaga,,418,0.0,largo<500
+GBABA10769-26.COI-5P,GBABA10769-26,Sarcophaga,,418,0.0,largo<500
+GBABA10771-26.COI-5P,GBABA10771-26,Sarcophaga,,418,0.0,largo<500
+GBABA10777-26.COI-5P,GBABA10777-26,Sarcophaga,,418,0.0,largo<500
+GBABA10780-26.COI-5P,GBABA10780-26,Sarcophaga,,418,0.0,largo<500
+GBABA10783-26.COI-5P,GBABA10783-26,Sarcophaga,,418,0.0,largo<500
+GBABA10785-26.COI-5P,GBABA10785-26,Sarcophaga,,418,0.0,largo<500
+GBABA10787-26.COI-5P,GBABA10787-26,Sarcophaga,,418,0.0,largo<500
+GBABA10790-26.COI-5P,GBABA10790-26,Sarcophaga,,418,0.0,largo<500
+GBABA10805-26.COI-5P,GBABA10805-26,Sarcophaga,,418,0.0,largo<500
+GBABA10812-26.COI-5P,GBABA10812-26,Sarcophaga,,418,0.0,largo<500
+GBABA10815-26.COI-5P,GBABA10815-26,Sarcophaga,,418,0.0,largo<500
+GBABA10823-26.COI-5P,GBABA10823-26,Sarcophaga,,418,0.0,largo<500
+GBABA10833-26.COI-5P,GBABA10833-26,Sarcophaga,,418,0.0,largo<500
+GBABA10834-26.COI-5P,GBABA10834-26,Sarcophaga,,418,0.0,largo<500
+GBABA10862-26.COI-5P,GBABA10862-26,Sarcophaga,,418,0.0,largo<500
+GBABA10878-26.COI-5P,GBABA10878-26,Sarcophaga,,418,0.0,largo<500
+GBABA10883-26.COI-5P,GBABA10883-26,Sarcophaga,,418,0.0,largo<500
+GBABA10886-26.COI-5P,GBABA10886-26,Sarcophaga,,418,0.0,largo<500
+GBABA10900-26.COI-5P,GBABA10900-26,Sarcophaga,,418,0.0,largo<500
+GBABA10904-26.COI-5P,GBABA10904-26,Sarcophaga,,418,0.0,largo<500
+GBABA10909-26.COI-5P,GBABA10909-26,Sarcophaga,,418,0.0,largo<500
+GBABA10912-26.COI-5P,GBABA10912-26,Sarcophaga,,418,0.0,largo<500
+GBABA10916-26.COI-5P,GBABA10916-26,Sarcophaga,,418,0.0,largo<500
+GBABA10935-26.COI-5P,GBABA10935-26,Sarcophaga,,418,0.0,largo<500
+GBABA10937-26.COI-5P,GBABA10937-26,Sarcophaga,,418,0.0,largo<500
+GBABA10966-26.COI-5P,GBABA10966-26,Sarcophaga,,418,0.0,largo<500
+GBABA10971-26.COI-5P,GBABA10971-26,Sarcophaga,,418,0.0,largo<500
+GBABA10979-26.COI-5P,GBABA10979-26,Sarcophaga,,418,0.0,largo<500
+GBABA10985-26.COI-5P,GBABA10985-26,Sarcophaga,,418,0.0,largo<500
+GBABA10986-26.COI-5P,GBABA10986-26,Sarcophaga,,418,0.0,largo<500
+GBABA10990-26.COI-5P,GBABA10990-26,Sarcophaga,,418,0.0,largo<500
+GBABA10999-26.COI-5P,GBABA10999-26,Sarcophaga,,418,0.0,largo<500
+GBABA11004-26.COI-5P,GBABA11004-26,Sarcophaga,,418,0.0,largo<500
+GBABA11006-26.COI-5P,GBABA11006-26,Sarcophaga,,418,0.0,largo<500
+GBABA11015-26.COI-5P,GBABA11015-26,Sarcophaga,,418,0.0,largo<500
+GBABA11023-26.COI-5P,GBABA11023-26,Sarcophaga,,418,0.0,largo<500
+GBABA11024-26.COI-5P,GBABA11024-26,Sarcophaga,,418,0.0,largo<500
+GBABA11025-26.COI-5P,GBABA11025-26,Sarcophaga,,418,0.0,largo<500
+GBABA11031-26.COI-5P,GBABA11031-26,Sarcophaga,,418,0.0,largo<500
+GBABA11048-26.COI-5P,GBABA11048-26,Sarcophaga,,418,0.0,largo<500
+GBABA11067-26.COI-5P,GBABA11067-26,Sarcophaga,,418,0.0,largo<500
+GBABA11073-26.COI-5P,GBABA11073-26,Sarcophaga,,418,0.0,largo<500
+GBABA11074-26.COI-5P,GBABA11074-26,Sarcophaga,,418,0.0,largo<500
+GBABA11084-26.COI-5P,GBABA11084-26,Sarcophaga,,418,0.0,largo<500
+GBABA11090-26.COI-5P,GBABA11090-26,Sarcophaga,,418,0.0,largo<500
+GBABA11117-26.COI-5P,GBABA11117-26,Sarcophaga,,418,0.0,largo<500
+GBABA11132-26.COI-5P,GBABA11132-26,Sarcophaga,,418,0.0,largo<500
+GBABA11133-26.COI-5P,GBABA11133-26,Sarcophaga,,418,0.0,largo<500
+GBABA11134-26.COI-5P,GBABA11134-26,Sarcophaga,,418,0.0,largo<500
+GBABA11142-26.COI-5P,GBABA11142-26,Sarcophaga,,418,0.0,largo<500
+GBABA15013-26.COI-5P,GBABA15013-26,Sarcophaga,,418,0.0,largo<500
+GBABA15194-26.COI-5P,GBABA15194-26,Sarcophaga,,418,0.0,largo<500
+GBABA15199-26.COI-5P,GBABA15199-26,Sarcophaga,,418,0.0,largo<500
+GBABA15217-26.COI-5P,GBABA15217-26,Sarcophaga,,418,0.0,largo<500
+GBABA15231-26.COI-5P,GBABA15231-26,Sarcophaga,,418,0.0,largo<500
+GBABA15276-26.COI-5P,GBABA15276-26,Sarcophaga,,418,0.0,largo<500
+GBABA15336-26.COI-5P,GBABA15336-26,Sarcophaga,,418,0.0,largo<500
+GBABA15340-26.COI-5P,GBABA15340-26,Sarcophaga,,418,0.0,largo<500
+GBABA15347-26.COI-5P,GBABA15347-26,Sarcophaga,,418,0.0,largo<500
+GBABA15350-26.COI-5P,GBABA15350-26,Sarcophaga,,418,0.0,largo<500
+GBABA15424-26.COI-5P,GBABA15424-26,Sarcophaga,,418,0.0,largo<500
+GBABA15439-26.COI-5P,GBABA15439-26,Sarcophaga,,418,0.0,largo<500
+GBABA15453-26.COI-5P,GBABA15453-26,Sarcophaga,,418,0.0,largo<500
+GBABA15468-26.COI-5P,GBABA15468-26,Sarcophaga,,418,0.0,largo<500
+GBABA15469-26.COI-5P,GBABA15469-26,Sarcophaga,,418,0.0,largo<500
+GBABA15484-26.COI-5P,GBABA15484-26,Sarcophaga,,418,0.0,largo<500
+GBABA15488-26.COI-5P,GBABA15488-26,Sarcophaga,,418,0.0,largo<500
+GBABA15491-26.COI-5P,GBABA15491-26,Sarcophaga,,418,0.0,largo<500
+GBABA15493-26.COI-5P,GBABA15493-26,Sarcophaga,,418,0.0,largo<500
+GBABA15497-26.COI-5P,GBABA15497-26,Sarcophaga,,418,0.0,largo<500
+GBABA15533-26.COI-5P,GBABA15533-26,Sarcophaga,,418,0.0,largo<500
+GBABA15555-26.COI-5P,GBABA15555-26,Sarcophaga,,418,0.0,largo<500
+GBABA15564-26.COI-5P,GBABA15564-26,Sarcophaga,,418,0.0,largo<500
+GBABA15565-26.COI-5P,GBABA15565-26,Sarcophaga,,418,0.0,largo<500
+GBABA15582-26.COI-5P,GBABA15582-26,Sarcophaga,,418,0.0,largo<500
+GBABA15603-26.COI-5P,GBABA15603-26,Sarcophaga,,418,0.0,largo<500
+GBABA15606-26.COI-5P,GBABA15606-26,Sarcophaga,,418,0.0,largo<500
+GBABA15664-26.COI-5P,GBABA15664-26,Sarcophaga,,418,0.0,largo<500
+GBABA15688-26.COI-5P,GBABA15688-26,Sarcophaga,,418,0.0,largo<500
+GBABA15698-26.COI-5P,GBABA15698-26,Sarcophaga,,418,0.0,largo<500
+GBABA15706-26.COI-5P,GBABA15706-26,Sarcophaga,,418,0.0,largo<500
+GBABA15721-26.COI-5P,GBABA15721-26,Sarcophaga,,418,0.0,largo<500
+GBABA15738-26.COI-5P,GBABA15738-26,Sarcophaga,,418,0.0,largo<500
+GBABA15740-26.COI-5P,GBABA15740-26,Sarcophaga,,418,0.0,largo<500
+GBABA15768-26.COI-5P,GBABA15768-26,Sarcophaga,,418,0.0,largo<500
+GBABA15769-26.COI-5P,GBABA15769-26,Sarcophaga,,418,0.0,largo<500
+GBABA15822-26.COI-5P,GBABA15822-26,Sarcophaga,,418,0.0,largo<500
+GBABA15826-26.COI-5P,GBABA15826-26,Sarcophaga,,418,0.0,largo<500
+GBABA15829-26.COI-5P,GBABA15829-26,Sarcophaga,,418,0.0,largo<500
+GBABA15832-26.COI-5P,GBABA15832-26,Sarcophaga,,418,0.0,largo<500
+GBABA15894-26.COI-5P,GBABA15894-26,Sarcophaga,,418,0.0,largo<500
+GBABA15924-26.COI-5P,GBABA15924-26,Sarcophaga,,418,0.0,largo<500
+GBABA16039-26.COI-5P,GBABA16039-26,Sarcophaga,,418,0.0,largo<500
+GBABA16045-26.COI-5P,GBABA16045-26,Sarcophaga,,418,0.0,largo<500
+GBABA16084-26.COI-5P,GBABA16084-26,Sarcophaga,,418,0.0,largo<500
+GBABA16144-26.COI-5P,GBABA16144-26,Sarcophaga,,418,0.0,largo<500
+GBABA16147-26.COI-5P,GBABA16147-26,Sarcophaga,,418,0.0,largo<500
+GBABA16231-26.COI-5P,GBABA16231-26,Sarcophaga,,418,0.0,largo<500
+GBABA16241-26.COI-5P,GBABA16241-26,Sarcophaga,,418,0.0,largo<500
+GBABA16253-26.COI-5P,GBABA16253-26,Sarcophaga,,418,0.0,largo<500
+GBABA16263-26.COI-5P,GBABA16263-26,Sarcophaga,,418,0.0,largo<500
+GBABA16327-26.COI-5P,GBABA16327-26,Sarcophaga,,418,0.0,largo<500
+GBABA16353-26.COI-5P,GBABA16353-26,Sarcophaga,,418,0.0,largo<500
+GBABA16360-26.COI-5P,GBABA16360-26,Sarcophaga,,418,0.0,largo<500
+GBABA16365-26.COI-5P,GBABA16365-26,Sarcophaga,,418,0.0,largo<500
+GBABA16403-26.COI-5P,GBABA16403-26,Sarcophaga,,418,0.0,largo<500
+GBABA16424-26.COI-5P,GBABA16424-26,Sarcophaga,,418,0.0,largo<500
+GBABA16433-26.COI-5P,GBABA16433-26,Sarcophaga,,418,0.0,largo<500
+GBABA16485-26.COI-5P,GBABA16485-26,Sarcophaga,,418,0.0,largo<500
+GBABA16498-26.COI-5P,GBABA16498-26,Sarcophaga,,418,0.0,largo<500
+GBABA16527-26.COI-5P,GBABA16527-26,Sarcophaga,,418,0.0,largo<500
+GBABA16549-26.COI-5P,GBABA16549-26,Sarcophaga,,418,0.0,largo<500
+GBABA16561-26.COI-5P,GBABA16561-26,Sarcophaga,,418,0.0,largo<500
+GBABA16606-26.COI-5P,GBABA16606-26,Sarcophaga,,418,0.0,largo<500
+GBABA16617-26.COI-5P,GBABA16617-26,Sarcophaga,,418,0.0,largo<500
+GBABA16636-26.COI-5P,GBABA16636-26,Sarcophaga,,418,0.0,largo<500
+GBABA16658-26.COI-5P,GBABA16658-26,Sarcophaga,,418,0.0,largo<500
+GBABA16662-26.COI-5P,GBABA16662-26,Sarcophaga,,418,0.0,largo<500
+GBABA16673-26.COI-5P,GBABA16673-26,Sarcophaga,,418,0.0,largo<500
+GBABA16676-26.COI-5P,GBABA16676-26,Sarcophaga,,418,0.0,largo<500
+GBABA16716-26.COI-5P,GBABA16716-26,Sarcophaga,,418,0.0,largo<500
+GBABA16746-26.COI-5P,GBABA16746-26,Sarcophaga,,418,0.0,largo<500
+GBABA16792-26.COI-5P,GBABA16792-26,Sarcophaga,,418,0.0,largo<500
+GBABA16806-26.COI-5P,GBABA16806-26,Sarcophaga,,418,0.0,largo<500
+GBABA16836-26.COI-5P,GBABA16836-26,Sarcophaga,,418,0.0,largo<500
+GBABA16857-26.COI-5P,GBABA16857-26,Sarcophaga,,418,0.0,largo<500
+GBABA16878-26.COI-5P,GBABA16878-26,Sarcophaga,,418,0.0,largo<500
+GBABA16897-26.COI-5P,GBABA16897-26,Sarcophaga,,418,0.0,largo<500
+GBABA16907-26.COI-5P,GBABA16907-26,Sarcophaga,,418,0.0,largo<500
+GBABA16930-26.COI-5P,GBABA16930-26,Sarcophaga,,418,0.0,largo<500
+GBABA16943-26.COI-5P,GBABA16943-26,Sarcophaga,,418,0.0,largo<500
+GBABA16944-26.COI-5P,GBABA16944-26,Sarcophaga,,418,0.0,largo<500
+GBABA16987-26.COI-5P,GBABA16987-26,Sarcophaga,,418,0.0,largo<500
+GBABA17029-26.COI-5P,GBABA17029-26,Sarcophaga,,418,0.0,largo<500
+GBABA17047-26.COI-5P,GBABA17047-26,Sarcophaga,,418,0.0,largo<500
+GBABA17051-26.COI-5P,GBABA17051-26,Sarcophaga,,418,0.0,largo<500
+GBABA17052-26.COI-5P,GBABA17052-26,Sarcophaga,,418,0.0,largo<500
+GBABA17060-26.COI-5P,GBABA17060-26,Sarcophaga,,418,0.0,largo<500
+GBABA17061-26.COI-5P,GBABA17061-26,Sarcophaga,,418,0.0,largo<500
+GBABA17076-26.COI-5P,GBABA17076-26,Sarcophaga,,418,0.0,largo<500
+GBABA17079-26.COI-5P,GBABA17079-26,Sarcophaga,,418,0.0,largo<500
+GBABA17102-26.COI-5P,GBABA17102-26,Sarcophaga,,418,0.0,largo<500
+GBABA17117-26.COI-5P,GBABA17117-26,Sarcophaga,,418,0.0,largo<500
+GBABA17143-26.COI-5P,GBABA17143-26,Sarcophaga,,418,0.0,largo<500
+GBABA17144-26.COI-5P,GBABA17144-26,Sarcophaga,,418,0.0,largo<500
+GBABA17198-26.COI-5P,GBABA17198-26,Sarcophaga,,418,0.0,largo<500
+GBABA17210-26.COI-5P,GBABA17210-26,Sarcophaga,,418,0.0,largo<500
+GBABA17213-26.COI-5P,GBABA17213-26,Sarcophaga,,418,0.0,largo<500
+GBABA17245-26.COI-5P,GBABA17245-26,Sarcophaga,,418,0.0,largo<500
+GBABA17255-26.COI-5P,GBABA17255-26,Sarcophaga,,418,0.0,largo<500
+GBABA17270-26.COI-5P,GBABA17270-26,Sarcophaga,,418,0.0,largo<500
+GBABA17290-26.COI-5P,GBABA17290-26,Sarcophaga,,418,0.0,largo<500
+GBABA17293-26.COI-5P,GBABA17293-26,Sarcophaga,,418,0.0,largo<500
+GBABA17309-26.COI-5P,GBABA17309-26,Sarcophaga,,418,0.0,largo<500
+GBABA17335-26.COI-5P,GBABA17335-26,Sarcophaga,,418,0.0,largo<500
+GBABA17336-26.COI-5P,GBABA17336-26,Sarcophaga,,418,0.0,largo<500
+GBABA17372-26.COI-5P,GBABA17372-26,Sarcophaga,,418,0.0,largo<500
+GBABA17373-26.COI-5P,GBABA17373-26,Sarcophaga,,418,0.0,largo<500
+GBABA17405-26.COI-5P,GBABA17405-26,Sarcophaga,,418,0.0,largo<500
+GBABA17414-26.COI-5P,GBABA17414-26,Sarcophaga,,418,0.0,largo<500
+GBABA17423-26.COI-5P,GBABA17423-26,Sarcophaga,,418,0.0,largo<500
+GBABA17438-26.COI-5P,GBABA17438-26,Sarcophaga,,418,0.0,largo<500
+GBABA17484-26.COI-5P,GBABA17484-26,Sarcophaga,,418,0.0,largo<500
+GBABA17527-26.COI-5P,GBABA17527-26,Sarcophaga,,418,0.0,largo<500
+GBABA17581-26.COI-5P,GBABA17581-26,Sarcophaga,,418,0.0,largo<500
+GBABA17587-26.COI-5P,GBABA17587-26,Sarcophaga,,418,0.0,largo<500
+GBABA17616-26.COI-5P,GBABA17616-26,Sarcophaga,,418,0.0,largo<500
+GBABA17677-26.COI-5P,GBABA17677-26,Sarcophaga,,418,0.0,largo<500
+GBABA17690-26.COI-5P,GBABA17690-26,Sarcophaga,,418,0.0,largo<500
+GBABA17700-26.COI-5P,GBABA17700-26,Sarcophaga,,418,0.0,largo<500
+GBABA17722-26.COI-5P,GBABA17722-26,Sarcophaga,,418,0.0,largo<500
+GBABA17752-26.COI-5P,GBABA17752-26,Sarcophaga,,418,0.0,largo<500
+GBABA17772-26.COI-5P,GBABA17772-26,Sarcophaga,,418,0.0,largo<500
+GBABA17786-26.COI-5P,GBABA17786-26,Sarcophaga,,418,0.0,largo<500
+GBABA17787-26.COI-5P,GBABA17787-26,Sarcophaga,,418,0.0,largo<500
+GBABA17817-26.COI-5P,GBABA17817-26,Sarcophaga,,418,0.0,largo<500
+GBABA17840-26.COI-5P,GBABA17840-26,Sarcophaga,,418,0.0,largo<500
+GBABA17865-26.COI-5P,GBABA17865-26,Sarcophaga,,418,0.0,largo<500
+GBABA17924-26.COI-5P,GBABA17924-26,Sarcophaga,,418,0.0,largo<500
+GBABA17933-26.COI-5P,GBABA17933-26,Sarcophaga,,418,0.0,largo<500
+GBABA17936-26.COI-5P,GBABA17936-26,Sarcophaga,,418,0.0,largo<500
+GBABA17938-26.COI-5P,GBABA17938-26,Sarcophaga,,418,0.0,largo<500
+GBABA17992-26.COI-5P,GBABA17992-26,Sarcophaga,,418,0.0,largo<500
+GBABA18027-26.COI-5P,GBABA18027-26,Sarcophaga,,418,0.0,largo<500
+GBABA18028-26.COI-5P,GBABA18028-26,Sarcophaga,,418,0.0,largo<500
+GBABA18041-26.COI-5P,GBABA18041-26,Sarcophaga,,418,0.0,largo<500
+GBABA18058-26.COI-5P,GBABA18058-26,Sarcophaga,,418,0.0,largo<500
+GBABA18066-26.COI-5P,GBABA18066-26,Sarcophaga,,418,0.0,largo<500
+GBABA18075-26.COI-5P,GBABA18075-26,Sarcophaga,,418,0.0,largo<500
+GBABA18077-26.COI-5P,GBABA18077-26,Sarcophaga,,418,0.0,largo<500
+GBABA18088-26.COI-5P,GBABA18088-26,Sarcophaga,,418,0.0,largo<500
+GBABA18120-26.COI-5P,GBABA18120-26,Sarcophaga,,418,0.0,largo<500
+GBABA18132-26.COI-5P,GBABA18132-26,Sarcophaga,,418,0.0,largo<500
+GBABA18138-26.COI-5P,GBABA18138-26,Sarcophaga,,418,0.0,largo<500
+GBABA18150-26.COI-5P,GBABA18150-26,Sarcophaga,,418,0.0,largo<500
+GBABA18157-26.COI-5P,GBABA18157-26,Sarcophaga,,418,0.0,largo<500
+GBABA18158-26.COI-5P,GBABA18158-26,Sarcophaga,,418,0.0,largo<500
+GBABA18164-26.COI-5P,GBABA18164-26,Sarcophaga,,418,0.0,largo<500
+GBABA18165-26.COI-5P,GBABA18165-26,Sarcophaga,,418,0.0,largo<500
+GBABA18167-26.COI-5P,GBABA18167-26,Sarcophaga,,418,0.0,largo<500
+GBABA18220-26.COI-5P,GBABA18220-26,Sarcophaga,,418,0.0,largo<500
+GBABA18228-26.COI-5P,GBABA18228-26,Sarcophaga,,418,0.0,largo<500
+GBABA18232-26.COI-5P,GBABA18232-26,Sarcophaga,,418,0.0,largo<500
+GBABA18235-26.COI-5P,GBABA18235-26,Sarcophaga,,418,0.0,largo<500
+GBABA18281-26.COI-5P,GBABA18281-26,Sarcophaga,,418,0.0,largo<500
+GBABA18348-26.COI-5P,GBABA18348-26,Sarcophaga,,418,0.0,largo<500
+GBABA18396-26.COI-5P,GBABA18396-26,Sarcophaga,,418,0.0,largo<500
+GBABA18412-26.COI-5P,GBABA18412-26,Sarcophaga,,418,0.0,largo<500
+GBABA18447-26.COI-5P,GBABA18447-26,Sarcophaga,,418,0.0,largo<500
+GBABA18521-26.COI-5P,GBABA18521-26,Sarcophaga,,418,0.0,largo<500
+GBABA18537-26.COI-5P,GBABA18537-26,Sarcophaga,,418,0.0,largo<500
+GBABA18560-26.COI-5P,GBABA18560-26,Sarcophaga,,418,0.0,largo<500
+GBABA18573-26.COI-5P,GBABA18573-26,Sarcophaga,,418,0.0,largo<500
+GBABA18577-26.COI-5P,GBABA18577-26,Sarcophaga,,418,0.0,largo<500
+GBABA18589-26.COI-5P,GBABA18589-26,Sarcophaga,,418,0.0,largo<500
+GBABA18629-26.COI-5P,GBABA18629-26,Sarcophaga,,418,0.0,largo<500
+GBABA18657-26.COI-5P,GBABA18657-26,Sarcophaga,,418,0.0,largo<500
+GBABA18694-26.COI-5P,GBABA18694-26,Sarcophaga,,418,0.0,largo<500
+GBABA18696-26.COI-5P,GBABA18696-26,Sarcophaga,,418,0.0,largo<500
+GBABA18738-26.COI-5P,GBABA18738-26,Sarcophaga,,418,0.0,largo<500
+GBABA18796-26.COI-5P,GBABA18796-26,Sarcophaga,,418,0.0,largo<500
+GBABA18805-26.COI-5P,GBABA18805-26,Sarcophaga,,418,0.0,largo<500
+GBABA18824-26.COI-5P,GBABA18824-26,Sarcophaga,,418,0.0,largo<500
+GBABA18827-26.COI-5P,GBABA18827-26,Sarcophaga,,418,0.0,largo<500
+GBABA18857-26.COI-5P,GBABA18857-26,Sarcophaga,,418,0.0,largo<500
+GBABA18880-26.COI-5P,GBABA18880-26,Sarcophaga,,418,0.0,largo<500
+GBABA18887-26.COI-5P,GBABA18887-26,Sarcophaga,,418,0.0,largo<500
+GBABA18902-26.COI-5P,GBABA18902-26,Sarcophaga,,418,0.0,largo<500
+GBABA18910-26.COI-5P,GBABA18910-26,Sarcophaga,,418,0.0,largo<500
+GBABA18966-26.COI-5P,GBABA18966-26,Sarcophaga,,418,0.0,largo<500
+GBABA18976-26.COI-5P,GBABA18976-26,Sarcophaga,,418,0.0,largo<500
+GBABA19013-26.COI-5P,GBABA19013-26,Sarcophaga,,418,0.0,largo<500
+GBABA19055-26.COI-5P,GBABA19055-26,Sarcophaga,,418,0.0,largo<500
+GBABA19092-26.COI-5P,GBABA19092-26,Sarcophaga,,418,0.0,largo<500
+GBABA19095-26.COI-5P,GBABA19095-26,Sarcophaga,,418,0.0,largo<500
+GBABA19096-26.COI-5P,GBABA19096-26,Sarcophaga,,418,0.0,largo<500
+GBABA19105-26.COI-5P,GBABA19105-26,Sarcophaga,,418,0.0,largo<500
+GBABA19127-26.COI-5P,GBABA19127-26,Sarcophaga,,418,0.0,largo<500
+GBABA19128-26.COI-5P,GBABA19128-26,Sarcophaga,,418,0.0,largo<500
+GBABA19149-26.COI-5P,GBABA19149-26,Sarcophaga,,418,0.0,largo<500
+GBABA19260-26.COI-5P,GBABA19260-26,Sarcophaga,,418,0.0,largo<500
+GBABA19270-26.COI-5P,GBABA19270-26,Sarcophaga,,418,0.0,largo<500
+GBABA19297-26.COI-5P,GBABA19297-26,Sarcophaga,,418,0.0,largo<500
+GBABA19317-26.COI-5P,GBABA19317-26,Sarcophaga,,418,0.0,largo<500
+GBABA19453-26.COI-5P,GBABA19453-26,Sarcophaga,,418,0.0,largo<500
+GBABA19462-26.COI-5P,GBABA19462-26,Sarcophaga,,418,0.0,largo<500
+GBABA19489-26.COI-5P,GBABA19489-26,Sarcophaga,,418,0.0,largo<500
+GBABA19520-26.COI-5P,GBABA19520-26,Sarcophaga,,418,0.0,largo<500
+GBABA19528-26.COI-5P,GBABA19528-26,Sarcophaga,,418,0.0,largo<500
+GBABA19597-26.COI-5P,GBABA19597-26,Sarcophaga,,418,0.0,largo<500
+GBABA19617-26.COI-5P,GBABA19617-26,Sarcophaga,,418,0.0,largo<500
+GBABA19649-26.COI-5P,GBABA19649-26,Sarcophaga,,418,0.0,largo<500
+GBABA19684-26.COI-5P,GBABA19684-26,Sarcophaga,,418,0.0,largo<500
+GBABA19706-26.COI-5P,GBABA19706-26,Sarcophaga,,418,0.0,largo<500
+GBABA19786-26.COI-5P,GBABA19786-26,Sarcophaga,,418,0.0,largo<500
+GBABA19804-26.COI-5P,GBABA19804-26,Sarcophaga,,418,0.0,largo<500
+GBABA19828-26.COI-5P,GBABA19828-26,Sarcophaga,,418,0.0,largo<500
+GBABA19885-26.COI-5P,GBABA19885-26,Sarcophaga,,418,0.0,largo<500
+GBABA19902-26.COI-5P,GBABA19902-26,Sarcophaga,,418,0.0,largo<500
+GBABA19911-26.COI-5P,GBABA19911-26,Sarcophaga,,418,0.0,largo<500
+GBABA19968-26.COI-5P,GBABA19968-26,Sarcophaga,,418,0.0,largo<500
+GBABA19991-26.COI-5P,GBABA19991-26,Sarcophaga,,418,0.0,largo<500
+GBABA19994-26.COI-5P,GBABA19994-26,Sarcophaga,,418,0.0,largo<500
+GBABA20048-26.COI-5P,GBABA20048-26,Sarcophaga,,418,0.0,largo<500
+GBABA20063-26.COI-5P,GBABA20063-26,Sarcophaga,,418,0.0,largo<500
+GBABA20103-26.COI-5P,GBABA20103-26,Sarcophaga,,418,0.0,largo<500
+GBABA20168-26.COI-5P,GBABA20168-26,Sarcophaga,,418,0.0,largo<500
+GBABA20218-26.COI-5P,GBABA20218-26,Sarcophaga,,418,0.0,largo<500
+GBABA20270-26.COI-5P,GBABA20270-26,Sarcophaga,,418,0.0,largo<500
+GBABA20329-26.COI-5P,GBABA20329-26,Sarcophaga,,418,0.0,largo<500
+GBABA20376-26.COI-5P,GBABA20376-26,Sarcophaga,,418,0.0,largo<500
+GBABA20444-26.COI-5P,GBABA20444-26,Sarcophaga,,418,0.0,largo<500
+GBABA20482-26.COI-5P,GBABA20482-26,Sarcophaga,,418,0.0,largo<500
+GBABA20505-26.COI-5P,GBABA20505-26,Sarcophaga,,418,0.0,largo<500
+GBABA20515-26.COI-5P,GBABA20515-26,Sarcophaga,,418,0.0,largo<500
+GBABA20522-26.COI-5P,GBABA20522-26,Sarcophaga,,418,0.0,largo<500
+GBABA20600-26.COI-5P,GBABA20600-26,Sarcophaga,,418,0.0,largo<500
+GBABA20606-26.COI-5P,GBABA20606-26,Sarcophaga,,418,0.0,largo<500
+GBABA20645-26.COI-5P,GBABA20645-26,Sarcophaga,,418,0.0,largo<500
+GBABA20782-26.COI-5P,GBABA20782-26,Sarcophaga,,418,0.0,largo<500
+GBABA20829-26.COI-5P,GBABA20829-26,Sarcophaga,,418,0.0,largo<500
+GBABA20853-26.COI-5P,GBABA20853-26,Sarcophaga,,418,0.0,largo<500
+GBABA20877-26.COI-5P,GBABA20877-26,Sarcophaga,,418,0.0,largo<500
+GBABA20883-26.COI-5P,GBABA20883-26,Sarcophaga,,418,0.0,largo<500
+GBABA20897-26.COI-5P,GBABA20897-26,Sarcophaga,,418,0.0,largo<500
+GBABA20898-26.COI-5P,GBABA20898-26,Sarcophaga,,418,0.0,largo<500
+GBABA21020-26.COI-5P,GBABA21020-26,Sarcophaga,,418,0.0,largo<500
+GBABA21063-26.COI-5P,GBABA21063-26,Sarcophaga,,418,0.0,largo<500
+GBABA21064-26.COI-5P,GBABA21064-26,Sarcophaga,,418,0.0,largo<500
+GBABA21108-26.COI-5P,GBABA21108-26,Sarcophaga,,418,0.0,largo<500
+GBABA21205-26.COI-5P,GBABA21205-26,Sarcophaga,,418,0.0,largo<500
+GBABA21223-26.COI-5P,GBABA21223-26,Sarcophaga,,418,0.0,largo<500
+GBABA21237-26.COI-5P,GBABA21237-26,Sarcophaga,,418,0.0,largo<500
+GBABA21244-26.COI-5P,GBABA21244-26,Sarcophaga,,418,0.0,largo<500
+GBABA21263-26.COI-5P,GBABA21263-26,Sarcophaga,,418,0.0,largo<500
+GBABA21269-26.COI-5P,GBABA21269-26,Sarcophaga,,418,0.0,largo<500
+GBABA21343-26.COI-5P,GBABA21343-26,Sarcophaga,,418,0.0,largo<500
+GBABA21385-26.COI-5P,GBABA21385-26,Sarcophaga,,418,0.0,largo<500
+GBABA21389-26.COI-5P,GBABA21389-26,Sarcophaga,,418,0.0,largo<500
+GBABA21429-26.COI-5P,GBABA21429-26,Sarcophaga,,418,0.0,largo<500
+GBABA21446-26.COI-5P,GBABA21446-26,Sarcophaga,,418,0.0,largo<500
+GBABA21479-26.COI-5P,GBABA21479-26,Sarcophaga,,418,0.0,largo<500
+GBABA21554-26.COI-5P,GBABA21554-26,Sarcophaga,,418,0.0,largo<500
+GBABA21591-26.COI-5P,GBABA21591-26,Sarcophaga,,418,0.0,largo<500
+GBABA21610-26.COI-5P,GBABA21610-26,Sarcophaga,,418,0.0,largo<500
+GBABA21618-26.COI-5P,GBABA21618-26,Sarcophaga,,418,0.0,largo<500
+GBABA21670-26.COI-5P,GBABA21670-26,Sarcophaga,,418,0.0,largo<500
+GBABA21684-26.COI-5P,GBABA21684-26,Sarcophaga,,418,0.0,largo<500
+GBABA21747-26.COI-5P,GBABA21747-26,Sarcophaga,,418,0.0,largo<500
+GBABA21759-26.COI-5P,GBABA21759-26,Sarcophaga,,418,0.0,largo<500
+GBABA21767-26.COI-5P,GBABA21767-26,Sarcophaga,,418,0.0,largo<500
+GBABA21769-26.COI-5P,GBABA21769-26,Sarcophaga,,418,0.0,largo<500
+GBABA21786-26.COI-5P,GBABA21786-26,Sarcophaga,,418,0.0,largo<500
+GBABA21787-26.COI-5P,GBABA21787-26,Sarcophaga,,418,0.0,largo<500
+GBABA21789-26.COI-5P,GBABA21789-26,Sarcophaga,,418,0.0,largo<500
+GBABA21791-26.COI-5P,GBABA21791-26,Sarcophaga,,418,0.0,largo<500
+GBABA21810-26.COI-5P,GBABA21810-26,Sarcophaga,,418,0.0,largo<500
+GBABA21822-26.COI-5P,GBABA21822-26,Sarcophaga,,418,0.0,largo<500
+GBABA21844-26.COI-5P,GBABA21844-26,Sarcophaga,,418,0.0,largo<500
+GBABA21863-26.COI-5P,GBABA21863-26,Sarcophaga,,418,0.0,largo<500
+GBABA21903-26.COI-5P,GBABA21903-26,Sarcophaga,,418,0.0,largo<500
+GBABA21929-26.COI-5P,GBABA21929-26,Sarcophaga,,418,0.0,largo<500
+GBABA21966-26.COI-5P,GBABA21966-26,Sarcophaga,,418,0.0,largo<500
+GBABA21969-26.COI-5P,GBABA21969-26,Sarcophaga,,418,0.0,largo<500
+GBABA21987-26.COI-5P,GBABA21987-26,Sarcophaga,,418,0.0,largo<500
+GBABA22129-26.COI-5P,GBABA22129-26,Sarcophaga,,418,0.0,largo<500
+GBABA22168-26.COI-5P,GBABA22168-26,Sarcophaga,,418,0.0,largo<500
+GBABA22201-26.COI-5P,GBABA22201-26,Sarcophaga,,418,0.0,largo<500
+GBABA22202-26.COI-5P,GBABA22202-26,Sarcophaga,,418,0.0,largo<500
+GBABA22219-26.COI-5P,GBABA22219-26,Sarcophaga,,418,0.0,largo<500
+GBABA22230-26.COI-5P,GBABA22230-26,Sarcophaga,,418,0.0,largo<500
+GBABA22347-26.COI-5P,GBABA22347-26,Sarcophaga,,418,0.0,largo<500
+GBABA22368-26.COI-5P,GBABA22368-26,Sarcophaga,,418,0.0,largo<500
+GBABA22420-26.COI-5P,GBABA22420-26,Sarcophaga,,418,0.0,largo<500
+GBABA22490-26.COI-5P,GBABA22490-26,Sarcophaga,,418,0.0,largo<500
+GBABA22547-26.COI-5P,GBABA22547-26,Sarcophaga,,418,0.0,largo<500
+GBABA22549-26.COI-5P,GBABA22549-26,Sarcophaga,,418,0.0,largo<500
+GBABA22590-26.COI-5P,GBABA22590-26,Sarcophaga,,418,0.0,largo<500
+GBABA22610-26.COI-5P,GBABA22610-26,Sarcophaga,,418,0.0,largo<500
+GBABA22667-26.COI-5P,GBABA22667-26,Sarcophaga,,418,0.0,largo<500
+GBABA22674-26.COI-5P,GBABA22674-26,Sarcophaga,,418,0.0,largo<500
+GBABA22734-26.COI-5P,GBABA22734-26,Sarcophaga,,418,0.0,largo<500
+GBABA22742-26.COI-5P,GBABA22742-26,Sarcophaga,,418,0.0,largo<500
+GBABA7166-26.COI-5P,GBABA7166-26,Sarcophaga,,418,0.0,largo<500
+GBABA7170-26.COI-5P,GBABA7170-26,Sarcophaga,,418,0.0,largo<500
+GBABA7173-26.COI-5P,GBABA7173-26,Sarcophaga,,418,0.0,largo<500
+GBABA7189-26.COI-5P,GBABA7189-26,Sarcophaga,,418,0.0,largo<500
+GBABA7197-26.COI-5P,GBABA7197-26,Sarcophaga,,418,0.0,largo<500
+GBABA7202-26.COI-5P,GBABA7202-26,Sarcophaga,,418,0.0,largo<500
+GBABA7203-26.COI-5P,GBABA7203-26,Sarcophaga,,418,0.0,largo<500
+GBABA7205-26.COI-5P,GBABA7205-26,Sarcophaga,,418,0.0,largo<500
+GBABA7212-26.COI-5P,GBABA7212-26,Sarcophaga,,418,0.0,largo<500
+GBABA7223-26.COI-5P,GBABA7223-26,Sarcophaga,,418,0.0,largo<500
+GBABA7234-26.COI-5P,GBABA7234-26,Sarcophaga,,418,0.0,largo<500
+GBABA7238-26.COI-5P,GBABA7238-26,Sarcophaga,,418,0.0,largo<500
+GBABA7240-26.COI-5P,GBABA7240-26,Sarcophaga,,418,0.0,largo<500
+GBABA7241-26.COI-5P,GBABA7241-26,Sarcophaga,,418,0.0,largo<500
+GBABA7242-26.COI-5P,GBABA7242-26,Sarcophaga,,418,0.0,largo<500
+GBABA7269-26.COI-5P,GBABA7269-26,Sarcophaga,,418,0.0,largo<500
+GBABA7278-26.COI-5P,GBABA7278-26,Sarcophaga,,418,0.0,largo<500
+GBABA7285-26.COI-5P,GBABA7285-26,Sarcophaga,,418,0.0,largo<500
+GBABA7295-26.COI-5P,GBABA7295-26,Sarcophaga,,418,0.0,largo<500
+GBABA7298-26.COI-5P,GBABA7298-26,Sarcophaga,,418,0.0,largo<500
+GBABA7304-26.COI-5P,GBABA7304-26,Sarcophaga,,418,0.0,largo<500
+GBABA7322-26.COI-5P,GBABA7322-26,Sarcophaga,,418,0.0,largo<500
+GBABA7325-26.COI-5P,GBABA7325-26,Sarcophaga,,418,0.0,largo<500
+GBABA7354-26.COI-5P,GBABA7354-26,Sarcophaga,,418,0.0,largo<500
+GBABA7369-26.COI-5P,GBABA7369-26,Sarcophaga,,418,0.0,largo<500
+GBABA7372-26.COI-5P,GBABA7372-26,Sarcophaga,,418,0.0,largo<500
+GBABA7373-26.COI-5P,GBABA7373-26,Sarcophaga,,418,0.0,largo<500
+GBABA7381-26.COI-5P,GBABA7381-26,Sarcophaga,,418,0.0,largo<500
+GBABA7387-26.COI-5P,GBABA7387-26,Sarcophaga,,418,0.0,largo<500
+GBABA7388-26.COI-5P,GBABA7388-26,Sarcophaga,,418,0.0,largo<500
+GBABA7401-26.COI-5P,GBABA7401-26,Sarcophaga,,418,0.0,largo<500
+GBABA7403-26.COI-5P,GBABA7403-26,Sarcophaga,,418,0.0,largo<500
+GBABA7404-26.COI-5P,GBABA7404-26,Sarcophaga,,418,0.0,largo<500
+GBABA7408-26.COI-5P,GBABA7408-26,Sarcophaga,,418,0.0,largo<500
+GBABA7409-26.COI-5P,GBABA7409-26,Sarcophaga,,418,0.0,largo<500
+GBABA7418-26.COI-5P,GBABA7418-26,Sarcophaga,,418,0.0,largo<500
+GBABA7442-26.COI-5P,GBABA7442-26,Sarcophaga,,418,0.0,largo<500
+GBABA7450-26.COI-5P,GBABA7450-26,Sarcophaga,,418,0.0,largo<500
+GBABA7451-26.COI-5P,GBABA7451-26,Sarcophaga,,418,0.0,largo<500
+GBABA7452-26.COI-5P,GBABA7452-26,Sarcophaga,,418,0.0,largo<500
+GBABA7470-26.COI-5P,GBABA7470-26,Sarcophaga,,418,0.0,largo<500
+GBABA7500-26.COI-5P,GBABA7500-26,Sarcophaga,,418,0.0,largo<500
+GBABA7505-26.COI-5P,GBABA7505-26,Sarcophaga,,418,0.0,largo<500
+GBABA7515-26.COI-5P,GBABA7515-26,Sarcophaga,,418,0.0,largo<500
+GBABA7519-26.COI-5P,GBABA7519-26,Sarcophaga,,418,0.0,largo<500
+GBABA7520-26.COI-5P,GBABA7520-26,Sarcophaga,,418,0.0,largo<500
+GBABA7526-26.COI-5P,GBABA7526-26,Sarcophaga,,418,0.0,largo<500
+GBABA7540-26.COI-5P,GBABA7540-26,Sarcophaga,,418,0.0,largo<500
+GBABA7546-26.COI-5P,GBABA7546-26,Sarcophaga,,418,0.0,largo<500
+GBABA7547-26.COI-5P,GBABA7547-26,Sarcophaga,,418,0.0,largo<500
+GBABA7550-26.COI-5P,GBABA7550-26,Sarcophaga,,418,0.0,largo<500
+GBABA7558-26.COI-5P,GBABA7558-26,Sarcophaga,,418,0.0,largo<500
+GBABA7562-26.COI-5P,GBABA7562-26,Sarcophaga,,418,0.0,largo<500
+GBABA7565-26.COI-5P,GBABA7565-26,Sarcophaga,,418,0.0,largo<500
+GBABA7601-26.COI-5P,GBABA7601-26,Sarcophaga,,418,0.0,largo<500
+GBABA7606-26.COI-5P,GBABA7606-26,Sarcophaga,,418,0.0,largo<500
+GBABA7633-26.COI-5P,GBABA7633-26,Sarcophaga,,418,0.0,largo<500
+GBABA7635-26.COI-5P,GBABA7635-26,Sarcophaga,,418,0.0,largo<500
+GBABA7638-26.COI-5P,GBABA7638-26,Sarcophaga,,418,0.0,largo<500
+GBABA7643-26.COI-5P,GBABA7643-26,Sarcophaga,,418,0.0,largo<500
+GBABA7669-26.COI-5P,GBABA7669-26,Sarcophaga,,418,0.0,largo<500
+GBABA7670-26.COI-5P,GBABA7670-26,Sarcophaga,,418,0.0,largo<500
+GBABA7682-26.COI-5P,GBABA7682-26,Sarcophaga,,418,0.0,largo<500
+GBABA7688-26.COI-5P,GBABA7688-26,Sarcophaga,,418,0.0,largo<500
+GBABA7709-26.COI-5P,GBABA7709-26,Sarcophaga,,418,0.0,largo<500
+GBABA7711-26.COI-5P,GBABA7711-26,Sarcophaga,,418,0.0,largo<500
+GBABA7718-26.COI-5P,GBABA7718-26,Sarcophaga,,418,0.0,largo<500
+GBABA7727-26.COI-5P,GBABA7727-26,Sarcophaga,,418,0.0,largo<500
+GBABA7732-26.COI-5P,GBABA7732-26,Sarcophaga,,418,0.0,largo<500
+GBABA7739-26.COI-5P,GBABA7739-26,Sarcophaga,,418,0.0,largo<500
+GBABA7748-26.COI-5P,GBABA7748-26,Sarcophaga,,418,0.0,largo<500
+GBABA7761-26.COI-5P,GBABA7761-26,Sarcophaga,,418,0.0,largo<500
+GBABA7776-26.COI-5P,GBABA7776-26,Sarcophaga,,418,0.0,largo<500
+GBABA7783-26.COI-5P,GBABA7783-26,Sarcophaga,,418,0.0,largo<500
+GBABA7843-26.COI-5P,GBABA7843-26,Sarcophaga,,418,0.0,largo<500
+GBABA7861-26.COI-5P,GBABA7861-26,Sarcophaga,,418,0.0,largo<500
+GBABA7883-26.COI-5P,GBABA7883-26,Sarcophaga,,418,0.0,largo<500
+GBABA7888-26.COI-5P,GBABA7888-26,Sarcophaga,,418,0.0,largo<500
+GBABA7892-26.COI-5P,GBABA7892-26,Sarcophaga,,418,0.0,largo<500
+GBABA7895-26.COI-5P,GBABA7895-26,Sarcophaga,,418,0.0,largo<500
+GBABA7941-26.COI-5P,GBABA7941-26,Sarcophaga,,418,0.0,largo<500
+GBABA7981-26.COI-5P,GBABA7981-26,Sarcophaga,,418,0.0,largo<500
+GBABA7991-26.COI-5P,GBABA7991-26,Sarcophaga,,418,0.0,largo<500
+GBABA8000-26.COI-5P,GBABA8000-26,Sarcophaga,,418,0.0,largo<500
+GBABA8004-26.COI-5P,GBABA8004-26,Sarcophaga,,418,0.0,largo<500
+GBABA8009-26.COI-5P,GBABA8009-26,Sarcophaga,,418,0.0,largo<500
+GBABA8010-26.COI-5P,GBABA8010-26,Sarcophaga,,418,0.0,largo<500
+GBABA8028-26.COI-5P,GBABA8028-26,Sarcophaga,,418,0.0,largo<500
+GBABA8042-26.COI-5P,GBABA8042-26,Sarcophaga,,418,0.0,largo<500
+GBABA8052-26.COI-5P,GBABA8052-26,Sarcophaga,,418,0.0,largo<500
+GBABA8063-26.COI-5P,GBABA8063-26,Sarcophaga,,418,0.0,largo<500
+GBABA8073-26.COI-5P,GBABA8073-26,Sarcophaga,,418,0.0,largo<500
+GBABA8081-26.COI-5P,GBABA8081-26,Sarcophaga,,418,0.0,largo<500
+GBABA8088-26.COI-5P,GBABA8088-26,Sarcophaga,,418,0.0,largo<500
+GBABA8089-26.COI-5P,GBABA8089-26,Sarcophaga,,418,0.0,largo<500
+GBABA8093-26.COI-5P,GBABA8093-26,Sarcophaga,,418,0.0,largo<500
+GBABA8102-26.COI-5P,GBABA8102-26,Sarcophaga,,418,0.0,largo<500
+GBABA8114-26.COI-5P,GBABA8114-26,Sarcophaga,,418,0.0,largo<500
+GBABA8119-26.COI-5P,GBABA8119-26,Sarcophaga,,418,0.0,largo<500
+GBABA8122-26.COI-5P,GBABA8122-26,Sarcophaga,,418,0.0,largo<500
+GBABA8128-26.COI-5P,GBABA8128-26,Sarcophaga,,418,0.0,largo<500
+GBABA8129-26.COI-5P,GBABA8129-26,Sarcophaga,,418,0.0,largo<500
+GBABA8136-26.COI-5P,GBABA8136-26,Sarcophaga,,418,0.0,largo<500
+GBABA8143-26.COI-5P,GBABA8143-26,Sarcophaga,,418,0.0,largo<500
+GBABA8151-26.COI-5P,GBABA8151-26,Sarcophaga,,418,0.0,largo<500
+GBABA8158-26.COI-5P,GBABA8158-26,Sarcophaga,,418,0.0,largo<500
+GBABA8159-26.COI-5P,GBABA8159-26,Sarcophaga,,418,0.0,largo<500
+GBABA8162-26.COI-5P,GBABA8162-26,Sarcophaga,,418,0.0,largo<500
+GBABA8196-26.COI-5P,GBABA8196-26,Sarcophaga,,418,0.0,largo<500
+GBABA8210-26.COI-5P,GBABA8210-26,Sarcophaga,,418,0.0,largo<500
+GBABA8212-26.COI-5P,GBABA8212-26,Sarcophaga,,418,0.0,largo<500
+GBABA8216-26.COI-5P,GBABA8216-26,Sarcophaga,,418,0.0,largo<500
+GBABA8225-26.COI-5P,GBABA8225-26,Sarcophaga,,418,0.0,largo<500
+GBABA8229-26.COI-5P,GBABA8229-26,Sarcophaga,,418,0.0,largo<500
+GBABA8230-26.COI-5P,GBABA8230-26,Sarcophaga,,418,0.0,largo<500
+GBABA8235-26.COI-5P,GBABA8235-26,Sarcophaga,,418,0.0,largo<500
+GBABA8241-26.COI-5P,GBABA8241-26,Sarcophaga,,418,0.0,largo<500
+GBABA8246-26.COI-5P,GBABA8246-26,Sarcophaga,,418,0.0,largo<500
+GBABA8256-26.COI-5P,GBABA8256-26,Sarcophaga,,418,0.0,largo<500
+GBABA8257-26.COI-5P,GBABA8257-26,Sarcophaga,,418,0.0,largo<500
+GBABA8275-26.COI-5P,GBABA8275-26,Sarcophaga,,418,0.0,largo<500
+GBABA8280-26.COI-5P,GBABA8280-26,Sarcophaga,,418,0.0,largo<500
+GBABA8291-26.COI-5P,GBABA8291-26,Sarcophaga,,418,0.0,largo<500
+GBABA8292-26.COI-5P,GBABA8292-26,Sarcophaga,,418,0.0,largo<500
+GBABA8296-26.COI-5P,GBABA8296-26,Sarcophaga,,418,0.0,largo<500
+GBABA8299-26.COI-5P,GBABA8299-26,Sarcophaga,,418,0.0,largo<500
+GBABA8313-26.COI-5P,GBABA8313-26,Sarcophaga,,418,0.0,largo<500
+GBABA8320-26.COI-5P,GBABA8320-26,Sarcophaga,,418,0.0,largo<500
+GBABA8331-26.COI-5P,GBABA8331-26,Sarcophaga,,418,0.0,largo<500
+GBABA8333-26.COI-5P,GBABA8333-26,Sarcophaga,,418,0.0,largo<500
+GBABA8335-26.COI-5P,GBABA8335-26,Sarcophaga,,418,0.0,largo<500
+GBABA8340-26.COI-5P,GBABA8340-26,Sarcophaga,,418,0.0,largo<500
+GBABA8350-26.COI-5P,GBABA8350-26,Sarcophaga,,418,0.0,largo<500
+GBABA8359-26.COI-5P,GBABA8359-26,Sarcophaga,,418,0.0,largo<500
+GBABA8361-26.COI-5P,GBABA8361-26,Sarcophaga,,418,0.0,largo<500
+GBABA8374-26.COI-5P,GBABA8374-26,Sarcophaga,,418,0.0,largo<500
+GBABA8382-26.COI-5P,GBABA8382-26,Sarcophaga,,418,0.0,largo<500
+GBABA8423-26.COI-5P,GBABA8423-26,Sarcophaga,,418,0.0,largo<500
+GBABA8432-26.COI-5P,GBABA8432-26,Sarcophaga,,418,0.0,largo<500
+GBABA8439-26.COI-5P,GBABA8439-26,Sarcophaga,,418,0.0,largo<500
+GBABA8448-26.COI-5P,GBABA8448-26,Sarcophaga,,418,0.0,largo<500
+GBABA8465-26.COI-5P,GBABA8465-26,Sarcophaga,,418,0.0,largo<500
+GBABA8481-26.COI-5P,GBABA8481-26,Sarcophaga,,418,0.0,largo<500
+GBABA8487-26.COI-5P,GBABA8487-26,Sarcophaga,,418,0.0,largo<500
+GBABA8490-26.COI-5P,GBABA8490-26,Sarcophaga,,418,0.0,largo<500
+GBABA8504-26.COI-5P,GBABA8504-26,Sarcophaga,,418,0.0,largo<500
+GBABA8509-26.COI-5P,GBABA8509-26,Sarcophaga,,418,0.0,largo<500
+GBABA8511-26.COI-5P,GBABA8511-26,Sarcophaga,,418,0.0,largo<500
+GBABA8515-26.COI-5P,GBABA8515-26,Sarcophaga,,418,0.0,largo<500
+GBABA8516-26.COI-5P,GBABA8516-26,Sarcophaga,,418,0.0,largo<500
+GBABA8552-26.COI-5P,GBABA8552-26,Sarcophaga,,418,0.0,largo<500
+GBABA8569-26.COI-5P,GBABA8569-26,Sarcophaga,,418,0.0,largo<500
+GBABA8618-26.COI-5P,GBABA8618-26,Sarcophaga,,418,0.0,largo<500
+GBABA8625-26.COI-5P,GBABA8625-26,Sarcophaga,,418,0.0,largo<500
+GBABA8626-26.COI-5P,GBABA8626-26,Sarcophaga,,418,0.0,largo<500
+GBABA8627-26.COI-5P,GBABA8627-26,Sarcophaga,,418,0.0,largo<500
+GBABA8628-26.COI-5P,GBABA8628-26,Sarcophaga,,418,0.0,largo<500
+GBABA8639-26.COI-5P,GBABA8639-26,Sarcophaga,,418,0.0,largo<500
+GBABA8666-26.COI-5P,GBABA8666-26,Sarcophaga,,418,0.0,largo<500
+GBABA8672-26.COI-5P,GBABA8672-26,Sarcophaga,,418,0.0,largo<500
+GBABA8682-26.COI-5P,GBABA8682-26,Sarcophaga,,418,0.0,largo<500
+GBABA8696-26.COI-5P,GBABA8696-26,Sarcophaga,,418,0.0,largo<500
+GBABA8705-26.COI-5P,GBABA8705-26,Sarcophaga,,418,0.0,largo<500
+GBABA8714-26.COI-5P,GBABA8714-26,Sarcophaga,,418,0.0,largo<500
+GBABA8720-26.COI-5P,GBABA8720-26,Sarcophaga,,418,0.0,largo<500
+GBABA8729-26.COI-5P,GBABA8729-26,Sarcophaga,,418,0.0,largo<500
+GBABA8730-26.COI-5P,GBABA8730-26,Sarcophaga,,418,0.0,largo<500
+GBABA8760-26.COI-5P,GBABA8760-26,Sarcophaga,,418,0.0,largo<500
+GBABA8763-26.COI-5P,GBABA8763-26,Sarcophaga,,418,0.0,largo<500
+GBABA8790-26.COI-5P,GBABA8790-26,Sarcophaga,,418,0.0,largo<500
+GBABA8795-26.COI-5P,GBABA8795-26,Sarcophaga,,418,0.0,largo<500
+GBABA8804-26.COI-5P,GBABA8804-26,Sarcophaga,,418,0.0,largo<500
+GBABA8853-26.COI-5P,GBABA8853-26,Sarcophaga,,418,0.0,largo<500
+GBABA8854-26.COI-5P,GBABA8854-26,Sarcophaga,,418,0.0,largo<500
+GBABA8857-26.COI-5P,GBABA8857-26,Sarcophaga,,418,0.0,largo<500
+GBABA8861-26.COI-5P,GBABA8861-26,Sarcophaga,,418,0.0,largo<500
+GBABA8869-26.COI-5P,GBABA8869-26,Sarcophaga,,418,0.0,largo<500
+GBABA8883-26.COI-5P,GBABA8883-26,Sarcophaga,,418,0.0,largo<500
+GBABA8884-26.COI-5P,GBABA8884-26,Sarcophaga,,418,0.0,largo<500
+GBABA8885-26.COI-5P,GBABA8885-26,Sarcophaga,,418,0.0,largo<500
+GBABA8895-26.COI-5P,GBABA8895-26,Sarcophaga,,418,0.0,largo<500
+GBABA8896-26.COI-5P,GBABA8896-26,Sarcophaga,,418,0.0,largo<500
+GBABA8902-26.COI-5P,GBABA8902-26,Sarcophaga,,418,0.0,largo<500
+GBABA8908-26.COI-5P,GBABA8908-26,Sarcophaga,,418,0.0,largo<500
+GBABA8916-26.COI-5P,GBABA8916-26,Sarcophaga,,418,0.0,largo<500
+GBABA8920-26.COI-5P,GBABA8920-26,Sarcophaga,,418,0.0,largo<500
+GBABA8922-26.COI-5P,GBABA8922-26,Sarcophaga,,418,0.0,largo<500
+GBABA8938-26.COI-5P,GBABA8938-26,Sarcophaga,,418,0.0,largo<500
+GBABA8942-26.COI-5P,GBABA8942-26,Sarcophaga,,418,0.0,largo<500
+GBABA8955-26.COI-5P,GBABA8955-26,Sarcophaga,,418,0.0,largo<500
+GBABA8972-26.COI-5P,GBABA8972-26,Sarcophaga,,418,0.0,largo<500
+GBABA8978-26.COI-5P,GBABA8978-26,Sarcophaga,,418,0.0,largo<500
+GBABA8982-26.COI-5P,GBABA8982-26,Sarcophaga,,418,0.0,largo<500
+GBABA8987-26.COI-5P,GBABA8987-26,Sarcophaga,,418,0.0,largo<500
+GBABA8990-26.COI-5P,GBABA8990-26,Sarcophaga,,418,0.0,largo<500
+GBABA8993-26.COI-5P,GBABA8993-26,Sarcophaga,,418,0.0,largo<500
+GBABA8994-26.COI-5P,GBABA8994-26,Sarcophaga,,418,0.0,largo<500
+GBABA9000-26.COI-5P,GBABA9000-26,Sarcophaga,,418,0.0,largo<500
+GBABA9008-26.COI-5P,GBABA9008-26,Sarcophaga,,418,0.0,largo<500
+GBABA9026-26.COI-5P,GBABA9026-26,Sarcophaga,,418,0.0,largo<500
+GBABA9052-26.COI-5P,GBABA9052-26,Sarcophaga,,418,0.0,largo<500
+GBABA9063-26.COI-5P,GBABA9063-26,Sarcophaga,,418,0.0,largo<500
+GBABA9064-26.COI-5P,GBABA9064-26,Sarcophaga,,418,0.0,largo<500
+GBABA9072-26.COI-5P,GBABA9072-26,Sarcophaga,,418,0.0,largo<500
+GBABA9084-26.COI-5P,GBABA9084-26,Sarcophaga,,418,0.0,largo<500
+GBABA9112-26.COI-5P,GBABA9112-26,Sarcophaga,,418,0.0,largo<500
+GBABA9116-26.COI-5P,GBABA9116-26,Sarcophaga,,418,0.0,largo<500
+GBABA9120-26.COI-5P,GBABA9120-26,Sarcophaga,,418,0.0,largo<500
+GBABA9138-26.COI-5P,GBABA9138-26,Sarcophaga,,418,0.0,largo<500
+GBABA9144-26.COI-5P,GBABA9144-26,Sarcophaga,,418,0.0,largo<500
+GBABA9147-26.COI-5P,GBABA9147-26,Sarcophaga,,418,0.0,largo<500
+GBABA9156-26.COI-5P,GBABA9156-26,Sarcophaga,,418,0.0,largo<500
+GBABA9165-26.COI-5P,GBABA9165-26,Sarcophaga,,418,0.0,largo<500
+GBABA9173-26.COI-5P,GBABA9173-26,Sarcophaga,,418,0.0,largo<500
+GBABA9176-26.COI-5P,GBABA9176-26,Sarcophaga,,418,0.0,largo<500
+GBABA9187-26.COI-5P,GBABA9187-26,Sarcophaga,,418,0.0,largo<500
+GBABA9201-26.COI-5P,GBABA9201-26,Sarcophaga,,418,0.0,largo<500
+GBABA9209-26.COI-5P,GBABA9209-26,Sarcophaga,,418,0.0,largo<500
+GBABA9238-26.COI-5P,GBABA9238-26,Sarcophaga,,418,0.0,largo<500
+GBABA9240-26.COI-5P,GBABA9240-26,Sarcophaga,,418,0.0,largo<500
+GBABA9260-26.COI-5P,GBABA9260-26,Sarcophaga,,418,0.0,largo<500
+GBABA9271-26.COI-5P,GBABA9271-26,Sarcophaga,,418,0.0,largo<500
+GBABA9274-26.COI-5P,GBABA9274-26,Sarcophaga,,418,0.0,largo<500
+GBABA9280-26.COI-5P,GBABA9280-26,Sarcophaga,,418,0.0,largo<500
+GBABA9311-26.COI-5P,GBABA9311-26,Sarcophaga,,418,0.0,largo<500
+GBABA9313-26.COI-5P,GBABA9313-26,Sarcophaga,,418,0.0,largo<500
+GBABA9318-26.COI-5P,GBABA9318-26,Sarcophaga,,418,0.0,largo<500
+GBABA9321-26.COI-5P,GBABA9321-26,Sarcophaga,,418,0.0,largo<500
+GBABA9329-26.COI-5P,GBABA9329-26,Sarcophaga,,418,0.0,largo<500
+GBABA9340-26.COI-5P,GBABA9340-26,Sarcophaga,,418,0.0,largo<500
+GBABA9346-26.COI-5P,GBABA9346-26,Sarcophaga,,418,0.0,largo<500
+GBABA9348-26.COI-5P,GBABA9348-26,Sarcophaga,,418,0.0,largo<500
+GBABA9354-26.COI-5P,GBABA9354-26,Sarcophaga,,418,0.0,largo<500
+GBABA9355-26.COI-5P,GBABA9355-26,Sarcophaga,,418,0.0,largo<500
+GBABA9356-26.COI-5P,GBABA9356-26,Sarcophaga,,418,0.0,largo<500
+GBABA9357-26.COI-5P,GBABA9357-26,Sarcophaga,,418,0.0,largo<500
+GBABA9366-26.COI-5P,GBABA9366-26,Sarcophaga,,418,0.0,largo<500
+GBABA9370-26.COI-5P,GBABA9370-26,Sarcophaga,,418,0.0,largo<500
+GBABA9372-26.COI-5P,GBABA9372-26,Sarcophaga,,418,0.0,largo<500
+GBABA9386-26.COI-5P,GBABA9386-26,Sarcophaga,,418,0.0,largo<500
+GBABA9387-26.COI-5P,GBABA9387-26,Sarcophaga,,418,0.0,largo<500
+GBABA9401-26.COI-5P,GBABA9401-26,Sarcophaga,,418,0.0,largo<500
+GBABA9410-26.COI-5P,GBABA9410-26,Sarcophaga,,418,0.0,largo<500
+GBABA9415-26.COI-5P,GBABA9415-26,Sarcophaga,,418,0.0,largo<500
+GBABA9416-26.COI-5P,GBABA9416-26,Sarcophaga,,418,0.0,largo<500
+GBABA9417-26.COI-5P,GBABA9417-26,Sarcophaga,,418,0.0,largo<500
+GBABA9438-26.COI-5P,GBABA9438-26,Sarcophaga,,418,0.0,largo<500
+GBABA9470-26.COI-5P,GBABA9470-26,Sarcophaga,,418,0.0,largo<500
+GBABA9476-26.COI-5P,GBABA9476-26,Sarcophaga,,418,0.0,largo<500
+GBABA9480-26.COI-5P,GBABA9480-26,Sarcophaga,,418,0.0,largo<500
+GBABA9483-26.COI-5P,GBABA9483-26,Sarcophaga,,418,0.0,largo<500
+GBABA9488-26.COI-5P,GBABA9488-26,Sarcophaga,,418,0.0,largo<500
+GBABA9493-26.COI-5P,GBABA9493-26,Sarcophaga,,418,0.0,largo<500
+GBABA9508-26.COI-5P,GBABA9508-26,Sarcophaga,,418,0.0,largo<500
+GBABA9515-26.COI-5P,GBABA9515-26,Sarcophaga,,418,0.0,largo<500
+GBABA9532-26.COI-5P,GBABA9532-26,Sarcophaga,,418,0.0,largo<500
+GBABA9540-26.COI-5P,GBABA9540-26,Sarcophaga,,418,0.0,largo<500
+GBABA9545-26.COI-5P,GBABA9545-26,Sarcophaga,,418,0.0,largo<500
+GBABA9577-26.COI-5P,GBABA9577-26,Sarcophaga,,418,0.0,largo<500
+GBABA9580-26.COI-5P,GBABA9580-26,Sarcophaga,,418,0.0,largo<500
+GBABA9602-26.COI-5P,GBABA9602-26,Sarcophaga,,418,0.0,largo<500
+GBABA9619-26.COI-5P,GBABA9619-26,Sarcophaga,,418,0.0,largo<500
+GBABA9637-26.COI-5P,GBABA9637-26,Sarcophaga,,418,0.0,largo<500
+GBABA9639-26.COI-5P,GBABA9639-26,Sarcophaga,,418,0.0,largo<500
+GBABA9650-26.COI-5P,GBABA9650-26,Sarcophaga,,418,0.0,largo<500
+GBABA9676-26.COI-5P,GBABA9676-26,Sarcophaga,,418,0.0,largo<500
+GBABA9693-26.COI-5P,GBABA9693-26,Sarcophaga,,418,0.0,largo<500
+GBABA9714-26.COI-5P,GBABA9714-26,Sarcophaga,,418,0.0,largo<500
+GBABA9726-26.COI-5P,GBABA9726-26,Sarcophaga,,418,0.0,largo<500
+GBABA9728-26.COI-5P,GBABA9728-26,Sarcophaga,,418,0.0,largo<500
+GBABA9729-26.COI-5P,GBABA9729-26,Sarcophaga,,418,0.0,largo<500
+GBABA9734-26.COI-5P,GBABA9734-26,Sarcophaga,,418,0.0,largo<500
+GBABA9736-26.COI-5P,GBABA9736-26,Sarcophaga,,418,0.0,largo<500
+GBABA9740-26.COI-5P,GBABA9740-26,Sarcophaga,,418,0.0,largo<500
+GBABA9741-26.COI-5P,GBABA9741-26,Sarcophaga,,418,0.0,largo<500
+GBABA9743-26.COI-5P,GBABA9743-26,Sarcophaga,,418,0.0,largo<500
+GBABA9745-26.COI-5P,GBABA9745-26,Sarcophaga,,418,0.0,largo<500
+GBABA9762-26.COI-5P,GBABA9762-26,Sarcophaga,,418,0.0,largo<500
+GBABA9772-26.COI-5P,GBABA9772-26,Sarcophaga,,418,0.0,largo<500
+GBABA9782-26.COI-5P,GBABA9782-26,Sarcophaga,,418,0.0,largo<500
+GBABA9789-26.COI-5P,GBABA9789-26,Sarcophaga,,418,0.0,largo<500
+GBABA9796-26.COI-5P,GBABA9796-26,Sarcophaga,,418,0.0,largo<500
+GBABA9798-26.COI-5P,GBABA9798-26,Sarcophaga,,418,0.0,largo<500
+GBABA9811-26.COI-5P,GBABA9811-26,Sarcophaga,,418,0.0,largo<500
+GBABA9812-26.COI-5P,GBABA9812-26,Sarcophaga,,418,0.0,largo<500
+GBABA9815-26.COI-5P,GBABA9815-26,Sarcophaga,,418,0.0,largo<500
+GBABA9825-26.COI-5P,GBABA9825-26,Sarcophaga,,418,0.0,largo<500
+GBABA9827-26.COI-5P,GBABA9827-26,Sarcophaga,,418,0.0,largo<500
+GBABA9831-26.COI-5P,GBABA9831-26,Sarcophaga,,418,0.0,largo<500
+GBABA9836-26.COI-5P,GBABA9836-26,Sarcophaga,,418,0.0,largo<500
+GBABA9839-26.COI-5P,GBABA9839-26,Sarcophaga,,418,0.0,largo<500
+GBABA9843-26.COI-5P,GBABA9843-26,Sarcophaga,,418,0.0,largo<500
+GBABA9844-26.COI-5P,GBABA9844-26,Sarcophaga,,418,0.0,largo<500
+GBABA9855-26.COI-5P,GBABA9855-26,Sarcophaga,,418,0.0,largo<500
+GBABA9866-26.COI-5P,GBABA9866-26,Sarcophaga,,418,0.0,largo<500
+GBABA9869-26.COI-5P,GBABA9869-26,Sarcophaga,,418,0.0,largo<500
+GBABA9872-26.COI-5P,GBABA9872-26,Sarcophaga,,418,0.0,largo<500
+GBABA9890-26.COI-5P,GBABA9890-26,Sarcophaga,,418,0.0,largo<500
+GBABA9892-26.COI-5P,GBABA9892-26,Sarcophaga,,418,0.0,largo<500
+GBABA9908-26.COI-5P,GBABA9908-26,Sarcophaga,,418,0.0,largo<500
+GBABA9910-26.COI-5P,GBABA9910-26,Sarcophaga,,418,0.0,largo<500
+GBABA9918-26.COI-5P,GBABA9918-26,Sarcophaga,,418,0.0,largo<500
+GBABA9927-26.COI-5P,GBABA9927-26,Sarcophaga,,418,0.0,largo<500
+GBABA9963-26.COI-5P,GBABA9963-26,Sarcophaga,,418,0.0,largo<500
+GBABA9966-26.COI-5P,GBABA9966-26,Sarcophaga,,418,0.0,largo<500
+GBABA9972-26.COI-5P,GBABA9972-26,Sarcophaga,,418,0.0,largo<500
+GBABA9998-26.COI-5P,GBABA9998-26,Sarcophaga,,418,0.0,largo<500
+GBABA9999-26.COI-5P,GBABA9999-26,Sarcophaga,,418,0.0,largo<500
+GBCAB22451-24.COI-5P,GBCAB22451-24,Sarcophaga,Sarcophaga africa,497,0.0,largo<500
+GBCAB22452-24.COI-5P,GBCAB22452-24,Sarcophaga,Sarcophaga africa,496,0.0,largo<500
+GBCAB22453-24.COI-5P,GBCAB22453-24,Sarcophaga,Sarcophaga africa,496,0.0,largo<500
+GBCAB31420-24.COI-5P,GBCAB31420-24,Sarcophaga,Sarcophaga teretirostris,494,0.0,largo<500
+GBCAB31421-24.COI-5P,GBCAB31421-24,Sarcophaga,Sarcophaga teretirostris,493,0.0,largo<500
+GBCAB31422-24.COI-5P,GBCAB31422-24,Sarcophaga,Sarcophaga teretirostris,493,0.0,largo<500
+GBCAB36233-24.COI-5P,GBCAB36233-24,Sarcophaga,Sarcophaga tibialis,493,0.0,largo<500
+GBCAB36234-24.COI-5P,GBCAB36234-24,Sarcophaga,Sarcophaga tibialis,491,0.0,largo<500
+GBCAB36235-24.COI-5P,GBCAB36235-24,Sarcophaga,Sarcophaga tibialis,491,0.0,largo<500
+GBCAB36728-24.COI-5P,GBCAB36728-24,Sarcophaga,Sarcophaga pandellei,492,0.0,largo<500
+GBCAB36729-24.COI-5P,GBCAB36729-24,Sarcophaga,Sarcophaga pandellei,491,0.0,largo<500
+GBCAB36730-24.COI-5P,GBCAB36730-24,Sarcophaga,Sarcophaga pandellei,491,0.0,largo<500
+GBCAB37918-24.COI-5P,GBCAB37918-24,Sarcophaga,Sarcophaga argyrostoma,496,0.0,largo<500
+GBCAB37919-24.COI-5P,GBCAB37919-24,Sarcophaga,Sarcophaga argyrostoma,495,0.0,largo<500
+GBCAB37920-24.COI-5P,GBCAB37920-24,Sarcophaga,Sarcophaga argyrostoma,497,0.0,largo<500
+GBDP12242-12.COI-5P,GBDP12242-12,Sarcophaga,Sarcophaga argyrostoma,434,0.0,largo<500
+GBDP12243-12.COI-5P,GBDP12243-12,Sarcophaga,Sarcophaga crassipalpis,403,0.0,largo<500
+GBDP12244-12.COI-5P,GBDP12244-12,Sarcophaga,Sarcophaga bullata,409,0.0,largo<500
+GBDP12245-12.COI-5P,GBDP12245-12,Sarcophaga,Sarcophaga citellivora,409,0.0,largo<500
+GBDP14087-13.COI-5P,GBDP14087-13,Sarcophaga,Sarcophaga kempi,465,0.0,largo<500
+GBDP14088-13.COI-5P,GBDP14088-13,Sarcophaga,Sarcophaga kempi,465,0.0,largo<500
+GBDP15807-14.COI-5P,GBDP15807-14,Sarcophaga,Sarcophaga argyrostoma,1170,0.0153846154,no_ACGT>1%
+GBDP15808-14.COI-5P,GBDP15808-14,Sarcophaga,Sarcophaga argyrostoma,1170,0.0153846154,no_ACGT>1%
+GBDP15809-14.COI-5P,GBDP15809-14,Sarcophaga,Sarcophaga argyrostoma,1170,0.0153846154,no_ACGT>1%
+GBDP28570-19.COI-5P,GBDP28570-19,Sarcophaga,Sarcophaga peregrina,202,0.0,largo<500
+GBDP28579-19.COI-5P,GBDP28579-19,Sarcophaga,Sarcophaga sp. 1 TG-2018,400,0.0,largo<500
+GBDP28580-19.COI-5P,GBDP28580-19,Sarcophaga,Sarcophaga sp. 2 TG-2018,400,0.0,largo<500
+GBDP9249-10.COI-5P,GBDP9249-10,Sarcophaga,Sarcophaga mimoris,970,0.0206185567,no_ACGT>1%
+GBMIN18968-13.COI-5P,GBMIN18968-13,Sarcophaga,Sarcophaga misera,456,0.0,largo<500
+GBMIN18969-13.COI-5P,GBMIN18969-13,Sarcophaga,Sarcophaga misera,456,0.0,largo<500
+GBMIN18970-13.COI-5P,GBMIN18970-13,Sarcophaga,Sarcophaga misera,456,0.0,largo<500
+GBMIN18971-13.COI-5P,GBMIN18971-13,Sarcophaga,Sarcophaga misera,456,0.0,largo<500
+GBMIN18972-13.COI-5P,GBMIN18972-13,Sarcophaga,Sarcophaga sericea,375,0.0,largo<500
+GBMIN18973-13.COI-5P,GBMIN18973-13,Sarcophaga,Sarcophaga sericea,375,0.0,largo<500
+GBMIN18974-13.COI-5P,GBMIN18974-13,Sarcophaga,Sarcophaga sericea,375,0.0,largo<500
+GBMIN18975-13.COI-5P,GBMIN18975-13,Sarcophaga,Sarcophaga sericea,375,0.0,largo<500
+GBMIN18976-13.COI-5P,GBMIN18976-13,Sarcophaga,Sarcophaga albiceps,465,0.0,largo<500
+GBMIN18977-13.COI-5P,GBMIN18977-13,Sarcophaga,Sarcophaga orientaloides,465,0.0,largo<500
+GBMIN18978-13.COI-5P,GBMIN18978-13,Sarcophaga,Sarcophaga orientaloides,465,0.0,largo<500
+GBMIN18979-13.COI-5P,GBMIN18979-13,Sarcophaga,Sarcophaga orientaloides,465,0.0,largo<500
+GBMIN18980-13.COI-5P,GBMIN18980-13,Sarcophaga,Sarcophaga orientaloides,465,0.0,largo<500
+GBMIN18981-13.COI-5P,GBMIN18981-13,Sarcophaga,Sarcophaga sericea,465,0.0,largo<500
+GBMIN18982-13.COI-5P,GBMIN18982-13,Sarcophaga,Sarcophaga sericea,465,0.0,largo<500
+GBMIN18983-13.COI-5P,GBMIN18983-13,Sarcophaga,Sarcophaga sericea,465,0.0,largo<500
+GBMIN18984-13.COI-5P,GBMIN18984-13,Sarcophaga,Sarcophaga sericea,465,0.0,largo<500
+GBMIN18985-13.COI-5P,GBMIN18985-13,Sarcophaga,Sarcophaga ruficornis,465,0.0,largo<500
+GBMIN18986-13.COI-5P,GBMIN18986-13,Sarcophaga,Sarcophaga misera,465,0.0,largo<500
+GBMIN18987-13.COI-5P,GBMIN18987-13,Sarcophaga,Sarcophaga misera,465,0.0,largo<500
+GBMIN18988-13.COI-5P,GBMIN18988-13,Sarcophaga,Sarcophaga misera,465,0.0,largo<500
+GBMIN18989-13.COI-5P,GBMIN18989-13,Sarcophaga,Sarcophaga misera,465,0.0,largo<500
+GBMIN18990-13.COI-5P,GBMIN18990-13,Sarcophaga,Sarcophaga macroauriculata,465,0.0,largo<500
+GBMIN18991-13.COI-5P,GBMIN18991-13,Sarcophaga,Sarcophaga hirtipes,465,0.0,largo<500
+GBMIN18992-13.COI-5P,GBMIN18992-13,Sarcophaga,Sarcophaga hirtipes,465,0.0,largo<500
+GBMIN18993-13.COI-5P,GBMIN18993-13,Sarcophaga,Sarcophaga hirtipes,465,0.0,largo<500
+GBMIN18994-13.COI-5P,GBMIN18994-13,Sarcophaga,Sarcophaga hirtipes,465,0.0,largo<500
+GBMIN18995-13.COI-5P,GBMIN18995-13,Sarcophaga,Sarcophaga albiceps,465,0.0,largo<500
+GBMIN18996-13.COI-5P,GBMIN18996-13,Sarcophaga,Sarcophaga albiceps,465,0.0,largo<500
+GBMIN18997-13.COI-5P,GBMIN18997-13,Sarcophaga,Sarcophaga albiceps,465,0.0,largo<500
+GBMIN18998-13.COI-5P,GBMIN18998-13,Sarcophaga,Sarcophaga martellata,465,0.0,largo<500
+GBMIN18999-13.COI-5P,GBMIN18999-13,Sarcophaga,Sarcophaga peregrina,465,0.0,largo<500
+GBMIN19013-13.COI-5P,GBMIN19013-13,Sarcophaga,Sarcophaga misera,456,0.0,largo<500
+GBMIN19014-13.COI-5P,GBMIN19014-13,Sarcophaga,Sarcophaga misera,456,0.0,largo<500
+GBMIN19015-13.COI-5P,GBMIN19015-13,Sarcophaga,Sarcophaga misera,456,0.0,largo<500
+GBMIN19016-13.COI-5P,GBMIN19016-13,Sarcophaga,Sarcophaga misera,456,0.0,largo<500
+GBMIN19017-13.COI-5P,GBMIN19017-13,Sarcophaga,Sarcophaga sericea,375,0.0,largo<500
+GBMIN19018-13.COI-5P,GBMIN19018-13,Sarcophaga,Sarcophaga sericea,375,0.0,largo<500
+GBMIN19019-13.COI-5P,GBMIN19019-13,Sarcophaga,Sarcophaga sericea,375,0.0,largo<500
+GBMIN19020-13.COI-5P,GBMIN19020-13,Sarcophaga,Sarcophaga sericea,375,0.0,largo<500
+GBMIN19021-13.COI-5P,GBMIN19021-13,Sarcophaga,Sarcophaga orientaloides,465,0.0,largo<500
+GBMIN19022-13.COI-5P,GBMIN19022-13,Sarcophaga,Sarcophaga orientaloides,465,0.0,largo<500
+GBMIN19023-13.COI-5P,GBMIN19023-13,Sarcophaga,Sarcophaga orientaloides,465,0.0,largo<500
+GBMIN19024-13.COI-5P,GBMIN19024-13,Sarcophaga,Sarcophaga orientaloides,465,0.0,largo<500
+GBMIN19025-13.COI-5P,GBMIN19025-13,Sarcophaga,Sarcophaga sericea,465,0.0,largo<500
+GBMIN19026-13.COI-5P,GBMIN19026-13,Sarcophaga,Sarcophaga sericea,465,0.0,largo<500
+GBMIN19027-13.COI-5P,GBMIN19027-13,Sarcophaga,Sarcophaga sericea,465,0.0,largo<500
+GBMIN19028-13.COI-5P,GBMIN19028-13,Sarcophaga,Sarcophaga sericea,465,0.0,largo<500
+GBMIN19029-13.COI-5P,GBMIN19029-13,Sarcophaga,Sarcophaga ruficornis,465,0.0,largo<500
+GBMIN19030-13.COI-5P,GBMIN19030-13,Sarcophaga,Sarcophaga misera,465,0.0,largo<500
+GBMIN19031-13.COI-5P,GBMIN19031-13,Sarcophaga,Sarcophaga misera,465,0.0,largo<500
+GBMIN19032-13.COI-5P,GBMIN19032-13,Sarcophaga,Sarcophaga misera,465,0.0,largo<500
+GBMIN19033-13.COI-5P,GBMIN19033-13,Sarcophaga,Sarcophaga misera,465,0.0,largo<500
+GBMIN19034-13.COI-5P,GBMIN19034-13,Sarcophaga,Sarcophaga macroauriculata,465,0.0,largo<500
+GBMIN19035-13.COI-5P,GBMIN19035-13,Sarcophaga,Sarcophaga hirtipes,465,0.0,largo<500
+GBMIN19036-13.COI-5P,GBMIN19036-13,Sarcophaga,Sarcophaga hirtipes,465,0.0,largo<500
+GBMIN19037-13.COI-5P,GBMIN19037-13,Sarcophaga,Sarcophaga hirtipes,465,0.0,largo<500
+GBMIN19038-13.COI-5P,GBMIN19038-13,Sarcophaga,Sarcophaga hirtipes,465,0.0,largo<500
+GBMIN19039-13.COI-5P,GBMIN19039-13,Sarcophaga,Sarcophaga albiceps,465,0.0,largo<500
+GBMIN19040-13.COI-5P,GBMIN19040-13,Sarcophaga,Sarcophaga albiceps,465,0.0,largo<500
+GBMIN19041-13.COI-5P,GBMIN19041-13,Sarcophaga,Sarcophaga albiceps,465,0.0,largo<500
+GBMIN19042-13.COI-5P,GBMIN19042-13,Sarcophaga,Sarcophaga albiceps,465,0.0,largo<500
+GBMIN19043-13.COI-5P,GBMIN19043-13,Sarcophaga,Sarcophaga martellata,465,0.0,largo<500
+GBMIN19044-13.COI-5P,GBMIN19044-13,Sarcophaga,Sarcophaga peregrina,465,0.0,largo<500
+GBMIN19355-13.COI-5P,GBMIN19355-13,Sarcophaga,Sarcophaga martellata,420,0.0,largo<500
+GBMIN19366-13.COI-5P,GBMIN19366-13,Sarcophaga,Sarcophaga martellata,420,0.0,largo<500
+GBMIN60350-17.COI-5P,GBMIN60350-17,Sarcophaga,Sarcophaga pandellei,493,0.0,largo<500
+GBMNA27507-19.COI-5P,GBMNA27507-19,Sarcophaga,Sarcophaga lehmanni,658,0.0106382979,no_ACGT>1%
+GBMNA27511-19.COI-5P,GBMNA27511-19,Sarcophaga,Sarcophaga variegata,658,0.0136778116,no_ACGT>1%
+GBMNA27568-19.COI-5P,GBMNA27568-19,Sarcophaga,Sarcophaga carnaria,658,0.0106382979,no_ACGT>1%
+GBMNA27569-19.COI-5P,GBMNA27569-19,Sarcophaga,Sarcophaga carnaria,658,0.0121580547,no_ACGT>1%
+GBMND93779-21.COI-5P,GBMND93779-21,Sarcophaga,Sarcophaga ruficornis,480,0.0,largo<500
+GBMNE30014-21.COI-5P,GBMNE30014-21,Sarcophaga,Sarcophaga argyrostoma,473,0.0,largo<500
+GBMNE30015-21.COI-5P,GBMNE30015-21,Sarcophaga,Sarcophaga argyrostoma,473,0.0,largo<500
+GBMNE30016-21.COI-5P,GBMNE30016-21,Sarcophaga,Sarcophaga argyrostoma,473,0.0,largo<500
+GBMNE30017-21.COI-5P,GBMNE30017-21,Sarcophaga,Sarcophaga calicifera,420,0.0,largo<500
+GBMNE30018-21.COI-5P,GBMNE30018-21,Sarcophaga,Sarcophaga calicifera,420,0.0,largo<500
+GBMNE30020-21.COI-5P,GBMNE30020-21,Sarcophaga,Sarcophaga teretirostris,473,0.0,largo<500
+GBMNE30021-21.COI-5P,GBMNE30021-21,Sarcophaga,Sarcophaga teretirostris,473,0.0,largo<500
+GBMNE30022-21.COI-5P,GBMNE30022-21,Sarcophaga,Sarcophaga teretirostris,473,0.0,largo<500
+GBMNE30023-21.COI-5P,GBMNE30023-21,Sarcophaga,Sarcophaga tibialis,473,0.0,largo<500
+GBMNE30024-21.COI-5P,GBMNE30024-21,Sarcophaga,Sarcophaga tibialis,473,0.0,largo<500
+GBMNE30025-21.COI-5P,GBMNE30025-21,Sarcophaga,Sarcophaga tibialis,473,0.0,largo<500
+GBMNE57085-22.COI-5P,GBMNE57085-22,Sarcophaga,Sarcophaga africa,487,0.0,largo<500
+GBMNE57086-22.COI-5P,GBMNE57086-22,Sarcophaga,Sarcophaga africa,486,0.0,largo<500
+GBMNE57087-22.COI-5P,GBMNE57087-22,Sarcophaga,Sarcophaga africa,487,0.0,largo<500
+GBMNE57088-22.COI-5P,GBMNE57088-22,Sarcophaga,Sarcophaga africa,484,0.0,largo<500
+GBMNE57089-22.COI-5P,GBMNE57089-22,Sarcophaga,Sarcophaga africa,484,0.0,largo<500
+GBMNE57090-22.COI-5P,GBMNE57090-22,Sarcophaga,Sarcophaga africa,487,0.0,largo<500
+GBMNE57093-22.COI-5P,GBMNE57093-22,Sarcophaga,Sarcophaga argyrostoma,401,0.0,largo<500
+GBMNE57094-22.COI-5P,GBMNE57094-22,Sarcophaga,Sarcophaga argyrostoma,410,0.0,largo<500
+GBMNE57095-22.COI-5P,GBMNE57095-22,Sarcophaga,Sarcophaga argyrostoma,407,0.0,largo<500
+GBMNE57096-22.COI-5P,GBMNE57096-22,Sarcophaga,Sarcophaga argyrostoma,408,0.0,largo<500
+GBMNE57097-22.COI-5P,GBMNE57097-22,Sarcophaga,Sarcophaga argyrostoma,406,0.0,largo<500
+GBMNE57098-22.COI-5P,GBMNE57098-22,Sarcophaga,Sarcophaga argyrostoma,409,0.0,largo<500
+GBMNE57099-22.COI-5P,GBMNE57099-22,Sarcophaga,Sarcophaga pandellei,459,0.0,largo<500
+GBMNE57100-22.COI-5P,GBMNE57100-22,Sarcophaga,Sarcophaga pandellei,459,0.0,largo<500
+GBMNE57101-22.COI-5P,GBMNE57101-22,Sarcophaga,Sarcophaga pandellei,459,0.0,largo<500
+GBMNE57102-22.COI-5P,GBMNE57102-22,Sarcophaga,Sarcophaga pandellei,459,0.0,largo<500
+GBMNE57103-22.COI-5P,GBMNE57103-22,Sarcophaga,Sarcophaga pandellei,459,0.0,largo<500
+GBMNE57104-22.COI-5P,GBMNE57104-22,Sarcophaga,Sarcophaga pandellei,459,0.0,largo<500
+GBMNE57105-22.COI-5P,GBMNE57105-22,Sarcophaga,Sarcophaga teretirostris,462,0.0,largo<500
+GBMNE57106-22.COI-5P,GBMNE57106-22,Sarcophaga,Sarcophaga teretirostris,462,0.0,largo<500
+GBMNE57107-22.COI-5P,GBMNE57107-22,Sarcophaga,Sarcophaga teretirostris,468,0.0,largo<500
+GBMNE57108-22.COI-5P,GBMNE57108-22,Sarcophaga,Sarcophaga teretirostris,468,0.0,largo<500
+GBMNE57109-22.COI-5P,GBMNE57109-22,Sarcophaga,Sarcophaga teretirostris,471,0.0,largo<500
+GBMNE57110-22.COI-5P,GBMNE57110-22,Sarcophaga,Sarcophaga teretirostris,473,0.0,largo<500
+GBMNE57111-22.COI-5P,GBMNE57111-22,Sarcophaga,Sarcophaga tibialis,474,0.0,largo<500
+GBMNE57112-22.COI-5P,GBMNE57112-22,Sarcophaga,Sarcophaga tibialis,474,0.0,largo<500
+GBMNE57113-22.COI-5P,GBMNE57113-22,Sarcophaga,Sarcophaga tibialis,477,0.0,largo<500
+GBMNE57114-22.COI-5P,GBMNE57114-22,Sarcophaga,Sarcophaga tibialis,475,0.0,largo<500
+GBMNE57115-22.COI-5P,GBMNE57115-22,Sarcophaga,Sarcophaga tibialis,474,0.0,largo<500
+GBMNE57116-22.COI-5P,GBMNE57116-22,Sarcophaga,Sarcophaga tibialis,475,0.0,largo<500
+GBMNF29025-22.COI-5P,GBMNF29025-22,Sarcophaga,Sarcophaga balanina,325,0.0,largo<500
+GBMNF29030-22.COI-5P,GBMNF29030-22,Sarcophaga,Sarcophaga corsicana,325,0.0,largo<500
+GBMNF29031-22.COI-5P,GBMNF29031-22,Sarcophaga,Sarcophaga cruentata,325,0.0,largo<500
+GBMNF29032-22.COI-5P,GBMNF29032-22,Sarcophaga,Sarcophaga cucullans,325,0.0,largo<500
+GBMNF29043-22.COI-5P,GBMNF29043-22,Sarcophaga,Sarcophaga jeanleclercqi,325,0.0,largo<500
+GBMNF29046-22.COI-5P,GBMNF29046-22,Sarcophaga,Sarcophaga portschinskyi,325,0.0,largo<500
+GBMNF29047-22.COI-5P,GBMNF29047-22,Sarcophaga,Sarcophaga pyrenaica,325,0.0,largo<500
+GBMNF29048-22.COI-5P,GBMNF29048-22,Sarcophaga,Sarcophaga sexpunctata,325,0.0,largo<500
+GBMNF29049-22.COI-5P,GBMNF29049-22,Sarcophaga,Sarcophaga teretirostris,325,0.0,largo<500
+GBMTM1919-15.COI-5P,GBMTM1919-15,Sarcophaga,,522,0.0114942529,no_ACGT>1%
+GBMTM1953-15.COI-5P,GBMTM1953-15,Sarcophaga,,255,0.0078431373,largo<500
+GBMTM2250-15.COI-5P,GBMTM2250-15,Sarcophaga,,228,0.0087719298,largo<500
+GBMTM2254-15.COI-5P,GBMTM2254-15,Sarcophaga,,237,0.0,largo<500
+GMBMK003-17.COI-5P,GMBMK003-17,Sarcophaga,,372,0.0,largo<500
+GMBMK007-17.COI-5P,GMBMK007-17,Sarcophaga,,372,0.0,largo<500
+GMEGI018-14.COI-5P,GMEGI018-14,Sarcophaga,,434,0.0,largo<500
+GMEGI019-14.COI-5P,GMEGI019-14,Sarcophaga,Sarcophaga minima,274,0.0,largo<500
+GMGMA379-14.COI-5P,GMGMA379-14,Sarcophaga,,496,0.0,largo<500
+GMGMA617-14.COI-5P,GMGMA617-14,Sarcophaga,,461,0.0,largo<500
+GMGMB033-14.COI-5P,GMGMB033-14,Sarcophaga,,366,0.0,largo<500
+GMGMD123-14.COI-5P,GMGMD123-14,Sarcophaga,Sarcophaga depressifrons,474,0.0063291139,largo<500
+GMGMH082-14.COI-5P,GMGMH082-14,Sarcophaga,,351,0.0085470085,largo<500
+GMGMH1395-14.COI-5P,GMGMH1395-14,Sarcophaga,,429,0.006993007,largo<500
+GMGML1252-14.COI-5P,GMGML1252-14,Sarcophaga,Sarcophaga depressifrons,484,0.0,largo<500
+GMGML1254-14.COI-5P,GMGML1254-14,Sarcophaga,Sarcophaga depressifrons,411,0.0,largo<500
+GMGML1262-14.COI-5P,GMGML1262-14,Sarcophaga,Sarcophaga depressifrons,425,0.0,largo<500
+GMGML1269-14.COI-5P,GMGML1269-14,Sarcophaga,Sarcophaga depressifrons,411,0.0,largo<500
+GMGMM230-14.COI-5P,GMGMM230-14,Sarcophaga,,381,0.0,largo<500
+GMGMM237-14.COI-5P,GMGMM237-14,Sarcophaga,,468,0.0,largo<500
+GMGMM238-14.COI-5P,GMGMM238-14,Sarcophaga,,468,0.0,largo<500
+GMGMM245-14.COI-5P,GMGMM245-14,Sarcophaga,,450,0.0,largo<500
+GMGMM247-14.COI-5P,GMGMM247-14,Sarcophaga,,468,0.0,largo<500
+GMGMM273-14.COI-5P,GMGMM273-14,Sarcophaga,,468,0.0,largo<500
+GMGMM276-14.COI-5P,GMGMM276-14,Sarcophaga,,468,0.0,largo<500
+GMIAK291-17.COI-5P,GMIAK291-17,Sarcophaga,Sarcophaga antilope,455,0.0,largo<500
+GMIBC160-17.COI-5P,GMIBC160-17,Sarcophaga,,365,0.0,largo<500
+GMOKH322-15.COI-5P,GMOKH322-15,Sarcophaga,Sarcophaga nearctica,325,0.0,largo<500
+IFFI008-11.COI-5P,IFFI008-11,Sarcophaga,Sarcophaga impatiens,478,0.0,largo<500
+IFFI009-11.COI-5P,IFFI009-11,Sarcophaga,Sarcophaga impatiens,455,0.0461538462,largo<500
+KINS587-10.COI-5P,KINS587-10,Sarcophaga,,307,0.0,largo<500
+LYMAB1147-15.COI-5P,LYMAB1147-15,Sarcophaga,Sarcophaga triplasia,294,0.0,largo<500
+LYMAB1152-15.COI-5P,LYMAB1152-15,Sarcophaga,Sarcophaga nearctica,196,0.0,largo<500
+MADIP555-12.COI-5P,MADIP555-12,Sarcophaga,Sarcophaga aegyptica,493,0.0,largo<500
+MAMTP1889-13.COI-5P,MAMTP1889-13,Sarcophaga,Sarcophaga brevicornis,555,0.0108108108,no_ACGT>1%
+MOBIL9904-19.COI-5P,MOBIL9904-19,Sarcophaga,Sarcophaga sarracenioides,231,0.0,largo<500
+MPGP1821-19.COI-5P,MPGP1821-19,Sarcophaga,Sarcophaga shermani,406,0.0,largo<500
+NSWHA4461-23.COI-5P,NSWHA4461-23,Sarcophaga,Sarcophaga australis,658,0.0151975684,no_ACGT>1%
+PAL307-19.COI-5P,PAL307-19,Sarcophaga,,333,0.0,largo<500
+PHDIP227-11.COI-5P,PHDIP227-11,Sarcophaga,,230,0.0,largo<500
+PLUVS064-24.COI-5P,PLUVS064-24,Sarcophaga,Sarcophaga inaequalis,312,0.0,largo<500
+PLUVS146-24.COI-5P,PLUVS146-24,Sarcophaga,Sarcophaga incisilobata,312,0.0,largo<500
+SIIP5762-24.COI-5P,SIIP5762-24,Sarcophaga,,658,0.0106382979,no_ACGT>1%
+SSBCA3256-15.COI-5P,SSBCA3256-15,Sarcophaga,Sarcophaga nearctica,480,0.0,largo<500
+SSGBC6792-14.COI-5P,SSGBC6792-14,Sarcophaga,Sarcophaga sarraceniae,459,0.0,largo<500
+SSWLE7553-13.COI-5P,SSWLE7553-13,Sarcophaga,Sarcophaga nearctica,432,0.0,largo<500
+TDAOE5086-24.COI-5P,TDAOE5086-24,Sarcophaga,Sarcophaga soror,496,0.0,largo<500
+TDAOE5192-24.COI-5P,TDAOE5192-24,Sarcophaga,Sarcophaga proxima,506,0.0138339921,no_ACGT>1%
+CASBI190-25.COI-5P,CASBI190-25,Stomoxys,Stomoxys calcitrans,181,0.0,largo<500
+CASBI22546-26.COI-5P,CASBI22546-26,Stomoxys,Stomoxys calcitrans,181,0.0,largo<500
+CASBI22547-26.COI-5P,CASBI22547-26,Stomoxys,Stomoxys calcitrans,181,0.0,largo<500
+CASBI7076-26.COI-5P,CASBI7076-26,Stomoxys,Stomoxys calcitrans,316,0.0,largo<500
+CTISA3279-16.COI-5P,CTISA3279-16,Stomoxys,Stomoxys indicus,313,0.0,largo<500
+GBAAP10673-25.COI-5P,GBAAP10673-25,Stomoxys,Stomoxys boueti,470,0.0,largo<500
+GBAAP10685-25.COI-5P,GBAAP10685-25,Stomoxys,Stomoxys niger,480,0.0,largo<500
+GBAAP10697-25.COI-5P,GBAAP10697-25,Stomoxys,Stomoxys niger,438,0.0,largo<500
+GBAAP10711-25.COI-5P,GBAAP10711-25,Stomoxys,Stomoxys boueti,458,0.0,largo<500
+GBAAP10723-25.COI-5P,GBAAP10723-25,Stomoxys,Stomoxys calcitrans,488,0.0,largo<500
+GBAAW79144-24.COI-5P,GBAAW79144-24,Stomoxys,,474,0.0021097046,largo<500
+GBAAX40521-24.COI-5P,GBAAX40521-24,Stomoxys,Stomoxys calcitrans,284,0.0,largo<500
+GBAAX81106-26.COI-5P,GBAAX81106-26,Stomoxys,Stomoxys calcitrans,456,0.0,largo<500
+GBABA10725-26.COI-5P,GBABA10725-26,Stomoxys,,418,0.0,largo<500
+GBCAB14276-24.COI-5P,GBCAB14276-24,Stomoxys,Stomoxys calcitrans,473,0.0,largo<500
+GBDP2915-07.COI-5P,GBDP2915-07,Stomoxys,Stomoxys calcitrans,825,0.0496969697,no_ACGT>1%
+GBMNE57043-22.COI-5P,GBMNE57043-22,Stomoxys,Stomoxys calcitrans,468,0.0,largo<500
+GBMNE57044-22.COI-5P,GBMNE57044-22,Stomoxys,Stomoxys calcitrans,432,0.0,largo<500
+GMBCA4942-15.COI-5P,GMBCA4942-15,Stomoxys,Stomoxys calcitrans,420,0.0,largo<500
+GMBCE2742-15.COI-5P,GMBCE2742-15,Stomoxys,Stomoxys uruma,480,0.0041666667,largo<500
+GMBCE2941-15.COI-5P,GMBCE2941-15,Stomoxys,Stomoxys calcitrans,481,0.0083160083,largo<500
+GMBCI4720-15.COI-5P,GMBCI4720-15,Stomoxys,,492,0.0,largo<500
+GMBKK7090-21.COI-5P,GMBKK7090-21,Stomoxys,,469,0.0,largo<500
+GMPZI047-22.COI-5P,GMPZI047-22,Stomoxys,,394,0.0,largo<500
+GBDP9243-10.COI-5P,GBDP9243-10,Titanogrypa,Titanogrypa luculenta,979,0.0214504597,no_ACGT>1%
+ASILO515-17.COI-5P,ASILO515-17,Tricharaea,,254,0.0,largo<500
