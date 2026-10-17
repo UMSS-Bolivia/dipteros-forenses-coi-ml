@@ -1,0 +1,12 @@
+control,valor
+registros crudos,71806
+COI-5P,69622
+COI-5P sin secuencia,17
+COI-5P con secuencia,69605
+retenidos (Python),67537
+retenidos (Pentaho),67537
+descartados (Python),2068
+descartados (Pentaho),2068
+retenidos: mismos record_id,True
+descartados: mismos record_id y misma causa,True
+sin secuencia presentes en alguna salida de Pentaho,0
