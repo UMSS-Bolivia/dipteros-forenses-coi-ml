@@ -2,7 +2,7 @@ import time
 import numpy as np
 import pandas as pd
 
-ENTRADA = "datos/intermedio/bold_coi_modelado.csv"
+ENTRADA = "datos/intermedio/bold_coi_modelado_final.csv"
 SALIDA_NPZ = "datos/intermedio/kmers_k3_k4.npz"
 SALIDA_META = "datos/intermedio/metadatos_modelado.csv"
 

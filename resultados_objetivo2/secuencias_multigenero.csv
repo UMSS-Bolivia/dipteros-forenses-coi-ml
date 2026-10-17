@@ -1,0 +1,36 @@
+id_seq,record_id,genus,species,identification_rank,bin_uri,insdc_acs,country/ocean,largo
+1,LYMAD377-19.COI-5P,Hydrotaea,,genus,,,Canada,658
+1,LYMAD359-19.COI-5P,Phaonia,Phaonia albocalyptrata,species,,,Canada,658
+2,GBDP15119-14.COI-5P,Calliphora,Calliphora nigribarbis,species,,KC414937,China,838
+2,GBDP15124-14.COI-5P,Chrysomya,Chrysomya rufifacies,species,,KC414940,China,838
+3,BBIOP3537-24.COI-5P,Calliphora,,genus,BOLD:AAB6579,,Portugal,658
+3,BCFOR689-15.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,,France,658
+3,BCFOR743-15.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,,France,658
+3,BUICD2098-21.COI-5P,Calliphora,,genus,BOLD:AAB6579,OP028671,United States,658
+3,CDFD001-12.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,JX438024,Portugal,658
+3,DTNHM7153-23.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,,United Kingdom,658
+3,DTNHM7181-23.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,,United Kingdom,658
+3,FBCTW061-14.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,MW200530,Ecuador,658
+3,FFECU012-14.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,MW200772,Ecuador,658
+3,FFECU013-14.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,MW200453,Ecuador,658
+3,FFECU014-14.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,MW200444,Ecuador,658
+3,FIDIP442-11.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,MZ608953,Finland,658
+3,GBAAM20613-25.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,PQ511187,Unrecoverable,658
+3,GBMIN53155-17.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,KY031756,China,658
+3,GBMNF24048-22.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,LC684784,Japan,658
+3,GBMNF24049-22.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,LC684785,Japan,658
+3,IBIDP009-19.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,MN868831,Portugal,658
+3,LMOUY398-23.COI-5P,Calliphora,,genus,BOLD:AAB6579,,New Zealand,658
+3,MADIP620-12.COI-5P,Calliphora,,genus,BOLD:AAB6579,,Pakistan,658
+3,MADIP621-12.COI-5P,Calliphora,,genus,BOLD:AAB6579,,Pakistan,658
+3,MISSM1141-25.COI-5P,Calliphora,,genus,BOLD:AAB6579,,United Kingdom,658
+3,NLDIP1637-15.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,,Netherlands,658
+3,PAVEA089-22.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,,Austria,658
+3,PAVEA090-22.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,,Austria,658
+3,PKSWA3183-24.COI-5P,Calliphora,,genus,BOLD:AAB6579,,Pakistan,658
+3,SIIP5054-24.COI-5P,Calliphora,,genus,BOLD:AAB6579,,Sweden,658
+3,SPMIS088-22.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,NC_019639.1,,658
+3,UKAN266-22.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,,United Kingdom,658
+3,UKAN4258-24.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,,United Kingdom,658
+3,WFEN2315-24.COI-5P,Calliphora,Calliphora vicina,species,BOLD:AAB6579,,United Kingdom,658
+3,GBDP12436-12.COI-5P,Musca,Musca domestica,species,,JQ350716,,658

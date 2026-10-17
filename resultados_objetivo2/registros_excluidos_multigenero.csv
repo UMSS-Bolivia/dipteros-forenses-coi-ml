@@ -1,0 +1,6 @@
+record_id,genus,species,bin_uri,insdc_acs,country/ocean
+GBDP15119-14.COI-5P,Calliphora,Calliphora nigribarbis,,KC414937,China
+GBDP15124-14.COI-5P,Chrysomya,Chrysomya rufifacies,,KC414940,China
+LYMAD377-19.COI-5P,Hydrotaea,,,,Canada
+GBDP12436-12.COI-5P,Musca,Musca domestica,,JQ350716,
+LYMAD359-19.COI-5P,Phaonia,Phaonia albocalyptrata,,,Canada
