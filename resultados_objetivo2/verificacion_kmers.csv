@@ -1,0 +1,16 @@
+,valor
+registros,66782
+orden_record_id_matriz,True
+orden_record_id_metadatos,True
+variables_k3,32
+variables_k3_teoricas,32
+nombres_k3_coinciden,True
+filas_suman_1_k3,True
+nan_k3,0
+dif_maxima_k3_muestra_500,3.7189004375992596e-09
+variables_k4,136
+variables_k4_teoricas,136
+nombres_k4_coinciden,True
+filas_suman_1_k4,True
+nan_k4,0
+dif_maxima_k4_muestra_500,1.8614285321461033e-09

@@ -2,9 +2,9 @@ import time
 import numpy as np
 import pandas as pd
 
-ENTRADA = "datos/intermedio/bold_coi_modelado_final.csv"
-SALIDA_NPZ = "datos/intermedio/kmers_k3_k4.npz"
-SALIDA_META = "datos/intermedio/metadatos_modelado.csv"
+ENTRADA = "datos/procesados/bold_coi_modelado_final.csv.gz"
+SALIDA_NPZ = "datos/procesados/kmers_k3_k4.npz"
+SALIDA_META = "datos/procesados/metadatos_modelado.csv.gz"
 
 CODIGO = np.full(256, 255, dtype=np.uint8)
 for i, base in enumerate(b"ACGT"):
