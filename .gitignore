@@ -5,3 +5,4 @@ __pycache__/
 genomas/
 *_genome.fasta
 *_genomic.fna
+datos/procesados/embeddings_*

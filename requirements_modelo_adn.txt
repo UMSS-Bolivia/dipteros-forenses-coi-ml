@@ -1,0 +1,9 @@
+# Solo para extraer los embeddings del modelo de ADN (Objetivo 3, codigo/extraer_embeddings.py).
+# Se instala ademas de requirements.txt:  pip install -r requirements_modelo_adn.txt
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1+cpu
+transformers==4.57.6
+tokenizers==0.22.2
+huggingface-hub==0.36.2
+safetensors==0.8.0
+einops==0.8.2
