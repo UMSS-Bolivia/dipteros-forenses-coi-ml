@@ -3,7 +3,8 @@ import glob, json, os
 import pandas as pd
 from pandas.errors import EmptyDataError
 
-D = "anexos/anexo1_evidencia_objetivo1"
+D = "datos/fuente/estructurado"
+O = "datos/fuente/original"
 SIN_PAIS = ["Unrecoverable", "Unspecified country"]
 
 def leer(f):
@@ -34,6 +35,7 @@ cal = pd.DataFrame({
 contigs = pd.read_csv(os.path.join(D, "metricas_contigs.csv"))
 
 lm = pd.read_csv("datos/fuente/estructurado/lista_maestra_taxones.csv")
+lm = lm[["taxon_fuente", "rango", "nombre_ncbi", "familia", "departamento", "fuente", "identificacion"]]
 lm.columns = ["Taxón en la fuente", "Rango", "Nombre en NCBI", "Familia", "Departamento", "Fuente", "Identificación"]
 
 b = pd.read_csv(os.path.join(D, "tabla_brecha_v2.csv"))
@@ -46,7 +48,7 @@ brecha = pd.DataFrame({
     "Situación genómica": b["situacion_genomica"], "COI boliviano": b["coi_boliviano_bold"]})
 
 partes = []
-for f in sorted(glob.glob(os.path.join(D, "bolivia_*.tsv"))):
+for f in sorted(glob.glob(os.path.join(O, "bolivia_*.tsv"))):
     d = leer(f)
     if d is not None:
         d["Familia consultada"] = os.path.basename(f)[8:-4]
@@ -60,13 +62,13 @@ cols = [c for c in ["processid", "family", "genus", "species", "country/ocean", 
                     "collection_date_start", "insdc_acs", "bin_uri"] if c in bol.columns]
 det = bol[cols]
 
-j = json.load(open(os.path.join(D, "bold_resumen", "tax_genus_Fannia.json")))
+j = json.load(open(os.path.join(O, "bold_resumen", "tax_genus_Fannia.json")))
 fa = pd.Series(j["country/ocean"]).rename("Registros").sort_values(ascending=False).reset_index()
 fa.columns = ["País", "Registros"]
 fa["% del total"] = (100 * fa["Registros"] / j["counts"]["specimens"]).round(1)
 
 filas = []
-for f in sorted(glob.glob(os.path.join(D, "global_*.tsv"))):
+for f in sorted(glob.glob(os.path.join(O, "global_*.tsv"))):
     d = leer(f)
     if d is None:
         continue
