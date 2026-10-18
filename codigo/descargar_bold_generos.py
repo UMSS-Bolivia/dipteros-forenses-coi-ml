@@ -2,7 +2,7 @@ import json, os, time, urllib.parse, urllib.request
 import pandas as pd
 
 BASE = "https://portal.boldsystems.org/api"
-SAL = "datos/raw/bold_coi"
+SAL = "datos/fuente/original/bold_coi"
 os.makedirs(SAL, exist_ok=True)
 
 def get(url):
@@ -24,7 +24,7 @@ def leer(txt):
     except json.JSONDecodeError:
         return [json.loads(l) for l in txt.splitlines() if l.strip()]
 
-tabla = pd.read_csv("resultados/tabla_brecha_v2.csv")
+tabla = pd.read_csv("datos/fuente/estructurado/tabla_brecha_v2.csv")
 tabla["genero"] = tabla["nombre_ncbi"].str.split().str[0]
 esperado = tabla.groupby("genero")["bold_total_genero"].max()
 print("Géneros a descargar:", len(esperado))
@@ -49,5 +49,5 @@ for genero in sorted(esperado.index):
 
 res = pd.DataFrame(filas)
 res["coincide"] = res["filas_descargadas"] == res["total_bold_esperado"]
-res.to_csv("resultados/descarga_bold_resumen.csv", index=False)
+res.to_csv("resultados_objetivo2/descarga_bold_resumen.csv", index=False)
 print(res.to_string(index=False))

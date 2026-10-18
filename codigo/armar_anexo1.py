@@ -15,7 +15,7 @@ def leer(f):
 proc = pd.read_csv(os.path.join(D, "procedencia_genomas.csv"))
 proc.columns = ["Especie", "Repositorio", "Accesión", "Ensamblaje", "Depositante", "BioProject", "Fecha", "Referencia"]
 
-inv = pd.read_csv("resultados/inventario_archivos_originales.csv")
+inv = pd.read_csv("datos/fuente/estructurado/inventario_archivos_originales.csv")
 
 m = pd.read_csv(os.path.join(D, "metricas_agregado.csv"))
 genes = {"Aldrichina grahami": 12823, "Calliphora vomitoria": 14665, "Lucilia cuprina": 13927, "Musca domestica": 17481}
@@ -33,7 +33,7 @@ cal = pd.DataFrame({
 })
 contigs = pd.read_csv(os.path.join(D, "metricas_contigs.csv"))
 
-lm = pd.read_csv("resultados/lista_maestra_taxones.csv")
+lm = pd.read_csv("datos/fuente/estructurado/lista_maestra_taxones.csv")
 lm.columns = ["Taxón en la fuente", "Rango", "Nombre en NCBI", "Familia", "Departamento", "Fuente", "Identificación"]
 
 b = pd.read_csv(os.path.join(D, "tabla_brecha_v2.csv"))

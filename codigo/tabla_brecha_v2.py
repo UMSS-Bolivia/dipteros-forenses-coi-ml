@@ -92,7 +92,7 @@ for _, r in agr.iterrows():
 
 res = pd.DataFrame(filas)
 os.makedirs("resultados", exist_ok=True)
-res.to_csv("resultados/tabla_brecha_v2.csv", index=False)
+res.to_csv("datos/fuente/estructurado/tabla_brecha_v2.csv", index=False)
 pd.set_option("display.width", 250)
 pd.set_option("display.max_columns", 30)
 print(res[["nombre_ncbi", "departamentos", "genomas_ncbi_genero", "genomas_ncbi_especie",

@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv("datos/intermedio/bold_registros_crudos.csv", low_memory=False)
+df = pd.read_csv("pentaho/entrada/bold_registros_crudos.csv.gz", low_memory=False)
 c = df[(df["marker_code"] == "COI-5P") & df["nuc"].notna()].copy()
 c["largo"] = c["nuc"].str.len()
 c["n_N"] = c["nuc"].str.count("N")

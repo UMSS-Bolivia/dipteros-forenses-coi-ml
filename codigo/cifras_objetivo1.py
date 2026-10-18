@@ -6,7 +6,7 @@ from pandas.errors import EmptyDataError
 pd.set_option("display.width", 220)
 pd.set_option("display.max_columns", 30)
 
-t = pd.read_csv("resultados/tabla_brecha_v2.csv")
+t = pd.read_csv("datos/fuente/estructurado/tabla_brecha_v2.csv")
 t["genero"] = t["nombre_ncbi"].str.split().str[0]
 g = t.groupby("genero").agg(
     genomas=("genomas_ncbi_genero", "max"),
@@ -25,7 +25,7 @@ print("filas con BOLD sin respuesta:", int((t["coi_boliviano_bold"] == "sin resp
 
 print("\n=== 2. COI de Bolivia en BOLD (cuatro familias) ===")
 partes = []
-for f in sorted(glob.glob("datos/raw/bold/bolivia_*.tsv")):
+for f in sorted(glob.glob("datos/fuente/original/bolivia_*.tsv")):
     try:
         d = pd.read_csv(f, sep="\t", low_memory=False)
     except EmptyDataError:
@@ -41,7 +41,7 @@ print("años de colecta:", pd.to_datetime(b["collection_date_start"], errors="co
 print("con acceso INSDC (también en GenBank): %d de %d" % (b["insdc_acs"].notna().sum(), len(b)))
 
 print("\n=== 3. Fannia en BOLD ===")
-j = json.load(open("datos/raw/bold_resumen/tax_genus_Fannia.json"))
+j = json.load(open("datos/fuente/original/bold_resumen/tax_genus_Fannia.json"))
 c, tot = j["country/ocean"], j["counts"]["specimens"]
 con_pais = sum(c.values())
 sur = ["Argentina", "Brazil", "Colombia", "Ecuador", "Peru", "Suriname", "Chile", "Bolivia", "Venezuela", "Paraguay", "Uruguay", "Guyana"]
@@ -52,7 +52,7 @@ print("Canadá + Reino Unido: %d (%.1f%% del total; %.1f%% de los que tienen pa�
 print("Sudamérica: %d (%.1f%% del total)" % (sa, 100 * sa / tot))
 
 print("\n=== 4. Taxones con pocos registros (descarga directa de BOLD) ===")
-for f in sorted(glob.glob("datos/raw/bold/global_*.tsv")):
+for f in sorted(glob.glob("datos/fuente/original/global_*.tsv")):
     try:
         d = pd.read_csv(f, sep="\t", low_memory=False)
     except EmptyDataError:
@@ -61,4 +61,4 @@ for f in sorted(glob.glob("datos/raw/bold/global_*.tsv")):
     print("%s | registros: %d | COI-5P: %d | países: %s" % (os.path.basename(f)[7:-4], len(d), int((d["marker_code"] == "COI-5P").sum()), dict(pais)))
 
 print("\n=== 5. Calidad de los genomas ===")
-print(pd.read_csv("resultados/metricas_agregado.csv").to_string(index=False))
+print(pd.read_csv("datos/fuente/estructurado/metricas_agregado.csv").to_string(index=False))

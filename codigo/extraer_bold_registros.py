@@ -13,12 +13,12 @@ def leer(txt):
         return [json.loads(l) for l in txt.splitlines() if l.strip()]
 
 partes = []
-for ruta in sorted(glob.glob("datos/raw/bold_coi/*.json")):
+for ruta in sorted(glob.glob("datos/fuente/original/bold_coi/*.json")):
     df = pd.DataFrame(leer(open(ruta).read())).reindex(columns=COLS)
     df["archivo_genero"] = os.path.basename(ruta).replace(".json", "")
     partes.append(df)
 todo = pd.concat(partes, ignore_index=True)
-todo.to_csv("datos/intermedio/bold_registros_crudos.csv", index=False)
+todo.to_csv("pentaho/entrada/bold_registros_crudos.csv", index=False)
 
 print("Filas totales:", len(todo))
 print(todo["marker_code"].value_counts(dropna=False).head(6))
@@ -28,7 +28,7 @@ c5 = todo[todo["marker_code"] == "COI-5P"]
 print("COI-5P con especie asignada:", int(c5["species"].notna().sum()), "de", len(c5))
 print("COI-5P con insdc_acs (también en GenBank):", int(c5["insdc_acs"].notna().sum()))
 
-brecha = pd.read_csv("resultados/tabla_brecha_v2.csv")
+brecha = pd.read_csv("datos/fuente/estructurado/tabla_brecha_v2.csv")
 brecha["genero"] = brecha["nombre_ncbi"].str.split().str[0]
 esp = brecha.groupby("genero")["bold_coi5p_genero"].max()
 real = c5.groupby("archivo_genero").size()

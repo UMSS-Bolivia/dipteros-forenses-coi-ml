@@ -5,7 +5,7 @@ from Bio import Entrez
 Entrez.email = os.environ["NCBI_EMAIL"]
 Entrez.tool = "cota_genbank"
 
-bold = pd.read_csv("datos/intermedio/bold_registros_crudos.csv",
+bold = pd.read_csv("pentaho/entrada/bold_registros_crudos.csv.gz",
                    usecols=["genus", "insdc_acs"], low_memory=False)
 en_bold = set(bold["insdc_acs"].dropna().astype(str).str.split(".").str[0].str.upper())
 generos = sorted(bold["genus"].dropna().unique())
@@ -53,4 +53,4 @@ for g in generos:
 t = pd.DataFrame(filas).set_index("genero")
 t.loc["TOTAL"] = t.sum()
 print(t.to_string())
-t.to_csv("resultados/cota_genbank.csv")
+t.to_csv("resultados_objetivo2/cota_genbank.csv")
