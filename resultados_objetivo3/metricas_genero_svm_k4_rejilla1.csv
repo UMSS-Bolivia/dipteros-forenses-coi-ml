@@ -1,0 +1,15 @@
+genero,registros,recall,precision,f1
+Boettcheria,887,0.72,1.0,0.837
+Calliphora,3656,0.992,0.959,0.975
+Chrysomya,2404,0.985,0.878,0.928
+Cochliomyia,398,0.563,0.815,0.666
+Fannia,13250,0.944,0.91,0.927
+Hemilucilia,118,0.008,1.0,0.017
+Hydrotaea,5752,0.972,0.786,0.869
+Morellia,871,0.566,0.941,0.707
+Musca,10269,0.973,0.997,0.985
+Muscina,1658,0.82,0.996,0.899
+Phaonia,12193,0.883,0.976,0.927
+Sarcophaga,8452,0.998,0.942,0.969
+Stomoxys,6727,0.974,0.999,0.986
+Tricharaea,147,0.503,1.0,0.67

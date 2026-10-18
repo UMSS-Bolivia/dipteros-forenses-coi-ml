@@ -1,0 +1,6 @@
+pliegue,max_features,min_samples_leaf,f1_macro_interno,minutos
+0,sqrt,30,0.5142,1.0
+1,0.3,30,0.5083,1.1
+2,0.3,10,0.4968,1.1
+3,sqrt,3,0.472,1.1
+4,sqrt,10,0.5314,1.1

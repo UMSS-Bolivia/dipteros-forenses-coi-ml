@@ -1,0 +1,92 @@
+[rf k=3] pliegue 0: {'max_features': 'sqrt', 'min_samples_leaf': 10} | F1 macro interno 0.514 | 0.8 min
+[rf k=3] pliegue 1: {'max_features': 0.3, 'min_samples_leaf': 10} | F1 macro interno 0.506 | 0.8 min
+[rf k=3] pliegue 2: {'max_features': 0.3, 'min_samples_leaf': 10} | F1 macro interno 0.497 | 0.9 min
+[rf k=3] pliegue 3: {'max_features': 'sqrt', 'min_samples_leaf': 3} | F1 macro interno 0.472 | 0.8 min
+[rf k=3] pliegue 4: {'max_features': 'sqrt', 'min_samples_leaf': 10} | F1 macro interno 0.531 | 0.8 min
+
+=== rf k=3: predicciones de los 5 pliegues juntas ===
+exactitud: 0.833 | exactitud balanceada: 0.549 | F1 macro: 0.567
+     genero  registros  recall  precision    f1
+Boettcheria        887   0.027      0.414 0.051
+ Calliphora       3656   0.717      0.823 0.767
+  Chrysomya       2404   0.771      0.825 0.797
+Cochliomyia        398   0.045      0.367 0.081
+     Fannia      13250   0.939      0.884 0.911
+Hemilucilia        118   0.000      0.000 0.000
+  Hydrotaea       5752   0.884      0.934 0.909
+   Morellia        871   0.210      0.772 0.330
+      Musca      10269   0.947      0.816 0.876
+    Muscina       1658   0.547      0.672 0.603
+    Phaonia      12193   0.795      0.864 0.828
+ Sarcophaga       8452   0.977      0.727 0.834
+   Stomoxys       6727   0.712      0.860 0.779
+ Tricharaea        147   0.116      0.333 0.172
+[rf k=4] pliegue 0: {'max_features': 0.3, 'min_samples_leaf': 10} | F1 macro interno 0.671 | 2.0 min
+[rf k=4] pliegue 1: {'max_features': 'sqrt', 'min_samples_leaf': 10} | F1 macro interno 0.555 | 2.0 min
+[rf k=4] pliegue 2: {'max_features': 'sqrt', 'min_samples_leaf': 10} | F1 macro interno 0.627 | 1.9 min
+[rf k=4] pliegue 3: {'max_features': 0.3, 'min_samples_leaf': 3} | F1 macro interno 0.569 | 2.1 min
+[rf k=4] pliegue 4: {'max_features': 'sqrt', 'min_samples_leaf': 10} | F1 macro interno 0.644 | 1.9 min
+
+=== rf k=4: predicciones de los 5 pliegues juntas ===
+exactitud: 0.92 | exactitud balanceada: 0.658 | F1 macro: 0.69
+     genero  registros  recall  precision    f1
+Boettcheria        887   0.125      1.000 0.222
+ Calliphora       3656   0.975      0.967 0.971
+  Chrysomya       2404   0.973      0.914 0.943
+Cochliomyia        398   0.420      0.949 0.582
+     Fannia      13250   0.984      0.889 0.934
+Hemilucilia        118   0.000      0.000 0.000
+  Hydrotaea       5752   0.844      0.947 0.893
+   Morellia        871   0.417      0.938 0.577
+      Musca      10269   0.962      0.966 0.964
+    Muscina       1658   0.627      0.994 0.769
+    Phaonia      12193   0.915      0.944 0.930
+ Sarcophaga       8452   0.998      0.806 0.891
+   Stomoxys       6727   0.969      1.000 0.984
+ Tricharaea        147   0.000      0.000 0.000
+[svm k=3] pliegue 0: {'svc__C': 1, 'svc__gamma': 0.009375} | F1 macro interno 0.671 | 0.8 min
+[svm k=3] pliegue 1: {'svc__C': 1, 'svc__gamma': 0.009375} | F1 macro interno 0.582 | 0.8 min
+[svm k=3] pliegue 2: {'svc__C': 1, 'svc__gamma': 0.009375} | F1 macro interno 0.582 | 0.8 min
+[svm k=3] pliegue 3: {'svc__C': 1, 'svc__gamma': 0.009375} | F1 macro interno 0.544 | 0.8 min
+[svm k=3] pliegue 4: {'svc__C': 10, 'svc__gamma': 0.009375} | F1 macro interno 0.573 | 0.7 min
+
+=== svm k=3: predicciones de los 5 pliegues juntas ===
+exactitud: 0.858 | exactitud balanceada: 0.649 | F1 macro: 0.67
+     genero  registros  recall  precision    f1
+Boettcheria        887   0.352      0.828 0.494
+ Calliphora       3656   0.711      0.723 0.717
+  Chrysomya       2404   0.851      0.629 0.724
+Cochliomyia        398   0.427      0.762 0.548
+     Fannia      13250   0.922      0.881 0.901
+Hemilucilia        118   0.000      0.000 0.000
+  Hydrotaea       5752   0.894      0.882 0.888
+   Morellia        871   0.374      0.495 0.426
+      Musca      10269   0.950      0.919 0.934
+    Muscina       1658   0.745      0.752 0.748
+    Phaonia      12193   0.805      0.906 0.852
+ Sarcophaga       8452   0.970      0.861 0.912
+   Stomoxys       6727   0.815      0.896 0.854
+ Tricharaea        147   0.272      0.615 0.377
+[svm k=4] pliegue 0: {'svc__C': 1, 'svc__gamma': 0.0022058823529411764} | F1 macro interno 0.744 | 1.6 min
+[svm k=4] pliegue 1: {'svc__C': 100, 'svc__gamma': 0.0022058823529411764} | F1 macro interno 0.654 | 1.6 min
+[svm k=4] pliegue 2: {'svc__C': 1, 'svc__gamma': 0.0022058823529411764} | F1 macro interno 0.727 | 1.6 min
+[svm k=4] pliegue 3: {'svc__C': 1, 'svc__gamma': 0.0022058823529411764} | F1 macro interno 0.705 | 1.7 min
+[svm k=4] pliegue 4: {'svc__C': 10, 'svc__gamma': 0.0022058823529411764} | F1 macro interno 0.708 | 1.5 min
+
+=== svm k=4: predicciones de los 5 pliegues juntas ===
+exactitud: 0.938 | exactitud balanceada: 0.779 | F1 macro: 0.812
+     genero  registros  recall  precision    f1
+Boettcheria        887   0.720      1.000 0.837
+ Calliphora       3656   0.992      0.959 0.975
+  Chrysomya       2404   0.985      0.878 0.928
+Cochliomyia        398   0.563      0.815 0.666
+     Fannia      13250   0.944      0.910 0.927
+Hemilucilia        118   0.008      1.000 0.017
+  Hydrotaea       5752   0.972      0.786 0.869
+   Morellia        871   0.566      0.941 0.707
+      Musca      10269   0.973      0.997 0.985
+    Muscina       1658   0.820      0.996 0.899
+    Phaonia      12193   0.883      0.976 0.927
+ Sarcophaga       8452   0.998      0.942 0.969
+   Stomoxys       6727   0.974      0.999 0.986
+ Tricharaea        147   0.503      1.000 0.670
