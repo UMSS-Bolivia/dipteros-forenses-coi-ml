@@ -1,0 +1,21 @@
+,valor
+registros,66782
+largo_min,500
+largo_mediana,654.0
+largo_max,1539
+secuencias_con_alguna_base_no_ACGT,1991
+ventanas_k3_min,498
+ventanas_k3_mediana,652.0
+variables_k3,32
+porcentaje_ceros_k3,2.5
+variables_constantes_k3,0
+frecuencia_max_k3,0.1514
+ejemplo_variables_k3,AAA AAC AAG AAT
+ventanas_k4_min,497
+ventanas_k4_mediana,651.0
+variables_k4,136
+porcentaje_ceros_k4,17.11
+variables_constantes_k4,0
+frecuencia_max_k4,0.0693
+ejemplo_variables_k4,AAAA AAAC AAAG AAAT
+tamano_npz_MB,6.6
