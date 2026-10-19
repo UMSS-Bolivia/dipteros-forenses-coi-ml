@@ -1,0 +1,11 @@
+{
+  "modelo": "dnabert2",
+  "repo": "zhihan1996/DNABERT-2-117M",
+  "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+  "dimension": 768,
+  "transformers": "4.57.6",
+  "torch": "2.14.1+cpu",
+  "max_tokens": 512,
+  "secuencias_truncadas": 0,
+  "pooling": "promedio de la \u00faltima capa sin tokens especiales"
+}

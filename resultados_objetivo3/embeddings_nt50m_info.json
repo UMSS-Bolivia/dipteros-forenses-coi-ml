@@ -1,0 +1,11 @@
+{
+  "modelo": "nt50m",
+  "repo": "InstaDeepAI/nucleotide-transformer-v2-50m-multi-species",
+  "revision": "81b29e5786726d891dbf929404ef20adca5b36f1",
+  "dimension": 512,
+  "transformers": "4.57.6",
+  "torch": "2.14.1+cpu",
+  "max_tokens": 1000,
+  "secuencias_truncadas": 0,
+  "pooling": "promedio de la \u00faltima capa sin tokens especiales"
+}
