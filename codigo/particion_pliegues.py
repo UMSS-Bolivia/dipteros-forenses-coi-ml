@@ -30,7 +30,7 @@ for s in SEMILLAS:
     tab = pd.crosstab(d["genus"], pl).reindex(columns=range(K), fill_value=0)
     vacias = int((tab == 0).sum().sum())
     desv = float(np.abs(np.bincount(pl, minlength=K) / len(d) - 1 / K).max())
-    filas.append((s, vacias, round(desv, 4)))
+    filas.append((s, vacias, round(desv, 8)))
     if mejor is None or (vacias, desv) < mejor[0]:
         mejor = ((vacias, desv), s, pl)
 
