@@ -4,7 +4,7 @@ Uso: python codigo/entrenar_embeddings.py {nt50m|dnabert2}
 Misma partición por grupos y misma búsqueda interna por grupos que entrenar_kmers.py; el escalado
 se ajusta dentro de cada entrenamiento y el desbalance se maneja con pesos de clase.
 """
-import sys, time, warnings
+import json, os, sys, time, warnings
 import numpy as np
 import pandas as pd
 from sklearn.metrics import accuracy_score, balanced_accuracy_score, f1_score, precision_recall_fscore_support
@@ -24,11 +24,18 @@ y, g, pl = p["genus"].values, p["grupo"].values, p["pliegue"].values
 nvar = X.shape[1]
 
 base = make_pipeline(StandardScaler(), SVC(kernel="rbf", class_weight="balanced"))
-rejilla = {"svc__C": [1, 10], "svc__gamma": [f / nvar for f in (0.1, 0.3, 1)]}
+rejilla = {"svc__C": [10, 100, 1000], "svc__gamma": [f / nvar for f in (0.01, 0.03, 0.1, 0.3)]}
 
 pred = np.empty(len(y), dtype=object)
 filas = []
 for f in range(5):
+    ruta = f"resultados_objetivo3/tmp_svm_{nombre}_pliegue{f}.json"
+    if os.path.exists(ruta):   # reanuda: pliegue ya calculado antes de un corte
+        r = json.load(open(ruta))
+        pred[np.where(pl == f)[0]] = r["pred"]
+        filas.append(r["fila"])
+        print(f"[svm {nombre}] pliegue {f}: recuperado de un cálculo anterior", flush=True)
+        continue
     t0 = time.time()
     tr, te = np.where(pl != f)[0], np.where(pl == f)[0]
     cv = list(StratifiedGroupKFold(n_splits=3, shuffle=True, random_state=42).split(X[tr], y[tr], g[tr]))
@@ -39,6 +46,7 @@ for f in range(5):
                   "minutos": round((time.time() - t0) / 60, 1)})
     print(f"[svm {nombre}] pliegue {f}: {gs.best_params_} | F1 macro interno {gs.best_score_:.3f} | "
           f"{(time.time()-t0)/60:.1f} min", flush=True)
+    json.dump({"pred": pred[te].tolist(), "fila": filas[-1]}, open(ruta, "w"))
 
 pd.DataFrame(filas).to_csv(f"resultados_objetivo3/params_svm_{nombre}.csv", index=False)
 pd.DataFrame({"record_id": rid, "pliegue": pl, "genero_real": y, "genero_predicho": pred}).to_csv(
@@ -52,3 +60,5 @@ print(f"\n=== svm {nombre}: predicciones de los 5 pliegues juntas ===")
 print("exactitud:", round(accuracy_score(y, pred), 3), "| exactitud balanceada:", round(balanced_accuracy_score(y, pred), 3),
       "| F1 macro:", round(f1_score(y, pred, average="macro", zero_division=0), 3))
 print(tab.to_string(index=False))
+for f in range(5):
+    os.remove(f"resultados_objetivo3/tmp_svm_{nombre}_pliegue{f}.json")

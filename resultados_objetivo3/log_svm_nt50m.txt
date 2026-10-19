@@ -1,0 +1,23 @@
+[svm nt50m] pliegue 0: {'svc__C': 10, 'svc__gamma': 0.0005859375} | F1 macro interno 0.725 | 15.0 min
+[svm nt50m] pliegue 1: {'svc__C': 1000, 'svc__gamma': 1.953125e-05} | F1 macro interno 0.660 | 16.1 min
+[svm nt50m] pliegue 2: {'svc__C': 1000, 'svc__gamma': 5.859375e-05} | F1 macro interno 0.714 | 14.4 min
+[svm nt50m] pliegue 3: {'svc__C': 100, 'svc__gamma': 5.859375e-05} | F1 macro interno 0.644 | 14.9 min
+[svm nt50m] pliegue 4: {'svc__C': 10, 'svc__gamma': 0.0001953125} | F1 macro interno 0.683 | 14.7 min
+
+=== svm nt50m: predicciones de los 5 pliegues juntas ===
+exactitud: 0.909 | exactitud balanceada: 0.729 | F1 macro: 0.753
+     genero  registros  recall  precision    f1
+Boettcheria        887   0.897      0.977 0.935
+ Calliphora       3656   0.938      0.937 0.938
+  Chrysomya       2404   0.951      0.865 0.906
+Cochliomyia        398   0.221      0.521 0.310
+     Fannia      13250   0.981      0.940 0.960
+Hemilucilia        118   0.000      0.000 0.000
+  Hydrotaea       5752   0.908      0.682 0.779
+   Morellia        871   0.441      0.746 0.554
+      Musca      10269   0.958      0.950 0.954
+    Muscina       1658   0.831      0.989 0.903
+    Phaonia      12193   0.933      0.940 0.937
+ Sarcophaga       8452   0.991      0.953 0.971
+   Stomoxys       6727   0.660      0.933 0.773
+ Tricharaea        147   0.490      0.847 0.621

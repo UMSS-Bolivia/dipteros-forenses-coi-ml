@@ -1,0 +1,71 @@
+[nt50m] 8000/66782 | 1.2 min
+[nt50m] 10000/66782 | 2.3 min
+[nt50m] 12000/66782 | 3.4 min
+[nt50m] 14000/66782 | 4.5 min
+[nt50m] 16000/66782 | 5.7 min
+[nt50m] 18000/66782 | 6.9 min
+[nt50m] 20000/66782 | 8.1 min
+[nt50m] 22000/66782 | 9.4 min
+[nt50m] 24000/66782 | 10.6 min
+[nt50m] 26000/66782 | 11.9 min
+[nt50m] 28000/66782 | 13.1 min
+[nt50m] 30000/66782 | 14.4 min
+[nt50m] 32000/66782 | 15.6 min
+[nt50m] 34000/66782 | 16.8 min
+[nt50m] 36000/66782 | 18.0 min
+[nt50m] 38000/66782 | 19.2 min
+[nt50m] 40000/66782 | 20.5 min
+[nt50m] 42000/66782 | 21.7 min
+[nt50m] 44000/66782 | 23.0 min
+[nt50m] 46000/66782 | 24.3 min
+[nt50m] 48000/66782 | 25.5 min
+[nt50m] 50000/66782 | 26.8 min
+[nt50m] 52000/66782 | 28.2 min
+[nt50m] 54000/66782 | 29.5 min
+[nt50m] 56000/66782 | 30.8 min
+[nt50m] 58000/66782 | 32.1 min
+[nt50m] 60000/66782 | 33.4 min
+[nt50m] 62000/66782 | 34.7 min
+[nt50m] 64000/66782 | 36.0 min
+[nt50m] 66000/66782 | 38.9 min
+[nt50m] 66782/66782 | 40.7 min
+[nt50m] listo: (66782, 512) | truncadas: 0
+/home/valeria/.cache/huggingface/modules/transformers_modules/zhihan1996/DNABERT_hyphen_2_hyphen_117M/7bce263b15377fc15361f52cfab88f8b586abda0/bert_layers.py:126: UserWarning: Unable to import Triton; defaulting MosaicBERT attention implementation to pytorch (this will reduce throughput when using this model).
+  warnings.warn(
+Some weights of BertModel were not initialized from the model checkpoint at zhihan1996/DNABERT-2-117M and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[dnabert2] 2000/66782 | 3.7 min
+[dnabert2] 4000/66782 | 7.4 min
+[dnabert2] 6000/66782 | 11.1 min
+[dnabert2] 8000/66782 | 14.8 min
+[dnabert2] 10000/66782 | 18.6 min
+[dnabert2] 12000/66782 | 22.3 min
+[dnabert2] 14000/66782 | 25.8 min
+[dnabert2] 16000/66782 | 29.5 min
+[dnabert2] 18000/66782 | 33.4 min
+[dnabert2] 20000/66782 | 37.8 min
+[dnabert2] 22000/66782 | 42.3 min
+[dnabert2] 24000/66782 | 46.5 min
+[dnabert2] 26000/66782 | 50.6 min
+[dnabert2] 28000/66782 | 54.5 min
+[dnabert2] 30000/66782 | 59.1 min
+[dnabert2] 32000/66782 | 63.5 min
+[dnabert2] 34000/66782 | 67.9 min
+[dnabert2] 36000/66782 | 72.2 min
+[dnabert2] 38000/66782 | 76.5 min
+[dnabert2] 40000/66782 | 80.4 min
+[dnabert2] 42000/66782 | 84.8 min
+[dnabert2] 44000/66782 | 89.1 min
+[dnabert2] 46000/66782 | 93.5 min
+[dnabert2] 48000/66782 | 97.8 min
+[dnabert2] 50000/66782 | 102.2 min
+[dnabert2] 52000/66782 | 106.7 min
+[dnabert2] 54000/66782 | 110.7 min
+[dnabert2] 56000/66782 | 115.4 min
+[dnabert2] 58000/66782 | 119.9 min
+[dnabert2] 60000/66782 | 124.4 min
+[dnabert2] 62000/66782 | 128.8 min
+[dnabert2] 64000/66782 | 133.6 min
+[dnabert2] 66000/66782 | 140.7 min
+[dnabert2] 66782/66782 | 144.0 min
+[dnabert2] listo: (66782, 768) | truncadas: 0

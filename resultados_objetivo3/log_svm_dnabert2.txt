@@ -1,0 +1,23 @@
+[svm dnabert2] pliegue 0: {'svc__C': 100, 'svc__gamma': 1.3020833333333334e-05} | F1 macro interno 0.791 | 9.6 min
+[svm dnabert2] pliegue 1: {'svc__C': 10, 'svc__gamma': 1.3020833333333334e-05} | F1 macro interno 0.693 | 10.6 min
+[svm dnabert2] pliegue 2: {'svc__C': 100, 'svc__gamma': 1.3020833333333334e-05} | F1 macro interno 0.738 | 9.8 min
+[svm dnabert2] pliegue 3: {'svc__C': 10, 'svc__gamma': 3.90625e-05} | F1 macro interno 0.717 | 10.1 min
+[svm dnabert2] pliegue 4: {'svc__C': 10, 'svc__gamma': 3.90625e-05} | F1 macro interno 0.708 | 9.6 min
+
+=== svm dnabert2: predicciones de los 5 pliegues juntas ===
+exactitud: 0.96 | exactitud balanceada: 0.806 | F1 macro: 0.837
+     genero  registros  recall  precision    f1
+Boettcheria        887   0.779      0.993 0.873
+ Calliphora       3656   0.979      0.971 0.975
+  Chrysomya       2404   0.983      0.916 0.948
+Cochliomyia        398   0.402      0.994 0.572
+     Fannia      13250   0.961      0.959 0.960
+Hemilucilia        118   0.008      0.059 0.015
+  Hydrotaea       5752   0.964      0.852 0.904
+   Morellia        871   0.514      0.963 0.671
+      Musca      10269   0.988      0.993 0.991
+    Muscina       1658   0.876      0.997 0.932
+    Phaonia      12193   0.976      0.964 0.970
+ Sarcophaga       8452   0.996      0.970 0.983
+   Stomoxys       6727   0.974      0.999 0.986
+ Tricharaea        147   0.878      0.992 0.931
