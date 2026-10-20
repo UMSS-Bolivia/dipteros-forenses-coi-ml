@@ -1,0 +1,70 @@
+[completo] grupos activos: 861 | géneros presentes: 14 | remuestras con algún género ausente: 65 de 2000
+[sin_G00001] grupos activos: 860 | géneros presentes: 14 | remuestras con algún género ausente: 63 de 2000
+
+=== completo: métricas con IC 95 % ===
+       metodo  f1_macro  f1_macro_ic_inf  f1_macro_ic_sup  exactitud_balanceada  exactitud_balanceada_ic_inf  exactitud_balanceada_ic_sup  exactitud
+       RF k=3    0.5654           0.4742           0.6095                0.5506                       0.4951                       0.6120     0.8366
+       RF k=4    0.7162           0.6042           0.7826                0.6758                       0.5955                       0.7617     0.9203
+      SVM k=3    0.6623           0.5358           0.7097                0.6523                       0.5698                       0.7307     0.8484
+      SVM k=4    0.8043           0.6902           0.8514                0.7776                       0.6926                       0.8619     0.9294
+    SVM NT50M    0.7530           0.6670           0.8052                0.7285                       0.6791                       0.8115     0.9086
+SVM DNABERT-2    0.8365           0.7466           0.8771                0.8056                       0.7385                       0.8691     0.9601
+        BLAST    0.9023           0.8145           0.9810                0.9065                       0.8579                       0.9853     0.9274
+
+=== completo: diferencias pareadas de F1 macro (A - B) ===
+            A             B          tipo  dif_f1_macro  ic_inf  ic_sup  p_remuestreo  p_wilcoxon  p_remuestreo_holm  p_wilcoxon_holm
+       RF k=3        RF k=4  exploratoria       -0.1507 -0.2244 -0.0786        0.0010      0.0019             0.0200           0.0285
+       RF k=3       SVM k=3  exploratoria       -0.0968 -0.1533 -0.0092        0.0250      0.0747             0.1920           0.3840
+       RF k=3       SVM k=4  exploratoria       -0.2388 -0.3131 -0.1556        0.0010      0.0006             0.0200           0.0108
+       RF k=3     SVM NT50M  exploratoria       -0.1875 -0.2598 -0.1256        0.0010      0.0107             0.0200           0.1391
+       RF k=3 SVM DNABERT-2  exploratoria       -0.2711 -0.3489 -0.1921        0.0010      0.0001             0.0200           0.0020
+       RF k=3         BLAST  exploratoria       -0.3369 -0.4701 -0.2504        0.0010      0.0134             0.0200           0.1474
+       RF k=4       SVM k=3  exploratoria        0.0539 -0.0052  0.1527        0.0730      0.0640             0.3650           0.3840
+       RF k=4       SVM k=4  exploratoria       -0.0881 -0.1543 -0.0185        0.0100      0.0353             0.0900           0.2950
+       RF k=4     SVM NT50M  exploratoria       -0.0368 -0.1056  0.0232        0.1969      0.9721             0.5157           0.9721
+       RF k=4 SVM DNABERT-2  exploratoria       -0.1204 -0.1924 -0.0433        0.0040      0.0009             0.0400           0.0144
+       RF k=4         BLAST  exploratoria       -0.1862 -0.3243 -0.0854        0.0010      0.0295             0.0200           0.2950
+      SVM k=3       SVM k=4  exploratoria       -0.1420 -0.2182 -0.0838        0.0010      0.0006             0.0200           0.0108
+      SVM k=3     SVM NT50M  exploratoria       -0.0907 -0.1948 -0.0342        0.0030      0.0747             0.0330           0.3840
+      SVM k=3 SVM DNABERT-2  exploratoria       -0.1743 -0.2573 -0.1228        0.0010      0.0001             0.0200           0.0020
+      SVM k=3         BLAST  exploratoria       -0.2401 -0.4000 -0.1575        0.0010      0.0107             0.0200           0.1391
+      SVM k=4     SVM NT50M  exploratoria        0.0513 -0.0269  0.1028        0.2179      0.0906             0.5157           0.3840
+      SVM k=4 SVM DNABERT-2  exploratoria       -0.0323 -0.0940  0.0141        0.1719      0.0295             0.5157           0.2950
+      SVM k=4         BLAST  exploratoria       -0.0981 -0.2389 -0.0147        0.0240      0.0494             0.1920           0.3458
+    SVM NT50M SVM DNABERT-2  exploratoria       -0.0836 -0.1461 -0.0051        0.0380      0.0052             0.2280           0.0728
+    SVM NT50M         BLAST confirmatoria       -0.1494 -0.2525 -0.0786        0.0010      0.0295                NaN              NaN
+SVM DNABERT-2         BLAST  exploratoria       -0.0658 -0.1886  0.0150        0.1079      0.1531             0.4316           0.3840
+
+=== sin_G00001: métricas con IC 95 % ===
+       metodo  f1_macro  f1_macro_ic_inf  f1_macro_ic_sup  exactitud_balanceada  exactitud_balanceada_ic_inf  exactitud_balanceada_ic_sup  exactitud
+       RF k=3    0.5539           0.4627           0.6051                0.5525                       0.4880                       0.6110     0.8379
+       RF k=4    0.7138           0.5965           0.7746                0.6704                       0.5862                       0.7546     0.9153
+      SVM k=3    0.6522           0.5248           0.7055                0.6565                       0.5657                       0.7339     0.8525
+      SVM k=4    0.8028           0.6895           0.8525                0.7754                       0.6896                       0.8632     0.9244
+    SVM NT50M    0.7686           0.6779           0.8154                0.7501                       0.6965                       0.8220     0.9368
+SVM DNABERT-2    0.8385           0.7412           0.8809                0.8074                       0.7355                       0.8707     0.9592
+        BLAST    0.9553           0.8763           0.9849                0.9529                       0.8927                       0.9918     0.9924
+
+=== sin_G00001: diferencias pareadas de F1 macro (A - B) ===
+            A             B          tipo  dif_f1_macro  ic_inf  ic_sup  p_remuestreo  p_wilcoxon  p_remuestreo_holm  p_wilcoxon_holm
+       RF k=3        RF k=4  exploratoria       -0.1598 -0.2305 -0.0775        0.0010      0.0019             0.0200           0.0190
+       RF k=3       SVM k=3  exploratoria       -0.0983 -0.1537 -0.0095        0.0280      0.0546             0.1680           0.2184
+       RF k=3       SVM k=4  exploratoria       -0.2489 -0.3228 -0.1601        0.0010      0.0009             0.0200           0.0117
+       RF k=3     SVM NT50M  exploratoria       -0.2147 -0.2810 -0.1518        0.0010      0.0015             0.0200           0.0165
+       RF k=3 SVM DNABERT-2  exploratoria       -0.2845 -0.3619 -0.1983        0.0010      0.0001             0.0200           0.0020
+       RF k=3         BLAST  exploratoria       -0.4014 -0.4866 -0.3099        0.0010      0.0001             0.0200           0.0020
+       RF k=4       SVM k=3  exploratoria        0.0615 -0.0059  0.1595        0.0710      0.0869             0.3500           0.2607
+       RF k=4       SVM k=4  exploratoria       -0.0890 -0.1576 -0.0176        0.0100      0.0295             0.0700           0.1475
+       RF k=4     SVM NT50M  exploratoria       -0.0549 -0.1205  0.0042        0.0700      0.6002             0.3500           0.6002
+       RF k=4 SVM DNABERT-2  exploratoria       -0.1247 -0.2003 -0.0428        0.0030      0.0006             0.0240           0.0084
+       RF k=4         BLAST  exploratoria       -0.2416 -0.3465 -0.1489        0.0010      0.0001             0.0200           0.0020
+      SVM k=3       SVM k=4  exploratoria       -0.1505 -0.2338 -0.0843        0.0010      0.0009             0.0200           0.0117
+      SVM k=3     SVM NT50M  exploratoria       -0.1164 -0.2154 -0.0595        0.0010      0.0159             0.0200           0.1113
+      SVM k=3 SVM DNABERT-2  exploratoria       -0.1862 -0.2682 -0.1281        0.0010      0.0001             0.0200           0.0020
+      SVM k=3         BLAST  exploratoria       -0.3031 -0.4238 -0.2190        0.0010      0.0001             0.0200           0.0020
+      SVM k=4     SVM NT50M  exploratoria        0.0341 -0.0391  0.0829        0.4128      0.2958             0.4128           0.5916
+      SVM k=4 SVM DNABERT-2  exploratoria       -0.0357 -0.0960  0.0152        0.1709      0.0203             0.3500           0.1218
+      SVM k=4         BLAST  exploratoria       -0.1526 -0.2570 -0.0742        0.0010      0.0001             0.0200           0.0020
+    SVM NT50M SVM DNABERT-2  exploratoria       -0.0698 -0.1322  0.0094        0.0860      0.0067             0.3500           0.0536
+    SVM NT50M         BLAST confirmatoria       -0.1867 -0.2696 -0.1082        0.0010      0.0001                NaN              NaN
+SVM DNABERT-2         BLAST  exploratoria       -0.1169 -0.2064 -0.0436        0.0010      0.0052             0.0200           0.0468
