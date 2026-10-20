@@ -38,3 +38,10 @@
 - Valor p del remuestreo: 2 * min(P(d <= 0), P(d >= 0)) con (conteo + 1) / (2000 + 1), acotado a 1.
 - Wilcoxon de rangos con signo sobre las diferencias de F1 por género de las 14 clases (con ceros descartados).
 - Todo se calcula también en el escenario posterior a ver los resultados que excluye el grupo G00001 de la evaluación (sin reentrenar).
+
+## Detalles del análisis por estratos de identidad fijados antes de calcularlo (20 de octubre de 2026)
+- Estrato de cada registro: identidad del mejor hit de BLAST contra el entrenamiento de su pliegue (pident_mejor), con cortes <90, 90-95, 95-98, 98-99 y >=99 % (el límite inferior pertenece al estrato).
+- La identidad se mide contra la secuencia más cercana sin importar su rótulo.
+- En cada estrato se reportan exactitud y exactitud balanceada (promedio del recall de los géneros presentes en el estrato), con IC por remuestreo de grupos (misma semilla y remuestras), y la diferencia de cada método con BLAST en esas métricas. Es un análisis descriptivo, sin pruebas de hipótesis.
+- Se informa el número de registros, grupos y géneros por estrato; los estratos con pocos grupos se interpretan con cautela.
+- Se calcula también el escenario posterior a ver los resultados que excluye el grupo G00001.
