@@ -1,0 +1,26 @@
+# Plan de análisis del Objetivo 4 (fijado antes de ejecutar BLAST)
+
+## Comparación
+- Métodos: Random Forest (k=3, k=4), SVM (k=3, k=4), SVM sobre embeddings de NT50M y DNABERT-2, y BLAST.
+- Misma partición del Objetivo 3 (resultados_objetivo3/particion_pliegues.csv).
+- Comparación principal (confirmatoria): SVM sobre NT50M frente a BLAST. El resto de comparaciones es exploratoria.
+
+## Línea base BLAST
+- Para cada pliegue, base de datos con SOLO los registros de entrenamiento; consulta con los de prueba.
+- blastn -task blastn, e-value 1e-5, hasta 100 hits por consulta, un HSP por hit.
+- Género asignado: el del hit de mayor puntaje de bits. Si empatan hits de varios géneros, el género con más hits empatados; si persiste el empate, orden alfabético (se registra cuántos casos ocurren).
+- Sin hit: "sin_asignacion"; cuenta como error.
+- Sin umbral de identidad en la comparación principal.
+
+## Métricas
+- F1 macro (principal), exactitud balanceada, exactitud y métricas por género, sobre las predicciones reunidas de los cinco pliegues.
+
+## Inferencia
+- Intervalos de confianza: remuestreo de los 861 grupos con reemplazo, 2000 remuestras, semilla 2026, percentiles 2,5 y 97,5.
+- Diferencias entre métodos: calculadas sobre las mismas remuestras (prueba pareada por remuestreo de grupos); valor p bilateral.
+- Prueba secundaria: Wilcoxon de rangos con signo sobre las diferencias de F1 por género (14 pares).
+- Ajuste de Holm para las comparaciones exploratorias.
+
+## Identidad con la referencia más cercana
+- Estratos de identidad del mejor hit de BLAST contra el entrenamiento: <90 %, 90-95 %, 95-98 %, 98-99 % y >=99 %.
+- Se reporta el desempeño de cada método en cada estrato; los registros sin hit forman un estrato aparte.
