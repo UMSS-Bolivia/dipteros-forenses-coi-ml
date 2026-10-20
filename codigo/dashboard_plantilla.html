@@ -109,6 +109,10 @@ tbody th{font-weight:500}
 .badge.out{border-style:dotted}
 .badge.bo{border-color:var(--orange);color:var(--ink)}
 .nota{font-size:12.5px;color:var(--ink2);margin:8px 0 0}
+.ftx{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 10px}
+.inp{font:inherit;font-size:13px;padding:6px 10px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--ink);min-width:230px}
+button.sort{font:inherit;font-weight:600;color:inherit;background:none;border:0;padding:0;cursor:pointer;white-space:nowrap}
+button.sort:hover{text-decoration:underline}
 .tip{position:fixed;z-index:20;pointer-events:none;background:var(--surface);color:var(--ink);border:1px solid var(--axis);border-radius:8px;padding:8px 10px;font-size:12.5px;box-shadow:0 4px 14px rgba(0,0,0,.14);max-width:290px;display:none}
 .tip .t{color:var(--ink2);margin-bottom:4px}
 .tip .r{display:flex;gap:6px;align-items:baseline}
@@ -164,7 +168,7 @@ footer{color:var(--muted);font-size:12px;margin-top:20px}
 
   <section class="card" id="s-estratos">
     <div class="head"><div><h2>Según la identidad con la referencia más cercana</h2>
-      <p class="desc">Cada registro de prueba se ubica según la identidad de su mejor coincidencia de BLAST en los datos de entrenamiento de su pliegue, sin importar el género de esa coincidencia. Los estratos se definen con la salida de BLAST.</p></div>
+      <p class="desc">Cada registro de prueba se ubica según la identidad de su mejor coincidencia de BLAST en los datos de entrenamiento de su pliegue, sin importar el género de esa coincidencia. Los estratos se definen con la salida de BLAST. En la ventana emergente de cada celda están la diferencia con BLAST en exactitud balanceada, su valor p del remuestreo pareado y el ajuste de Holm sobre las 30 comparaciones de cada escenario (análisis exploratorio).</p></div>
       <div class="ctl"><div class="seg" id="c-est" role="group" aria-label="Métrica"></div>
       <button class="btn vt" type="button" data-s="s-estratos">Ver tabla</button></div></div>
     <div class="plot" id="plot-estratos"></div>
@@ -186,14 +190,20 @@ footer{color:var(--muted);font-size:12px;margin-top:20px}
   <section class="card" id="s-mapa">
     <div class="head"><div><h2>Mapa de brecha de los taxones bolivianos</h2>
       <p class="desc">Taxones de importancia forense registrados en Bolivia según las fuentes del Objetivo 1, ubicados por departamento y cruzados con lo que el clasificador puede identificar. Un género fuera de los 14 modelados no puede ser asignado por el clasificador.</p></div>
-      <div class="ctl"><button class="btn vt" type="button" data-s="s-mapa">Ver tabla</button></div></div>
+      <div class="ctl"><div class="seg" id="c-capa" role="group" aria-label="Capa del mapa"></div><button class="btn vt" type="button" data-s="s-mapa">Ver tabla</button></div></div>
     <div class="tiles" id="tiles-mapa" style="margin-top:4px"></div>
     <div class="mapa">
       <div class="m"><div class="plot" id="plot-mapa"></div><div class="tbl" id="tbl-mapa"></div>
-        <div class="legend" id="leg-mapa"></div></div>
+        <div class="legend" id="leg-mapa"></div>
+        <p class="nota" id="aviso-mapa"></p></div>
       <div class="p panel" id="panel"></div>
     </div>
     <h3 style="margin:18px 0 6px;font-size:15px">Taxones <span id="n-taxa" style="color:var(--ink2);font-weight:400"></span></h3>
+    <div class="ftx">
+      <input id="busca" type="search" class="inp" placeholder="Buscar taxón, familia o fuente" aria-label="Buscar en la tabla de taxones">
+      <div class="seg" id="c-rango" role="group" aria-label="Rango del taxón"></div>
+      <button class="btn" id="btn-csv" type="button">Descargar CSV</button>
+    </div>
     <div id="tabla-taxa"></div>
   </section>
 
@@ -210,7 +220,7 @@ footer{color:var(--muted);font-size:12px;margin-top:20px}
 "use strict";
 const D = JSON.parse(document.getElementById("datos").textContent);
 const SHORT = {"RF k=3":"RF k3","RF k=4":"RF k4","SVM k=3":"SVM k3","SVM k=4":"SVM k4","SVM NT50M":"NT50M","SVM DNABERT-2":"DNABERT-2","BLAST":"BLAST"};
-const S = {esc:"completo", met:"f1", estMet:"acc", genMet:"recall", filtro:"todos", depto:null};
+const S = {esc:"completo", met:"f1", estMet:"acc", genMet:"recall", filtro:"todos", depto:null, capa:"taxa", orden:{i:null, asc:true}, busca:"", rango:"todos"};
 const $ = (id) => document.getElementById(id);
 const NS = "http://www.w3.org/2000/svg";
 
@@ -286,6 +296,8 @@ function renderControls(){
   seg($("c-met"), [["f1","F1 macro"],["bal","Exactitud balanceada"],["acc","Exactitud"]], S.met, (v) => { S.met = v; renderControls(); renderForest(); });
   seg($("c-est"), [["acc","Exactitud"],["bal","Exactitud balanceada"]], S.estMet, (v) => { S.estMet = v; renderControls(); renderStrata(); });
   seg($("c-gen"), [["recall","Recall"],["precision","Precisión"],["f1","F1"]], S.genMet, (v) => { S.genMet = v; renderControls(); renderGenus(); });
+  seg($("c-capa"), [["taxa","Taxones en las fuentes"],["reg","Registros de Bolivia en el modelado"]], S.capa, (v) => { S.capa = v; renderControls(); renderMap(); });
+  seg($("c-rango"), [["todos","Todos"],["especie","Especies"],["genero","Géneros"]], S.rango, (v) => { S.rango = v; renderControls(); renderTaxa(); });
   const b = $("banner");
   if(S.esc === "sin_G00001"){
     b.hidden = false;
@@ -402,14 +414,15 @@ function renderStrata(){
         [nf(r.acc), "exactitud · IC 95 % " + nf(r.acc_lo) + " a " + nf(r.acc_hi)],
         [nf(r.bal), "exactitud balanceada · IC 95 % " + nf(r.bal_lo) + " a " + nf(r.bal_hi)],
         ...(r.dif != null ? [[sg(r.dif), "exactitud menos BLAST · IC 95 % " + nf(r.dif_lo) + " a " + nf(r.dif_hi)]] : []),
+        ...(r.p_bal != null ? [[sg(r.dif_bal), "exact. balanceada menos BLAST · IC 95 % " + nf(r.dif_bal_lo) + " a " + nf(r.dif_bal_hi)], ["p " + pf(r.p_bal) + " · Holm " + pf(r.p_holm_bal), "remuestreo pareado, exploratorio"]] : []),
         [ni(e.registros) + " registros", e.grupos + " grupos, " + e.generos + " géneros"]]]);
       svg.append(g);
     });
   });
   box.append(svg);
   const rows = [];
-  E.forEach(e => e.metodos.forEach(r => rows.push([e.estrato + " %", r.metodo, ni(e.registros), ni(e.grupos), nf(r.acc), nf(r.acc_lo), nf(r.acc_hi), nf(r.bal), r.dif == null ? "—" : sg(r.dif)])));
-  $("tbl-estratos").replaceChildren(table(["Estrato", "Método", "Registros", "Grupos", "Exactitud", "IC inf.", "IC sup.", "Exact. balanceada", "Exactitud menos BLAST"], rows, 2));
+  E.forEach(e => e.metodos.forEach(r => rows.push([e.estrato + " %", r.metodo, ni(e.registros), ni(e.grupos), nf(r.acc), nf(r.acc_lo), nf(r.acc_hi), nf(r.bal), r.dif == null ? "—" : sg(r.dif), r.dif_bal == null ? "—" : sg(r.dif_bal), r.p_bal == null ? "—" : pf(r.p_bal), r.p_holm_bal == null ? "—" : pf(r.p_holm_bal)])));
+  $("tbl-estratos").replaceChildren(table(["Estrato", "Método", "Registros", "Grupos", "Exactitud", "IC inf.", "IC sup.", "Exact. balanceada", "Exactitud menos BLAST", "Exact. balanceada menos BLAST", "p", "p Holm"], rows, 2));
   scaleLegend("leg-estratos", name);
 }
 
@@ -461,30 +474,39 @@ function mapaPaths(scale){
 }
 function renderMap(){
   const box = $("plot-mapa"); box.replaceChildren();
+  const reg = S.capa === "reg", unid = reg ? ["registro", "registros"] : ["taxón", "taxones"];
   const W = Math.min(Math.max(280, box.clientWidth || 440), 560), scale = W/geo.w, H = Math.ceil(geo.h*scale) + 4;
-  const vis = brechaFiltrada(false), cnt = {};
-  D.departamentos.forEach(d => { cnt[d.nombre] = 0; }); vis.forEach(b => b.departamentos.forEach(n => { cnt[n]++; }));
+  const vis = brechaFiltrada(false), cnt = {}, recs = {}, br = D.bolivia_registros || [];
+  D.departamentos.forEach(d => { cnt[d.nombre] = 0; recs[d.nombre] = []; });
+  if(reg){ if(S.filtro !== "fuera") br.forEach(r => { if(r.departamento in cnt){ cnt[r.departamento]++; recs[r.departamento].push(r); } }); }
+  else vis.forEach(b => b.departamentos.forEach(n => { cnt[n]++; }));
   const mx = Math.max(1, ...Object.values(cnt));
-  const svg = s("svg", {viewBox:`0 0 ${W} ${H}`, width:W, height:H, role:"img", "aria-label":"Mapa de Bolivia por departamento, según el número de taxones registrados"});
+  const svg = s("svg", {viewBox:`0 0 ${W} ${H}`, width:W, height:H, role:"img", "aria-label":`Mapa de Bolivia por departamento, según el número de ${unid[1]}`});
   mapaPaths(scale).forEach(p => {
     const n = cnt[p.nombre] || 0, fill = n ? ramp(.12 + .88*n/mx) : css("--surface2"), sel = S.depto === p.nombre;
-    const g = s("g", {class:"dep", tabindex:0, role:"button", "aria-label":`${p.nombre}: ${n} taxones`});
+    const g = s("g", {class:"dep", tabindex:0, role:"button", "aria-label":`${p.nombre}: ${n} ${n === 1 ? unid[0] : unid[1]}`});
     g.append(s("path", {d:p.d, "fill-rule":"evenodd", fill, stroke: sel ? "var(--ink)" : "var(--surface)", "stroke-width": sel ? 2.5 : 1.5, "stroke-linejoin":"round"}));
-    if(p.c){ const fs = p.nombre.length > 8 ? 10 : 11, col = n ? inkOn(fill) : css("--ink2");
-      g.append(s("text", {x:p.c[0], y:p.c[1] - 1, "text-anchor":"middle", class:"mk", fill:col, "font-size":fs, "font-weight":600, text:p.nombre}),
-        s("text", {x:p.c[0], y:p.c[1] + 12, "text-anchor":"middle", class:"mk", fill:col, "font-size":fs, text: n + (n === 1 ? " taxón" : " taxones")})); }
+    if(p.c){ const fs = p.nombre.length > 8 ? 10 : 11, halo = {fill:"var(--ink)", stroke:"var(--surface)", "stroke-width":3, "paint-order":"stroke", "stroke-linejoin":"round"};
+      g.append(s("text", {x:p.c[0], y:p.c[1] - 1, "text-anchor":"middle", class:"mk", "font-size":fs, "font-weight":600, ...halo, text:p.nombre}),
+        s("text", {x:p.c[0], y:p.c[1] + 12, "text-anchor":"middle", class:"mk", "font-size":fs, ...halo, text: n + " " + (n === 1 ? unid[0] : unid[1])})); }
     const pick = () => { S.depto = S.depto === p.nombre ? null : p.nombre; renderMap(); renderPanel(); renderTaxa(); };
     g.addEventListener("click", pick); g.addEventListener("keydown", (e) => { if(e.key === "Enter" || e.key === " "){ e.preventDefault(); pick(); } });
-    const dd = D.departamentos.find(q => q.nombre === p.nombre), sub = vis.filter(b => b.departamentos.includes(p.nombre));
-    attach(g, () => [p.nombre, [[String(n), "taxones registrados en las fuentes"], [String(sub.filter(b => b.en_modelo).length), "con género en el modelo"], [String(sub.filter(b => !b.en_modelo).length), "con género fuera del modelo"], [String(sub.filter(b => coiN(b) > 0).length), "con COI de Bolivia en BOLD"]]]);
+    const sub = vis.filter(b => b.departamentos.includes(p.nombre));
+    attach(g, () => reg
+      ? [p.nombre, [[String(n), "registros de Bolivia en el conjunto de modelado"], ...(n ? [[[...new Set(recs[p.nombre].map(r => r.genero))].join(", "), "géneros"]] : [])]]
+      : [p.nombre, [[String(n), "taxones registrados en las fuentes"], [String(sub.filter(b => b.en_modelo).length), "con género en el modelo"], [String(sub.filter(b => !b.en_modelo).length), "con género fuera del modelo"], [String(sub.filter(b => coiN(b) > 0).length), "con COI de Bolivia en BOLD"]]]);
     svg.append(g);
   });
   box.append(svg);
-  $("leg-mapa").replaceChildren(h("span", null, h("span", {class:"sw"}), "Sin taxones"),
-    h("span", null, "1", h("span", {class:"scale", style:`background:linear-gradient(90deg,${ramp(.12)},${ramp(1)})`}), String(mx), " taxones registrados"));
-  $("tbl-mapa").replaceChildren(table(["Departamento", "Taxones", "Género en el modelo", "Género fuera del modelo", "Con COI de Bolivia"],
-    D.departamentos.map(d => { const sub = vis.filter(b => b.departamentos.includes(d.nombre));
-      return [d.nombre, String(sub.length), String(sub.filter(b => b.en_modelo).length), String(sub.filter(b => !b.en_modelo).length), String(sub.filter(b => coiN(b) > 0).length)]; })));
+  $("leg-mapa").replaceChildren(h("span", null, h("span", {class:"sw"}), "Sin " + unid[1]),
+    h("span", null, "1", h("span", {class:"scale", style:`background:linear-gradient(90deg,${ramp(.12)},${ramp(1)})`}), String(mx) + " " + unid[1]));
+  const conTaxa = D.departamentos.filter(d => d.n_taxa > 0).map(d => d.nombre), depReg = [...new Set(br.map(r => r.departamento))];
+  $("aviso-mapa").textContent = reg
+    ? `El conjunto de modelado tiene ${br.length} registros de Bolivia, procedentes de ${depReg.join(", ") || "ningún departamento"}. Con tan pocos registros, ni los modelos ni BLAST pueden evaluarse sobre la fauna boliviana.`
+    : `Solo aparecen los departamentos citados por las fuentes del Objetivo 1 (${conTaxa.join(", ")}). Que un departamento salga sin taxones no significa que no haya moscas allí: significa que ninguna fuente lo cita.`;
+  $("tbl-mapa").replaceChildren(table(["Departamento", "Taxones", "Género en el modelo", "Género fuera del modelo", "Con COI de Bolivia", "Registros de Bolivia en el modelado"],
+    D.departamentos.map(d => { const s2 = vis.filter(b => b.departamentos.includes(d.nombre));
+      return [d.nombre, String(s2.length), String(s2.filter(b => b.en_modelo).length), String(s2.filter(b => !b.en_modelo).length), String(s2.filter(b => coiN(b) > 0).length), String(br.filter(r => r.departamento === d.nombre).length)]; })));
 }
 const badges = (b) => [h("span", {class:"badge " + (b.en_modelo ? "in" : "out"), text: b.en_modelo ? "✓ Género en el modelo" : "✕ Género fuera del modelo"}),
   h("span", {class:"badge " + (coiN(b) ? "bo" : ""), text: coiN(b) ? "COI de Bolivia en BOLD: " + coiN(b) : "Sin COI de Bolivia en BOLD"})];
@@ -502,25 +524,60 @@ function renderPanel(){
     h("div", {class:"nota", text:`${ts.length} taxones · ${ts.filter(b => b.en_modelo).length} con género en el modelo · ${ts.filter(b => !b.en_modelo).length} fuera · ${ts.filter(b => coiN(b) > 0).length} con COI de Bolivia`}),
     h("ul", {class:"lista"}, ts.map(b => h("li", {class:"taxon"}, h("div", {class:"nm", text:b.taxon}), h("div", {class:"sb", text:`${b.rango === "genero" ? "Género" : "Especie"} · ${b.familia}`}), badges(b)))));
 }
+const COLS = [
+  {t:"Taxón", f:b => b.taxon},
+  {t:"Rango", f:b => b.rango === "genero" ? "género" : "especie"},
+  {t:"Familia", f:b => b.familia},
+  {t:"Departamentos", f:b => b.departamentos.join("; ")},
+  {t:"Fuente", f:b => b.fuentes || "—"},
+  {t:"Género en el modelo", f:b => b.en_modelo ? "sí" : "no"},
+  {t:"COI de Bolivia (BOLD)", f:b => coiN(b) ? "sí (" + coiN(b) + ")" : "ninguno", n:b => coiN(b)},
+  {t:"COI-5P del género (BOLD)", f:b => ni(b.coi_genero), n:b => b.coi_genero, num:1},
+  {t:"COI-5P de la especie (BOLD)", f:b => b.rango === "especie" ? ni(b.coi_especie) : "—", n:b => b.rango === "especie" ? b.coi_especie : null, num:1},
+  {t:"COI de la especie (GenBank)", f:b => b.rango === "especie" ? ni(b.genbank_especie) : "—", n:b => b.rango === "especie" ? b.genbank_especie : null, num:1},
+  {t:"Genoma", f:b => b.genomica},
+  {t:"Recall BLAST (género)", f:b => b.en_modelo ? nf(b.blast_recall, 2) : "—", n:b => b.blast_recall, num:1},
+  {t:"Recall DNABERT-2 (género)", f:b => b.en_modelo ? nf(b.dnabert2_recall, 2) : "—", n:b => b.dnabert2_recall, num:1}];
+function taxaRows(){
+  const q = S.busca.trim().toLowerCase();
+  let ts = brechaFiltrada(true).filter(b => S.rango === "todos" || b.rango === S.rango);
+  if(q) ts = ts.filter(b => COLS.some(c => String(c.f(b)).toLowerCase().includes(q)));
+  const o = S.orden;
+  if(o.i != null){ const c = COLS[o.i], key = (b) => c.n ? c.n(b) : c.f(b);
+    ts = ts.slice().sort((a, b) => { const x = key(a), y = key(b);
+      if(x == null && y == null) return 0; if(x == null) return 1; if(y == null) return -1;
+      const r = typeof x === "number" ? x - y : String(x).localeCompare(String(y), "es"); return o.asc ? r : -r; }); }
+  return ts;
+}
 function renderTaxa(){
-  const ts = brechaFiltrada(true);
+  const ts = taxaRows();
   $("n-taxa").textContent = `(${ts.length}${S.depto ? " en " + S.depto : ""})`;
-  $("tabla-taxa").replaceChildren(table(["Taxón", "Rango", "Familia", "Departamentos", "Género en el modelo", "COI de Bolivia (BOLD)", "COI-5P del género (BOLD)", "Genoma", "Recall BLAST", "Recall DNABERT-2"],
-    ts.map(b => [b.taxon, b.rango === "genero" ? "género" : "especie", b.familia, b.departamentos.join("; "), b.en_modelo ? "sí" : "no", coiN(b) ? "sí (" + coiN(b) + ")" : "ninguno", ni(b.coi_genero), b.genomica, b.en_modelo ? nf(b.blast_recall, 2) : "—", b.en_modelo ? nf(b.dnabert2_recall, 2) : "—"]), 8, "nw"));
+  const head = h("tr", null, COLS.map((c, i) => h("th", {scope:"col", class: c.num ? "n" : "", "aria-sort": S.orden.i === i ? (S.orden.asc ? "ascending" : "descending") : "none"},
+    h("button", {class:"sort", type:"button", text: c.t + (S.orden.i === i ? (S.orden.asc ? " ↑" : " ↓") : ""),
+      onclick: () => { S.orden = S.orden.i === i ? {i, asc:!S.orden.asc} : {i, asc:true}; renderTaxa(); }}))));
+  const body = ts.map(b => h("tr", null, COLS.map((c, i) => i === 0 ? h("th", {scope:"row", text:c.f(b)}) : h("td", {class: c.num ? "n" : "", text:c.f(b)}))));
+  $("tabla-taxa").replaceChildren(h("div", {class:"tbl-wrap"}, h("table", {class:"nw"}, h("thead", null, head), h("tbody", null, body))));
+}
+function descargarCsv(){
+  const cel = (x) => '"' + String(x == null ? "" : x).replace(/"/g, '""') + '"';
+  const filas = [COLS.map(c => c.t), ...taxaRows().map(b => COLS.map(c => c.n ? c.n(b) : c.f(b)))];
+  const blob = new Blob(["﻿" + filas.map(r => r.map(cel).join(",")).join("\r\n")], {type:"text/csv;charset=utf-8"});
+  const a = h("a", {href:URL.createObjectURL(blob), download:"taxones_brecha.csv"});
+  document.body.append(a); a.click(); a.remove();
 }
 function renderMapTiles(){
   const v = brechaFiltrada(false), gen = (a) => new Set(a.map(b => b.genero)).size;
   const tile = (l, val, sub) => h("div", {class:"tile"}, h("div", {class:"l", text:l}), h("div", {class:"v", text:val}), h("div", {class:"s", text:sub}));
-  const ent = v.filter(b => b.en_modelo), fue = v.filter(b => !b.en_modelo);
+  const ent = v.filter(b => b.en_modelo), fue = v.filter(b => !b.en_modelo), con = v.filter(b => coiN(b) > 0).length;
   $("tiles-mapa").replaceChildren(tile("Taxones en las fuentes", String(v.length), `${gen(v)} géneros distintos`),
     tile("Con género en el modelo", String(ent.length), `${gen(ent)} géneros de los ${D.meta.generos.length} modelados`),
     tile("Con género fuera del modelo", String(fue.length), `${gen(fue)} géneros que el clasificador no puede asignar`),
-    tile("Con COI de Bolivia en BOLD", String(v.filter(b => coiN(b) > 0).length), "taxones con al menos un registro boliviano"));
+    tile("Con COI de Bolivia en BOLD", String(con), `${v.length - con} sin ningún registro de Bolivia en BOLD`));
 }
 
 function renderNotes(){
   $("notas").replaceChildren(
-    h("li", {text:`Los datos de entrenamiento y evaluación son registros públicos de BOLD (${ni(D.meta.n_registros)} registros de COI-5P, ${D.meta.generos.length} géneros); solo 3 son de Bolivia. Estos resultados no demuestran el desempeño sobre la fauna boliviana.`}),
+    h("li", {text:`Los datos de entrenamiento y evaluación son registros públicos de BOLD (${ni(D.meta.n_registros)} registros de COI-5P, ${D.meta.generos.length} géneros); solo ${(D.bolivia_registros || []).length} son de Bolivia. Estos resultados no demuestran el desempeño sobre la fauna boliviana.`}),
     h("li", {text:"El grupo G00001 (5 761 registros de Stomoxys, todos en el pliegue 0) concentra el 90 % de los errores de BLAST: su vecino más cercano en el entrenamiento es un registro rotulado Hydrotaea albuquerquei cuya secuencia coincide con Stomoxys calcitrans. Los análisis «sin G00001» y la sensibilidad se hicieron después de ver los resultados."}),
     h("li", {text:"La comparación principal (SVM sobre NT50M frente a BLAST) se fijó antes de ejecutar BLAST; las demás son exploratorias y llevan ajuste de Holm."}),
     h("li", {text:"Los intervalos remuestrean los grupos de registros relacionados, no los registros sueltos, y no se usaron para elegir hiperparámetros."}),
@@ -539,6 +596,8 @@ $("btn-tema").addEventListener("click", () => { document.documentElement.setAttr
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change", renderCharts);
 let rt = null; let lastW = 0;
 new ResizeObserver(() => { const w = document.body.clientWidth; if(w === lastW) return; lastW = w; clearTimeout(rt); rt = setTimeout(renderCharts, 120); }).observe(document.body);
+$("busca").addEventListener("input", (e) => { S.busca = e.target.value; renderTaxa(); });
+$("btn-csv").addEventListener("click", descargarCsv);
 renderNotes(); renderAll();
 })();
 </script>

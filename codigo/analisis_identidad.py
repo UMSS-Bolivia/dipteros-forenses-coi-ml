@@ -2,6 +2,8 @@
 
 Ejecutar desde la raíz. Decisiones fijadas en resultados_objetivo4/plan_analisis.md.
 Remuestreo de grupos como en comparacion_metodos.py (semilla 2026, 2000 remuestras).
+En cada estrato se compara cada modelo con BLAST en la exactitud balanceada (diferencia, IC 95 %
+y valor p del remuestreo), con ajuste de Holm sobre los 30 valores p de cada escenario.
 """
 import os
 os.environ.setdefault("OPENBLAS_NUM_THREADS", "2")
@@ -63,8 +65,19 @@ def ic(v):
     return (tuple(np.percentile(v, [2.5, 97.5])) if len(v) else (np.nan, np.nan)), len(v)
 
 
+def holm(pv):
+    pv = np.asarray(pv, float); o = np.argsort(pv); m = len(pv); aj = np.empty(m); run = 0.0
+    for r, i in enumerate(o):
+        run = max(run, (m - r) * pv[i]); aj[i] = min(1.0, run)
+    return aj
+
+
 def fmt(v, lo, hi):
     return f"{v:.3f} ({lo:.3f}-{hi:.3f})"
+
+
+def pfmt(v):
+    return "≤0,001" if v <= 0.0011 else f"{v:.3f}"
 
 
 def analizar(escenario, activo, Cs):
@@ -97,20 +110,29 @@ def analizar(escenario, activo, Cs):
             for k in ["exactitud", "exactitud_balanceada"]:
                 d = boot[(nombre, s)][k] - boot[("BLAST", s)][k]
                 (lo, hi), nv = ic(d)
-                difs.append({"escenario": escenario, "estrato": et, "metodo": nombre, "metrica": k,
-                             "dif_vs_BLAST": round(float(punto[(nombre, s)][k] - punto[("BLAST", s)][k]), 4),
-                             "ic_inf": round(float(lo), 4), "ic_sup": round(float(hi), 4)})
+                fila = {"escenario": escenario, "estrato": et, "metodo": nombre, "metrica": k,
+                        "dif_vs_BLAST": round(float(punto[(nombre, s)][k] - punto[("BLAST", s)][k]), 4),
+                        "ic_inf": round(float(lo), 4), "ic_sup": round(float(hi), 4),
+                        "p_remuestreo": np.nan, "p_holm": np.nan}
+                if k == "exactitud_balanceada":
+                    dv = d[~np.isnan(d)]
+                    fila["p_remuestreo"] = round(min(1.0, 2 * min((dv <= 0).sum() + 1, (dv >= 0).sum() + 1) / (len(dv) + 1)), 4)
+                difs.append(fila)
     res, dif = pd.DataFrame(filas), pd.DataFrame(difs)
+    m = dif["metrica"] == "exactitud_balanceada"
+    dif.loc[m, "p_holm"] = np.round(holm(dif.loc[m, "p_remuestreo"].values), 4)
     for s, (_, _, et) in enumerate(ESTRATOS):
         print(f"\n--- [{escenario}] identidad {et} %: {info[s][0]} registros, {info[s][1]} grupos, {info[s][2]} géneros ---")
-        print(f"{'método':14s} {'exactitud (IC)':26s} {'exact. balanceada (IC)':28s} dif. exactitud vs BLAST (IC)")
+        print(f"{'método':14s} {'exactitud (IC)':24s} {'exact. balanceada (IC)':26s} {'dif. exact. (IC)':26s} {'dif. exact. balanceada (IC)':28s} p / p Holm")
         for nombre in Cs:
             r = res[(res.estrato == et) & (res.metodo == nombre)].iloc[0]
-            linea = (f"{nombre:14s} {fmt(r.exactitud, r.exactitud_ic_inf, r.exactitud_ic_sup):26s} "
-                     f"{fmt(r.exactitud_balanceada, r.exactitud_balanceada_ic_inf, r.exactitud_balanceada_ic_sup):28s} ")
+            linea = (f"{nombre:14s} {fmt(r.exactitud, r.exactitud_ic_inf, r.exactitud_ic_sup):24s} "
+                     f"{fmt(r.exactitud_balanceada, r.exactitud_balanceada_ic_inf, r.exactitud_balanceada_ic_sup):26s} ")
             if nombre != "BLAST":
                 q = dif[(dif.estrato == et) & (dif.metodo == nombre) & (dif.metrica == "exactitud")].iloc[0]
-                linea += fmt(q.dif_vs_BLAST, q.ic_inf, q.ic_sup)
+                z = dif[(dif.estrato == et) & (dif.metodo == nombre) & (dif.metrica == "exactitud_balanceada")].iloc[0]
+                linea += (f"{fmt(q.dif_vs_BLAST, q.ic_inf, q.ic_sup):26s} {fmt(z.dif_vs_BLAST, z.ic_inf, z.ic_sup):28s} "
+                          f"{pfmt(z.p_remuestreo)} / {pfmt(z.p_holm)}")
             print(linea)
     return res, dif
 

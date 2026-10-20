@@ -77,9 +77,14 @@ for esc in ESCENARIOS:
             d = ed[(ed.escenario == esc) & (ed.estrato == et) & (ed.metodo == r.metodo) & (ed.metrica == "exactitud")]
             fila = {"metodo": r.metodo, "acc": r.exactitud, "acc_lo": r.exactitud_ic_inf, "acc_hi": r.exactitud_ic_sup,
                     "bal": r.exactitud_balanceada, "bal_lo": r.exactitud_balanceada_ic_inf,
-                    "bal_hi": r.exactitud_balanceada_ic_sup, "dif": None, "dif_lo": None, "dif_hi": None}
+                    "bal_hi": r.exactitud_balanceada_ic_sup, "dif": None, "dif_lo": None, "dif_hi": None,
+                    "dif_bal": None, "dif_bal_lo": None, "dif_bal_hi": None, "p_bal": None, "p_holm_bal": None}
             if len(d):
                 fila.update(dif=d.iloc[0].dif_vs_BLAST, dif_lo=d.iloc[0].ic_inf, dif_hi=d.iloc[0].ic_sup)
+            db = ed[(ed.escenario == esc) & (ed.estrato == et) & (ed.metodo == r.metodo) & (ed.metrica == "exactitud_balanceada")]
+            if len(db):
+                fila.update(dif_bal=db.iloc[0].dif_vs_BLAST, dif_bal_lo=db.iloc[0].ic_inf, dif_bal_hi=db.iloc[0].ic_sup,
+                            p_bal=db.iloc[0].p_remuestreo, p_holm_bal=db.iloc[0].p_holm)
             filas.append(fila)
         lista.append({"estrato": et, "registros": int(t.iloc[0].registros), "grupos": int(t.iloc[0].grupos),
                       "generos": int(t.iloc[0].generos), "metodos": filas})
@@ -108,7 +113,7 @@ for r in tb.itertuples():
     g = r.taxon_fuente.split()[0]
     en = g in labs
     deps = [deptos[norm(d)] for d in str(r.departamentos).split(";")]
-    fila = {"taxon": r.taxon_fuente, "rango": r.rango, "familia": r.familia, "departamentos": deps, "genero": g,
+    fila = {"taxon": r.taxon_fuente, "rango": r.rango, "familia": r.familia, "fuentes": r.fuentes, "departamentos": deps, "genero": g,
             "en_modelo": en, "coi_genero": r.bold_coi5p_genero, "bolivia_genero": r.bold_bolivia_genero,
             "coi_especie": r.bold_coi5p_especie, "bolivia_especie": r.bold_bolivia_especie,
             "genbank_especie": r.genbank_coi_especie, "genomica": r.situacion_genomica,
@@ -126,10 +131,18 @@ for nombre in sorted(deptos.values()):
                           "n_fuera": sum(not b["en_modelo"] for b in ts),
                           "n_con_coi_bolivia": sum(str(b["coi_bolivia"]).startswith("sí") for b in ts)})
 
+mod = pd.read_csv("datos/procesados/bold_coi_modelado_final.csv.gz",
+                  usecols=["record_id", "genus", "species", "bin_uri", "country/ocean", "province/state"], low_memory=False)
+bo = mod[mod["country/ocean"].astype(str).str.contains("Bolivia", case=False)]
+bolivia_registros = [{"record_id": r["record_id"], "genero": r["genus"],
+                      "especie": None if pd.isna(r["species"]) else r["species"],
+                      "bin": None if pd.isna(r["bin_uri"]) else r["bin_uri"],
+                      "departamento": deptos.get(norm(r["province/state"]), r["province/state"])}
+                     for r in bo.to_dict("records")]
 datos = {"meta": {"n_registros": int(len(p)), "n_grupos": int(p["grupo"].nunique()), "generos": labs,
                   "bootstrap": 2000, "semilla": 2026},
          "metodos": list(RUTAS), "resumen": resumen, "pares": pares, "estratos": estratos, "genero": genero,
-         "sensibilidad_blast": sens, "brecha": brecha, "departamentos": departamentos, "mapa": geo}
+         "sensibilidad_blast": sens, "bolivia_registros": bolivia_registros, "brecha": brecha, "departamentos": departamentos, "mapa": geo}
 
 
 def limpiar(o):
@@ -154,3 +167,5 @@ print("géneros fuera del modelo:", sorted({b["genero"] for b in brecha if not b
 print("por departamento:", {d["nombre"]: (d["n_taxa"], d["n_en_modelo"], d["n_con_coi_bolivia"])
                             for d in departamentos if d["n_taxa"]})
 print("sensibilidad BLAST sin GBDP0769:", sens if sens else "no disponible todavía")
+print("registros de Bolivia en el modelado:", len(bolivia_registros),
+      [(b["genero"], b["departamento"]) for b in bolivia_registros])

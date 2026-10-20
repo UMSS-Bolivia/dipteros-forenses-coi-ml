@@ -45,3 +45,7 @@
 - En cada estrato se reportan exactitud y exactitud balanceada (promedio del recall de los géneros presentes en el estrato), con IC por remuestreo de grupos (misma semilla y remuestras), y la diferencia de cada método con BLAST en esas métricas. Es un análisis descriptivo, sin pruebas de hipótesis.
 - Se informa el número de registros, grupos y géneros por estrato; los estratos con pocos grupos se interpretan con cautela.
 - Se calcula también el escenario posterior a ver los resultados que excluye el grupo G00001.
+
+## Adenda (20 de octubre): pruebas pareadas por estrato
+
+Antes de calcularlas, se fija lo siguiente. En cada estrato de identidad del mejor hit de BLAST se compara cada modelo con BLAST en la exactitud balanceada, con la misma partición y el mismo remuestreo de grupos (2000 remuestras, semilla 2026). Se informa la diferencia, su IC 95 % percentil y un valor p de remuestreo pareado, con la misma fórmula que en la comparación global. Los valores p se ajustan por Holm sobre las 30 pruebas de cada escenario (6 modelos x 5 estratos). Todas estas pruebas son exploratorias; la prueba confirmatoria sigue siendo la fijada en este plan.
