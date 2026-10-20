@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Objetivo 4: BLAST frente a los modelos</title>
+<style>
+:root{
+  color-scheme: light;
+  --page:#f9f9f7; --surface:#fcfcfb; --surface2:#efeeea;
+  --ink:#0b0b0b; --ink2:#52514e; --muted:#6f6d68;
+  --blue:#2a78d6; --orange:#eb6834; --red:#e34948; --mid:#f0efec;
+  --grid:#e1e0d9; --axis:#c3c2b7; --border:rgba(11,11,11,0.10);
+}
+@media (prefers-color-scheme: dark){
+  :root:where(:not([data-theme="light"])){
+    color-scheme: dark;
+    --page:#0d0d0d; --surface:#1a1a19; --surface2:#262624;
+    --ink:#f0efec; --ink2:#c3c2b7; --muted:#a09e97;
+    --blue:#3987e5; --orange:#d95926; --red:#e66767; --mid:#383835;
+    --grid:#2c2c2a; --axis:#383835; --border:rgba(255,255,255,0.10);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --page:#0d0d0d; --surface:#1a1a19; --surface2:#262624;
+  --ink:#f0efec; --ink2:#c3c2b7; --muted:#a09e97;
+  --blue:#3987e5; --orange:#d95926; --red:#e66767; --mid:#383835;
+  --grid:#2c2c2a; --axis:#383835; --border:rgba(255,255,255,0.10);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--page);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px 48px}
+header.top{padding:28px 0 8px}
+header.top h1{margin:0 0 6px;font-size:24px;line-height:1.25;font-weight:650}
+header.top p{margin:0;color:var(--ink2);max-width:760px}
+.filtros{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;background:var(--page);padding:12px 0;border-bottom:1px solid var(--border);margin-bottom:16px}
+.filtros .grp{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.filtros .lbl{font-size:12.5px;color:var(--ink2)}
+.seg{display:inline-flex;border:1px solid var(--border);border-radius:8px;overflow:hidden;background:var(--surface)}
+.seg button{font:inherit;font-size:13px;padding:6px 11px;border:0;background:transparent;color:var(--ink2);cursor:pointer}
+.seg button+button{border-left:1px solid var(--border)}
+.seg button:hover{background:var(--surface2)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--surface);font-weight:600}
+.btn{font:inherit;font-size:13px;padding:6px 11px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--ink2);cursor:pointer}
+.btn:hover{background:var(--surface2)}
+.btn.theme{margin-left:auto}
+button:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.banner{border:1px solid var(--border);border-left:4px solid var(--orange);background:var(--surface);border-radius:8px;padding:10px 14px;margin:0 0 16px;font-size:13.5px;color:var(--ink2)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px;margin:0 0 16px}
+.card h2{margin:0 0 4px;font-size:17px;font-weight:650}
+.card .desc{margin:0 0 12px;color:var(--ink2);font-size:13.5px;max-width:820px}
+.card .head{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:flex-start;justify-content:space-between}
+.card .ctl{display:flex;gap:8px;flex-wrap:wrap}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:0 0 16px}
+.tile{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px}
+.tile .l{font-size:12.5px;color:var(--ink2)}
+.tile .v{font-size:30px;font-weight:650;line-height:1.15;margin:4px 0 2px}
+.tile .s{font-size:12.5px;color:var(--ink2)}
+.plot svg{display:block;max-width:100%;height:auto;overflow:visible}
+.plot .tick{font-size:11px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.plot .rl{font-size:12.5px;fill:var(--ink2)}
+.plot .rl.b{fill:var(--ink);font-weight:650}
+.plot .vl{font-size:12.5px;fill:var(--ink);font-variant-numeric:tabular-nums}
+.plot .cv{font-size:11px;font-variant-numeric:tabular-nums;pointer-events:none}
+.plot .ch{font-size:11.5px;fill:var(--ink2)}
+.plot .ch.b{fill:var(--ink);font-weight:650}
+.plot .cs{font-size:10px;fill:var(--muted)}
+.plot .mk{font-size:11px;pointer-events:none}
+.hit{cursor:default}
+.hit:hover circle{r:6.5}
+.hit:focus{outline:none}
+.hit:focus circle{stroke:var(--ink)}
+.cell:hover rect.c,.cell:focus rect.c{stroke:var(--ink);stroke-width:2}
+.cell:focus{outline:none}
+.dep{cursor:pointer}
+.dep:hover path,.dep:focus path{stroke:var(--ink);stroke-width:2}
+.dep:focus{outline:none}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;font-size:12.5px;color:var(--ink2);margin-top:8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.scale{display:inline-block;width:150px;height:8px;border-radius:4px;vertical-align:middle;margin:0 6px}
+.scale.div{background:linear-gradient(90deg,var(--red),var(--mid),var(--blue))}
+.sw{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-2px;border:1px solid var(--axis);background:var(--surface2)}
+.tbl{display:none}
+.is-table .plot{display:none}
+.is-table .tbl{display:block}
+.tbl-wrap{overflow-x:auto;max-width:100%}
+table.nw th,table.nw td{white-space:nowrap}
+table.nw th:first-child,table.nw td:first-child{white-space:normal;min-width:150px}
+table{border-collapse:collapse;font-size:13px;width:100%}
+th,td{padding:6px 10px;border-bottom:1px solid var(--grid);text-align:left;vertical-align:top}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+thead th{font-weight:600;color:var(--ink2);white-space:nowrap}
+tbody th{font-weight:500}
+.mapa{display:flex;flex-wrap:wrap;gap:16px}
+.mapa .m{flex:1 1 380px;min-width:0}
+.mapa .p{flex:1 1 300px;min-width:0}
+.panel h3{margin:0 0 6px;font-size:15px}
+.panel .lista{display:flex;flex-direction:column;gap:6px;margin:8px 0 0;padding:0;list-style:none;max-height:420px;overflow:auto}
+.panel .lista button.dpb{font:inherit;width:100%;text-align:left;display:flex;justify-content:space-between;gap:8px;padding:7px 10px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--ink);cursor:pointer}
+.panel .lista button.dpb:hover{background:var(--surface2)}
+.panel .lista button.dpb .z{color:var(--muted)}
+.taxon{border:1px solid var(--border);border-radius:8px;padding:8px 10px}
+.taxon .nm{font-style:italic;font-weight:600}
+.taxon .sb{font-size:12.5px;color:var(--ink2)}
+.badge{display:inline-block;font-size:11.5px;padding:1px 8px;border-radius:999px;border:1px solid var(--axis);color:var(--ink2);margin:4px 6px 0 0;background:var(--surface)}
+.badge.in{border-color:var(--blue);color:var(--ink)}
+.badge.out{border-style:dotted}
+.badge.bo{border-color:var(--orange);color:var(--ink)}
+.nota{font-size:12.5px;color:var(--ink2);margin:8px 0 0}
+.tip{position:fixed;z-index:20;pointer-events:none;background:var(--surface);color:var(--ink);border:1px solid var(--axis);border-radius:8px;padding:8px 10px;font-size:12.5px;box-shadow:0 4px 14px rgba(0,0,0,.14);max-width:290px;display:none}
+.tip .t{color:var(--ink2);margin-bottom:4px}
+.tip .r{display:flex;gap:6px;align-items:baseline}
+.tip .r strong{font-variant-numeric:tabular-nums}
+.tip .r span{color:var(--ink2)}
+ul.notas{margin:6px 0 0;padding-left:20px;color:var(--ink2);font-size:13.5px}
+ul.notas li{margin:5px 0}
+footer{color:var(--muted);font-size:12px;margin-top:20px}
+@media (max-width:600px){
+  header.top h1{font-size:20px}
+  .tile .v{font-size:26px}
+  .card{padding:14px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Objetivo 4: identificación a nivel de género, BLAST frente a los modelos</h1>
+    <p id="sub"></p>
+  </header>
+
+  <div class="filtros" id="filtros">
+    <div class="grp"><span class="lbl">Datos evaluados</span>
+      <div class="seg" id="f-esc" role="group" aria-label="Datos evaluados"></div></div>
+    <div class="grp"><span class="lbl">Taxones del mapa de brecha</span>
+      <div class="seg" id="f-tax" role="group" aria-label="Taxones del mapa de brecha"></div></div>
+    <button class="btn theme" id="btn-tema" type="button">Cambiar tema</button>
+  </div>
+  <div class="banner" id="banner" hidden></div>
+
+  <div class="tiles" id="tiles"></div>
+
+  <section class="card" id="s-forest">
+    <div class="head"><div><h2>Comparación de los siete métodos</h2>
+      <p class="desc" id="d-forest"></p></div>
+      <div class="ctl"><div class="seg" id="c-met" role="group" aria-label="Métrica"></div>
+      <button class="btn vt" type="button" data-s="s-forest">Ver tabla</button></div></div>
+    <div class="plot" id="plot-forest"></div>
+    <div class="tbl" id="tbl-forest"></div>
+    <div class="legend"><span><i style="background:var(--blue)"></i>Modelos del Objetivo 3</span><span><i style="background:var(--orange)"></i>BLAST</span></div>
+    <p class="nota" id="sens"></p>
+  </section>
+
+  <section class="card" id="s-matriz">
+    <div class="head"><div><h2>Diferencias entre métodos (F1 macro)</h2>
+      <p class="desc">Cada celda es el F1 macro del método de la fila menos el de la columna. En negrita, los casos en que el intervalo del 95 % de la diferencia no incluye 0. El contorno marca la comparación principal, fijada antes de ejecutar BLAST (SVM sobre NT50M frente a BLAST); las demás son exploratorias. Los valores p están en la ventana emergente y en la tabla.</p></div>
+      <div class="ctl"><button class="btn vt" type="button" data-s="s-matriz">Ver tabla</button></div></div>
+    <div class="plot" id="plot-matriz"></div>
+    <div class="tbl" id="tbl-matriz"></div>
+    <div class="legend"><span>Gana la columna<span class="scale div"></span>Gana la fila</span></div>
+  </section>
+
+  <section class="card" id="s-estratos">
+    <div class="head"><div><h2>Según la identidad con la referencia más cercana</h2>
+      <p class="desc">Cada registro de prueba se ubica según la identidad de su mejor coincidencia de BLAST en los datos de entrenamiento de su pliegue, sin importar el género de esa coincidencia. Los estratos se definen con la salida de BLAST.</p></div>
+      <div class="ctl"><div class="seg" id="c-est" role="group" aria-label="Métrica"></div>
+      <button class="btn vt" type="button" data-s="s-estratos">Ver tabla</button></div></div>
+    <div class="plot" id="plot-estratos"></div>
+    <div class="tbl" id="tbl-estratos"></div>
+    <div class="legend" id="leg-estratos"></div>
+    <p class="nota">Identidad más baja significa que la referencia más cercana está más lejos. Con pocos grupos por estrato los intervalos son anchos: se ven en la ventana emergente.</p>
+  </section>
+
+  <section class="card" id="s-genero">
+    <div class="head"><div><h2>Desempeño por género</h2>
+      <p class="desc">Predicciones de los cinco pliegues reunidas. Entre paréntesis, el número de registros de cada género.</p></div>
+      <div class="ctl"><div class="seg" id="c-gen" role="group" aria-label="Métrica"></div>
+      <button class="btn vt" type="button" data-s="s-genero">Ver tabla</button></div></div>
+    <div class="plot" id="plot-genero"></div>
+    <div class="tbl" id="tbl-genero"></div>
+    <div class="legend" id="leg-genero"></div>
+  </section>
+
+  <section class="card" id="s-mapa">
+    <div class="head"><div><h2>Mapa de brecha de los taxones bolivianos</h2>
+      <p class="desc">Taxones de importancia forense registrados en Bolivia según las fuentes del Objetivo 1, ubicados por departamento y cruzados con lo que el clasificador puede identificar. Un género fuera de los 14 modelados no puede ser asignado por el clasificador.</p></div>
+      <div class="ctl"><button class="btn vt" type="button" data-s="s-mapa">Ver tabla</button></div></div>
+    <div class="tiles" id="tiles-mapa" style="margin-top:4px"></div>
+    <div class="mapa">
+      <div class="m"><div class="plot" id="plot-mapa"></div><div class="tbl" id="tbl-mapa"></div>
+        <div class="legend" id="leg-mapa"></div></div>
+      <div class="p panel" id="panel"></div>
+    </div>
+    <h3 style="margin:18px 0 6px;font-size:15px">Taxones <span id="n-taxa" style="color:var(--ink2);font-weight:400"></span></h3>
+    <div id="tabla-taxa"></div>
+  </section>
+
+  <section class="card">
+    <h2>Cómo leer estos resultados</h2>
+    <ul class="notas" id="notas"></ul>
+  </section>
+
+  <footer id="pie"></footer>
+</div>
+<script type="application/json" id="datos">/*DATOS*/</script>
+<script>
+(function(){
+"use strict";
+const D = JSON.parse(document.getElementById("datos").textContent);
+const SHORT = {"RF k=3":"RF k3","RF k=4":"RF k4","SVM k=3":"SVM k3","SVM k=4":"SVM k4","SVM NT50M":"NT50M","SVM DNABERT-2":"DNABERT-2","BLAST":"BLAST"};
+const S = {esc:"completo", met:"f1", estMet:"acc", genMet:"recall", filtro:"todos", depto:null};
+const $ = (id) => document.getElementById(id);
+const NS = "http://www.w3.org/2000/svg";
+
+function build(e, attrs, kids){
+  if(attrs) for(const k in attrs){ const v = attrs[k]; if(v == null) continue;
+    if(k === "text") e.textContent = v;
+    else if(k === "class") e.setAttribute("class", v);
+    else if(k.slice(0,2) === "on") e.addEventListener(k.slice(2), v);
+    else e.setAttribute(k, v); }
+  for(const c of kids.flat(Infinity)){ if(c == null || c === false) continue; e.append(c.nodeType ? c : document.createTextNode(String(c))); }
+  return e;
+}
+const h = (tag, attrs, ...kids) => build(document.createElement(tag), attrs, kids);
+const s = (tag, attrs, ...kids) => build(document.createElementNS(NS, tag), attrs, kids);
+
+const nf = (v, d = 3) => (v == null || isNaN(v)) ? "—" : v.toFixed(d).replace(".", ",").replace("-", "−");
+const sg = (v, d = 3) => v == null ? "—" : (v > 0 ? "+" : v < 0 ? "−" : "") + Math.abs(v).toFixed(d).replace(".", ",");
+const ni = (v) => v == null ? "—" : String(Math.round(Number(v))).replace(/\B(?=(\d{3})+(?!\d))/g, "\u202f");
+const pf = (v) => v == null ? "—" : (v <= 0.0011 ? "≤ 0,001" : nf(v, 3));
+const sh = (m) => SHORT[m] || m;
+
+const css = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const dark = () => { const t = document.documentElement.getAttribute("data-theme"); return t ? t === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; };
+const hex = (c) => { c = c.replace("#", ""); return [0,2,4].map(i => parseInt(c.substr(i,2),16)); };
+const mix = (a, b, t) => { const A = hex(a), B = hex(b); return "#" + A.map((x,i) => Math.round(x + (B[i]-x)*t).toString(16).padStart(2,"0")).join(""); };
+const lum = (c) => { const [r,g,b] = hex(c).map(v => { v /= 255; return v <= .03928 ? v/12.92 : Math.pow((v+.055)/1.055, 2.4); }); return .2126*r + .7152*g + .0722*b; };
+const inkOn = (bg) => { const L = lum(bg); return (L + .05) / .05 > 1.05 / (L + .05) ? "#0b0b0b" : "#ffffff"; };
+const RAMP_L = ["#cde2fb","#9ec5f4","#6da7ec","#3987e5","#256abf","#184f95","#0d366b"];
+const RAMP_D = ["#0d366b","#184f95","#256abf","#3987e5","#6da7ec","#9ec5f4","#cde2fb"];
+function ramp(t){ t = Math.max(0, Math.min(1, t)); const R = dark() ? RAMP_D : RAMP_L; const x = t*(R.length-1), i = Math.min(R.length-2, Math.floor(x)); return mix(R[i], R[i+1], x-i); }
+function diverge(v, max){ const t = Math.min(1, Math.abs(v)/max); return mix(css("--mid"), v >= 0 ? css("--blue") : css("--red"), t); }
+
+/* ---- ventana emergente: los valores también están en las tablas ---- */
+const tip = h("div", {class:"tip", role:"tooltip"});
+document.body.append(tip);
+function placeTip(x, y){
+  tip.style.display = "block";
+  const w = tip.offsetWidth, hh = tip.offsetHeight, vw = innerWidth, vh = innerHeight;
+  let l = x + 14, t = y + 14;
+  if(l + w > vw - 8) l = Math.max(8, x - w - 14);
+  if(t + hh > vh - 8) t = Math.max(8, y - hh - 14);
+  tip.style.left = l + "px"; tip.style.top = t + "px";
+}
+function fillTip(title, lines){
+  tip.replaceChildren(h("div", {class:"t", text:title}),
+    ...lines.map(l => h("div", {class:"r"}, h("strong", {text:l[0]}), l[1] ? h("span", {text:l[1]}) : null)));
+}
+function attach(el, fn){
+  el.addEventListener("pointermove", (e) => { const [t, l] = fn(); fillTip(t, l); placeTip(e.clientX, e.clientY); });
+  el.addEventListener("pointerleave", () => { tip.style.display = "none"; });
+  el.addEventListener("focus", () => { const [t, l] = fn(); fillTip(t, l); const b = el.getBoundingClientRect(); placeTip(b.left + b.width/2, b.top + b.height/2); });
+  el.addEventListener("blur", () => { tip.style.display = "none"; });
+}
+
+function table(headers, rows, numFrom = 1, cls = ""){
+  return h("div", {class:"tbl-wrap"}, h("table", {class:cls},
+    h("thead", null, h("tr", null, headers.map((t, i) => h("th", {scope:"col", class: i >= numFrom ? "n" : "", text:t})))),
+    h("tbody", null, rows.map(r => h("tr", null, r.map((c, i) => i === 0 ? h("th", {scope:"row", text:c}) : h("td", {class: i >= numFrom ? "n" : "", text:c})))))));
+}
+function scaleLegend(id, txt){ $(id).replaceChildren(h("span", null, "0", h("span", {class:"scale", style:`background:linear-gradient(90deg,${ramp(0)},${ramp(1)})`}), "1 · " + txt)); }
+function seg(box, opts, cur, onPick){
+  box.replaceChildren(...opts.map(o => h("button", {type:"button", "aria-pressed": String(o[0] === cur), text:o[1],
+    onclick: () => onPick(o[0])})));
+}
+
+/* ---- escenario ---- */
+const ESC = [["completo","Todos los datos"],["sin_G00001","Sin el grupo G00001 (post hoc)"]];
+const TAX = [["todos","Todos"],["modelo","Género en el modelo"],["fuera","Género fuera del modelo"]];
+
+function renderControls(){
+  seg($("f-esc"), ESC, S.esc, (v) => { S.esc = v; renderAll(); });
+  seg($("f-tax"), TAX, S.filtro, (v) => { S.filtro = v; S.depto = null; renderAll(); });
+  seg($("c-met"), [["f1","F1 macro"],["bal","Exactitud balanceada"],["acc","Exactitud"]], S.met, (v) => { S.met = v; renderControls(); renderForest(); });
+  seg($("c-est"), [["acc","Exactitud"],["bal","Exactitud balanceada"]], S.estMet, (v) => { S.estMet = v; renderControls(); renderStrata(); });
+  seg($("c-gen"), [["recall","Recall"],["precision","Precisión"],["f1","F1"]], S.genMet, (v) => { S.genMet = v; renderControls(); renderGenus(); });
+  const b = $("banner");
+  if(S.esc === "sin_G00001"){
+    b.hidden = false;
+    b.textContent = "Escenario posterior a ver los resultados: se excluyó de la evaluación el grupo G00001 (5 761 registros de Stomoxys, todos en el pliegue 0). No se reentrenó nada; el análisis principal es el de «Todos los datos».";
+  } else b.hidden = true;
+}
+
+function renderTiles(){
+  const R = D.resumen[S.esc], bl = R.find(r => r.metodo === "BLAST"), mods = R.filter(r => r.metodo !== "BLAST");
+  const best = mods.reduce((a, b) => b.f1 > a.f1 ? b : a);
+  const c = D.pares[S.esc].find(p => p.tipo === "confirmatoria");
+  const tile = (l, v, sub) => h("div", {class:"tile"}, h("div", {class:"l", text:l}), h("div", {class:"v", text:v}), h("div", {class:"s", text:sub}));
+  $("tiles").replaceChildren(
+    tile("BLAST, F1 macro", nf(bl.f1), "IC 95 %: " + nf(bl.f1_lo) + " a " + nf(bl.f1_hi)),
+    tile("Mejor modelo, F1 macro", nf(best.f1), best.metodo + " · IC 95 %: " + nf(best.f1_lo) + " a " + nf(best.f1_hi)),
+    c ? tile("Comparación principal: NT50M menos BLAST", sg(c.dif), "IC 95 %: " + nf(c.lo) + " a " + nf(c.hi) + " · p " + pf(c.p).replace("≤ ", "≤ ").replace(/^(\d)/, "= $1") + " (remuestreo), p " + pf(c.pw).replace(/^(\d)/, "= $1") + " (Wilcoxon)") : null);
+}
+
+/* ---- 1. forest ---- */
+function forestRows(){
+  const key = S.met;
+  return D.resumen[S.esc].map(r => ({m:r.metodo, v:r[key], lo:r[key+"_lo"], hi:r[key+"_hi"]})).sort((a, b) => b.v - a.v);
+}
+function renderForest(){
+  const box = $("plot-forest"); box.replaceChildren();
+  const name = {f1:"F1 macro", bal:"Exactitud balanceada", acc:"Exactitud"}[S.met];
+  const rows = forestRows();
+  const W = Math.max(300, box.clientWidth || 600), left = W < 520 ? 106 : 128, right = 58, top = 6, rowH = 34, axisH = 30;
+  const H = top + rows.length*rowH + axisH;
+  const x0 = Math.max(0, Math.floor((Math.min(...rows.map(r => r.lo)) - .02)*10)/10), x1 = 1;
+  const X = (v) => left + (v - x0)/(x1 - x0)*(W - left - right);
+  const svg = s("svg", {viewBox:`0 0 ${W} ${H}`, width:W, height:H, role:"img", "aria-label":`${name} de cada método con intervalo de confianza del 95 %`});
+  const step = (x1 - x0) > .5 ? .2 : .1, yb = top + rows.length*rowH;
+  for(let t = Math.ceil(x0/step - 1e-9)*step; t <= x1 + 1e-9; t += step){
+    const tt = Math.round(t*100)/100, x = X(tt);
+    svg.append(s("line", {x1:x, x2:x, y1:top, y2:yb, stroke:"var(--grid)", "stroke-width":1}),
+      s("text", {x:x, y:H - 8, "text-anchor":"middle", class:"tick", text:nf(tt, 1)}));
+  }
+  svg.append(s("line", {x1:left, x2:W - right, y1:yb, y2:yb, stroke:"var(--axis)", "stroke-width":1}));
+  rows.forEach((r, i) => {
+    const y = top + i*rowH + rowH/2, col = r.m === "BLAST" ? "var(--orange)" : "var(--blue)";
+    const g = s("g", {tabindex:0, class:"hit", "aria-label":`${r.m}: ${nf(r.v)}, intervalo ${nf(r.lo)} a ${nf(r.hi)}`});
+    g.append(s("rect", {x:0, y:top + i*rowH, width:W, height:rowH, fill:"transparent"}),
+      s("text", {x:left - 10, y:y + 4, "text-anchor":"end", class: r.m === "BLAST" ? "rl b" : "rl", text:r.m}),
+      s("line", {x1:X(r.lo), x2:X(r.hi), y1:y, y2:y, stroke:col, "stroke-width":2, "stroke-linecap":"round"}),
+      s("circle", {cx:X(r.v), cy:y, r:5, fill:col, stroke:"var(--surface)", "stroke-width":2}),
+      s("text", {x:W - right + 12, y:y + 4, class:"vl", text:nf(r.v)}));
+    attach(g, () => [r.m, [[nf(r.v), name], ["IC 95 %: " + nf(r.lo) + " a " + nf(r.hi), ""]]]);
+    svg.append(g);
+  });
+  box.append(svg);
+  $("tbl-forest").replaceChildren(table(["Método", name, "IC 95 % inferior", "IC 95 % superior"], rows.map(r => [r.m, nf(r.v), nf(r.lo), nf(r.hi)])));
+  $("d-forest").textContent = `Predicciones de los cinco pliegues reunidas (${ni(D.meta.n_registros)} registros, ${ni(D.meta.n_grupos)} grupos). Punto: valor observado; línea: intervalo de confianza del 95 % por remuestreo de grupos (${ni(D.meta.bootstrap)} remuestras, semilla ${D.meta.semilla}). Los intervalos de cada método se superponen; las diferencias se leen con las pruebas pareadas de la tabla siguiente.`;
+  const se = D.sensibilidad_blast;
+  $("sens").textContent = se ? `Sensibilidad posterior a ver los resultados: BLAST con el registro GBDP0769-06 retirado de la base de referencia, F1 macro ${nf(se.f1)}, exactitud balanceada ${nf(se.bal)}, exactitud ${nf(se.acc)} (todos los datos, sin intervalo).` : "";
+}
+
+/* ---- 2. matriz de diferencias ---- */
+function renderMatrix(){
+  const box = $("plot-matriz"); box.replaceChildren();
+  const M = D.metodos, n = M.length, P = {};
+  D.pares[S.esc].forEach(p => { P[p.A + "|" + p.B] = p; });
+  const get = (i, j) => { const a = M[i], b = M[j]; let p = P[a + "|" + b];
+    if(p) return {dif:p.dif, lo:p.lo, hi:p.hi, p}; p = P[b + "|" + a];
+    return p ? {dif:-p.dif, lo:-p.hi, hi:-p.lo, p} : null; };
+  const W = Math.max(300, box.clientWidth || 600), left = W < 520 ? 70 : 104, headH = W < 520 ? 58 : 70;
+  const c = Math.min(76, Math.floor((W - left - 6)/n)), H = headH + n*c + 4;
+  const svg = s("svg", {viewBox:`0 0 ${W} ${H}`, width:W, height:H, role:"img", "aria-label":"Matriz de diferencias de F1 macro entre métodos"});
+  M.forEach((m, j) => { const x = left + j*c + c/2;
+    svg.append(s("text", {x:x, y:headH - 8, class: m === "BLAST" ? "ch b" : "ch", transform:`rotate(-40 ${x} ${headH - 8})`, text:sh(m)})); });
+  M.forEach((mr, i) => {
+    svg.append(s("text", {x:left - 8, y:headH + i*c + c/2 + 4, "text-anchor":"end", class: mr === "BLAST" ? "ch b" : "ch", text:sh(mr)}));
+    M.forEach((mc, j) => {
+      const x = left + j*c + 1, y = headH + i*c + 1, g = s("g", {class:"cell", tabindex: i === j ? null : 0});
+      if(i === j){ g.append(s("rect", {x, y, width:c - 2, height:c - 2, rx:3, fill:"var(--surface2)"})); svg.append(g); return; }
+      const d = get(i, j); if(!d){ svg.append(g); return; }
+      const fill = diverge(d.dif, .4), sig = d.lo > 0 || d.hi < 0, conf = d.p.tipo === "confirmatoria";
+      g.append(s("rect", {class:"c", x, y, width:c - 2, height:c - 2, rx:3, fill, stroke: conf ? "var(--ink)" : "none", "stroke-width": conf ? 2 : 0}));
+      if(c >= 30) g.append(s("text", {x:x + (c - 2)/2, y:y + (c - 2)/2 + 4, "text-anchor":"middle", class:"cv", fill:inkOn(fill), "font-weight": sig ? 700 : 400, "fill-opacity": sig ? 1 : .78, text:sg(d.dif, 2)}));
+      g.setAttribute("aria-label", `${mr} menos ${mc}: ${sg(d.dif)}, intervalo ${nf(d.lo)} a ${nf(d.hi)}`);
+      attach(g, () => [`${mr} menos ${mc}` + (conf ? " (comparación principal)" : ""), [
+        [sg(d.dif), "diferencia de F1 macro"], ["IC 95 %: " + nf(d.lo) + " a " + nf(d.hi), sig ? "excluye 0" : "incluye 0"],
+        ["p " + pf(d.p.p) + (d.p.p_holm != null ? " · Holm " + pf(d.p.p_holm) : ""), "remuestreo de grupos"],
+        ["p " + pf(d.p.pw) + (d.p.pw_holm != null ? " · Holm " + pf(d.p.pw_holm) : ""), "Wilcoxon sobre géneros"]]]);
+      svg.append(g);
+    });
+  });
+  box.append(svg);
+  $("tbl-matriz").replaceChildren(table(["A menos B", "Diferencia", "IC inferior", "IC superior", "p remuestreo", "p Holm", "p Wilcoxon", "p Wilcoxon Holm", "Tipo"],
+    D.pares[S.esc].map(p => [`${p.A} menos ${p.B}`, sg(p.dif), nf(p.lo), nf(p.hi), pf(p.p), pf(p.p_holm), pf(p.pw), pf(p.pw_holm), p.tipo]), 1));
+}
+
+/* ---- 3. estratos de identidad ---- */
+function renderStrata(){
+  const box = $("plot-estratos"); box.replaceChildren();
+  const E = D.estratos[S.esc], M = D.metodos, key = S.estMet, name = key === "acc" ? "exactitud" : "exactitud balanceada";
+  const W = Math.max(300, box.clientWidth || 600), left = W < 520 ? 74 : 104, headH = 58, rowH = 32, gap = 10;
+  const c = Math.min(120, Math.floor((W - left - 6)/E.length)), H = headH + M.length*rowH + gap + 4;
+  const svg = s("svg", {viewBox:`0 0 ${W} ${H}`, width:W, height:H, role:"img", "aria-label":`${name} por método y estrato de identidad`});
+  E.forEach((e, k) => { const x = left + k*c + c/2;
+    svg.append(s("text", {x, y:16, "text-anchor":"middle", class:"ch b", text:e.estrato + " %"}),
+      s("text", {x, y:31, "text-anchor":"middle", class:"cs", text:ni(e.registros) + " reg."}),
+      s("text", {x, y:44, "text-anchor":"middle", class:"cs", text:ni(e.grupos) + " grupos"})); });
+  M.forEach((m, i) => {
+    const y = headH + i*rowH + (m === "BLAST" ? gap : 0);
+    svg.append(s("text", {x:left - 8, y:y + rowH/2 + 3, "text-anchor":"end", class: m === "BLAST" ? "ch b" : "ch", text:sh(m)}));
+    E.forEach((e, k) => {
+      const r = e.metodos.find(q => q.metodo === m); if(!r) return;
+      const v = r[key], fill = ramp(v), x = left + k*c + 1;
+      const g = s("g", {class:"cell", tabindex:0, "aria-label":`${m}, identidad ${e.estrato} %: ${name} ${nf(v)}`});
+      g.append(s("rect", {class:"c", x, y:y + 1, width:c - 2, height:rowH - 2, rx:3, fill}),
+        s("text", {x:x + (c - 2)/2, y:y + rowH/2 + 4, "text-anchor":"middle", class:"cv", fill:inkOn(fill), text:nf(v, 3)}));
+      attach(g, () => [`${m} · identidad ${e.estrato} %`, [
+        [nf(r.acc), "exactitud · IC 95 % " + nf(r.acc_lo) + " a " + nf(r.acc_hi)],
+        [nf(r.bal), "exactitud balanceada · IC 95 % " + nf(r.bal_lo) + " a " + nf(r.bal_hi)],
+        ...(r.dif != null ? [[sg(r.dif), "exactitud menos BLAST · IC 95 % " + nf(r.dif_lo) + " a " + nf(r.dif_hi)]] : []),
+        [ni(e.registros) + " registros", e.grupos + " grupos, " + e.generos + " géneros"]]]);
+      svg.append(g);
+    });
+  });
+  box.append(svg);
+  const rows = [];
+  E.forEach(e => e.metodos.forEach(r => rows.push([e.estrato + " %", r.metodo, ni(e.registros), ni(e.grupos), nf(r.acc), nf(r.acc_lo), nf(r.acc_hi), nf(r.bal), r.dif == null ? "—" : sg(r.dif)])));
+  $("tbl-estratos").replaceChildren(table(["Estrato", "Método", "Registros", "Grupos", "Exactitud", "IC inf.", "IC sup.", "Exact. balanceada", "Exactitud menos BLAST"], rows, 2));
+  scaleLegend("leg-estratos", name);
+}
+
+/* ---- 4. por género ---- */
+function renderGenus(){
+  const box = $("plot-genero"); box.replaceChildren();
+  const M = D.metodos, G = D.genero[S.esc], key = S.genMet, name = {recall:"recall", precision:"precisión", f1:"F1"}[key];
+  const gens = D.meta.generos, W = Math.max(300, box.clientWidth || 600), left = W < 520 ? 108 : 150, headH = W < 520 ? 58 : 70, rowH = 26;
+  const c = Math.min(96, Math.floor((W - left - 6)/M.length)), H = headH + gens.length*rowH + 4;
+  const svg = s("svg", {viewBox:`0 0 ${W} ${H}`, width:W, height:H, role:"img", "aria-label":`${name} por género y método`});
+  M.forEach((m, j) => { const x = left + j*c + c/2;
+    svg.append(s("text", {x, y:headH - 8, class: m === "BLAST" ? "ch b" : "ch", transform:`rotate(-40 ${x} ${headH - 8})`, text:sh(m)})); });
+  gens.forEach((gn, i) => {
+    const y = headH + i*rowH, n0 = G[M[0]].find(q => q.genero === gn).registros;
+    svg.append(s("text", {x:left - 8, y:y + rowH/2 + 4, "text-anchor":"end", class:"ch", text:`${gn} (${ni(n0)})`}));
+    M.forEach((m, j) => {
+      const r = G[m].find(q => q.genero === gn), v = r[key], fill = ramp(v), x = left + j*c + 1;
+      const g = s("g", {class:"cell", tabindex:0, "aria-label":`${gn}, ${m}: ${name} ${nf(v)}`});
+      g.append(s("rect", {class:"c", x, y:y + 1, width:c - 2, height:rowH - 2, rx:3, fill}),
+        c >= 30 ? s("text", {x:x + (c - 2)/2, y:y + rowH/2 + 4, "text-anchor":"middle", class:"cv", fill:inkOn(fill), text:nf(v, 2)}) : null);
+      attach(g, () => [`${gn} · ${m}`, [[nf(r.recall), "recall"], [nf(r.precision), "precisión"], [nf(r.f1), "F1"], [ni(r.registros) + " registros", ""]]]);
+      svg.append(g);
+    });
+  });
+  box.append(svg);
+  $("tbl-genero").replaceChildren(table(["Género", "Registros", ...M.map(sh)], gens.map(gn => [gn, ni(G[M[0]].find(q => q.genero === gn).registros), ...M.map(m => nf(G[m].find(q => q.genero === gn)[key], 3))]), 1));
+  scaleLegend("leg-genero", name);
+}
+
+/* ---- 5. mapa de brecha ---- */
+const brechaFiltrada = (conDepto) => D.brecha.filter(b => (S.filtro === "todos" || (S.filtro === "modelo") === b.en_modelo) && (!conDepto || !S.depto || b.departamentos.includes(S.depto)));
+const coiN = (b) => { const m = /\d+/.exec(String(b.coi_bolivia)); return m ? Number(m[0]) : 0; };
+const geo = (() => {
+  const pts = []; D.mapa.features.forEach(f => f.geometry.coordinates.forEach(p => p.forEach(r => r.forEach(q => pts.push(q)))));
+  const k = Math.cos(16.3*Math.PI/180), lon = pts.map(p => p[0]), lat = pts.map(p => p[1]);
+  const minX = Math.min(...lon), maxY = Math.max(...lat);
+  return {k, minX, maxY, w:(Math.max(...lon) - minX)*k, h:maxY - Math.min(...lat)};
+})();
+function mapaPaths(scale){
+  const P = (q) => [((q[0] - geo.minX)*geo.k*scale).toFixed(1), ((geo.maxY - q[1])*scale).toFixed(1)];
+  return D.mapa.features.map(f => {
+    let best = null, area = -1; let d = "";
+    f.geometry.coordinates.forEach(poly => { poly.forEach((ring, ri) => { d += "M" + ring.map(q => P(q).join(",")).join("L") + "Z";
+      if(ri === 0){ let a = 0, cx = 0, cy = 0; const r = ring.map(P).map(q => [Number(q[0]), Number(q[1])]);
+        for(let i = 0; i < r.length - 1; i++){ const cr = r[i][0]*r[i+1][1] - r[i+1][0]*r[i][1]; a += cr; cx += (r[i][0] + r[i+1][0])*cr; cy += (r[i][1] + r[i+1][1])*cr; }
+        a /= 2; if(Math.abs(a) > area && a !== 0){ area = Math.abs(a); best = [cx/(6*a), cy/(6*a)]; } } }); });
+    return {nombre:f.properties.nombre, d, c:best};
+  });
+}
+function renderMap(){
+  const box = $("plot-mapa"); box.replaceChildren();
+  const W = Math.min(Math.max(280, box.clientWidth || 440), 560), scale = W/geo.w, H = Math.ceil(geo.h*scale) + 4;
+  const vis = brechaFiltrada(false), cnt = {};
+  D.departamentos.forEach(d => { cnt[d.nombre] = 0; }); vis.forEach(b => b.departamentos.forEach(n => { cnt[n]++; }));
+  const mx = Math.max(1, ...Object.values(cnt));
+  const svg = s("svg", {viewBox:`0 0 ${W} ${H}`, width:W, height:H, role:"img", "aria-label":"Mapa de Bolivia por departamento, según el número de taxones registrados"});
+  mapaPaths(scale).forEach(p => {
+    const n = cnt[p.nombre] || 0, fill = n ? ramp(.12 + .88*n/mx) : css("--surface2"), sel = S.depto === p.nombre;
+    const g = s("g", {class:"dep", tabindex:0, role:"button", "aria-label":`${p.nombre}: ${n} taxones`});
+    g.append(s("path", {d:p.d, "fill-rule":"evenodd", fill, stroke: sel ? "var(--ink)" : "var(--surface)", "stroke-width": sel ? 2.5 : 1.5, "stroke-linejoin":"round"}));
+    if(p.c){ const fs = p.nombre.length > 8 ? 10 : 11, col = n ? inkOn(fill) : css("--ink2");
+      g.append(s("text", {x:p.c[0], y:p.c[1] - 1, "text-anchor":"middle", class:"mk", fill:col, "font-size":fs, "font-weight":600, text:p.nombre}),
+        s("text", {x:p.c[0], y:p.c[1] + 12, "text-anchor":"middle", class:"mk", fill:col, "font-size":fs, text: n + (n === 1 ? " taxón" : " taxones")})); }
+    const pick = () => { S.depto = S.depto === p.nombre ? null : p.nombre; renderMap(); renderPanel(); renderTaxa(); };
+    g.addEventListener("click", pick); g.addEventListener("keydown", (e) => { if(e.key === "Enter" || e.key === " "){ e.preventDefault(); pick(); } });
+    const dd = D.departamentos.find(q => q.nombre === p.nombre), sub = vis.filter(b => b.departamentos.includes(p.nombre));
+    attach(g, () => [p.nombre, [[String(n), "taxones registrados en las fuentes"], [String(sub.filter(b => b.en_modelo).length), "con género en el modelo"], [String(sub.filter(b => !b.en_modelo).length), "con género fuera del modelo"], [String(sub.filter(b => coiN(b) > 0).length), "con COI de Bolivia en BOLD"]]]);
+    svg.append(g);
+  });
+  box.append(svg);
+  $("leg-mapa").replaceChildren(h("span", null, h("span", {class:"sw"}), "Sin taxones"),
+    h("span", null, "1", h("span", {class:"scale", style:`background:linear-gradient(90deg,${ramp(.12)},${ramp(1)})`}), String(mx), " taxones registrados"));
+  $("tbl-mapa").replaceChildren(table(["Departamento", "Taxones", "Género en el modelo", "Género fuera del modelo", "Con COI de Bolivia"],
+    D.departamentos.map(d => { const sub = vis.filter(b => b.departamentos.includes(d.nombre));
+      return [d.nombre, String(sub.length), String(sub.filter(b => b.en_modelo).length), String(sub.filter(b => !b.en_modelo).length), String(sub.filter(b => coiN(b) > 0).length)]; })));
+}
+const badges = (b) => [h("span", {class:"badge " + (b.en_modelo ? "in" : "out"), text: b.en_modelo ? "✓ Género en el modelo" : "✕ Género fuera del modelo"}),
+  h("span", {class:"badge " + (coiN(b) ? "bo" : ""), text: coiN(b) ? "COI de Bolivia en BOLD: " + coiN(b) : "Sin COI de Bolivia en BOLD"})];
+function renderPanel(){
+  const p = $("panel"); p.replaceChildren();
+  if(!S.depto){
+    const vis = brechaFiltrada(false);
+    p.append(h("h3", {text:"Departamentos"}), h("div", {class:"nota", text:"Elige un departamento en el mapa o en la lista para ver sus taxones."}),
+      h("ul", {class:"lista"}, D.departamentos.map(d => { const n = vis.filter(b => b.departamentos.includes(d.nombre)).length;
+        return h("li", null, h("button", {class:"dpb", type:"button", onclick:() => { S.depto = d.nombre; renderMap(); renderPanel(); renderTaxa(); }}, h("span", {text:d.nombre}), h("span", {class:"z", text:n + (n === 1 ? " taxón" : " taxones")}))); })));
+    return;
+  }
+  const ts = brechaFiltrada(true);
+  p.append(h("h3", {text:S.depto}), h("button", {class:"btn", type:"button", text:"Ver todos los departamentos", onclick:() => { S.depto = null; renderMap(); renderPanel(); renderTaxa(); }}),
+    h("div", {class:"nota", text:`${ts.length} taxones · ${ts.filter(b => b.en_modelo).length} con género en el modelo · ${ts.filter(b => !b.en_modelo).length} fuera · ${ts.filter(b => coiN(b) > 0).length} con COI de Bolivia`}),
+    h("ul", {class:"lista"}, ts.map(b => h("li", {class:"taxon"}, h("div", {class:"nm", text:b.taxon}), h("div", {class:"sb", text:`${b.rango === "genero" ? "Género" : "Especie"} · ${b.familia}`}), badges(b)))));
+}
+function renderTaxa(){
+  const ts = brechaFiltrada(true);
+  $("n-taxa").textContent = `(${ts.length}${S.depto ? " en " + S.depto : ""})`;
+  $("tabla-taxa").replaceChildren(table(["Taxón", "Rango", "Familia", "Departamentos", "Género en el modelo", "COI de Bolivia (BOLD)", "COI-5P del género (BOLD)", "Genoma", "Recall BLAST", "Recall DNABERT-2"],
+    ts.map(b => [b.taxon, b.rango === "genero" ? "género" : "especie", b.familia, b.departamentos.join("; "), b.en_modelo ? "sí" : "no", coiN(b) ? "sí (" + coiN(b) + ")" : "ninguno", ni(b.coi_genero), b.genomica, b.en_modelo ? nf(b.blast_recall, 2) : "—", b.en_modelo ? nf(b.dnabert2_recall, 2) : "—"]), 8, "nw"));
+}
+function renderMapTiles(){
+  const v = brechaFiltrada(false), gen = (a) => new Set(a.map(b => b.genero)).size;
+  const tile = (l, val, sub) => h("div", {class:"tile"}, h("div", {class:"l", text:l}), h("div", {class:"v", text:val}), h("div", {class:"s", text:sub}));
+  const ent = v.filter(b => b.en_modelo), fue = v.filter(b => !b.en_modelo);
+  $("tiles-mapa").replaceChildren(tile("Taxones en las fuentes", String(v.length), `${gen(v)} géneros distintos`),
+    tile("Con género en el modelo", String(ent.length), `${gen(ent)} géneros de los ${D.meta.generos.length} modelados`),
+    tile("Con género fuera del modelo", String(fue.length), `${gen(fue)} géneros que el clasificador no puede asignar`),
+    tile("Con COI de Bolivia en BOLD", String(v.filter(b => coiN(b) > 0).length), "taxones con al menos un registro boliviano"));
+}
+
+function renderNotes(){
+  $("notas").replaceChildren(
+    h("li", {text:`Los datos de entrenamiento y evaluación son registros públicos de BOLD (${ni(D.meta.n_registros)} registros de COI-5P, ${D.meta.generos.length} géneros); solo 3 son de Bolivia. Estos resultados no demuestran el desempeño sobre la fauna boliviana.`}),
+    h("li", {text:"El grupo G00001 (5 761 registros de Stomoxys, todos en el pliegue 0) concentra el 90 % de los errores de BLAST: su vecino más cercano en el entrenamiento es un registro rotulado Hydrotaea albuquerquei cuya secuencia coincide con Stomoxys calcitrans. Los análisis «sin G00001» y la sensibilidad se hicieron después de ver los resultados."}),
+    h("li", {text:"La comparación principal (SVM sobre NT50M frente a BLAST) se fijó antes de ejecutar BLAST; las demás son exploratorias y llevan ajuste de Holm."}),
+    h("li", {text:"Los intervalos remuestrean los grupos de registros relacionados, no los registros sueltos, y no se usaron para elegir hiperparámetros."}),
+    h("li", {text:"Los estratos de identidad se definen con la salida de BLAST y no son una medida independiente de la distancia al entrenamiento."}),
+    h("li", {text:"Contornos departamentales: Natural Earth (dominio público), simplificados; sirven solo para visualizar."}));
+  $("sub").textContent = "Misma partición por grupos que el Objetivo 3, sin fuga entre entrenamiento y prueba. BLAST se evalúa con una base construida solo con los registros de entrenamiento de cada pliegue.";
+  $("pie").textContent = "Generado con codigo/construir_dashboard.py a partir de resultados_objetivo4/dashboard_datos.json. Funciona sin conexión.";
+}
+
+function renderCharts(){ renderForest(); renderMatrix(); renderStrata(); renderGenus(); renderMap(); }
+function renderAll(){ renderControls(); renderTiles(); renderCharts(); renderMapTiles(); renderPanel(); renderTaxa(); }
+
+document.querySelectorAll(".vt").forEach(b => b.addEventListener("click", () => {
+  const sec = $(b.dataset.s), on = sec.classList.toggle("is-table"); b.textContent = on ? "Ver gráfico" : "Ver tabla"; if(!on) renderCharts(); }));
+$("btn-tema").addEventListener("click", () => { document.documentElement.setAttribute("data-theme", dark() ? "light" : "dark"); renderCharts(); });
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", renderCharts);
+let rt = null; let lastW = 0;
+new ResizeObserver(() => { const w = document.body.clientWidth; if(w === lastW) return; lastW = w; clearTimeout(rt); rt = setTimeout(renderCharts, 120); }).observe(document.body);
+renderNotes(); renderAll();
+})();
+</script>
+</body>
+</html>
