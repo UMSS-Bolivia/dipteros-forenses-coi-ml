@@ -1,0 +1,4 @@
+bolivia_departamentos.geojson
+Contornos de los 9 departamentos de Bolivia, extraídos de Natural Earth (capa ne_10m_admin_1_states_provinces,
+dominio público: https://www.naturalearthdata.com/about/) y simplificados con codigo/preparar_mapa_bolivia.py.
+Uso: mapa de brecha del dashboard del Objetivo 4. Los contornos son aproximados y sirven solo para visualizar.
