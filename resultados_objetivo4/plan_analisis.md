@@ -31,3 +31,10 @@
 - Sensibilidad 1 (post hoc): BLAST con GBDP0769-06.COI-5P retirado de la base de referencia; se evalúan los mismos registros.
 - Sensibilidad 2 (post hoc): todas las métricas con el grupo G00001 excluido de la evaluación, sin reentrenar.
 - Otros pares con errores de identidad >=99 % hacia otro género (Calliphora a Chrysomya, Hydrotaea a Phaonia, Fannia a Hydrotaea) se informan como candidatos; no se retira ningún otro registro.
+
+## Detalles de la inferencia fijados antes de calcular los intervalos (20 de octubre de 2026)
+- Comparaciones: los 21 pares entre los siete métodos, con la diferencia A menos B del F1 macro. La confirmatoria es SVM sobre NT50M frente a BLAST (sin ajuste); las otras 20 son exploratorias, con ajuste de Holm.
+- En cada remuestra, los promedios macro usan solo los géneros con al menos un registro real en esa remuestra (los géneros con pocos grupos pueden faltar).
+- Valor p del remuestreo: 2 * min(P(d <= 0), P(d >= 0)) con (conteo + 1) / (2000 + 1), acotado a 1.
+- Wilcoxon de rangos con signo sobre las diferencias de F1 por género de las 14 clases (con ceros descartados).
+- Todo se calcula también en el escenario posterior a ver los resultados que excluye el grupo G00001 de la evaluación (sin reentrenar).
