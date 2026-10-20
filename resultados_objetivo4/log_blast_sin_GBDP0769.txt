@@ -1,0 +1,26 @@
+blastn: 2.16.0+
+pliegue 0: 14932 consultas | sin hit: 0 | 52.9 min
+pliegue 1: 12790 consultas | sin hit: 0 | 46.6 min
+pliegue 2: 13274 consultas | sin hit: 0 | 47.2 min
+pliegue 3: 12577 consultas | sin hit: 0 | 44.7 min
+pliegue 4: 13209 consultas | sin hit: 0 | 46.9 min
+
+=== BLAST: predicciones de los 5 pliegues juntas ===
+exactitud: 0.993 | exactitud balanceada: 0.953 | F1 macro: 0.956
+registros sin hit: 0 | con hits empatados de más de un género: 39
+identidad del mejor hit, percentiles 5/25/50/75/95: [92.2, 94.5, 96.2, 97.3, 98.8]
+     genero  registros  recall  precision    f1
+Boettcheria        887   1.000      1.000 1.000
+ Calliphora       3656   0.984      0.990 0.987
+  Chrysomya       2404   0.992      0.954 0.973
+Cochliomyia        398   0.997      0.973 0.985
+     Fannia      13250   0.993      0.998 0.995
+Hemilucilia        118   0.432      0.981 0.600
+  Hydrotaea       5752   0.981      0.981 0.981
+   Morellia        871   0.998      0.963 0.980
+      Musca      10269   0.998      0.998 0.998
+    Muscina       1658   0.987      1.000 0.994
+    Phaonia      12193   0.997      0.994 0.996
+ Sarcophaga       8452   0.996      1.000 0.998
+   Stomoxys       6727   0.998      0.996 0.997
+ Tricharaea        147   0.986      0.829 0.901
