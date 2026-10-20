@@ -24,3 +24,10 @@
 ## Identidad con la referencia más cercana
 - Estratos de identidad del mejor hit de BLAST contra el entrenamiento: <90 %, 90-95 %, 95-98 %, 98-99 % y >=99 %.
 - Se reporta el desempeño de cada método en cada estrato; los registros sin hit forman un estrato aparte.
+
+## Adición del 20 de octubre de 2026 (posterior a ver los resultados de BLAST)
+- Observación: 4 371 de los 4 847 errores de BLAST son registros del grupo G00001 (Stomoxys, pliegue 0) asignados a Hydrotaea. Su mejor hit es el registro GBDP0769-06.COI-5P (rotulado Hydrotaea albuquerquei, sin BIN), cuyos 500 hits más cercanos son todos Stomoxys calcitrans (identidad de 99,6 a 100 %).
+- El análisis principal no cambia: se reporta con todos los datos y todas las etiquetas originales.
+- Sensibilidad 1 (post hoc): BLAST con GBDP0769-06.COI-5P retirado de la base de referencia; se evalúan los mismos registros.
+- Sensibilidad 2 (post hoc): todas las métricas con el grupo G00001 excluido de la evaluación, sin reentrenar.
+- Otros pares con errores de identidad >=99 % hacia otro género (Calliphora a Chrysomya, Hydrotaea a Phaonia, Fannia a Hydrotaea) se informan como candidatos; no se retira ningún otro registro.
