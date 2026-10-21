@@ -1,0 +1,7 @@
+RF k=3         sklearn F1 0.5654 | bal 0.5506 | exact 0.8366 | dif. máx. 0.000040 OK
+RF k=4         sklearn F1 0.7162 | bal 0.6758 | exact 0.9203 | dif. máx. 0.000038 OK
+SVM k=3        sklearn F1 0.6623 | bal 0.6523 | exact 0.8484 | dif. máx. 0.000037 OK
+SVM k=4        sklearn F1 0.8043 | bal 0.7776 | exact 0.9294 | dif. máx. 0.000049 OK
+SVM NT50M      sklearn F1 0.7530 | bal 0.7285 | exact 0.9086 | dif. máx. 0.000031 OK
+SVM DNABERT-2  sklearn F1 0.8365 | bal 0.8056 | exact 0.9601 | dif. máx. 0.000047 OK
+BLAST          sklearn F1 0.9023 | bal 0.9065 | exact 0.9274 | dif. máx. 0.000047 OK

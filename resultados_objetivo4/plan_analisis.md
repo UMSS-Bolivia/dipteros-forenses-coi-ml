@@ -49,3 +49,6 @@
 ## Adenda (20 de octubre): pruebas pareadas por estrato
 
 Antes de calcularlas, se fija lo siguiente. En cada estrato de identidad del mejor hit de BLAST se compara cada modelo con BLAST en la exactitud balanceada, con la misma partición y el mismo remuestreo de grupos (2000 remuestras, semilla 2026). Se informa la diferencia, su IC 95 % percentil y un valor p de remuestreo pareado, con la misma fórmula que en la comparación global. Los valores p se ajustan por Holm sobre las 30 pruebas de cada escenario (6 modelos x 5 estratos). Todas estas pruebas son exploratorias; la prueba confirmatoria sigue siendo la fijada en este plan.
+
+## Aclaración (21 de octubre de 2026) sobre las pruebas por estrato
+La versión del plan del 20 de octubre describía el análisis por estratos como descriptivo, sin pruebas de hipótesis. Las comparaciones pareadas por estrato con ajuste de Holm se agregaron después de conocer los resultados descriptivos por estrato y antes de calcular las comparaciones; por ello son exploratorias.
