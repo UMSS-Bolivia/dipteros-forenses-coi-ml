@@ -1,0 +1,63 @@
+=== 1. Errores de BLAST (análisis principal) ===
+registros: 66782 | errores: 4847 | sin asignación: 0
+
+Pares género real -> género predicho con más errores:
+genero_real  genero_predicho
+Stomoxys     Hydrotaea          4371
+Fannia       Hydrotaea            78
+Hydrotaea    Phaonia              68
+Calliphora   Chrysomya            52
+Hemilucilia  Chrysomya            50
+Sarcophaga   Tricharaea           30
+Hydrotaea    Stomoxys             29
+Muscina      Morellia             19
+Phaonia      Fannia               17
+Chrysomya    Calliphora           16
+
+=== 2. Grupos con más errores ===
+        errores  genero_real genero_predicho  pliegue  registros_del_grupo  pct_de_los_errores
+grupo                                                                                         
+G00001     4382     Stomoxys       Hydrotaea        0                 5761                90.4
+G00077       61    Hydrotaea         Phaonia        0                  136                 1.3
+G00143       57  Hemilucilia       Chrysomya        3                   57                 1.2
+G00156       52       Fannia       Hydrotaea        3                   52                 1.1
+G00179       41   Calliphora       Chrysomya        0                   43                 0.8
+G00200       32       Fannia       Hydrotaea        1                   36                 0.7
+G00169       30    Hydrotaea        Stomoxys        1                   47                 0.6
+G00229       30   Sarcophaga      Tricharaea        1                   30                 0.6
+G00099       20      Muscina        Morellia        2                  104                 0.4
+G00005       17    Chrysomya      Calliphora        4                 2172                 0.4
+
+=== 3. Errores por estrato de identidad del mejor hit ===
+         registros  errores  pct_error  errores_G00001
+estrato                                               
+<90            538       31       5.76               0
+90-95        18210      275       1.51              14
+95-98        37408     3463       9.26            3425
+98-99         6917       40       0.58              34
+>=99          3709     1038      27.99             909
+
+=== 4. Errores con identidad >= 99 % por par de géneros ===
+                             errores  grupos
+genero_real genero_predicho                 
+Stomoxys    Hydrotaea            909       1
+Calliphora  Chrysomya             50       3
+Hydrotaea   Phaonia               33       1
+Fannia      Hydrotaea             32       1
+Chrysomya   Calliphora             5       1
+Fannia      Musca                  2       1
+Chrysomya   Musca                  1       1
+Hydrotaea   Fannia                 1       1
+Fannia      Phaonia                1       1
+Hydrotaea   Stomoxys               1       1
+
+=== 5. Registro GBDP0769-06.COI-5P ===
+género: Hydrotaea | especie: Hydrotaea albuquerquei | BIN: nan | grupo: G00275 | pliegue: 4 | longitud: 684
+alineamientos devueltos contra el resto de los registros: 500 | identidad mínima y máxima: 99.0 100.0
+genus     species            
+Stomoxys  Stomoxys calcitrans    500
+
+=== 6. Sensibilidad: BLAST sin el registro en la base de referencia ===
+errores en el análisis principal: 4847 | sin el registro: 480
+predicciones que cambiaron: 4368 | de ellas, en el grupo G00001: 4368
+predicción del propio GBDP0769-06.COI-5P (género real Hydrotaea): principal = Stomoxys, sin el registro = Stomoxys

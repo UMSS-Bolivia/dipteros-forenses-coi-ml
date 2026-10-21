@@ -52,3 +52,6 @@ Antes de calcularlas, se fija lo siguiente. En cada estrato de identidad del mej
 
 ## Aclaración (21 de octubre de 2026) sobre las pruebas por estrato
 La versión del plan del 20 de octubre describía el análisis por estratos como descriptivo, sin pruebas de hipótesis. Las comparaciones pareadas por estrato con ajuste de Holm se agregaron después de conocer los resultados descriptivos por estrato y antes de calcular las comparaciones; por ello son exploratorias.
+
+## Corrección (21 de octubre de 2026)
+La identidad mínima de los 500 alineamientos del registro GBDP0769-06.COI-5P contra el resto de los registros es de 99,0 % (no 99,6 %), según codigo/diagnostico_errores_blast.py. Los 500 alineamientos son con Stomoxys calcitrans.
