@@ -90,9 +90,9 @@ notas = pd.DataFrame({"Nota": [
     "Lista de Chuquisaca (Machicado-Ocampo et al., 2025): verificación contra el PDF [PENDIENTE].",
     "Cochabamba (Chávez Abasto et al., 2008) y Potosí (Acho, 2014): sin lista de taxones; texto completo no accesible."]})
 
-hojas = {"F1-1 Procedencia": proc, "F1-2 Inventario": inv, "F1-4 Calidad": cal, "F1-5 Contigs": contigs,
-         "F1-6 Bolivia por depto": por_dep, "F1-6 Bolivia por genero": por_gen, "F1-6 Bolivia registros": det,
-         "F1-7 Lista maestra": lm, "F1-7 Brecha": brecha, "F1-7 Brecha completa": b,
+hojas = {"Procedencia": proc, "Inventario": inv, "Calidad": cal, "Contigs": contigs,
+         "Bolivia por depto": por_dep, "Bolivia por genero": por_gen, "Bolivia registros": det,
+         "Lista maestra": lm, "Brecha": brecha, "Brecha completa": b,
          "Fannia por pais": fa, "Taxones pequenos": peq, "Notas": notas}
 salida = os.path.join(D, "Anexo1_tablas.xlsx")
 with pd.ExcelWriter(salida, engine="openpyxl") as w:
