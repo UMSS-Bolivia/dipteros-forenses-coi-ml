@@ -110,7 +110,7 @@ tb = pd.read_csv("datos/fuente/estructurado/tabla_brecha_v2.csv")
 gen = {m: {r["genero"]: r for r in genero["completo"][m]} for m in ["BLAST", "SVM DNABERT-2"]}
 brecha = []
 for r in tb.itertuples():
-    g = r.taxon_fuente.split()[0]
+    g = r.nombre_ncbi.split()[0]
     en = g in labs
     deps = [deptos[norm(d)] for d in str(r.departamentos).split(";")]
     fila = {"taxon": r.taxon_fuente, "rango": r.rango, "familia": r.familia, "fuentes": r.fuentes, "departamentos": deps, "genero": g,

@@ -1,0 +1,75 @@
+apartado,descripcion,valor,formula
+4.1.2,Géneros distintos,24,géneros únicos de nombre_ncbi
+4.1.2,Registros COI-5P de BOLD en los géneros,69595,suma de bold_coi5p_genero
+4.1.2,"Cuatro géneros con más COI-5P: Fannia, Phaonia, Musca, Sarcophaga",45656,suma de los 4 mayores
+4.1.2,% de los COI-5P en esos cuatro géneros,65.6,suma 4 mayores / total * 100
+4.1.2,"Géneros con menos de 100 COI-5P: Sarconesia (15), Titanogrypa (22), Compsomyiops (25), Microcerella (27), Sarconesiopsis (31), Sarcofahrtiopsis (58), Tetramerinx (75)",7,conteo de bold_coi5p_genero < 100
+4.1.2,"De ellos, con genoma en NCBI",0,genomas_ncbi_genero > 0
+4.1.2,Géneros con más COI-5P en BOLD que COI en GenBank,21,bold_coi5p_genero > genbank_coi_genero
+4.1.2,"Géneros con más COI en GenBank que COI-5P en BOLD: Sarconesia, Cochliomyia, Chrysomya",3,genbank_coi_genero > bold_coi5p_genero
+4.1.2,Países en BOLD: mínimo,2,mínimo de bold_paises_genero
+4.1.2,Países en BOLD: máximo,69,máximo de bold_paises_genero
+4.1.2,Géneros con 6 países o menos,8,bold_paises_genero <= 6
+4.1.2,Géneros sin genoma en NCBI,14,situacion_genomica = sin genoma
+4.1.2,Géneros con genoma de otra especie del género,10,situacion_genomica distinta de sin genoma
+4.1.2,Genomas NCBI por género con genoma: mínimo / máximo,3 / 18,min y max de genomas_ncbi_genero entre géneros con genoma
+4.1.2,Especies en la lista,8,filas con rango = especie
+4.1.2,Especies con 100 o más COI-5P en BOLD,1,bold_coi5p_especie >= 100
+4.1.2,COI-5P de las demás especies: mínimo / máximo,0 / 62,min y max entre las especies con < 100
+4.1.3,"Géneros con COI boliviano en BOLD: Chrysomya (2), Titanogrypa (1), Phaonia (2)",3,bold_bolivia_genero > 0
+4.1.3,Géneros sin COI boliviano,21,n géneros - géneros con COI boliviano
+4.1.3,Especies con COI boliviano,0,bold_bolivia_especie > 0
+4.1.3,Taxones de La Paz,10,filas con La Paz en departamentos
+4.1.3,Taxones de Chuquisaca,23,filas con Chuquisaca en departamentos
+4.1.3,Géneros distintos de La Paz,8,géneros únicos en La Paz
+4.1.3,"Géneros de La Paz sin genoma: Microcerella, Compsomyiops, Sarconesia, Sarconesiopsis",4,géneros de La Paz con situacion_genomica = sin genoma
+4.1.3,Rango de COI-5P de esos géneros,15 a 31,min y max de bold_coi5p_genero
+4.1.3,Registros COI de Bolivia en BOLD (4 familias),58,filas de bolivia_*.tsv
+4.1.3,Provincia La Paz,29,conteo de province/state
+4.1.3,% de los registros bolivianos en La Paz,50.0,29/58*100
+4.1.3,Provincia Beni,15,conteo de province/state
+4.1.3,% de los registros bolivianos en Beni,25.9,15/58*100
+4.1.3,Provincia Cochabamba,10,conteo de province/state
+4.1.3,% de los registros bolivianos en Cochabamba,17.2,10/58*100
+4.1.3,Provincia sin dato,3,conteo de province/state
+4.1.3,% de los registros bolivianos en sin dato,5.2,3/58*100
+4.1.3,Provincia Santa Cruz,1,conteo de province/state
+4.1.3,% de los registros bolivianos en Santa Cruz,1.7,1/58*100
+4.1.3,Identificados hasta género,34,genus no vacío
+4.1.3,Solo hasta familia,24,genus vacío
+4.2.1,Registros descartados,2068,largo<500 + no_ACGT>1% del total
+4.2.1,% de los evaluados descartado,3.0,descartados/evaluados*100
+4.2.1,% de los descartes debido al largo,96.4,largo<500 / descartados * 100
+4.2.1,Descartes por largo de Sarcophaga + Calliphora,1299,suma de largo<500
+4.2.1,% de los descartes por largo que aportan esos dos géneros,65.2,suma / largo<500 total * 100
+4.2.1,Retención mínima en los demás géneros (%),95.2,mínimo de pct_retenido sin esos dos géneros
+4.2.1,Géneros con descartes por bases no ACGT,13,no_ACGT>1% > 0
+4.2.1,Géneros sin descartes por bases no ACGT,11,no_ACGT>1% = 0
+4.2.1,"Cuatro géneros con más descartes no ACGT: Fannia (17), Sarcophaga (13), Calliphora (12), Phaonia (8)",50,suma de los 4 mayores
+4.2.1,"Largo retenido, percentil 1",520.36,cuantil de largo en bold_coi_limpio
+4.2.1,"Largo retenido, percentil 5",555.0,cuantil de largo en bold_coi_limpio
+4.2.1,"Largo retenido, percentil 25",599.0,cuantil de largo en bold_coi_limpio
+4.2.1,"Largo retenido, percentil 50",654.0,cuantil de largo en bold_coi_limpio
+4.2.1,"Largo retenido, percentil 75",658.0,cuantil de largo en bold_coi_limpio
+4.2.1,"Largo retenido, percentil 95",677.0,cuantil de largo en bold_coi_limpio
+4.2.1,"Largo retenido, percentil 99",1533.0,cuantil de largo en bold_coi_limpio
+4.2.1,Largo retenido: mínimo / máximo,500 / 1539,min y max
+4.2.1,Registros con largo >= percentil 99,722,conteo de largo >= P99
+4.2.2,% de registros sin BIN (total),1.2,sin_bin / registros * 100
+4.2.2,% de registros sin BIN en Cochliomyia,8.0,sin_bin / registros del género * 100
+4.2.2,% de registros sin BIN en Chrysomya,5.4,sin_bin / registros del género * 100
+4.2.2,% de registros sin BIN en Calliphora,4.4,sin_bin / registros del género * 100
+4.2.2,% de registros sin BIN en Hemilucilia,4.2,sin_bin / registros del género * 100
+4.2.2,Registros en secuencias compartidas: Calliphora + Chrysomya,696,suma
+4.2.2,% de los registros en secuencias compartidas que aportan esos dos géneros,67.6,suma / total * 100
+4.2.2,% de los BIN con varias especies que están en Sarcophaga,43.8,bin_varias_especies de Sarcophaga / total * 100
+4.2.2,% de las especies en más de un BIN que están en Sarcophaga,35.0,especies_en_varios_bin de Sarcophaga / total * 100
+4.2.2,Copias exactas: mínimo y máximo por género (%),22.8 (Boettcheria) / 76.1 (Hydrotaea),min y max de copias_pct
+4.2.2,Secuencias que aparecen una sola vez,22724,conteo de secuencias con 1 registro
+4.2.2,% de registros con secuencia única,34.0,únicas / registros * 100
+4.2.2,Secuencias repetidas,6189,secuencias con más de 1 registro
+4.2.2,Registros cubiertos por secuencias repetidas,44058,suma de repeticiones
+4.2.2,% de registros cubiertos por secuencias repetidas,66.0,suma / registros * 100
+4.2.2,Grupo idéntico mayor (registros),1046,máximo de repeticiones
+4.2.2,Cinco grupos idénticos mayores (registros),4331,suma de los 5 mayores
+4.2.2,% que representan los cinco mayores,6.5,suma / registros * 100

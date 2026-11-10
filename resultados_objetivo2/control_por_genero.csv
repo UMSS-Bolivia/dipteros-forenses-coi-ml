@@ -1,0 +1,16 @@
+genus,registros,secuencias,copias_pct,sec_compartidas,reg_en_sec_compartidas,bin_varias_especies,especies_en_varios_bin,sin_bin
+Fannia,13250,5381,59.4,5,41,11,20,111
+Phaonia,12193,4969,59.2,5,30,14,20,85
+Musca,10269,5817,43.4,1,17,2,3,71
+Sarcophaga,8452,4654,44.9,17,120,42,48,123
+Stomoxys,6727,2082,69.1,0,0,3,5,14
+Hydrotaea,5752,1374,76.1,4,27,8,13,54
+Calliphora,3656,1526,58.3,17,383,9,13,162
+Chrysomya,2404,975,59.4,7,313,5,9,129
+Muscina,1658,652,60.7,1,58,0,2,12
+Boettcheria,887,685,22.8,0,0,0,0,10
+Morellia,871,414,52.5,0,0,1,1,4
+Cochliomyia,398,247,37.9,1,41,1,0,32
+Tricharaea,147,87,40.8,0,0,0,1,0
+Hemilucilia,118,50,57.6,0,0,0,2,5
+TOTAL,66782,28913,56.7,58,1030,96,137,812

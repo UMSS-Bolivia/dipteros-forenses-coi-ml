@@ -1,0 +1,32 @@
+descripcion,valor,formula
+Registros evaluados por el criterio (24 géneros),67537,suma de registros
+Géneros que cumplen,14,cumple = True
+Géneros que no cumplen,10,cumple = False
+Registros de los géneros que cumplen,66787,suma
+% de los registros evaluados en géneros que cumplen,98.9,suma cumplen / total * 100
+Registros de los géneros que no cumplen,750,suma
+% de los registros evaluados en géneros que no cumplen,1.1,suma no cumplen / total * 100
+"No cumplen por tener menos de 3 especies formales: Euryomma, Sarcofahrtiopsis, Sarconesia, Sarconesiopsis, Synthesiomyia, Tetramerinx, Titanogrypa",7,especies < 3
+"No cumplen por tener <100 registros con especie (con >=3 especies): Compsomyiops, Microcerella, Neomuscina",3,especies >= 3 y con_especie < 100
+"Géneros incluidos con menos registros con especie: Tricharaea (111), Hemilucilia (115), Morellia (198)",,3 menores con_especie entre los que cumplen
+Registros finales (matriz),66782,filas del conjunto modelado
+"Géneros con diferencia entre criterio y matriz final: Calliphora (1), Chrysomya (1), Hydrotaea (1), Musca (1), Phaonia (1)",5,registros(criterio) - registros(final) por género
+Género mayor / menor en la matriz final,Fannia 13250 / Hemilucilia 118,max y min de registros por género
+"% de la matriz en los tres géneros mayores (Fannia, Phaonia, Musca)",53.5,suma 3 mayores / total * 100
+Razón entre el género mayor y el menor,112.3,max / min
+Países distintos (sin contar 'sin dato'),116,valores distintos
+Registros sin país,2177,country/ocean vacío
+Registros de Canada,17676,conteo
+% de la matriz en Canada,26.5,conteo / total * 100
+Registros de United Kingdom,9889,conteo
+% de la matriz en United Kingdom,14.8,conteo / total * 100
+Registros de Pakistan,4541,conteo
+% de la matriz en Pakistan,6.8,conteo / total * 100
+Registros de United States,3912,conteo
+% de la matriz en United States,5.9,conteo / total * 100
+Registros de Bangladesh,3564,conteo
+% de la matriz en Bangladesh,5.3,conteo / total * 100
+% de la matriz en los cinco primeros,59.3,suma 5 países mayores / total * 100
+Registros de Bolivia,3,country/ocean = Bolivia
+Bolivia: registros de Chrysomya,2,conteo
+Bolivia: registros de Phaonia,1,conteo

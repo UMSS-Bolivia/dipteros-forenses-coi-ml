@@ -6,3 +6,7 @@ genomas/
 *_genome.fasta
 *_genomic.fna
 datos/procesados/embeddings_*
+resultados_objetivo4/cap4_entrada.txt
+resultados_objetivo4/cap4_calculos_*salida.txt
+resultados_objetivo3/cap4_salida.txt
+salida_brecha.txt
